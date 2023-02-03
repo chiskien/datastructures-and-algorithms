@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.chiskien</groupId>
-    <artifactId>data_structures_and_algorithms</artifactId>
+    <artifactId>DataStructure_Algorithms</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

@@ -1,8 +1,8 @@
 package org.chiskien.binary_tree;
 
 public class TreeNode<T> {
-    private TreeNode<T> leftChild;
-    private TreeNode<T> rightChild;
+    private final TreeNode<T> leftChild;
+    private final TreeNode<T> rightChild;
     private T data;
 
     public TreeNode() {
