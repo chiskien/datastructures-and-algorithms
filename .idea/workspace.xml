@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="StairCase">
+      <change afterPath="$PROJECT_DIR$/src/main/java/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/sorting/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
+  </component>
+  <component name="ProjectId" id="2JolC388gqI2FDds04jgA8zc1pC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "D:/Study/Programming/Java/Projects/head-first-design-pattern",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="" />
+      <created>1672752186345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672752186345</updated>
+      <workItem from="1672752187538" duration="93000" />
+      <workItem from="1672752289195" duration="4116000" />
+      <workItem from="1673422786620" duration="1066000" />
+      <workItem from="1673423873078" duration="183000" />
+      <workItem from="1673451241011" duration="36000" />
+      <workItem from="1673494105480" duration="863000" />
+      <workItem from="1673497569589" duration="599000" />
+      <workItem from="1673577423563" duration="33000" />
+      <workItem from="1674553730122" duration="798000" />
+      <workItem from="1674649724555" duration="631000" />
+      <workItem from="1674720889934" duration="641000" />
+      <workItem from="1675429302607" duration="1789000" />
+      <workItem from="1675436334228" duration="816000" />
+      <workItem from="1675490717328" duration="433000" />
+      <workItem from="1675522451690" duration="2000" />
+      <workItem from="1675524133982" duration="61000" />
+      <workItem from="1675743621867" duration="19000" />
+      <workItem from="1675745656810" duration="994000" />
+      <workItem from="1675826102102" duration="14000" />
+      <workItem from="1676388225438" duration="817000" />
+      <workItem from="1676427432291" duration="612000" />
+      <workItem from="1676435709490" duration="602000" />
+      <workItem from="1676556606328" duration="715000" />
+      <workItem from="1676790213256" duration="367000" />
+      <workItem from="1676790595154" duration="290000" />
+      <workItem from="1676803135224" duration="1215000" />
+      <workItem from="1676805729293" duration="602000" />
+      <workItem from="1676808109090" duration="600000" />
+      <workItem from="1676814462036" duration="646000" />
+      <workItem from="1677250020578" duration="751000" />
+    </task>
+    <task id="LOCAL-00001" summary="Project initialization">
+      <created>1674554995907</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674554995907</updated>
+    </task>
+    <task id="LOCAL-00002" summary="StairCase">
+      <created>1675436467467</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675436467467</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project initialization" />
+    <MESSAGE value="StairCase" />
+    <option name="LAST_COMMIT_MESSAGE" value="StairCase" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
