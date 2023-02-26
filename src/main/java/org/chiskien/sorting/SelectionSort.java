@@ -14,5 +14,18 @@ public class SelectionSort {
         return instance;
     }
 
-    public static
+    public int[] selectionSort(int[] arrayInput) {
+        return arrayInput;
+    }
+
+    public int findSmallestItem(int[] arrayInput) {
+        int smallest = arrayInput[0];
+        int smallestIndex = 0;
+        for (int i = 0; i < arrayInput.length; i++) {
+            if (arrayInput[i] < smallest) {
+                smallestIndex = i;
+            }
+        }
+        return smallest;
+    }
 }
