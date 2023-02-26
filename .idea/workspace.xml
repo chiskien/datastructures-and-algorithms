@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="SelectionSort.java">
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Read File at Main.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/sorting/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,12 +69,16 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.rainbow.brackets",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Study\Programming\Java\Projects\data_structures_and_algorithms\src\main\resources" />
       <recent name="D:\Study\Programming\Java\Projects\data_structures_and_algorithms\src\main\java\org\chiskien" />
     </key>
   </component>
@@ -116,6 +121,7 @@
       <workItem from="1676814462036" duration="646000" />
       <workItem from="1677250020578" duration="1726000" />
       <workItem from="1677251954268" duration="1016000" />
+      <workItem from="1677423774202" duration="1314000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -145,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677250826280</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Read File at Main.java">
+      <created>1677423805242</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677423805242</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,11 +168,33 @@
     <MESSAGE value="Project initialization" />
     <MESSAGE value="StairCase" />
     <MESSAGE value="SelectionSort.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="SelectionSort.java" />
+    <MESSAGE value="Read File at Main.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Read File at Main.java" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/sorting/SelectionSort.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/Main.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/Main.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
