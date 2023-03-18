@@ -34,7 +34,11 @@ public class Main {
         }
         return listInteger;
     }
-    private static void writeToFile(String uri, List<Integer> data)
+
+    private static void writeToFile(String uri, List<Integer> data) {
+        
+    }
+
     private static void generateRandomArray(int arraySize, int min, int max, String regex) {
 
     }
