@@ -1,6 +1,5 @@
 package org.chiskien.sorting;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class SelectionSort {
@@ -17,24 +16,24 @@ public class SelectionSort {
         return instance;
     }
 
-    public List<Integer> selectionSort(List<Integer> inputList) {
-        int n = inputList.size();
-        List<Integer> result = new ArrayList<>(n);
-        int smallestOfArrayInput;
+    public int[] selectionSort(int[] inputList) {
+        int n = inputList.length;
+        int[] result = new int[n];
+        int indexOfSmallestItem;
         for (int i = 0; i < n; i++) {
-            smallestOfArrayInput = findSmallestItem(inputList);
-            result.add(inputList.get(smallestOfArrayInput));
-            inputList.remove(smallestOfArrayInput);
+            indexOfSmallestItem = findIndexOfSmallestItem(inputList);
+            result[i] = inputList[indexOfSmallestItem];
+            inputList[indexOfSmallestItem] = inputList[indexOfSmallestItem + 1];
         }
         return result;
     }
 
-    public int findSmallestItem(List<Integer> inputList) {
-        int smallest = inputList.get(0);
+    public int findIndexOfSmallestItem(int[] inputList) {
+        int smallest = inputList[0];
         int smallestIndex = 0;
-        for (int i = 0; i < inputList.size(); i++) {
-            if (inputList.get(i) < smallest) {
-                smallest = inputList.get(i);
+        for (int i = 0; i < inputList.length; i++) {
+            if (inputList[i] < smallest) {
+                smallest = inputList[i];
                 smallestIndex = i;
             }
         }

@@ -1,7 +1,5 @@
 package org.chiskien.sorting;
 
-import java.util.List;
-
 public class QuickSort {
     private QuickSort() {
     }
@@ -15,8 +13,8 @@ public class QuickSort {
         return instance;
     }
 
-    public List<Integer> quickSort(List<Integer> input) {
-        if (input.size() < 2) {
+    public int[] quickSort(int[] input) {
+        if (input.length < 2) {
             return input;
         } else {
 

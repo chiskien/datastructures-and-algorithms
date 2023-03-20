@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="SelectionSort.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/sorting/QuickSort.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="QuickSort">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/recursion/Recursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/sorting/InsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/staircase/StairCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/staircase/StairCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/sorting/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/sorting/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +136,11 @@
       <workItem from="1678977326346" duration="1546000" />
       <workItem from="1679024651609" duration="14000" />
       <workItem from="1679055072862" duration="945000" />
+      <workItem from="1679105605126" duration="651000" />
+      <workItem from="1679227703533" duration="3337000" />
+      <workItem from="1679237178227" duration="261000" />
+      <workItem from="1679314897434" duration="2361000" />
+      <workItem from="1679323766199" duration="1936000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -175,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677425282311</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="QuickSort">
+      <created>1679105649099</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679105649099</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +202,8 @@
     <MESSAGE value="StairCase" />
     <MESSAGE value="Read File at Main.java" />
     <MESSAGE value="SelectionSort.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="SelectionSort.java" />
+    <MESSAGE value="QuickSort" />
+    <option name="LAST_COMMIT_MESSAGE" value="QuickSort" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
