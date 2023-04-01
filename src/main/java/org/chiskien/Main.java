@@ -19,7 +19,6 @@ public class Main {
         SelectionSort selectionSort = SelectionSort.getInstance();
         InsertionSort insertionSort = InsertionSort.getInstance();
         QuickSort quickSort = QuickSort.getInstance();
-        System.out.println(Arrays.toString(getDataFromFile()));
     }
 
     private static int[] getDataFromFile() throws IOException {

@@ -53,7 +53,6 @@ public class LinkedList<T> {
             tail.setNext(newNode);
             tail = newNode;
         }
-        size = size + 1;
     }
 
     private void addToHead(Node<T> newNode) {
@@ -63,7 +62,6 @@ public class LinkedList<T> {
             newNode.setNext(head);
             head = newNode;
         }
-        size = size + 1;
     }
 
 
@@ -91,19 +89,31 @@ public class LinkedList<T> {
         return nodeTail;
     }
 
-    public void traverse() {
-        if (isEmpty()) System.out.println("Linkedlist is empty");
-        Node<T> n = head;
-        while (n != null) {
-            System.out.print(n.getData() + "-->");
-            n = n.getNext();
+    public String traverse() {
+        StringBuilder output = new StringBuilder();
+        if (isEmpty()) {
+            output.append("LinkedList is empty");
+        } else {
+            Node<T> n = head;
+            while (n != null) {
+                output.append(n.getData()).append("-->");
+                n = n.getNext();
+            }
+            output.append("end").append("\n");
         }
-        System.out.print("end");
-        System.out.println();
+        return output.toString();
+    }
+
+    public int getSize() {
+        while (head != null) {
+            size++;
+            head = head.getNext();
+        }
+        return size;
     }
 
     @Override
     public String toString() {
-        return "LinkedList{" + "head=" + head + ", tail=" + tail + '}';
+        return traverse();
     }
 }

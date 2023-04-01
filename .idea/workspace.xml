@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="QuickSort">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/recursion/Recursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/sorting/InsertionSort.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="HashMap and Graph Algorithms and Data Structure">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/ArrlenList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/BinaryGap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/FrogJump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/ShiftingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/GradingStudents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/Medium.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/staircase/StairCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/staircase/StairCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/diagonal_difference/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/staircase/StairCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/linked_list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/linked_list/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/recursion/Recursion.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/sorting/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/sorting/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +148,22 @@
       <workItem from="1679227703533" duration="3337000" />
       <workItem from="1679237178227" duration="261000" />
       <workItem from="1679314897434" duration="2361000" />
-      <workItem from="1679323766199" duration="1936000" />
+      <workItem from="1679323766199" duration="2554000" />
+      <workItem from="1679366658843" duration="57000" />
+      <workItem from="1679383932453" duration="3186000" />
+      <workItem from="1679574803149" duration="1223000" />
+      <workItem from="1679625846444" duration="152000" />
+      <workItem from="1679823825107" duration="2150000" />
+      <workItem from="1679907180621" duration="3759000" />
+      <workItem from="1679922510268" duration="2200000" />
+      <workItem from="1679985208276" duration="5091000" />
+      <workItem from="1680017187400" duration="2972000" />
+      <workItem from="1680057903717" duration="3640000" />
+      <workItem from="1680095734114" duration="3804000" />
+      <workItem from="1680144055186" duration="2403000" />
+      <workItem from="1680230211596" duration="4111000" />
+      <workItem from="1680265998192" duration="2437000" />
+      <workItem from="1680326738537" duration="1287000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -191,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679105649099</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="HashMap and Graph Algorithms and Data Structure">
+      <created>1679327092590</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679327092590</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +233,8 @@
     <MESSAGE value="Read File at Main.java" />
     <MESSAGE value="SelectionSort.java" />
     <MESSAGE value="QuickSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="QuickSort" />
+    <MESSAGE value="HashMap and Graph Algorithms and Data Structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashMap and Graph Algorithms and Data Structure" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -212,5 +243,13 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$ShiftingArray.ic" NAME="ShiftingArray Coverage Results" MODIFIED="1680232131459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.chiskien.codility.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$Task1.ic" NAME="Task1 Coverage Results" MODIFIED="1680059751743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.chiskien.codility.*</FILTER>
+    </SUITE>
   </component>
 </project>
