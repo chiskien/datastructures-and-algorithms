@@ -5,6 +5,7 @@ public class FrogJump {
         System.out.println(75 / 30);
     }
 
+    //calculate the total step with length D from position X to position Y
     public static int solution(int X, int Y, int D) {
         int step;
         if (X >= Y || D >= Y) {

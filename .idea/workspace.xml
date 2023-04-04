@@ -4,22 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="HashMap and Graph Algorithms and Data Structure">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/ArrlenList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/BinaryGap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/FrogJump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/ShiftingArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/GradingStudents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/Medium.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Codility Practice and HackerRank">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/FrogCross.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/PermMissingElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/linked_list/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/diagonal_difference/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/staircase/StairCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/linked_list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/linked_list/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/recursion/Recursion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/sorting/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/FrogJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/FrogJump.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/ShiftingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/ShiftingArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +154,10 @@
       <workItem from="1680144055186" duration="2403000" />
       <workItem from="1680230211596" duration="4111000" />
       <workItem from="1680265998192" duration="2437000" />
-      <workItem from="1680326738537" duration="1287000" />
+      <workItem from="1680326738537" duration="1558000" />
+      <workItem from="1680426809278" duration="3588000" />
+      <workItem from="1680503760973" duration="758000" />
+      <workItem from="1680528878854" duration="5496000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -221,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679327092590</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Codility Practice and HackerRank">
+      <created>1680328294553</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680328294554</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,11 +235,28 @@
     <MESSAGE value="SelectionSort.java" />
     <MESSAGE value="QuickSort" />
     <MESSAGE value="HashMap and Graph Algorithms and Data Structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="HashMap and Graph Algorithms and Data Structure" />
+    <MESSAGE value="Codility Practice and HackerRank" />
+    <option name="LAST_COMMIT_MESSAGE" value="Codility Practice and HackerRank" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/codility/FrogCross.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((HashMap)integerMap).entrySet().toArray()[1]" custom="java.util.HashMap" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
