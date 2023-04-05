@@ -1,8 +1,6 @@
 package org.chiskien.codility;
 
 
-import java.util.List;
-
 public class PermMissingElement {
     public static void main(String[] args) {
         int[] A = new int[]{2, 3, 1, 5};
