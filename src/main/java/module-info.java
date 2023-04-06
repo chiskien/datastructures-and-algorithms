@@ -1,0 +1,2 @@
+module DataStructure.Algorithms {
+}

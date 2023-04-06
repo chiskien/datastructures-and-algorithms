@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="frog cross">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/CountDistinc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/stack/StackArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/stack/StackLinkedList.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="CountDistinc Codility">
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/Brackets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hashtable/HashTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/PermMissingElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/PermMissingElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/linked_list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/linked_list/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/stack/StackLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/stack/StackLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="module-info" />
         <option value="Class" />
       </list>
     </option>
@@ -162,6 +164,8 @@
       <workItem from="1680590678922" duration="6513000" />
       <workItem from="1680618656340" duration="595000" />
       <workItem from="1680676355784" duration="3723000" />
+      <workItem from="1680710379685" duration="1128000" />
+      <workItem from="1680748408523" duration="1566000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -233,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680574064081</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="CountDistinc Codility">
+      <created>1680710539769</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680710539769</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +259,8 @@
     <MESSAGE value="HashMap and Graph Algorithms and Data Structure" />
     <MESSAGE value="Codility Practice and HackerRank" />
     <MESSAGE value="frog cross" />
-    <option name="LAST_COMMIT_MESSAGE" value="frog cross" />
+    <MESSAGE value="CountDistinc Codility" />
+    <option name="LAST_COMMIT_MESSAGE" value="CountDistinc Codility" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

@@ -27,11 +27,6 @@ public class LinkedList<T> {
         size = 0;
     }
 
-    public LinkedList(T data) {
-        head = tail = new Node<>(data);
-        size = 1;
-    }
-
     public void addToTail(T data) {
         Node<T> node = new Node<>(data);
         addToTail(node);
@@ -43,7 +38,7 @@ public class LinkedList<T> {
     }
 
 
-    private void addToTail(Node<T> newNode) {
+    public void addToTail(Node<T> newNode) {
         if (isEmpty()) {
             head = tail = newNode;
         } else if (head.getNext() == null) {
@@ -55,7 +50,7 @@ public class LinkedList<T> {
         }
     }
 
-    private void addToHead(Node<T> newNode) {
+    public void addToHead(Node<T> newNode) {
         if (isEmpty()) {
             head = tail = newNode;
         } else {
@@ -69,7 +64,7 @@ public class LinkedList<T> {
         return (head == null);
     }
 
-    public Node<T> removeFromHead() {
+    public Node<T> removeHead() {
         if (isEmpty()) return null;
         Node<T> n = head;
         n = n.getNext();
@@ -77,7 +72,7 @@ public class LinkedList<T> {
         return n;
     }
 
-    public Node<T> removeFromTail() {
+    public Node<T> removeTail() {
         if (isEmpty()) return null;
         Node<T> n = head;
         while (n.getNext() != tail) {
