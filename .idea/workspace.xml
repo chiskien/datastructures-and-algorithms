@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="CountDistinc Codility">
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/Brackets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hashtable/HashTable.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Brackets Codility">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/queue/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/linked_list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/linked_list/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/stack/StackLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/stack/StackLinkedList.java" afterDir="false" />
@@ -165,7 +163,7 @@
       <workItem from="1680618656340" duration="595000" />
       <workItem from="1680676355784" duration="3723000" />
       <workItem from="1680710379685" duration="1128000" />
-      <workItem from="1680748408523" duration="1566000" />
+      <workItem from="1680748408523" duration="2166000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -244,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680710539769</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Brackets Codility">
+      <created>1680754103114</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680754103114</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +265,8 @@
     <MESSAGE value="Codility Practice and HackerRank" />
     <MESSAGE value="frog cross" />
     <MESSAGE value="CountDistinc Codility" />
-    <option name="LAST_COMMIT_MESSAGE" value="CountDistinc Codility" />
+    <MESSAGE value="Brackets Codility" />
+    <option name="LAST_COMMIT_MESSAGE" value="Brackets Codility" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

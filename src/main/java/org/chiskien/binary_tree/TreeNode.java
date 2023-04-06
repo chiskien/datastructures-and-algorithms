@@ -9,8 +9,4 @@ public class TreeNode<T> {
         leftChild = rightChild = null;
     }
 
-    public TreeNode(T data) {
-        leftChild = rightChild = null;
-        this.data = data;
-    }
 }

@@ -67,9 +67,9 @@ public class LinkedList<T> {
     public Node<T> removeHead() {
         if (isEmpty()) return null;
         Node<T> n = head;
-        n = n.getNext();
-        size = size - 1;
+        head = n.getNext();
         return n;
+
     }
 
     public Node<T> removeTail() {

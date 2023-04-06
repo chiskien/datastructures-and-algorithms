@@ -21,7 +21,7 @@ public class StackLinkedList<T> {
     public void pop() {
         linkedList.removeHead();
     }
-    
+
     @Override
     public String toString() {
         return linkedList.traverse();
@@ -32,6 +32,14 @@ class Main {
 
     public static void main(String[] args) {
         StackLinkedList<Integer> stackLinkedList = new StackLinkedList<>();
-
+        stackLinkedList.push(new Node<>(1));
+        stackLinkedList.push(new Node<>(2));
+        stackLinkedList.push(new Node<>(3));
+        stackLinkedList.push(new Node<>(4));
+        stackLinkedList.push(new Node<>(6));
+        stackLinkedList.pop();
+        stackLinkedList.pop();
+        stackLinkedList.pop();
+        System.out.println(stackLinkedList);
     }
 }
