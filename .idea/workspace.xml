@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Brackets Codility">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/queue/Queue.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Implement Stack and Queue using LinkedList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/linked_list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/linked_list/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/stack/StackLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/stack/StackLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +160,9 @@
       <workItem from="1680618656340" duration="595000" />
       <workItem from="1680676355784" duration="3723000" />
       <workItem from="1680710379685" duration="1128000" />
-      <workItem from="1680748408523" duration="2166000" />
+      <workItem from="1680748408523" duration="2347000" />
+      <workItem from="1680769476172" duration="660000" />
+      <workItem from="1680838733701" duration="496000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -249,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680754103114</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Implement Stack and Queue using LinkedList">
+      <created>1680754796785</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680754796785</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +272,8 @@
     <MESSAGE value="frog cross" />
     <MESSAGE value="CountDistinc Codility" />
     <MESSAGE value="Brackets Codility" />
-    <option name="LAST_COMMIT_MESSAGE" value="Brackets Codility" />
+    <MESSAGE value="Implement Stack and Queue using LinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Stack and Queue using LinkedList" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
