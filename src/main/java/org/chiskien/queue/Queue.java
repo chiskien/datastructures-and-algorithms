@@ -17,6 +17,21 @@ public class Queue<T> {
     public void dequeue() {
         linkedList.removeHead();
     }
-    
 
+    public String traverse() {
+        return linkedList.traverse();
+    }
+
+}
+
+class Main {
+    public static void main(String[] args) {
+        Queue<Integer> queue = new Queue<>();
+        queue.enqueue(new Node<>(10));
+        queue.enqueue(new Node<>(4));
+        queue.enqueue(new Node<>(34));
+        queue.enqueue(new Node<>(12));
+        queue.dequeue();
+        System.out.println(queue.traverse());
+    }
 }

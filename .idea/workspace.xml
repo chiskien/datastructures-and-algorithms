@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Implement Stack and Queue using LinkedList">
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Brackets codility">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/array/EPIArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/Brackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/Brackets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/PermMissingElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/PermMissingElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/GradingStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/GradingStudents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/hashtable/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hashtable/HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/queue/Queue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,12 +25,6 @@
         <option value="module-info" />
         <option value="Class" />
       </list>
-    </option>
-  </component>
-  <component name="FormatOnSaveOptions">
-    <option name="myAllFileTypesSelected" value="true" />
-    <option name="mySelectedFileTypes">
-      <set />
     </option>
   </component>
   <component name="Git.Settings">
@@ -45,9 +46,6 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="OptimizeOnSaveOptions">
-    <option name="myRunOnSave" value="false" />
-  </component>
   <component name="ProjectId" id="2JolC388gqI2FDds04jgA8zc1pC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,26 +54,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Study/Programming/Java/Projects/head-first-design-pattern&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.rainbow.brackets&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Study/Programming/Java/Projects/data_structures_and_algorithms",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "editor.preferences.folding",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Study\Programming\Java\Projects\data_structures_and_algorithms\src\main\resources" />
@@ -163,6 +164,19 @@
       <workItem from="1680748408523" duration="2347000" />
       <workItem from="1680769476172" duration="660000" />
       <workItem from="1680838733701" duration="496000" />
+      <workItem from="1680921922577" duration="878000" />
+      <workItem from="1680923974126" duration="130000" />
+      <workItem from="1680924624333" duration="226000" />
+      <workItem from="1681043839133" duration="1873000" />
+      <workItem from="1681051078326" duration="143000" />
+      <workItem from="1681101054161" duration="57000" />
+      <workItem from="1681101125794" duration="59000" />
+      <workItem from="1681109274183" duration="316000" />
+      <workItem from="1681109609548" duration="4769000" />
+      <workItem from="1681137017748" duration="1409000" />
+      <workItem from="1681182720855" duration="620000" />
+      <workItem from="1681190036571" duration="1191000" />
+      <workItem from="1681194695714" duration="2744000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -255,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680754796785</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Brackets codility">
+      <created>1680922205498</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680922205498</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +294,8 @@
     <MESSAGE value="CountDistinc Codility" />
     <MESSAGE value="Brackets Codility" />
     <MESSAGE value="Implement Stack and Queue using LinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement Stack and Queue using LinkedList" />
+    <MESSAGE value="Brackets codility" />
+    <option name="LAST_COMMIT_MESSAGE" value="Brackets codility" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -291,10 +313,10 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$ShiftingArray.ic" NAME="ShiftingArray Coverage Results" MODIFIED="1680232131459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$Task1.ic" NAME="Task1 Coverage Results" MODIFIED="1680059751743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.chiskien.codility.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$Task1.ic" NAME="Task1 Coverage Results" MODIFIED="1680059751743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$ShiftingArray.ic" NAME="ShiftingArray Coverage Results" MODIFIED="1680232131459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.chiskien.codility.*</FILTER>
     </SUITE>
   </component>
