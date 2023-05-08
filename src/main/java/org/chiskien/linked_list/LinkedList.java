@@ -1,5 +1,7 @@
 package org.chiskien.linked_list;
 
+import java.util.Iterator;
+
 public class LinkedList<T> {
 
     private Node<T> head;
@@ -86,6 +88,7 @@ public class LinkedList<T> {
 
     public String traverse() {
         StringBuilder output = new StringBuilder();
+        int i = 0;
         if (isEmpty()) {
             output.append("LinkedList is empty");
         } else {
@@ -93,6 +96,7 @@ public class LinkedList<T> {
             while (n != null) {
                 output.append(n.getData()).append("-->");
                 n = n.getNext();
+
             }
             output.append("end").append("\n");
         }
@@ -105,6 +109,36 @@ public class LinkedList<T> {
             head = head.getNext();
         }
         return size;
+    }
+
+    public void insertNodeAtIndex(T data, int k) {
+        Node<T> newNode = new Node<>(data);
+        int i = 1;
+        Node<T> n = head;
+        while (i != k) {
+            n = n.getNext();
+            i++;
+        }
+    }
+
+    public Node<T> searchNode(T key) {
+        if (isEmpty()) return null;
+        Node<T> n = head;
+        while (n != null && n.getData() != key) {
+            n = n.getNext();
+        }
+        return n;
+    }
+
+    public void removeDuplicateNode(Node<T> n) {
+        while (n != null) {
+            Node<T> nextDistinct = n.getNext();
+            while (nextDistinct != null && n.getData() != nextDistinct.getData()) {
+                nextDistinct = nextDistinct.getNext();
+            }
+            n.setNext(nextDistinct);
+            n = nextDistinct;
+        }
     }
 
     @Override

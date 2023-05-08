@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Brackets codility">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/array/EPIArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Dutch Flag problems and solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/MaxTriplet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/OddOccurences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/TimeConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/linked_list/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/strings/EPIString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/array/EPIArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/array/EPIArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/Brackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/Brackets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/PermMissingElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/PermMissingElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/GradingStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/GradingStudents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/hashtable/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hashtable/HashTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/queue/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/ShiftingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/ShiftingArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/linked_list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/linked_list/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/stack/StackArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/stack/StackArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,29 +58,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Study/Programming/Java/Projects/data_structures_and_algorithms",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "editor.preferences.folding",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Study/Programming/Java/Projects/data_structures_and_algorithms&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.folding&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Study\Programming\Java\Projects\data_structures_and_algorithms\src\main\resources" />
@@ -176,7 +180,26 @@
       <workItem from="1681137017748" duration="1409000" />
       <workItem from="1681182720855" duration="620000" />
       <workItem from="1681190036571" duration="1191000" />
-      <workItem from="1681194695714" duration="2744000" />
+      <workItem from="1681194695714" duration="4286000" />
+      <workItem from="1681632303436" duration="395000" />
+      <workItem from="1681640409189" duration="596000" />
+      <workItem from="1681650175156" duration="1969000" />
+      <workItem from="1681714789371" duration="4449000" />
+      <workItem from="1681826070685" duration="1796000" />
+      <workItem from="1681887925958" duration="3687000" />
+      <workItem from="1681891782465" duration="2000" />
+      <workItem from="1681891787059" duration="180000" />
+      <workItem from="1682002759126" duration="971000" />
+      <workItem from="1682088513925" duration="22000" />
+      <workItem from="1682220651477" duration="436000" />
+      <workItem from="1682520860440" duration="606000" />
+      <workItem from="1683029859096" duration="3797000" />
+      <workItem from="1683079768739" duration="3230000" />
+      <workItem from="1683121319940" duration="17000" />
+      <workItem from="1683172829448" duration="1026000" />
+      <workItem from="1683174196285" duration="7000" />
+      <workItem from="1683427277490" duration="181000" />
+      <workItem from="1683428269546" duration="515000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -276,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680922205498</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Dutch Flag problems and solution">
+      <created>1681197825023</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681197825023</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,24 +325,32 @@
     <MESSAGE value="Brackets Codility" />
     <MESSAGE value="Implement Stack and Queue using LinkedList" />
     <MESSAGE value="Brackets codility" />
-    <option name="LAST_COMMIT_MESSAGE" value="Brackets codility" />
+    <MESSAGE value="Dutch Flag problems and solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dutch Flag problems and solution" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
     <settings-migrated>true</settings-migrated>
   </component>
   <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="((HashMap)integerMap).entrySet().toArray()[1]" custom="java.util.HashMap" />
-      </configuration>
-    </watches-manager>
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/codility/ShiftingArray.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$MaxTriplet.ic" NAME="MaxTriplet Coverage Results" MODIFIED="1681890942396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.chiskien.codility.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/data_structures_and_algorithms$Task1.ic" NAME="Task1 Coverage Results" MODIFIED="1680059751743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.chiskien.codility.*</FILTER>
     </SUITE>

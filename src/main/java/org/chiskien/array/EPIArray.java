@@ -6,7 +6,11 @@ import java.util.List;
 
 public class EPIArray {
     public static void main(String[] args) {
-        int[] a = new int[]{1, 2, 5, 6, 87, 55, 5, 6, 8};
+        List<Color> list = List.of(
+                Color.WHITE, Color.RED, Color.BLUE, Color.RED, Color.BLUE,
+                Color.RED, Color.WHITE, Color.WHITE, Color.RED
+        );
+        dutchFlagPartition(5, list);
     }
 
     //problem: take an arrays of integers then
@@ -32,25 +36,19 @@ public class EPIArray {
     public static void dutchFlagPartition(int pivotIndex, List<Color> A) {
         Color pivot = A.get(pivotIndex);
         //First pass: group elements smaller than pivot
-        for (int i = 0; i < A.size(); ++i) {
-            //Look for smaller item
-            for (int j = i + 1; j < A.size(); j++) {
-                if (A.get(j).ordinal() < pivot.ordinal()) {
-                    Collections.swap(A, i, j);
-                    break;
-                }
+        int smaller = 0;
+        for (int i = 0; i < A.size(); i++) {
+            if (A.get(i).ordinal() < pivot.ordinal()) {
+                Collections.swap(A, smaller++, i);
             }
         }
-
+        int larger = A.size() - 1;
         for (int i = A.size() - 1; i >= 0 && A.get(i).ordinal() >= pivot.ordinal(); i--) {
-            //Look for a larger element. Stop when we reach an element less than pivot
-
-            for (int j = i - 1; j >= 0 && A.get(j).ordinal() >= pivot.ordinal(); j--) {
-                if (A.get(j).ordinal() > pivot.ordinal()) {
-                    Collections.swap(A, i, j);
-                }
+            if (A.get(i).ordinal() > pivot.ordinal()) {
+                Collections.swap(A, larger--, i);
             }
         }
+        System.out.println(A);
     }
 
 }
