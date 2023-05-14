@@ -4,19 +4,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Dutch Flag problems and solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/MaxTriplet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/OddOccurences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/TimeConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/linked_list/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/strings/EPIString.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="BinarySearchTree addNode">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/binary_tree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/binary_tree/TreeNodeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/GradingStudent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/array/EPIArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/array/EPIArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/Brackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/Brackets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/ShiftingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/ShiftingArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/linked_list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/linked_list/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/stack/StackArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/stack/StackArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/binary_tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/binary_tree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/binary_tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/binary_tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/GradingStudents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/hashtable/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hashtable/HashTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,29 +54,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Study/Programming/Java/Projects/data_structures_and_algorithms&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.folding&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Study/Programming/Java/Projects/data_structures_and_algorithms",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Study\Programming\Java\Projects\data_structures_and_algorithms\src\main\resources" />
@@ -200,6 +197,25 @@
       <workItem from="1683174196285" duration="7000" />
       <workItem from="1683427277490" duration="181000" />
       <workItem from="1683428269546" duration="515000" />
+      <workItem from="1683511532374" duration="2579000" />
+      <workItem from="1683515594837" duration="151000" />
+      <workItem from="1683515761877" duration="1171000" />
+      <workItem from="1683528045718" duration="249000" />
+      <workItem from="1683528306652" duration="78000" />
+      <workItem from="1683528399103" duration="594000" />
+      <workItem from="1683551961688" duration="107000" />
+      <workItem from="1683552086227" duration="1633000" />
+      <workItem from="1683554170543" duration="485000" />
+      <workItem from="1683599135075" duration="689000" />
+      <workItem from="1683600017463" duration="663000" />
+      <workItem from="1683614309571" duration="548000" />
+      <workItem from="1683697993516" duration="649000" />
+      <workItem from="1683698774062" duration="168000" />
+      <workItem from="1683698954650" duration="746000" />
+      <workItem from="1683699721948" duration="2943000" />
+      <workItem from="1683706116093" duration="24000" />
+      <workItem from="1683876107490" duration="69000" />
+      <workItem from="1684059246476" duration="3966000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -306,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681197825023</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Dutch Flag problems and solution">
+      <created>1683512003744</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1683512003744</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +349,8 @@
     <MESSAGE value="Implement Stack and Queue using LinkedList" />
     <MESSAGE value="Brackets codility" />
     <MESSAGE value="Dutch Flag problems and solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dutch Flag problems and solution" />
+    <MESSAGE value="BinarySearchTree addNode" />
+    <option name="LAST_COMMIT_MESSAGE" value="BinarySearchTree addNode" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
