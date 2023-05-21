@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="BinarySearchTree addNode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/binary_tree/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/binary_tree/TreeNodeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/GradingStudent.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="BinarySearchTree">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/binary_tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/binary_tree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/binary_tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/binary_tree/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/GradingStudents.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/hashtable/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hashtable/HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/binary_tree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/binary_tree/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/OddOccurences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/OddOccurences.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,30 +53,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Study/Programming/Java/Projects/data_structures_and_algorithms",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Study/Programming/Java/Projects/head-first-java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Study\Programming\Java\Projects\data_structures_and_algorithms\src\main\resources" />
@@ -215,7 +214,23 @@
       <workItem from="1683699721948" duration="2943000" />
       <workItem from="1683706116093" duration="24000" />
       <workItem from="1683876107490" duration="69000" />
-      <workItem from="1684059246476" duration="3966000" />
+      <workItem from="1684059246476" duration="4206000" />
+      <workItem from="1684156592308" duration="512000" />
+      <workItem from="1684208172817" duration="638000" />
+      <workItem from="1684208827253" duration="721000" />
+      <workItem from="1684213448479" duration="627000" />
+      <workItem from="1684214226319" duration="335000" />
+      <workItem from="1684214574825" duration="31000" />
+      <workItem from="1684214616966" duration="41000" />
+      <workItem from="1684214669927" duration="505000" />
+      <workItem from="1684215186543" duration="586000" />
+      <workItem from="1684382616908" duration="227000" />
+      <workItem from="1684393267395" duration="836000" />
+      <workItem from="1684398564525" duration="25000" />
+      <workItem from="1684558831909" duration="1190000" />
+      <workItem from="1684585955852" duration="536000" />
+      <workItem from="1684635879640" duration="137000" />
+      <workItem from="1684636027748" duration="558000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -329,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683512003744</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="BinarySearchTree">
+      <created>1684063737204</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1684063737204</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +372,8 @@
     <MESSAGE value="Brackets codility" />
     <MESSAGE value="Dutch Flag problems and solution" />
     <MESSAGE value="BinarySearchTree addNode" />
-    <option name="LAST_COMMIT_MESSAGE" value="BinarySearchTree addNode" />
+    <MESSAGE value="BinarySearchTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="BinarySearchTree" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

@@ -5,11 +5,12 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        TreeNode<Integer> root = new TreeNode<>(50);
-        BinaryTree<Integer> binaryTree = new BinaryTree<>(root);
+        BinaryTree<Integer> binaryTree = new BinaryTree<>();
+        binaryTree.setRoot(new TreeNode<>(50));
         List<Integer> test = List.of(25, 75, 13, 38, 62, 88);
         binaryTree.addRange(test);
-        System.out.println(binaryTree);
+        binaryTree.inorderTraversal(binaryTree.getRoot());
+
 
     }
 }

@@ -1,0 +1,11 @@
+
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ôİÚŒ8É€‰Ğ1
+U	java:S1068"9Replace this use of System.out or System.err by a logger.(ï–¡Œ8Ì€‰Ğ1
+U	java:S106?"9Replace this use of System.out or System.err by a logger.(ï–¡Œ8Í€‰Ğ1
+U	java:S106F"9Replace this use of System.out or System.err by a logger.(ï–¡Œ8Ï€‰Ğ1
+E	java:S108c")Either remove or fill this block of code.(Ç÷ÕÔ8Ò€‰Ğ1
+D	java:S108e")Either remove or fill this block of code.(ºò‚y8Ó€‰Ğ1
+E	java:S108g")Either remove or fill this block of code.(å¥‡8Ó€‰Ğ1
+W
+java:S1128"5Remove this unused import 'com.sun.source.tree.Tree'.(·óƒüıÿÿÿÿ8ÇòĞ1

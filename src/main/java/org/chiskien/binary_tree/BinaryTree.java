@@ -8,16 +8,19 @@ public class BinaryTree<T extends Comparable<T>> {
 
     private TreeNode<T> root;
 
+    public void setRoot(TreeNode<T> root) {
+        this.root = root;
+    }
+
     public TreeNode<T> getRoot() {
         return root;
     }
 
     private final TreeNodeComparator<T> treeNodeComparator;
 
-    public BinaryTree(TreeNode<T> root) {
-        this.root = root;
-        treeNodeComparator = new TreeNodeComparator<>();
 
+    public BinaryTree() {
+        treeNodeComparator = new TreeNodeComparator<>();
     }
 
     public void addNode(TreeNode<T> newNode) {
@@ -88,7 +91,7 @@ public class BinaryTree<T extends Comparable<T>> {
     }
 
     public void deleteNode(TreeNode<T> node) {
-        TreeNode<T> parent = getParent(node);
+        TreeNode<T> parent = getSuccessor(node);
         //case the node delete is leaf (doesnot have children)
         if (node.getRightChild() == null && node.getLeftChild() == null) {
             if (parent.getLeftChild() == node) {
@@ -111,7 +114,7 @@ public class BinaryTree<T extends Comparable<T>> {
         }
     }
 
-    public TreeNode<T> getParent(TreeNode<T> node) {
+    public TreeNode<T> getSuccessor(TreeNode<T> node) {
         TreeNode<T> pivot = root;
         TreeNode<T> parent = null;
         while (pivot != null && !node.getData().equals(pivot.getData())) {
