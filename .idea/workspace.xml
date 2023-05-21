@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="BinarySearchTree">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="OddOccurences">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/MaxCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/PermutationArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/binary_tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/binary_tree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/binary_tree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/binary_tree/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/OddOccurences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/OddOccurences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/PermMissingElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/PermMissingElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +228,10 @@
       <workItem from="1684558831909" duration="1190000" />
       <workItem from="1684585955852" duration="536000" />
       <workItem from="1684635879640" duration="137000" />
-      <workItem from="1684636027748" duration="558000" />
+      <workItem from="1684636027748" duration="3393000" />
+      <workItem from="1684654494311" duration="1320000" />
+      <workItem from="1684669677893" duration="652000" />
+      <workItem from="1684679441755" duration="1777000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -351,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684063737204</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="OddOccurences">
+      <created>1684636716142</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1684636716142</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +381,8 @@
     <MESSAGE value="Dutch Flag problems and solution" />
     <MESSAGE value="BinarySearchTree addNode" />
     <MESSAGE value="BinarySearchTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="BinarySearchTree" />
+    <MESSAGE value="OddOccurences" />
+    <option name="LAST_COMMIT_MESSAGE" value="OddOccurences" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -386,6 +395,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/codility/ShiftingArray.java</url>
           <line>19</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/codility/OddOccurences.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/codility/MaxCounter.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

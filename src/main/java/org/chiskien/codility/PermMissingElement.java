@@ -1,24 +1,35 @@
 package org.chiskien.codility;
 
 
+import java.util.Arrays;
+
 public class PermMissingElement {
 
     public static void main(String[] args) {
-        int[] A = new int[]{2, 3, 1, 5};
-        System.out.println(solution(A));
+        int[] A = new int[]{1};
+        System.out.println(realSolution(A));
     }
 
-    public static int solution(int[] A) {
-        int missingNumber;
-        int n = A.length;
-        //sum for a continuous sequence is (Largest + Smallest)*Numbers of Items then divide by two
-        //because A is an array with distinct elements then Largest is equals to A.length
-        int sum = (n * (n + 1)) / 2;
-        int actualSum = 0;
-        for (int j : A) {
-            actualSum += j;
+    public static int realSolution(int[] A) {
+        if (A.length == 0) {
+            return 1;
+        } else if (A.length == 1) {
+            return A[0];
+        } else {
+            Arrays.sort(A);
+            if (A[0] != 1) {
+                return 1;
+            }
+            int i;
+            for (i = 0; i < A.length; i++) {
+                if (i == A.length - 1) {
+                    break;
+                }
+                if (A[i + 1] != A[i] + 1) {
+                    break;
+                }
+            }
+            return A[i] + 1;
         }
-        missingNumber = sum - actualSum;
-        return missingNumber;
     }
 }
