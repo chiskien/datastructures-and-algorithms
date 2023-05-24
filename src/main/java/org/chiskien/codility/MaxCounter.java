@@ -13,18 +13,18 @@ public class MaxCounter {
     if an item within range (1, N) then increase X
     * */
     public static void main(String[] args) {
-        int[] A = new int[]{1, 2, 2, 3, 1, 4, 3, 4, 4, 5};
-        int N = 4;
+        int[] A = new int[]{1, 1, 1, 1, 1, 1, 1};
+        int N = 1;
         System.out.println(Arrays.toString(solution(N, A)));
 
     }
 
     public static int[] solution(int N, int[] A) {
         int[] result = new int[N];
+        int maxCounter = 0;
         for (int i = 0; i < A.length; i++) {
             if (A[i] == N + 1) {
-                int maxCounter = findMax(result);
-                Arrays.fill(result, maxCounter);
+                Arrays.fill(result, findMax(result));
             } else {
                 result[A[i] - 1]++;
             }
