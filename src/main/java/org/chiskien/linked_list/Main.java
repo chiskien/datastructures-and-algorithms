@@ -1,11 +1,13 @@
 package org.chiskien.linked_list;
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 public class Main {
 
 
     public static void main(String[] args) {
-
-        LinkedList<Integer> list = new LinkedList<>();
+        SinglyLinkedList<Integer> list = new SinglyLinkedList<>();
         Node<Integer> head = new Node<>(12);
         list.setHead(head);
         list.addToTail(266);

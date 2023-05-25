@@ -1,4 +1,4 @@
-package org.chiskien.array;
+package org.chiskien.EPI.array;
 
 import java.util.Arrays;
 import java.util.Collections;

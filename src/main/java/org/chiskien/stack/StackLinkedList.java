@@ -1,30 +1,30 @@
 package org.chiskien.stack;
 
-import org.chiskien.linked_list.LinkedList;
+import org.chiskien.linked_list.SinglyLinkedList;
 import org.chiskien.linked_list.Node;
 
 public class StackLinkedList<T> {
-    private final LinkedList<T> linkedList;
+    private final SinglyLinkedList<T> singlyLinkedList;
 
     public StackLinkedList() {
-        linkedList = new LinkedList<>();
+        singlyLinkedList = new SinglyLinkedList<>();
     }
 
     public boolean isEmpty() {
-        return linkedList.isEmpty();
+        return singlyLinkedList.isEmpty();
     }
 
     public void push(Node<T> newNode) {
-        linkedList.addToHead(newNode);
+        singlyLinkedList.addToHead(newNode);
     }
 
     public void pop() {
-        linkedList.removeHead();
+        singlyLinkedList.removeHead();
     }
 
     @Override
     public String toString() {
-        return linkedList.traverse();
+        return singlyLinkedList.traverse();
     }
 }
 
