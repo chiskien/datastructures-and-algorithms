@@ -1,4 +1,4 @@
-package org.chiskien.stack;
+package org.chiskien.EPI.stack;
 
 public class StackArray {
     protected final int[] stack;

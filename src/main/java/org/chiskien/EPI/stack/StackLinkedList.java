@@ -1,7 +1,7 @@
-package org.chiskien.stack;
+package org.chiskien.EPI.stack;
 
-import org.chiskien.linked_list.SinglyLinkedList;
-import org.chiskien.linked_list.Node;
+import org.chiskien.EPI.linked_list.SinglyLinkedList;
+import org.chiskien.EPI.linked_list.Node;
 
 public class StackLinkedList<T> {
     private final SinglyLinkedList<T> singlyLinkedList;

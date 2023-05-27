@@ -1,6 +1,4 @@
-package org.chiskien.sorting;
-
-import java.util.List;
+package org.chiskien.EPI.sorting;
 
 public class SelectionSort {
 

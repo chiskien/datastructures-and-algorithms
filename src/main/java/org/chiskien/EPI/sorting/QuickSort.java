@@ -1,4 +1,4 @@
-package org.chiskien.sorting;
+package org.chiskien.EPI.sorting;
 
 public class QuickSort {
     private QuickSort() {

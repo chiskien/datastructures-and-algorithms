@@ -1,14 +1,13 @@
 package org.chiskien;
 
-import org.chiskien.sorting.InsertionSort;
-import org.chiskien.sorting.QuickSort;
-import org.chiskien.sorting.SelectionSort;
+import org.chiskien.EPI.sorting.InsertionSort;
+import org.chiskien.EPI.sorting.QuickSort;
+import org.chiskien.EPI.sorting.SelectionSort;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Arrays;
 import java.util.List;
 
 public class Main {

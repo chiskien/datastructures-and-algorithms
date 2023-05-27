@@ -1,7 +1,4 @@
-package org.chiskien.linked_list;
-
-import java.util.Deque;
-import java.util.LinkedList;
+package org.chiskien.EPI.linked_list;
 
 public class Main {
 

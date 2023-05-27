@@ -1,4 +1,4 @@
-package org.chiskien.binary_tree;
+package org.chiskien.EPI.binary_tree;
 
 import java.util.List;
 

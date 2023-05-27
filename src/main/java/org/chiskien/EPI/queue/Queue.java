@@ -1,7 +1,7 @@
-package org.chiskien.queue;
+package org.chiskien.EPI.queue;
 
-import org.chiskien.linked_list.SinglyLinkedList;
-import org.chiskien.linked_list.Node;
+import org.chiskien.EPI.linked_list.SinglyLinkedList;
+import org.chiskien.EPI.linked_list.Node;
 
 public class Queue<T> {
     private final SinglyLinkedList<T> singlyLinkedList;

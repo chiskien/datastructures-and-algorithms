@@ -1,4 +1,4 @@
-package org.chiskien.searching;
+package org.chiskien.EPI.searching;
 
 public class BinarySearch {
 

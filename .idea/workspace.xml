@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Dynamic Programming">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/linked_list/DoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/linked_list/SinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/BuyAndSellStockTwice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/DeleteDuplicatesFromSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/EnumerateAllPrimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/MergeSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/InterconvertStringAndInterger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/PalindromicString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/RomanToInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/CountrDiscIntersect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/array/EPIArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/EPIArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/SmallestMissingPositiveNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/SmallestMissingPositiveNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/linked_list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/linked_list/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/linked_list/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/linked_list/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/queue/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/stack/StackLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/stack/StackLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/strings/EPIString.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +65,7 @@
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Study/Programming/Java/Projects/head-first-java&quot;,
@@ -251,7 +253,13 @@
       <workItem from="1685013389248" duration="847000" />
       <workItem from="1685014472719" duration="595000" />
       <workItem from="1685016483259" duration="64000" />
-      <workItem from="1685025826445" duration="891000" />
+      <workItem from="1685025826445" duration="4111000" />
+      <workItem from="1685064435532" duration="628000" />
+      <workItem from="1685070811425" duration="595000" />
+      <workItem from="1685109855384" duration="5511000" />
+      <workItem from="1685151880615" duration="4482000" />
+      <workItem from="1685168033228" duration="1083000" />
+      <workItem from="1685191707308" duration="1900000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -400,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685026698158</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Dynamic Programming">
+      <created>1685026992887</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1685026992887</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,6 +465,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/codility/MaxCounter.java</url>
           <line>17</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/codility/CountrDiscIntersect.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

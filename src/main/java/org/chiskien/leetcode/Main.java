@@ -15,8 +15,8 @@ public class Main {
                 stringBuilder.append(charset1[i]).append(charset2[i]);
                 i++;
             }
-            stringBuilder.append()
 
         }
+        return "";
     }
 }

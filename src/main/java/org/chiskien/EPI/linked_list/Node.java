@@ -1,4 +1,4 @@
-package org.chiskien.linked_list;
+package org.chiskien.EPI.linked_list;
 
 public class Node<T> {
     private Node<T> next;
