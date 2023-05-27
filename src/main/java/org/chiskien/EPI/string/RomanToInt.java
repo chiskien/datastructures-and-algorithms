@@ -7,28 +7,31 @@ import java.util.Map;
 public class RomanToInt {
 
     public static void main(String[] args) {
-        String s = "MCMDWQMWEMQW";
-        romanToInt(s);
+        String s = "XXXVIII";
+        System.out.println(romanToInt(s));
     }
 
     public static int romanToInt(String s) {
-        Map<String, Integer> romanConverter = new HashMap<>();
-        romanConverter.put("I", 1);
-        romanConverter.put("IV", 4);
-        romanConverter.put("V", 5);
-        romanConverter.put("IX", 9);
-        romanConverter.put("X", 10);
-        romanConverter.put("XL", 40);
-        romanConverter.put("L", 50);
-        romanConverter.put("XC", 90);
-        romanConverter.put("C", 100);
-        romanConverter.put("CD", 400);
-        romanConverter.put("D", 500);
-        romanConverter.put("CM", 900);
-        romanConverter.put("M", 1000);
+        Map<Character, Integer> romanDictionary = new HashMap<>();
+        romanDictionary.put('I', 1);
+        romanDictionary.put('V', 5);
+        romanDictionary.put('X', 10);
+        romanDictionary.put('L', 50);
+        romanDictionary.put('C', 100);
+        romanDictionary.put('D', 500);
+        romanDictionary.put('M', 1000);
 
-        String[] romanString = s.split("");
-        System.out.println(Arrays.toString(romanString));
-        return 1;
+        char lastCharacter = s.charAt(s.length() - 1);
+        int sum = romanDictionary.get(lastCharacter);
+        for (int i = s.length() - 2; i >= 0; i--) {
+            int current = romanDictionary.get(s.charAt(i));
+            int after = romanDictionary.get(s.charAt(i + 1));
+            if (current < after) {
+                sum -= current;
+            } else {
+                sum += current;
+            }
+        }
+        return sum;
     }
 }
