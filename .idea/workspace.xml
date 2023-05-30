@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Elements of Programming Interview String">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/JumpGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/ProductOfArrayExceptSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/stack/Brackets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/IndexOfFirstOccurence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/LongestCommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/ReverseWord.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="New Problem">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/BuyAndSellStockOnce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/SudokuChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/hashmap/RansomNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/DeleteDuplicateFromSortedList2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/MergeTwoSortedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/BuyAndSellStockTwice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/BuyAndSellStockTwice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/DeleteDuplicatesFromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/DeleteDuplicatesFromSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/EPIArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/DutchFlag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/MajorityElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/MergeSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/ProductOfArrayExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/ProductOfArrayExceptSelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/RomanToInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/RomanToInt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +267,11 @@
       <workItem from="1685203044300" duration="3157000" />
       <workItem from="1685249949753" duration="1077000" />
       <workItem from="1685257622634" duration="6095000" />
-      <workItem from="1685277498181" duration="475000" />
+      <workItem from="1685277498181" duration="3616000" />
+      <workItem from="1685327661895" duration="1129000" />
+      <workItem from="1685342218385" duration="12351000" />
+      <workItem from="1685375681344" duration="1194000" />
+      <workItem from="1685411925972" duration="181000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -429,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685204545954</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="New Problem">
+      <created>1685278401792</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1685278401792</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +477,8 @@
     <MESSAGE value="Dynamic Programming" />
     <MESSAGE value="LeetCode medium problems" />
     <MESSAGE value="Elements of Programming Interview String" />
-    <option name="LAST_COMMIT_MESSAGE" value="Elements of Programming Interview String" />
+    <MESSAGE value="New Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Problem" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -491,6 +511,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/ReverseWord.java</url>
           <line>6</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/ProductOfArrayExceptSelf.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/BuyAndSellStockOnce.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/MajorityElement.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -11,19 +11,17 @@ public class ProductOfArrayExceptSelf {
     }
 
     public static int[] productExceptSelf(int[] nums) {
-        int[] answers = new int[nums.length];
-        List<Integer> list = new ArrayList<>();
-        for (Integer num : nums) {
-            list.add(num);
+        int n = nums.length;
+        int[] result = new int[n];
+        result[0] = nums[0];
+        for (int i = 1; i < n; i++) {
+            result[i] = result[i - 1] * nums[i];
         }
-        for (int i = 0; i < nums.length; i++) {
-            list.remove(i);
-            int result = 1;
-            for (Integer remain : list) {
-                result *= remain;
-            }
-            answers[i] = result;
+        int left = 1;
+        for (int i = n - 2; i >= 0; i--) {
+            result[i] *= left;
+            left *= nums[i+1];
         }
-        return answers;
+        return result;
     }
 }

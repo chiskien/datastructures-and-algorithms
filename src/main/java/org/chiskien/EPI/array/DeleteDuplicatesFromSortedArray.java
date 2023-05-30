@@ -1,7 +1,5 @@
 package org.chiskien.EPI.array;
 
-import java.util.*;
-
 /*
  Delete duplicates from a sorted array
  Example:
@@ -19,8 +17,8 @@ public class DeleteDuplicatesFromSortedArray {
     public static int[] solution(int[] A) {
         int j = 1;
         for (int i = 1; i < A.length; i++) {
-            var a = A[i];
-            var b = A[j - 1];
+            int a = A[i];
+            int b = A[j - 1];
             if (a != b) {
                 A[j++] = A[i]; //compare to
             }
@@ -28,7 +26,8 @@ public class DeleteDuplicatesFromSortedArray {
         return A;
     }
 
-    // remove all occurrences of key, remaining elements have been shifted left to fill
+    // remove all occurrences of key,
+    // remaining elements have been shifted left to fill
     //return the number of remaining elements
     public static int solutionVariant1(int[] A, int key) {
         int k = 0;

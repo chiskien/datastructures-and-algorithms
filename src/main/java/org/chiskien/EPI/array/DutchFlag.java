@@ -1,10 +1,9 @@
 package org.chiskien.EPI.array;
 
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class EPIArray {
+public class DutchFlag {
     public static void main(String[] args) {
         List<Color> list = List.of(
                 Color.WHITE, Color.RED, Color.BLUE, Color.RED, Color.BLUE,
