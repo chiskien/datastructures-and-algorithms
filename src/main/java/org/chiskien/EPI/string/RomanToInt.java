@@ -8,6 +8,7 @@ public class RomanToInt {
 
     public static void main(String[] args) {
         String s = "XXXVIII";
+
         System.out.println(romanToInt(s));
     }
 

@@ -12,7 +12,7 @@ public class MergeTwoSortedList {
         ListNode current = head;
         ListNode n1 = l1, n2 = l2;
         while (n1 != null && n2 != null) {
-            if (n1.data <= n2.data) {
+            if (n1.val <= n2.val) {
                 current.next = n1;
                 n1 = n1.next;
             } else {
