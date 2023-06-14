@@ -6,18 +6,17 @@ public class AddTwoNumbers {
 
     public static void main(String[] args) {
         ListNode test = new ListNode();
-        ListNode l1 = test.build(new int[]{9});
+        ListNode l1 = test.build(new int[]{5, 6, 4});
         ListNode l2 = test.build(new int[]{1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1});
 
         System.out.println(addTwoNumbers(l1, l2));
     }
 
-
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        long base1 = 1;
-        long base2 = 1;
         ListNode temp1 = l1;
         ListNode temp2 = l2;
+        long base1 = 1;
+        long base2 = 1;
         long num1 = 0;
         long num2 = 0;
         while (temp1 != null) {
@@ -30,6 +29,7 @@ public class AddTwoNumbers {
             temp2 = temp2.next;
             base2 = base2 * 10;
         }
+        System.out.println(num2);
         long sum = num1 + num2;
         ListNode head = new ListNode((int) (sum % 10));
         long sum2 = sum / 10;

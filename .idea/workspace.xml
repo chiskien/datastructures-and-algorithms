@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="New Problem">
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Sliding Window">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/MaximumValueAtGivenIndexInABoundedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/MaximumValueAtGivenIndexInABoundedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/InterconvertStringAndInterger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/InterconvertStringAndInterger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/LongestCommonPrefix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,6 +286,9 @@
       <workItem from="1686373976059" duration="3173000" />
       <workItem from="1686405962605" duration="34000" />
       <workItem from="1686536989321" duration="812000" />
+      <workItem from="1686627396382" duration="1173000" />
+      <workItem from="1686666569595" duration="861000" />
+      <workItem from="1686708925905" duration="1923000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -474,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686374876204</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Sliding Window">
+      <created>1686627442810</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1686627442810</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,7 +516,8 @@
     <MESSAGE value="LeetCode medium problems" />
     <MESSAGE value="Elements of Programming Interview String" />
     <MESSAGE value="New Problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Problem" />
+    <MESSAGE value="Sliding Window" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sliding Window" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -547,6 +560,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/MajorityElement.java</url>
           <line>8</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/AddTwoNumbers.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
