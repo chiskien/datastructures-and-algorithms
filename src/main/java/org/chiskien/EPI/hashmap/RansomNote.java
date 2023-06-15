@@ -18,7 +18,7 @@ public class RansomNote {
             if (hashMap.containsKey(c) || hashMap.get(c) < 1) {
                 return false;
             } else {
-                hashMap.put(c, hashMap.get(c) - 1);
+                hashMap.put(c, hashMap.getOrDefault(c, 0) - 1);
             }
         }
         return true;

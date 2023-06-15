@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Sliding Window">
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Reverse Linkedlist">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/hashmap/GroupAnagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/InterconvertStringAndInterger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/InterconvertStringAndInterger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/LongestCommonPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/MergeSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/hashmap/RansomNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/hashmap/RansomNote.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -288,7 +288,9 @@
       <workItem from="1686536989321" duration="812000" />
       <workItem from="1686627396382" duration="1173000" />
       <workItem from="1686666569595" duration="861000" />
-      <workItem from="1686708925905" duration="1923000" />
+      <workItem from="1686708925905" duration="2986000" />
+      <workItem from="1686733486126" duration="5452000" />
+      <workItem from="1686753693250" duration="761000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -486,14 +488,27 @@
       <option name="project" value="LOCAL" />
       <updated>1686627442810</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="LongestSubstringWithoutRepeating">
+      <created>1686715113008</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1686715113008</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Reverse Linkedlist">
+      <created>1686715548822</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1686715548822</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Project initialization" />
     <MESSAGE value="StairCase" />
     <MESSAGE value="Read File at Main.java" />
     <MESSAGE value="SelectionSort.java" />
@@ -517,7 +532,9 @@
     <MESSAGE value="Elements of Programming Interview String" />
     <MESSAGE value="New Problem" />
     <MESSAGE value="Sliding Window" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sliding Window" />
+    <MESSAGE value="LongestSubstringWithoutRepeating" />
+    <MESSAGE value="Reverse Linkedlist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reverse Linkedlist" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
