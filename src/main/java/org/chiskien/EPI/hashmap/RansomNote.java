@@ -2,6 +2,7 @@ package org.chiskien.EPI.hashmap;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 
 public class RansomNote {
 
@@ -13,6 +14,7 @@ public class RansomNote {
         Map<Character, Integer> hashMap = new HashMap<>();
         for (char c : magazine.toCharArray()) {
             hashMap.put(c, hashMap.getOrDefault(c, 0) + 1);
+
         }
         for (char c : ransomNote.toCharArray()) {
             if (hashMap.containsKey(c) || hashMap.get(c) < 1) {
