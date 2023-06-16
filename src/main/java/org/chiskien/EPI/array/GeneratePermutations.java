@@ -24,7 +24,7 @@ public class GeneratePermutations {
     private static void directedPermutation(int i, List<Integer> perm,
                                             List<List<Integer>> result) {
         if (i == perm.size() - 1) {
-            result.add(perm);
+            result.add(new ArrayList<>(perm));
             return;
         }
         for (int j = i; j < perm.size(); j++) {
