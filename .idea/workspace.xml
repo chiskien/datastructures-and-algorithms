@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="GroupAnagram and MergeSortedArray">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/InsertDeleteGetRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/two_pointers/ContainsMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/two_pointers/isSubsequence.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="ContainsMostWater.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/GeneratePermutations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/hashmap/RansomNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/hashmap/RansomNote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/RomanToInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/RomanToInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +293,8 @@
       <workItem from="1686753693250" duration="761000" />
       <workItem from="1686798324796" duration="4008000" />
       <workItem from="1686819811955" duration="1409000" />
-      <workItem from="1686834772778" duration="1379000" />
+      <workItem from="1686834772778" duration="2137000" />
+      <workItem from="1686904416841" duration="1444000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -515,14 +513,20 @@
       <option name="project" value="LOCAL" />
       <updated>1686798429077</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="ContainsMostWater.java">
+      <created>1686838577993</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1686838577993</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Read File at Main.java" />
     <MESSAGE value="SelectionSort.java" />
     <MESSAGE value="QuickSort" />
     <MESSAGE value="HashMap and Graph Algorithms and Data Structure" />
@@ -547,7 +551,8 @@
     <MESSAGE value="LongestSubstringWithoutRepeating" />
     <MESSAGE value="Reverse Linkedlist" />
     <MESSAGE value="GroupAnagram and MergeSortedArray" />
-    <option name="LAST_COMMIT_MESSAGE" value="GroupAnagram and MergeSortedArray" />
+    <MESSAGE value="ContainsMostWater.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="ContainsMostWater.java" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
