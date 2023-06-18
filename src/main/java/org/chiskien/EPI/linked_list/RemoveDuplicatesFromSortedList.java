@@ -6,23 +6,24 @@ public class RemoveDuplicatesFromSortedList {
 
     public static void main(String[] args) {
         ListNode n = new ListNode();
-        System.out.println(deleteDuplicates(n.build(new int[]{1, 2, 2, 3, 3, 4})));
+        System.out.println(deleteDuplicates(n.build(new int[]{1, 1, 1, 2, 3})));
     }
 
     public static ListNode deleteDuplicates(ListNode head) {
-        ListNode nextNode = head.next;
-        ListNode prevNode = null;
-        ListNode n = prevNode;
-        while (nextNode != null) {
-            prevNode = head;
-            if (head.val == nextNode.val) {
-                prevNode.next = nextNode.next;
-                head = nextNode.next;
-            } else {
-                head = head.next;
+        ListNode dummyHead = new ListNode(0, head);
+        ListNode previous = dummyHead;
+        ListNode current = head; //head
+        while (current != null) {
+            while (current.next != null && current.val == current.next.val) {
+                current = current.next;
             }
-            nextNode = nextNode.next;
+            if (previous.next == current) {
+                previous = previous.next;
+            } else {
+                previous.next = current.next;
+            }
+            current = current.next;
         }
-        return n;
+        return dummyHead.next;
     }
 }

@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="ReverseLinkedList II">
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="ReverseLinkedList II unit test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/binarysearch/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/binarysearch/SearchInsertPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/EPI/binarysearch/BinarySearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/EPI/binarysearch/SearchInsertPositionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/RemoveDuplicatesFromSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/RemoveDuplicatesFromSortedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/ReverseLinkedList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/ReverseLinkedList2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/searching/BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/chiskien/EPI/linked_list/ReverseLinkedList2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/EPI/linked_list/ReverseLinkedList2Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +80,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -87,6 +93,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.chiskien.EPI.binarysearch" />
       <recent name="org.chiskien.EPI.linked_list" />
       <recent name="org.chiskien.EPI.hashmap" />
     </key>
@@ -301,7 +308,8 @@
       <workItem from="1687011587175" duration="591000" />
       <workItem from="1687054754648" duration="325000" />
       <workItem from="1687056094278" duration="5933000" />
-      <workItem from="1687086054201" duration="2712000" />
+      <workItem from="1687086054201" duration="6914000" />
+      <workItem from="1687101645216" duration="1843000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -576,14 +584,20 @@
       <option name="project" value="LOCAL" />
       <updated>1687092111092</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="ReverseLinkedList II unit test">
+      <created>1687092763371</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1687092763371</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Brackets Codility" />
     <MESSAGE value="Implement Stack and Queue using LinkedList" />
     <MESSAGE value="Brackets codility" />
     <MESSAGE value="Dutch Flag problems and solution" />
@@ -608,7 +622,8 @@
     <MESSAGE value="IsomorphicStrings" />
     <MESSAGE value="ContainsDuplicate2" />
     <MESSAGE value="ReverseLinkedList II" />
-    <option name="LAST_COMMIT_MESSAGE" value="ReverseLinkedList II" />
+    <MESSAGE value="ReverseLinkedList II unit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReverseLinkedList II unit test" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -653,11 +668,6 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/AddTwoNumbers.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/ProductOfArrayExceptSelf.java</url>
           <line>24</line>
           <option name="timeStamp" value="18" />
@@ -686,6 +696,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/chiskien/EPI/hashmap/ContainsDuplicate2Test.java</url>
           <line>19</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/RemoveDuplicatesFromSortedList.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

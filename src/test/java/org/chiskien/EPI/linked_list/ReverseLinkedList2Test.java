@@ -20,7 +20,7 @@ class ReverseLinkedList2Test {
         ListNode head = builder.build(new int[]{1, 2, 3, 4, 5});
         int left = 2;
         int right = 4;
-        ListNode result = reverseLinkedList2.reverseBetween(head, 2,4);
+        ListNode result = reverseLinkedList2.reverseBetween(head, left, right);
 
     }
 }

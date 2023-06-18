@@ -7,6 +7,7 @@ public class ReverseLinkedList2 {
         ListNode dummyHead = new ListNode(0, head); //Dummy node to pointer to head
         ListNode subListHead = dummyHead;
         int k = 1;
+        //find node at left
         while (k++ < left) {
             subListHead = subListHead.next;
         }
