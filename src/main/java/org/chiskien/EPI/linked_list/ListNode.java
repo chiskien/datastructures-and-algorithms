@@ -1,5 +1,8 @@
 package org.chiskien.EPI.linked_list;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ListNode {
 
     public int val;
@@ -25,6 +28,16 @@ public class ListNode {
             head = head.next;
         }
         return n;
+    }
+
+    public List<ListNode> traverse(ListNode head) {
+        ListNode n = head;
+        List<ListNode> list = new ArrayList<>();
+        while (n != null) {
+            list.add(n);
+            n = n.next;
+        }
+        return list;
     }
 
     @Override

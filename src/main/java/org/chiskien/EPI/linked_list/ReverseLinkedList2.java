@@ -2,7 +2,7 @@ package org.chiskien.EPI.linked_list;
 
 public class ReverseLinkedList2 {
 
-    public ListNode reverseSubList(ListNode head, int left, int right) {
+    public ListNode reverseBetween(ListNode head, int left, int right) {
         if (left == right) return head;
         ListNode dummyHead = new ListNode(0, head); //Dummy node to pointer to head
         ListNode subListHead = dummyHead;
