@@ -29,9 +29,6 @@ public class ListNode {
 
     @Override
     public String toString() {
-        return "ListNode{" +
-                "val=" + val +
-                ", next=" + next +
-                '}';
+        return "[val= " + val + ", next= " + next + "]";
     }
 }
