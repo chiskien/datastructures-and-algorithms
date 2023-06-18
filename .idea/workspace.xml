@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="GeneratePermutations.java using Recursion">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/RemoveDuplicatesFromSortedList.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="RemoveDuplicateFromSortedLinkedList 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/hashmap/IsomorphicStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/EPI/hashmap/IsomorphicStringsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/DeleteDuplicateFromSortedList2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/SudokuChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/SudokuChecker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -88,6 +88,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.chiskien.EPI.hashmap" />
       <recent name="org.chiskien.EPI.linked_list" />
     </key>
   </component>
@@ -300,7 +301,7 @@
       <workItem from="1686979175978" duration="1201000" />
       <workItem from="1687011587175" duration="591000" />
       <workItem from="1687054754648" duration="325000" />
-      <workItem from="1687056094278" duration="33000" />
+      <workItem from="1687056094278" duration="2441000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -540,14 +541,20 @@
       <option name="project" value="LOCAL" />
       <updated>1686906160375</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="RemoveDuplicateFromSortedLinkedList 2">
+      <created>1687056156692</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1687056156692</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HashMap and Graph Algorithms and Data Structure" />
     <MESSAGE value="Codility Practice and HackerRank" />
     <MESSAGE value="frog cross" />
     <MESSAGE value="CountDistinc Codility" />
@@ -572,7 +579,8 @@
     <MESSAGE value="ContainsMostWater.java" />
     <MESSAGE value="GeneratePermutations.java" />
     <MESSAGE value="GeneratePermutations.java using Recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="GeneratePermutations.java using Recursion" />
+    <MESSAGE value="RemoveDuplicateFromSortedLinkedList 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="RemoveDuplicateFromSortedLinkedList 2" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -645,11 +653,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/EPI/two_pointers/ContainsMostWater.java</url>
           <line>5</line>
           <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/RemoveDuplicatesFromSortedList.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
