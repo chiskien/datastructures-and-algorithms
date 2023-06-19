@@ -9,7 +9,7 @@ public class SearchInsertPosition {
         int high = nums.length - 1;
         int mid;
         while (low <= high) {
-            mid = (high - low) / 2  + low;
+            mid = (high - low) / 2 + low;
             if (target == nums[mid]) {
                 return mid;
             } else if (target <= nums[mid]) {

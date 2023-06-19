@@ -1,4 +1,4 @@
-package org.chiskien.leetcode.binary_tree;
+package org.chiskien.leetcode.binarytree;
 
 import java.util.Comparator;
 

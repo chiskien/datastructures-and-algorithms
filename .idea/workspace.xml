@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="SearchInsertPosition">
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Change folder name">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/two_pointers/ThreeSome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/two_pointers/ThreeSomeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/hashmap/RansomNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/hashmap/RansomNote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/ReverseWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/ReverseWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binary_tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binary_tree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binary_tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binary_tree/TreeNodeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/TreeNodeComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarysearch/SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarysearch/SearchInsertPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/TwoSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -87,6 +93,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.chiskien.leetcode.two_pointers" />
       <recent name="org.chiskien.EPI.binarysearch" />
       <recent name="org.chiskien.EPI.linked_list" />
       <recent name="org.chiskien.EPI.hashmap" />
@@ -304,7 +311,9 @@
       <workItem from="1687056094278" duration="5933000" />
       <workItem from="1687086054201" duration="6914000" />
       <workItem from="1687101645216" duration="1975000" />
-      <workItem from="1687140574757" duration="1326000" />
+      <workItem from="1687140574757" duration="5329000" />
+      <workItem from="1687154721194" duration="597000" />
+      <workItem from="1687164060119" duration="920000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -593,14 +602,20 @@
       <option name="project" value="LOCAL" />
       <updated>1687103510660</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Change folder's name">
+      <created>1687142460582</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1687142460582</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Brackets codility" />
     <MESSAGE value="Dutch Flag problems and solution" />
     <MESSAGE value="BinarySearchTree addNode" />
     <MESSAGE value="BinarySearchTree" />
@@ -625,7 +640,8 @@
     <MESSAGE value="ReverseLinkedList II" />
     <MESSAGE value="ReverseLinkedList II unit test" />
     <MESSAGE value="SearchInsertPosition" />
-    <option name="LAST_COMMIT_MESSAGE" value="SearchInsertPosition" />
+    <MESSAGE value="Change folder name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change folder name" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -655,54 +671,59 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/ReverseWord.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/string/ReverseWord.java</url>
           <line>6</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/ProductOfArrayExceptSelf.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/ProductOfArrayExceptSelf.java</url>
           <line>9</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/MajorityElement.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/MajorityElement.java</url>
           <line>8</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/ProductOfArrayExceptSelf.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/ProductOfArrayExceptSelf.java</url>
           <line>24</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/ProductOfArrayExceptSelf.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/ProductOfArrayExceptSelf.java</url>
           <line>18</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/EPI/array/ProductOfArrayExceptSelf.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/ProductOfArrayExceptSelf.java</url>
           <line>19</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/EPI/two_pointers/isSubsequence.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/two_pointers/isSubsequence.java</url>
           <line>4</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/EPI/two_pointers/ContainsMostWater.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/two_pointers/ContainsMostWater.java</url>
           <line>5</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/chiskien/EPI/hashmap/ContainsDuplicate2Test.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/ContainsDuplicate2Test.java</url>
           <line>19</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/RemoveDuplicatesFromSortedList.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/RemoveDuplicatesFromSortedList.java</url>
           <line>8</line>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/two_pointers/ThreeSomeTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
