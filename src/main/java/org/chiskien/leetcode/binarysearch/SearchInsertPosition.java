@@ -12,7 +12,7 @@ public class SearchInsertPosition {
             mid = (high - low) / 2 + low;
             if (target == nums[mid]) {
                 return mid;
-            } else if (target <= nums[mid]) {
+            } else if (target < nums[mid]) {
                 high = mid - 1;
             } else {
                 low = mid + 1;

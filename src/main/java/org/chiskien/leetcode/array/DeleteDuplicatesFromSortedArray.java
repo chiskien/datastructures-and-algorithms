@@ -8,45 +8,45 @@ package org.chiskien.leetcode.array;
 public class DeleteDuplicatesFromSortedArray {
 
     public static void main(String[] args) {
-//        int[] A = new int[]{1, 2, 4, 5, 5, 7, 9, 11, 11, 11, 12};
-//        System.out.println(solutionVariant1(A, 5));
+//        int[] nums = new int[]{1, 2, 4, 5, 5, 7, 9, 11, 11, 11, 12};
+//        System.out.println(solutionVariant1(nums, 5));
         int[] nums = new int[]{1, 1, 1, 2, 2, 3};
         System.out.println(removeDuplicateAtMost2(nums));
     }
 
-    public static int[] solution(int[] A) {
+    public static int[] solution(int[] nums) {
         int j = 1;
-        for (int i = 1; i < A.length; i++) {
-            int a = A[i];
-            int b = A[j - 1];
+        for (int i = 1; i < nums.length; i++) {
+            int a = nums[i];
+            int b = nums[j - 1];
             if (a != b) {
-                A[j++] = A[i]; //compare to
+                nums[j++] = nums[i]; //compare to
             }
         }
-        return A;
+        return nums;
     }
 
     // remove all occurrences of key,
     // remaining elements have been shifted left to fill
     //return the number of remaining elements
-    public static int solutionVariant1(int[] A, int key) {
+    public static int solutionVariant1(int[] nums, int key) {
         int k = 0;
-        for (int i = 0; i < A.length; i++) {
-            if (A[i] != key) {
-                A[k++] = A[i];
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != key) {
+                nums[k++] = nums[i];
             }
         }
         return k;
     }
 
 
-    //Write a program which takes as input a sorted array A of
-    // integers and a positive integer m,and updates A
-    // so that if x appears m times in A, it appears exactly min(2,m) times in A.
-    // The update to A should be performed in one pass,
+    //Write a program which takes as input a sorted array nums of
+    // integers and a positive integer m,and updates nums
+    // so that if x appears m times in nums, it appears exactly min(2,m) times in nums.
+    // The update to nums should be performed in one pass,
     // and no additional storage may be allocated.
-    public static int[] solutionVariant2(int[] A, int m) {
-        return A;
+    public static int[] solutionVariant2(int[] nums, int m) {
+        return nums;
     }
 
 

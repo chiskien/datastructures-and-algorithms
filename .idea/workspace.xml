@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Change folder name">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/two_pointers/ThreeSome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/two_pointers/ThreeSomeTest.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="JumpGame">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binary_tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binary_tree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binary_tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binary_tree/TreeNodeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/TreeNodeComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/DeleteDuplicatesFromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/DeleteDuplicatesFromSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/JumpGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarysearch/SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarysearch/SearchInsertPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/TwoSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,7 +308,8 @@
       <workItem from="1687101645216" duration="1975000" />
       <workItem from="1687140574757" duration="5329000" />
       <workItem from="1687154721194" duration="597000" />
-      <workItem from="1687164060119" duration="920000" />
+      <workItem from="1687164060119" duration="1560000" />
+      <workItem from="1687183357196" duration="1754000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -609,15 +605,20 @@
       <option name="project" value="LOCAL" />
       <updated>1687142460582</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="ThreeSum using two pointers technique">
+      <created>1687165012647</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1687165012647</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dutch Flag problems and solution" />
-    <MESSAGE value="BinarySearchTree addNode" />
     <MESSAGE value="BinarySearchTree" />
     <MESSAGE value="OddOccurences" />
     <MESSAGE value="Codility Medium MaxCounter" />
@@ -641,7 +642,9 @@
     <MESSAGE value="ReverseLinkedList II unit test" />
     <MESSAGE value="SearchInsertPosition" />
     <MESSAGE value="Change folder name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change folder name" />
+    <MESSAGE value="ThreeSum using two pointers technique" />
+    <MESSAGE value="JumpGame" />
+    <option name="LAST_COMMIT_MESSAGE" value="JumpGame" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -724,6 +727,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/two_pointers/ThreeSomeTest.java</url>
           <line>18</line>
           <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/JumpGame.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

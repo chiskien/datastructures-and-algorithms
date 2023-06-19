@@ -3,23 +3,16 @@ package org.chiskien.leetcode.array;
 public class JumpGame {
     public static void main(String[] args) {
         int[] a = new int[]{2, 3, 1, 1, 4};
-        int[] b = new int[]{3, 2, 1, 0 , 4};
-        System.out.println(canJump(b));
+        int[] b = new int[]{3, 2, 1, 0, 4};
+        System.out.println(canJump(a));
     }
 
     public static boolean canJump(int[] nums) {
-        boolean canJump = false;
-        int i = 0;
-        while (i <= nums.length) {
-            if (nums[i] == 0) {
-                break;
-            }
-            i += nums[i];
-            if (i == nums.length - 1) {
-                canJump = true;
-                break;
-            }
+        int step = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (step < i) return false;
+            step = Math.max(step, i + nums[i]);
         }
-        return canJump;
+        return true;
     }
 }
