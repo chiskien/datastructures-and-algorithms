@@ -1,8 +1,8 @@
 package org.chiskien;
 
-import org.chiskien.EPI.sorting.InsertionSort;
-import org.chiskien.EPI.sorting.QuickSort;
-import org.chiskien.EPI.sorting.SelectionSort;
+import org.chiskien.leetcode.sorting.InsertionSort;
+import org.chiskien.leetcode.sorting.QuickSort;
+import org.chiskien.leetcode.sorting.SelectionSort;
 
 import java.io.IOException;
 import java.nio.file.Files;

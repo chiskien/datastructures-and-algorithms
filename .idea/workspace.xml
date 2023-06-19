@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="ReverseLinkedList II unit test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/binarysearch/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/binarysearch/SearchInsertPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/EPI/binarysearch/BinarySearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/EPI/binarysearch/SearchInsertPositionTest.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="SearchInsertPosition">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/RemoveDuplicatesFromSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/RemoveDuplicatesFromSortedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/ReverseLinkedList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/linked_list/ReverseLinkedList2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/searching/BinarySearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/chiskien/EPI/linked_list/ReverseLinkedList2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/EPI/linked_list/ReverseLinkedList2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/hashmap/RansomNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/hashmap/RansomNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/ReverseWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/EPI/string/ReverseWord.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -309,7 +303,8 @@
       <workItem from="1687054754648" duration="325000" />
       <workItem from="1687056094278" duration="5933000" />
       <workItem from="1687086054201" duration="6914000" />
-      <workItem from="1687101645216" duration="1843000" />
+      <workItem from="1687101645216" duration="1975000" />
+      <workItem from="1687140574757" duration="1326000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -591,14 +586,20 @@
       <option name="project" value="LOCAL" />
       <updated>1687092763371</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="SearchInsertPosition">
+      <created>1687103510660</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1687103510660</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement Stack and Queue using LinkedList" />
     <MESSAGE value="Brackets codility" />
     <MESSAGE value="Dutch Flag problems and solution" />
     <MESSAGE value="BinarySearchTree addNode" />
@@ -623,7 +624,8 @@
     <MESSAGE value="ContainsDuplicate2" />
     <MESSAGE value="ReverseLinkedList II" />
     <MESSAGE value="ReverseLinkedList II unit test" />
-    <option name="LAST_COMMIT_MESSAGE" value="ReverseLinkedList II unit test" />
+    <MESSAGE value="SearchInsertPosition" />
+    <option name="LAST_COMMIT_MESSAGE" value="SearchInsertPosition" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
