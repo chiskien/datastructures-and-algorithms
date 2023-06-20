@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="JumpGame">
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="JumpGame 2">
       <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/GasStation.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/HIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/JumpGame2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/MultiplyTwoArbitraryPrecisionIntegers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/array/JumpGame2Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/JumpGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -316,7 +312,7 @@
       <workItem from="1687183357196" duration="2328000" />
       <workItem from="1687243988489" duration="4033000" />
       <workItem from="1687252421859" duration="310000" />
-      <workItem from="1687253203645" duration="1823000" />
+      <workItem from="1687253203645" duration="2496000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -633,14 +629,20 @@
       <option name="project" value="LOCAL" />
       <updated>1687244804750</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="JumpGame 2">
+      <created>1687255168625</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1687255168625</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BinarySearchTree" />
     <MESSAGE value="OddOccurences" />
     <MESSAGE value="Codility Medium MaxCounter" />
     <MESSAGE value="SmallestMissingPositiveNumber Codility" />
@@ -665,7 +667,8 @@
     <MESSAGE value="Change folder name" />
     <MESSAGE value="ThreeSum using two pointers technique" />
     <MESSAGE value="JumpGame" />
-    <option name="LAST_COMMIT_MESSAGE" value="JumpGame" />
+    <MESSAGE value="JumpGame 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="JumpGame 2" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
