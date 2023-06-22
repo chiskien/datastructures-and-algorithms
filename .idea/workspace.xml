@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="JumpGame 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/GasStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/HIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/MultiplyTwoArbitraryPrecisionIntegers.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="LongestSubstringWithoutRepeatingCharacters">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/LongestConsecutiveSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/LongestConsecutiveSequenceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashtable/HashTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/slidingwindows/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/slidingwindows/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +33,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://C:/Program Files/Java/jdk-17.0.5/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk-17.0.5/lib/src.zip!/java.base/java/util/HashSet.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -87,11 +90,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.chiskien.leetcode.hashmap" />
       <recent name="org.chiskien.leetcode.array" />
       <recent name="org.chiskien.leetcode.two_pointers" />
       <recent name="org.chiskien.EPI.binarysearch" />
       <recent name="org.chiskien.EPI.linked_list" />
-      <recent name="org.chiskien.EPI.hashmap" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -313,6 +316,13 @@
       <workItem from="1687243988489" duration="4033000" />
       <workItem from="1687252421859" duration="310000" />
       <workItem from="1687253203645" duration="2496000" />
+      <workItem from="1687261439323" duration="758000" />
+      <workItem from="1687267185084" duration="783000" />
+      <workItem from="1687313230329" duration="684000" />
+      <workItem from="1687328788688" duration="4309000" />
+      <workItem from="1687402835331" duration="2682000" />
+      <workItem from="1687416493478" duration="595000" />
+      <workItem from="1687426554062" duration="55000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -636,14 +646,20 @@
       <option name="project" value="LOCAL" />
       <updated>1687255168625</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="LongestSubstringWithoutRepeatingCharacters">
+      <created>1687261601997</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1687261601997</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="OddOccurences" />
     <MESSAGE value="Codility Medium MaxCounter" />
     <MESSAGE value="SmallestMissingPositiveNumber Codility" />
     <MESSAGE value="NAB codility test" />
@@ -668,7 +684,8 @@
     <MESSAGE value="ThreeSum using two pointers technique" />
     <MESSAGE value="JumpGame" />
     <MESSAGE value="JumpGame 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="JumpGame 2" />
+    <MESSAGE value="LongestSubstringWithoutRepeatingCharacters" />
+    <option name="LAST_COMMIT_MESSAGE" value="LongestSubstringWithoutRepeatingCharacters" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -756,6 +773,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/JumpGame.java</url>
           <line>5</line>
           <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/LongestConsecutiveSequenceTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/slidingwindows/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
