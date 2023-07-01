@@ -1,12 +1,13 @@
 package org.chiskien.leetcode.array;
 
+import java.math.BigDecimal;
 import java.util.Arrays;
 
 public class MajorityElement {
 
     public static void main(String[] args) {
-        int[] nums = new int[]{3,2,3};
-        System.out.println(majorityElement(nums));
+        int[] nums = new int[]{3, 2, 3};
+        System.out.println();
     }
 
     public static int majorityElement(int[] nums) {

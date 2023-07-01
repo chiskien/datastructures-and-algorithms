@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="LongestSubstringWithoutRepeatingCharacters">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/LongestConsecutiveSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/LongestConsecutiveSequenceTest.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="MergeIntervals.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashtable/HashTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/slidingwindows/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/slidingwindows/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/MajorityElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/intervals/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/intervals/MergeIntervals.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -67,7 +65,7 @@
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Study/Programming/Java/Projects/head-first-java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Study/Programming/Java/Projects/datastructure_and_algorithms&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -77,7 +75,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -323,6 +321,13 @@
       <workItem from="1687402835331" duration="2682000" />
       <workItem from="1687416493478" duration="595000" />
       <workItem from="1687426554062" duration="55000" />
+      <workItem from="1687879773612" duration="677000" />
+      <workItem from="1687918621977" duration="2348000" />
+      <workItem from="1687924722029" duration="208000" />
+      <workItem from="1688005240372" duration="593000" />
+      <workItem from="1688088019101" duration="199000" />
+      <workItem from="1688094351556" duration="862000" />
+      <workItem from="1688105670376" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -653,14 +658,32 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="MergeIntervals.java">
+      <option name="closed" value="true" />
+      <created>1687879837094</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1687879837094</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Codility Medium MaxCounter" />
     <MESSAGE value="SmallestMissingPositiveNumber Codility" />
     <MESSAGE value="NAB codility test" />
     <MESSAGE value="Dynamic Programming" />
@@ -685,7 +708,8 @@
     <MESSAGE value="JumpGame" />
     <MESSAGE value="JumpGame 2" />
     <MESSAGE value="LongestSubstringWithoutRepeatingCharacters" />
-    <option name="LAST_COMMIT_MESSAGE" value="LongestSubstringWithoutRepeatingCharacters" />
+    <MESSAGE value="MergeIntervals.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="MergeIntervals.java" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -723,11 +747,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/ProductOfArrayExceptSelf.java</url>
           <line>9</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/MajorityElement.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/ProductOfArrayExceptSelf.java</url>
