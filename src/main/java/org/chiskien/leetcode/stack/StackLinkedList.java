@@ -28,18 +28,3 @@ public class StackLinkedList<T> {
     }
 }
 
-class Main {
-
-    public static void main(String[] args) {
-        StackLinkedList<Integer> stackLinkedList = new StackLinkedList<>();
-        stackLinkedList.push(new Node<>(1));
-        stackLinkedList.push(new Node<>(2));
-        stackLinkedList.push(new Node<>(3));
-        stackLinkedList.push(new Node<>(4));
-        stackLinkedList.push(new Node<>(6));
-        stackLinkedList.pop();
-        stackLinkedList.pop();
-        stackLinkedList.pop();
-        System.out.println(stackLinkedList);
-    }
-}
