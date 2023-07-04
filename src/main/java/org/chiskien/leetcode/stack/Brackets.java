@@ -5,26 +5,22 @@ import java.util.LinkedList;
 
 public class Brackets {
 
-    public static void main(String[] args) {
-
-    }
-
     public static boolean isValid(String s) {
         Deque<Character> leftChars = new LinkedList<>();
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == '(' || s.charAt(i) == '{' || s.charAt(i) == '[') {
-                leftChars.addFirst(s.charAt(i));
+                leftChars.push(s.charAt(i));
             } else {
                 if (leftChars.isEmpty()) {
                     return false;
                 }
-                if ((s.charAt(i) == ')' && leftChars.peekFirst() != '(')
-                        || (s.charAt(i) == '}' && leftChars.peekFirst() != '{')
-                        || (s.charAt(i) == ']' && leftChars.peekFirst() != '[')
-                )  {
+                if ((s.charAt(i) == ')' && leftChars.peek() != '(')
+                        || (s.charAt(i) == '}' && leftChars.peek() != '{')
+                        || (s.charAt(i) == ']' && leftChars.peek() != '[')
+                ) {
                     return false;
                 }
-                leftChars.removeFirst();
+                leftChars.pop();
             }
         }
         return leftChars.isEmpty();
