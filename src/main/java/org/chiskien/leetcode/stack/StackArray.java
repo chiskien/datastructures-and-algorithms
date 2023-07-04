@@ -4,9 +4,41 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class StackArray {
-    protected final ArrayList<Integer> stack;
+    protected int[] stack;
     private int N = 0;
 
-    public StackArray(int capacity) {
+    //Bad Practice when the client must provide capacity
+    public StackArray() {
+        stack = new int[1];
     }
+
+    public boolean isEmpty() {
+        return N == 0;
+    }
+
+    public void push(int item) {
+        if (N == stack.length) {
+            resize(2 * stack.length);
+        }
+        stack[N++] = item;
+    }
+
+    private void resize(int capacity) {
+        int[] copy = new int[capacity];
+        for (int i = 0; i < N; i++) {
+            copy[i] = stack[i];
+        }
+        stack = copy;
+    }
+
+    public int pop() {
+        int item = stack[--N];
+        stack[N] = 0;
+        if (N > 0 && N == stack.length / 4) {
+            resize(stack.length / 2);
+        }
+        return item;
+    }
+
+
 }

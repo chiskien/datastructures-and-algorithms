@@ -2,9 +2,14 @@ package org.chiskien.leetcode.linked_list;
 
 public class SinglyLinkedList<T> {
 
+    public int size;
     private Node<T> head;
     private Node<T> tail;
-    public int size;
+
+    public SinglyLinkedList() {
+        this.head = this.tail = null;
+        size = 0;
+    }
 
     public Node<T> getHead() {
         return head;
@@ -20,11 +25,6 @@ public class SinglyLinkedList<T> {
 
     public void setTail(Node<T> tail) {
         this.tail = tail;
-    }
-
-    public SinglyLinkedList() {
-        this.head = this.tail = null;
-        size = 0;
     }
 
     public void addToTail(T data) {
@@ -86,7 +86,6 @@ public class SinglyLinkedList<T> {
 
     public String traverse() {
         StringBuilder output = new StringBuilder();
-        int i = 0;
         if (isEmpty()) {
             output.append("LinkedList is empty");
         } else {
@@ -142,5 +141,36 @@ public class SinglyLinkedList<T> {
     @Override
     public String toString() {
         return traverse();
+    }
+}
+
+class Node<T> {
+    private Node<T> next;
+    private T data;
+
+    public Node(T data) {
+        this.next = null;
+        this.data = data;
+    }
+
+    public Node<T> getNext() {
+        return next;
+    }
+
+    public void setNext(Node<T> next) {
+        this.next = next;
+    }
+
+    public T getData() {
+        return data;
+    }
+
+    public void setData(T data) {
+        this.data = data;
+    }
+
+    @Override
+    public String toString() {
+        return "Node with data: " + data;
     }
 }

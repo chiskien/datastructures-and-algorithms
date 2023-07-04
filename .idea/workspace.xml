@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="MergeIntervals.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/stack/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/stack/MinifiedPath.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="MinStack">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/queue/Deque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/stack/EvaluateReversePolishNotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/DoublyNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/DoublyNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/queue/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/stack/StackArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/stack/StackArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/stack/StackLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/stack/StackLinkedList.java" afterDir="false" />
     </list>
@@ -333,7 +339,8 @@
       <workItem from="1688105670376" duration="596000" />
       <workItem from="1688183441288" duration="26000" />
       <workItem from="1688352260403" duration="3350000" />
-      <workItem from="1688362584602" duration="3239000" />
+      <workItem from="1688362584602" duration="4175000" />
+      <workItem from="1688434502752" duration="1805000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -664,14 +671,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00048" summary="MergeIntervals.java">
-      <option name="closed" value="true" />
-      <created>1687879837094</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1687879837094</updated>
-    </task>
     <task id="LOCAL-00049" summary="MergeIntervals.java">
       <option name="closed" value="true" />
       <created>1688183453149</created>
@@ -680,7 +679,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688183453149</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="MinStack">
+      <option name="closed" value="true" />
+      <created>1688365911816</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1688365911816</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -698,7 +705,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SmallestMissingPositiveNumber Codility" />
     <MESSAGE value="NAB codility test" />
     <MESSAGE value="Dynamic Programming" />
     <MESSAGE value="LeetCode medium problems" />
@@ -723,7 +729,8 @@
     <MESSAGE value="JumpGame 2" />
     <MESSAGE value="LongestSubstringWithoutRepeatingCharacters" />
     <MESSAGE value="MergeIntervals.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="MergeIntervals.java" />
+    <MESSAGE value="MinStack" />
+    <option name="LAST_COMMIT_MESSAGE" value="MinStack" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

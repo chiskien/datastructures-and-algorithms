@@ -5,6 +5,12 @@ public class DoublyNode<T> {
     private DoublyNode<T> next;
     private T data;
 
+    public DoublyNode(T data) {
+        this.previous = null;
+        this.next = null;
+        this.data = data;
+    }
+
     public DoublyNode<T> getPrevious() {
         return previous;
     }
@@ -26,12 +32,6 @@ public class DoublyNode<T> {
     }
 
     public void setData(T data) {
-        this.data = data;
-    }
-
-    public DoublyNode(T data) {
-        this.previous = null;
-        this.next = null;
         this.data = data;
     }
 }
