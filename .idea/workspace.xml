@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="EvaluateReversePolishNotation">
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="DoublyLinkedList.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/DoublyNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/queue/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/queue/Deque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/stack/EvaluateReversePolishNotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/stack/EvaluateReversePolishNotation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,7 +332,8 @@
       <workItem from="1688183441288" duration="26000" />
       <workItem from="1688352260403" duration="3350000" />
       <workItem from="1688362584602" duration="4175000" />
-      <workItem from="1688434502752" duration="3392000" />
+      <workItem from="1688434502752" duration="6999000" />
+      <workItem from="1688446873731" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -665,14 +664,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00050" summary="MinStack">
-      <option name="closed" value="true" />
-      <created>1688365911816</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1688365911816</updated>
-    </task>
     <task id="LOCAL-00051" summary="EvaluateReversePolishNotation">
       <option name="closed" value="true" />
       <created>1688436383583</created>
@@ -681,7 +672,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688436383584</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="DoublyLinkedList.java">
+      <option name="closed" value="true" />
+      <created>1688438222004</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1688438222004</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -699,7 +698,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dynamic Programming" />
     <MESSAGE value="LeetCode medium problems" />
     <MESSAGE value="Elements of Programming Interview String" />
     <MESSAGE value="New Problem" />
@@ -724,7 +722,8 @@
     <MESSAGE value="MergeIntervals.java" />
     <MESSAGE value="MinStack" />
     <MESSAGE value="EvaluateReversePolishNotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="EvaluateReversePolishNotation" />
+    <MESSAGE value="DoublyLinkedList.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="DoublyLinkedList.java" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

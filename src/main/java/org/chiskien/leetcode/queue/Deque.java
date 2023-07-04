@@ -3,6 +3,7 @@ package org.chiskien.leetcode.queue;
 import org.chiskien.leetcode.linked_list.DoublyLinkedList;
 
 import java.util.Iterator;
+import java.util.NoSuchElementException;
 
 public class Deque<T> implements Iterable<T> {
     DoublyLinkedList<T> queue;
@@ -15,9 +16,17 @@ public class Deque<T> implements Iterable<T> {
         return queue.isEmpty();
     }
 
+    public void addFirst() {
+
+    }
+
+    public void addLast() {
+
+    }
+
     @Override
     public Iterator<T> iterator() {
-        return null;
+        throw new NoSuchElementException();
     }
 
 }

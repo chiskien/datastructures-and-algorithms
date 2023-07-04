@@ -91,7 +91,13 @@ public class DoublyLinkedList<T> implements LinkedList<T> {
 
     @Override
     public Iterator<T> iterator() {
+        if (isEmpty()) return null;
         Collection<T> collection = new ArrayList<>();
+        DoublyNode<T> n = head;
+        while (n != null) {
+            collection.add(n.data);
+            n = n.next;
+        }
         return collection.iterator();
     }
 
