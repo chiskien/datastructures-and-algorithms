@@ -1,17 +1,14 @@
 package org.chiskien.leetcode.queue;
 
-import org.chiskien.leetcode.linked_list.LinkedList;
-import org.chiskien.leetcode.linked_list.SinglyLinkedList;
+import org.chiskien.leetcode.linked_list.DoublyLinkedList;
 
 import java.util.Iterator;
-import java.util.Spliterator;
-import java.util.function.Consumer;
 
 public class Deque<T> implements Iterable<T> {
-    SinglyLinkedList<T> queue;
+    DoublyLinkedList<T> queue;
 
     public Deque() {
-        queue = new SinglyLinkedList<>();
+        queue = new DoublyLinkedList<>();
     }
 
     public boolean isEmpty() {

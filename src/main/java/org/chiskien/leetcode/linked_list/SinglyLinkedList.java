@@ -1,44 +1,33 @@
 package org.chiskien.leetcode.linked_list;
 
-public class SinglyLinkedList<T> {
+import java.util.Iterator;
+
+public class SinglyLinkedList<T> implements LinkedList<T> {
 
     public int size;
-    private Node<T> head;
-    private Node<T> tail;
+    public Node<T> head;
+    public Node<T> tail;
 
     public SinglyLinkedList() {
         this.head = this.tail = null;
         size = 0;
     }
 
-    public Node<T> getHead() {
-        return head;
-    }
 
-    public void setHead(Node<T> head) {
-        this.head = head;
-    }
-
-    public Node<T> getTail() {
-        return tail;
-    }
-
-    public void setTail(Node<T> tail) {
-        this.tail = tail;
-    }
-
-    public void addToTail(T data) {
+    public void addLast(T data) {
         Node<T> node = new Node<>(data);
-        addToTail(node);
+        addLast(node);
     }
 
-    public void addToHead(T data) {
+
+
+
+    public void addFirst(T data) {
         Node<T> node = new Node<>(data);
-        addToHead(node);
+        addFirst(node);
     }
 
-
-    public void addToTail(Node<T> newNode) {
+    public void addLast(Node<T> newNode) {
         if (isEmpty()) {
             head = tail = newNode;
         } else if (head.getNext() == null) {
@@ -49,8 +38,7 @@ public class SinglyLinkedList<T> {
             tail = newNode;
         }
     }
-
-    public void addToHead(Node<T> newNode) {
+    public void addFirst(Node<T> newNode) {
         if (isEmpty()) {
             head = tail = newNode;
         } else {
@@ -64,15 +52,20 @@ public class SinglyLinkedList<T> {
         return (head == null);
     }
 
-    public Node<T> removeHead() {
+    @Override
+    public int size() {
+        return 0;
+    }
+
+    public T removeFirst() {
         if (isEmpty()) return null;
         Node<T> n = head;
         head = n.getNext();
-        return n;
-
+        return n.getData();
     }
 
-    public Node<T> removeTail() {
+
+    public T removeLast() {
         if (isEmpty()) return null;
         Node<T> n = head;
         while (n.getNext() != tail) {
@@ -81,7 +74,7 @@ public class SinglyLinkedList<T> {
         Node<T> nodeTail = n.getNext();
         n.setNext(null);
         tail = n;
-        return nodeTail;
+        return nodeTail.getData();
     }
 
     public String traverse() {
@@ -98,6 +91,11 @@ public class SinglyLinkedList<T> {
             output.append("end").append("\n");
         }
         return output.toString();
+    }
+
+    @Override
+    public Iterator<T> iterator() {
+        return null;
     }
 
     public int getSize() {
