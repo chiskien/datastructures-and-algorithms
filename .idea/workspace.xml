@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="CleanUp code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/stack/Brackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/stack/Brackets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/queue/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/queue/Deque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/stack/MinifiedPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/stack/MinifiedPath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -331,7 +333,12 @@
       <workItem from="1688352260403" duration="3350000" />
       <workItem from="1688362584602" duration="4175000" />
       <workItem from="1688434502752" duration="6999000" />
-      <workItem from="1688446873731" duration="463000" />
+      <workItem from="1688446873731" duration="1837000" />
+      <workItem from="1688461139109" duration="20000" />
+      <workItem from="1688483655572" duration="594000" />
+      <workItem from="1688520500229" duration="4035000" />
+      <workItem from="1688526625298" duration="1881000" />
+      <workItem from="1688542004752" duration="463000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -662,14 +669,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00052" summary="DoublyLinkedList.java">
-      <option name="closed" value="true" />
-      <created>1688438222004</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1688438222004</updated>
-    </task>
     <task id="LOCAL-00053" summary="CleanUp code">
       <option name="closed" value="true" />
       <created>1688447249199</created>
@@ -678,7 +677,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688447249200</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="CleanUp code">
+      <option name="closed" value="true" />
+      <created>1688448273333</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1688448273333</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

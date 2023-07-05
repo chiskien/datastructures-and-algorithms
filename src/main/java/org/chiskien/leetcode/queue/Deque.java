@@ -16,12 +16,12 @@ public class Deque<T> implements Iterable<T> {
         return queue.isEmpty();
     }
 
-    public void addFirst() {
-
+    public void addFirst(T item) {
+        queue.addFirst(item);
     }
 
-    public void addLast() {
-
+    public void addLast(T item) {
+        queue.addLast(item);
     }
 
     @Override
