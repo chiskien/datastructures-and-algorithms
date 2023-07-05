@@ -5,10 +5,10 @@ import org.chiskien.leetcode.linked_list.DoublyLinkedList;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-public class Deque<T> implements Iterable<T> {
+public class DequeCK<T> implements Iterable<T> {
     DoublyLinkedList<T> queue;
 
-    public Deque() {
+    public DequeCK() {
         queue = new DoublyLinkedList<>();
     }
 
@@ -23,6 +23,7 @@ public class Deque<T> implements Iterable<T> {
     public void addLast(T item) {
         queue.addLast(item);
     }
+
 
     @Override
     public Iterator<T> iterator() {

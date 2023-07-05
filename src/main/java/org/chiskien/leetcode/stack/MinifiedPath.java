@@ -6,6 +6,9 @@ import java.util.LinkedList;
 
 public class MinifiedPath {
     public String simplifyPath(String path) {
+
+        //path: "/home/" -> "/home"
+        // "/../home/" -> /home
         if (path.equals("")) {
             throw new IllegalArgumentException("Empty String is not a legal path");
         }
@@ -13,14 +16,14 @@ public class MinifiedPath {
         if (path.startsWith("/")) {
             stack.push("/");
         }
-        for (String token : path.split("/")) {
+        String[] tokens = path.split("/");
+        for (String token : tokens) {
             if (token.equals("..")) {
                 if (stack.isEmpty() || stack.peek().equals("..")) {
                     stack.push(token);
                 } else {
                     if (stack.peek().equals("/")) {
-                        throw new IllegalArgumentException(
-                                "Path error, trying to go up to root: " + path);
+                        stack.push("/");
                     }
                     stack.pop();
                 }

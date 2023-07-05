@@ -2,7 +2,7 @@ package org.chiskien.leetcode.linked_list;
 
 import java.util.Iterator;
 
-public interface LinkedList<T> {
+interface LinkedList<T> {
 
     boolean isEmpty();
 
