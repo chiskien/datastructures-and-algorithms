@@ -1,132 +1,61 @@
 package org.chiskien.leetcode.binarytree;
 
-import java.util.Collection;
 
-public class BinaryTree<T extends Comparable<T>> {
-
-    private TreeNode<T> root;
-
-    public void setRoot(TreeNode<T> root) {
-        this.root = root;
+public class BinaryTree {
+    public static void main(String[] args) {
+        TreeNode root = new TreeNode(20);
+        root.left = new TreeNode(10);
+        root.left.left = new TreeNode(110);
+        root.left.right = new TreeNode(30);
+        root.right = new TreeNode(50);
+        root.right.left = new TreeNode(1000);
+        root.right.right = new TreeNode(56045);
+        inOrderTraversal(root);
     }
 
-    public TreeNode<T> getRoot() {
-        return root;
-    }
-
-    private final TreeNodeComparator<T> treeNodeComparator;
-
-
-    public BinaryTree() {
-        treeNodeComparator = new TreeNodeComparator<>();
-    }
-
-    public void addNode(TreeNode<T> newNode) {
-        if (root == null) {
-            root = newNode;
-        } else {
-            TreeNode<T> pivot = root;
-            while (pivot != null) {
-                if (treeNodeComparator.compare(newNode.getData(), pivot.getData()) >= 0) {
-                    if (pivot.getRightChild() == null) {
-                        pivot.setRightChild(newNode);
-                        return;
-                    } else {
-                        pivot = pivot.getRightChild();
-                    }
-                } else {
-                    if (pivot.getLeftChild() == null) {
-                        pivot.setLeftChild(newNode);
-                        break;
-                    } else {
-                        pivot = pivot.getLeftChild();
-                    }
-                }
-            }
+    public static void inOrderTraversal(TreeNode root) {
+        if (root != null) {
+            inOrderTraversal(root.left);
+            System.out.print(root.val + " ");
+            inOrderTraversal(root.right);
         }
     }
 
-    public void addNode(T data) {
-        TreeNode<T> newNode = new TreeNode<>(data);
-        addNode(newNode);
-    }
-
-    public void inorderTraversal(TreeNode<T> root) {
-        if (root == null) return;
-        inorderTraversal(root.getLeftChild());
-        System.out.println(root.getData() + " ");
-        inorderTraversal(root.getRightChild());
-    }
-
-    public void postOrder(TreeNode<T> root) {
-        if (root == null) return;
-        postOrder(root.getLeftChild());
-        System.out.println(root.getData() + " ");
-        postOrder(root.getRightChild());
-    }
-
-    public void preOrder(TreeNode<T> root) {
-        if (root == null) return;
-        preOrder(root.getLeftChild());
-        System.out.println(root.getData() + " ");
-        preOrder(root.getRightChild());
-    }
-
-    public TreeNode<T> search(T data) {
-        if (isEmpty()) {
-            return null;
-        } else {
-            TreeNode<T> pivot = root;
-            while (pivot != null && !data.equals(pivot.getData())) {
-                if (treeNodeComparator.compare(data, pivot.getData()) >= 0) {
-                    pivot = pivot.getRightChild();
-                } else {
-                    pivot = pivot.getLeftChild();
-                }
-            }
-            return pivot;
+    public static void preOrderTraversal(TreeNode root) {
+        if (root != null) {
+            System.out.println(root.val);
+            preOrderTraversal(root.left);
+            preOrderTraversal(root.right);
         }
     }
 
-    public void deleteNode(TreeNode<T> node) {
-        TreeNode<T> parent = getSuccessor(node);
-        //case the node delete is leaf (doesnot have children)
-        if (node.getRightChild() == null && node.getLeftChild() == null) {
-            if (parent.getLeftChild() == node) {
-                parent.setLeftChild(null);
-            } else {
-                parent.setRightChild(null);
-            }
-        } else if (node.getRightChild() != null && node.getLeftChild() == null) {
-
-        } else if (node.getRightChild() == null && node.getLeftChild() != null) {
-
-        } else {
-
+    public static void postOrderTraversal(TreeNode root) {
+        if (root != null) {
+            postOrderTraversal(root.left);
+            postOrderTraversal(root.right);
+            System.out.println(root.val);
         }
     }
 
-    public void addRange(Collection<T> data) {
-        for (T i : data) {
-            addNode(i);
-        }
-    }
 
-    public TreeNode<T> getSuccessor(TreeNode<T> node) {
-        TreeNode<T> pivot = root;
-        TreeNode<T> parent = null;
-        while (pivot != null && !node.getData().equals(pivot.getData())) {
-            parent = pivot;
-            if (treeNodeComparator.compare(node.getData(), pivot.getData()) >= 0) {
-                pivot = pivot.getRightChild();
-            } else {
-                pivot = pivot.getLeftChild();
-            }
-        }
-        return parent;
-    }
+    static class TreeNode {
+        int val;
+        TreeNode right;
+        TreeNode left;
 
-    public boolean isEmpty() {
-        return (root == null);
+
+        public TreeNode() {
+        }
+
+        public TreeNode(int val) {
+            this.val = val;
+        }
+
+        public TreeNode(int val, TreeNode right, TreeNode left) {
+            this.val = val;
+            this.right = right;
+            this.left = left;
+        }
     }
 }
+
