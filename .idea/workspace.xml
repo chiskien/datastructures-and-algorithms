@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Implement Queue using Stack">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTreeCK.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Tree Traversal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTreeCK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTreeCK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,7 +341,7 @@
       <workItem from="1688526625298" duration="1881000" />
       <workItem from="1688542004752" duration="5085000" />
       <workItem from="1688562535009" duration="13000" />
-      <workItem from="1688608048558" duration="2081000" />
+      <workItem from="1688608048558" duration="3337000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -672,14 +672,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00055" summary="Simplify Path using Stack">
-      <option name="closed" value="true" />
-      <created>1688542494278</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1688542494278</updated>
-    </task>
     <task id="LOCAL-00056" summary="Implement Queue using Stack">
       <option name="closed" value="true" />
       <created>1688546515054</created>
@@ -688,7 +680,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688546515054</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Tree Traversal">
+      <option name="closed" value="true" />
+      <created>1688610177894</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1688610177894</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -706,7 +706,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Sliding Window" />
     <MESSAGE value="LongestSubstringWithoutRepeating" />
     <MESSAGE value="Reverse Linkedlist" />
     <MESSAGE value="GroupAnagram and MergeSortedArray" />
@@ -731,7 +730,8 @@
     <MESSAGE value="CleanUp code" />
     <MESSAGE value="Simplify Path using Stack" />
     <MESSAGE value="Implement Queue using Stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement Queue using Stack" />
+    <MESSAGE value="Tree Traversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tree Traversal" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -829,6 +829,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/stack/MinifiedPathTest.java</url>
           <line>45</line>
           <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTree.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

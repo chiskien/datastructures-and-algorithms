@@ -1,41 +1,28 @@
 package org.chiskien.leetcode.binarytree;
 
-public class TreeNode<T> {
-    private TreeNode<T> leftChild;
-    private TreeNode<T> rightChild;
-    private T data;
+class TreeNode {
+    int val;
+    TreeNode right;
+    TreeNode left;
 
-    public TreeNode(T data) {
-        this.leftChild = this.rightChild = null;
-        this.data = data;
+
+    public TreeNode() {
     }
 
-    public TreeNode<T> getLeftChild() {
-        return leftChild;
+    public TreeNode(int val) {
+        this.val = val;
     }
 
-    public void setLeftChild(TreeNode<T> leftChild) {
-        this.leftChild = leftChild;
-    }
-
-    public TreeNode<T> getRightChild() {
-        return rightChild;
-    }
-
-    public void setRightChild(TreeNode<T> rightChild) {
-        this.rightChild = rightChild;
-    }
-
-    public T getData() {
-        return data;
-    }
-
-    public void setData(T data) {
-        this.data = data;
+    public TreeNode(int val, TreeNode right, TreeNode left) {
+        this.val = val;
+        this.right = right;
+        this.left = left;
     }
 
     @Override
     public String toString() {
-        return "[" + data + "]";
+        return "TreeNode{" +
+                "val=" + val +
+                '}';
     }
 }

@@ -1,6 +1,11 @@
 package org.chiskien.leetcode.binarytree;
 
 
+import java.util.ArrayList;
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.List;
+
 public class BinaryTree {
     public static void main(String[] args) {
         TreeNode root = new TreeNode(20);
@@ -11,6 +16,8 @@ public class BinaryTree {
         root.right.left = new TreeNode(1000);
         root.right.right = new TreeNode(56045);
         inOrderTraversal(root);
+        System.out.println("");
+        System.out.println(inOrderTraversalWithoutRecursion(root));
     }
 
     public static void inOrderTraversal(TreeNode root) {
@@ -37,25 +44,30 @@ public class BinaryTree {
         }
     }
 
+    public static List<Integer> inOrderTraversalWithoutRecursion(TreeNode root) {
+        Deque<TreeNode> vessel = new LinkedList<>();
+        TreeNode current = root;
+        List<Integer> result = new ArrayList<>();
+        while (!vessel.isEmpty() || current != null) {
+            if (current != null) {
+                vessel.addFirst(current);
+                current = current.left;
+            } else {
+                current = vessel.removeFirst();
+                result.add(current.val);
+                current = current.right;
 
-    static class TreeNode {
-        int val;
-        TreeNode right;
-        TreeNode left;
-
-
-        public TreeNode() {
+            }
         }
+        return result;
 
-        public TreeNode(int val) {
-            this.val = val;
-        }
-
-        public TreeNode(int val, TreeNode right, TreeNode left) {
-            this.val = val;
-            this.right = right;
-            this.left = left;
-        }
     }
+
+    public static int maxDepth(TreeNode root) {
+        int maxDepth = 0;
+        int count = 0;
+            return maxDepth;
+    }
+
 }
 
