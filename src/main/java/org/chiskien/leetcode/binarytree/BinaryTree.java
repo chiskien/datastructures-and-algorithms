@@ -63,10 +63,26 @@ public class BinaryTree {
 
     }
 
+    public static List<Integer> preOrderTraversalWithoutRecursion(TreeNode root) {
+        Deque<TreeNode> path = new LinkedList<>();
+        path.addFirst(root);
+        List<Integer> result = new ArrayList<>();
+        while (!path.isEmpty()) {
+            TreeNode current = path.removeFirst();
+            if (current != null) {
+                result.add(current.val);
+                path.addFirst(current.right);
+                path.addFirst(current.left);
+            }
+        }
+        return result;
+    }
+
+
     public static int maxDepth(TreeNode root) {
         int maxDepth = 0;
         int count = 0;
-            return maxDepth;
+        return maxDepth;
     }
 
 }
