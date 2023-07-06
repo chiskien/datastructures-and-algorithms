@@ -8,16 +8,17 @@ import java.util.List;
 
 public class BinaryTree {
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(20);
-        root.left = new TreeNode(10);
-        root.left.left = new TreeNode(110);
-        root.left.right = new TreeNode(30);
-        root.right = new TreeNode(50);
-        root.right.left = new TreeNode(1000);
-        root.right.right = new TreeNode(56045);
-        inOrderTraversal(root);
-        System.out.println("");
-        System.out.println(inOrderTraversalWithoutRecursion(root));
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.left.left = new TreeNode(4);
+        root.right = new TreeNode(3);
+        root.right.right = new TreeNode(5);
+
+        System.out.println(maxDepth(root));
+    }
+
+    public static TreeNode build(int[] arr) {
+        return null;
     }
 
     public static void inOrderTraversal(TreeNode root) {
@@ -27,6 +28,7 @@ public class BinaryTree {
             inOrderTraversal(root.right);
         }
     }
+
 
     public static void preOrderTraversal(TreeNode root) {
         if (root != null) {
@@ -64,9 +66,9 @@ public class BinaryTree {
     }
 
     public static List<Integer> preOrderTraversalWithoutRecursion(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
         Deque<TreeNode> path = new LinkedList<>();
         path.addFirst(root);
-        List<Integer> result = new ArrayList<>();
         while (!path.isEmpty()) {
             TreeNode current = path.removeFirst();
             if (current != null) {
@@ -107,7 +109,27 @@ public class BinaryTree {
 
 
     public static int maxDepth(TreeNode root) {
-        return 1;
+        Deque<TreeNode> stack = new LinkedList<>();
+        stack.push(root);
+        int level = 1;
+        while (!stack.isEmpty()) {
+            TreeNode current = stack.pop();
+            if (current != null) {
+                boolean hasChild = (current.left != null || current.right != null);
+                if (hasChild) {
+                    level += 1;
+                } else {
+                    level = 1;
+                }
+                stack.addFirst(current.right);
+                stack.addFirst(current.left);
+            }
+        }
+        return level;
+    }
+
+    public static boolean isSameTree(TreeNode p, TreeNode q) {
+        return false;
     }
 
 }
