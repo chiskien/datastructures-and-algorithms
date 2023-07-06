@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Tree Traversal">
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="PreOrderTraversalWithoutRecursion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTreeCK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTreeCK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,7 +339,8 @@
       <workItem from="1688526625298" duration="1881000" />
       <workItem from="1688542004752" duration="5085000" />
       <workItem from="1688562535009" duration="13000" />
-      <workItem from="1688608048558" duration="3337000" />
+      <workItem from="1688608048558" duration="5400000" />
+      <workItem from="1688617708004" duration="1251000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -672,23 +671,23 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00056" summary="Implement Queue using Stack">
+    <task id="LOCAL-00058" summary="InOrderTraversalWithoutRecursion">
       <option name="closed" value="true" />
-      <created>1688546515054</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
+      <created>1688611618604</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
       <option name="project" value="LOCAL" />
-      <updated>1688546515054</updated>
+      <updated>1688611618604</updated>
     </task>
-    <task id="LOCAL-00057" summary="Tree Traversal">
+    <task id="LOCAL-00059" summary="PreOrderTraversalWithoutRecursion">
       <option name="closed" value="true" />
-      <created>1688610177894</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
+      <created>1688613024374</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
       <option name="project" value="LOCAL" />
-      <updated>1688610177894</updated>
+      <updated>1688613024374</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -706,8 +705,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LongestSubstringWithoutRepeating" />
-    <MESSAGE value="Reverse Linkedlist" />
     <MESSAGE value="GroupAnagram and MergeSortedArray" />
     <MESSAGE value="ContainsMostWater.java" />
     <MESSAGE value="GeneratePermutations.java" />
@@ -731,7 +728,9 @@
     <MESSAGE value="Simplify Path using Stack" />
     <MESSAGE value="Implement Queue using Stack" />
     <MESSAGE value="Tree Traversal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tree Traversal" />
+    <MESSAGE value="InOrderTraversalWithoutRecursion" />
+    <MESSAGE value="PreOrderTraversalWithoutRecursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="PreOrderTraversalWithoutRecursion" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
