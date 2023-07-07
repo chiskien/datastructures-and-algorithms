@@ -118,8 +118,6 @@ public class BinaryTree {
                 boolean hasChild = (current.left != null || current.right != null);
                 if (hasChild) {
                     level += 1;
-                } else {
-                    level = 1;
                 }
                 stack.addFirst(current.right);
                 stack.addFirst(current.left);
@@ -129,7 +127,10 @@ public class BinaryTree {
     }
 
     public static boolean isSameTree(TreeNode p, TreeNode q) {
-        return false;
+        if (p == q && p == null) return true;
+        if (p == null || q == null) return false;
+        if (p.val != q.val) return false;
+        return (isSameTree(p.left, q.left) && isSameTree(p.right, q.right));
     }
 
 }
