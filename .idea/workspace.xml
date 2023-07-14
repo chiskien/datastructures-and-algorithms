@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="IsSameTree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/OM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/WordPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/BinaryHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/WordPatternTest.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="LongestSubstringWithoutRepeatingCharacters.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/SymmetricTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/slidingwindows/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/slidingwindows/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -349,7 +347,8 @@
       <workItem from="1688694700002" duration="3831000" />
       <workItem from="1688947157322" duration="1005000" />
       <workItem from="1688957139977" duration="535000" />
-      <workItem from="1689295611030" duration="1735000" />
+      <workItem from="1689295611030" duration="3267000" />
+      <workItem from="1689308911866" duration="1864000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -680,14 +679,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00061" summary="LeetCode BinaryTree">
-      <option name="closed" value="true" />
-      <created>1688623478370</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1688623478370</updated>
-    </task>
     <task id="LOCAL-00062" summary="IsSameTree">
       <option name="closed" value="true" />
       <created>1688695690093</created>
@@ -696,7 +687,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688695690093</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="More leetcode">
+      <option name="closed" value="true" />
+      <created>1689299601791</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1689299601792</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -714,8 +713,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="GeneratePermutations.java using Recursion" />
-    <MESSAGE value="RemoveDuplicateFromSortedLinkedList 2" />
     <MESSAGE value="IsomorphicStrings" />
     <MESSAGE value="ContainsDuplicate2" />
     <MESSAGE value="ReverseLinkedList II" />
@@ -739,7 +736,9 @@
     <MESSAGE value="PostOrderTraversalWithoutRecursion" />
     <MESSAGE value="LeetCode BinaryTree" />
     <MESSAGE value="IsSameTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="IsSameTree" />
+    <MESSAGE value="More leetcode" />
+    <MESSAGE value="LongestSubstringWithoutRepeatingCharacters.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="LongestSubstringWithoutRepeatingCharacters.java" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -827,11 +826,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/LongestConsecutiveSequenceTest.java</url>
           <line>18</line>
           <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/slidingwindows/LongestSubstringWithoutRepeatingCharacters.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/stack/MinifiedPathTest.java</url>

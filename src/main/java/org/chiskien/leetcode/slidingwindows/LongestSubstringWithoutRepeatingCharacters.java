@@ -5,12 +5,14 @@ import java.util.Map;
 
 public class LongestSubstringWithoutRepeatingCharacters {
     public static void main(String[] args) {
-        String s = "abcabcdefa";
-        System.out.println(longestSubstring(s));
+        Map<Integer, String> testmap = new HashMap<>();
+        testmap.put(1,"aadsa");
+        testmap.put(2,"asdsad");
     }
 
     public static int longestSubstring(String s) {
         //Record the most recent occurrences of each entry
+        //abcdabcdaaa
         Map<Character, Integer> mostRecentOccurrence = new HashMap<>();
         int longestLength = 0;
         int firstIndexOfLongestSub = 0;
