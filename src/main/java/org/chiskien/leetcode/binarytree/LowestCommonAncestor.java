@@ -26,7 +26,7 @@ public class LowestCommonAncestor {
         return new Status(numTargetNodes, numTargetNodes == 2 ? root : null);
     }
 
-    private class Status {
+    private static class Status {
         public int numTargetNodes;
         public TreeNode ancestor;
 
