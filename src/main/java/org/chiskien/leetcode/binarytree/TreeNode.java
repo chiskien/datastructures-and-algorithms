@@ -13,10 +13,10 @@ class TreeNode {
         this.val = val;
     }
 
-    public TreeNode(int val, TreeNode right, TreeNode left) {
+    public TreeNode(int val, TreeNode left, TreeNode right) {
         this.val = val;
-        this.right = right;
         this.left = left;
+        this.right = right;
     }
 
     @Override
