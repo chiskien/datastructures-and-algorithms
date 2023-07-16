@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Path Sum Binary Tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/ComputeKthNodeinanInorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/ConstructTreeFromPreorderAndInorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/SumRootToLeafNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/TreeNode.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="ConstructTreeFromPreorderAndInorderTraversal">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/IsSameTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/MaxDepth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -353,7 +351,7 @@
       <workItem from="1689308911866" duration="2644000" />
       <workItem from="1689340726587" duration="3353000" />
       <workItem from="1689387684432" duration="6381000" />
-      <workItem from="1689471135525" duration="3801000" />
+      <workItem from="1689471135525" duration="3980000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -684,14 +682,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00066" summary="MinimumSizeSubArraySum">
-      <option name="closed" value="true" />
-      <created>1689395192960</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1689395192961</updated>
-    </task>
     <task id="LOCAL-00067" summary="Path Sum Binary Tree">
       <option name="closed" value="true" />
       <created>1689472615053</created>
@@ -700,7 +690,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689472615053</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="ConstructTreeFromPreorderAndInorderTraversal">
+      <option name="closed" value="true" />
+      <created>1689475032450</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1689475032450</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -718,7 +716,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SearchInsertPosition" />
     <MESSAGE value="Change folder name" />
     <MESSAGE value="ThreeSum using two pointers technique" />
     <MESSAGE value="JumpGame" />
@@ -743,7 +740,8 @@
     <MESSAGE value="LowestCommonAncestor" />
     <MESSAGE value="MinimumSizeSubArraySum" />
     <MESSAGE value="Path Sum Binary Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Path Sum Binary Tree" />
+    <MESSAGE value="ConstructTreeFromPreorderAndInorderTraversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="ConstructTreeFromPreorderAndInorderTraversal" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

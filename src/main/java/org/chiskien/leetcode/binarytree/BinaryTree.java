@@ -13,12 +13,6 @@ public class BinaryTree {
         root.left.left = new TreeNode(4);
         root.right = new TreeNode(3);
         root.right.right = new TreeNode(5);
-
-        System.out.println(maxDepth(root));
-    }
-
-    public static TreeNode build(int[] arr) {
-        return null;
     }
 
     public static void inOrderTraversal(TreeNode root) {
@@ -107,31 +101,6 @@ public class BinaryTree {
         return result;
     }
 
-
-    public static int maxDepth(TreeNode root) {
-        Deque<TreeNode> stack = new LinkedList<>();
-        stack.push(root);
-        int level = 1;
-        while (!stack.isEmpty()) {
-            TreeNode current = stack.pop();
-            if (current != null) {
-                boolean hasChild = (current.left != null || current.right != null);
-                if (hasChild) {
-                    level += 1;
-                }
-                stack.addFirst(current.right);
-                stack.addFirst(current.left);
-            }
-        }
-        return level;
-    }
-
-    public static boolean isSameTree(TreeNode p, TreeNode q) {
-        if (p == q && p == null) return true;
-        if (p == null || q == null) return false;
-        if (p.val != q.val) return false;
-        return (isSameTree(p.left, q.left) && isSameTree(p.right, q.right));
-    }
 
 }
 
