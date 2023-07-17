@@ -2,18 +2,6 @@ package org.chiskien.leetcode.sorting;
 
 public class SelectionSort {
 
-    private SelectionSort() {
-    }
-
-    private static SelectionSort instance = null;
-
-    public static SelectionSort getInstance() {
-        if (instance == null) {
-            instance = new SelectionSort();
-        }
-        return instance;
-    }
-
     public int[] selectionSort(int[] inputList) {
         int n = inputList.length;
         int[] result = new int[n];

@@ -11,7 +11,8 @@ public class ConstructTreeFromPreorderAndInorderTraversal {
             nodeToInorderIndex.put(inorder[i], i);
         }
         return binaryTreeFromPreorderInorderHelper(
-                preorder, 0, preorder.length, 0, inorder.length, nodeToInorderIndex);
+                preorder, 0, preorder.length,
+                0, inorder.length, nodeToInorderIndex);
     }
 
 
@@ -26,11 +27,20 @@ public class ConstructTreeFromPreorderAndInorderTraversal {
         return new TreeNode(
                 preorder[preorderStart],
                 //Recursively build left subtree
-                binaryTreeFromPreorderInorderHelper(preorder, preorderStart + 1,
+                binaryTreeFromPreorderInorderHelper(
+                        preorder,
+                        preorderStart + 1,
                         preorderStart + 1 + leftSubtreeSize,
-                        inorderStart, rootInorderIndex, nodeToInorderIndex),
-                binaryTreeFromPreorderInorderHelper(preorder, preorderStart + 1 + leftSubtreeSize,
-                        preorderEnd, rootInorderIndex + 1, inorderEnd,
+                        inorderStart,
+                        rootInorderIndex,
+                        nodeToInorderIndex),
+                //Recursively build right subtree
+                binaryTreeFromPreorderInorderHelper(
+                        preorder,
+                        preorderStart + 1 + leftSubtreeSize,
+                        preorderEnd,
+                        rootInorderIndex + 1,
+                        inorderEnd,
                         nodeToInorderIndex)
         );
     }

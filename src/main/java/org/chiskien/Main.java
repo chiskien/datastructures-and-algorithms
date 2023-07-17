@@ -15,9 +15,6 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         var data = getDataFromFile();
-        SelectionSort selectionSort = SelectionSort.getInstance();
-        InsertionSort insertionSort = InsertionSort.getInstance();
-        QuickSort quickSort = QuickSort.getInstance();
     }
 
     private static int[] getDataFromFile() throws IOException {
