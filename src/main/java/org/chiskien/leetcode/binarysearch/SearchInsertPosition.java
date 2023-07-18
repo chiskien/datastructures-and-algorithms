@@ -4,7 +4,6 @@ public class SearchInsertPosition {
 
     public int searchInsert(int[] nums, int target) {
         //return index of target, if not found return the proper position
-
         int low = 0;
         int high = nums.length - 1;
         int mid;

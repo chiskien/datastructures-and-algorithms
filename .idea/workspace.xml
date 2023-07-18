@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="maxdepth and issametree.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/AddTwoNumbers2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/PalindromeLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/sorting/InsertionSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/ConstructTreeFromPreorderAndInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/ConstructTreeFromPreorderAndInorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarysearch/SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarysearch/SearchInsertPosition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/sorting/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/sorting/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/sorting/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -94,11 +91,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.chiskien.leetcode.sorting" />
       <recent name="org.chiskien.leetcode.binarytree" />
       <recent name="org.chiskien.leetcode.hashmap" />
       <recent name="org.chiskien.leetcode.stack" />
       <recent name="org.chiskien.leetcode.array" />
-      <recent name="org.chiskien.leetcode.two_pointers" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -358,7 +355,11 @@
       <workItem from="1689387684432" duration="6381000" />
       <workItem from="1689471135525" duration="5086000" />
       <workItem from="1689497326165" duration="995000" />
-      <workItem from="1689558177353" duration="3351000" />
+      <workItem from="1689558177353" duration="5675000" />
+      <workItem from="1689583422349" duration="1280000" />
+      <workItem from="1689646008786" duration="1037000" />
+      <workItem from="1689685040465" duration="294000" />
+      <workItem from="1689686405822" duration="1504000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -689,14 +690,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00068" summary="ConstructTreeFromPreorderAndInorderTraversal">
-      <option name="closed" value="true" />
-      <created>1689475032450</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1689475032450</updated>
-    </task>
     <task id="LOCAL-00069" summary="maxdepth and issametree.java">
       <option name="closed" value="true" />
       <created>1689475187028</created>
@@ -705,7 +698,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689475187028</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="maxdepth and issametree.java">
+      <option name="closed" value="true" />
+      <created>1689562398656</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1689562398657</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -786,21 +787,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/ProductOfArrayExceptSelf.java</url>
           <line>9</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/ProductOfArrayExceptSelf.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/ProductOfArrayExceptSelf.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/ProductOfArrayExceptSelf.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/two_pointers/isSubsequence.java</url>
