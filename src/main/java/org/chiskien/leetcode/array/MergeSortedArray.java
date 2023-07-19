@@ -5,6 +5,11 @@ public class MergeSortedArray {
 
     }
 
+    public static void epiSolution(int[] nums1, int m, int[] nums2, int n) {
+        int a = m - 1; //index of the m th element
+        int b = n - 1;
+    }
+
     // assumptions: nums1.length = m + n;
     public static void solution(int[] nums1, int m, int[] nums2, int n) {
         // nums1.length = m + n;
