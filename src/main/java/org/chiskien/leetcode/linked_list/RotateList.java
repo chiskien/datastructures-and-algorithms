@@ -24,9 +24,12 @@ public class RotateList {
         // therefore the new head is the (n-k)th node in the original list
         int stepsToNewHead = n - k;
         ListNode newTail = tail;
+
+        //finding newTail
         while (stepsToNewHead-- > 0) {
             newTail = newTail.next;
         }
+
         ListNode newHead = newTail.next;
         newTail.next = null;
         return newHead;
