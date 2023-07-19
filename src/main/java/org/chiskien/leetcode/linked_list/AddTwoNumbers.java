@@ -2,7 +2,7 @@ package org.chiskien.leetcode.linked_list;
 
 public class AddTwoNumbers {
 
-
+    //time complexity: O(n+m)
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode dummyL1 = l1;
         ListNode dummyL2 = l2;
