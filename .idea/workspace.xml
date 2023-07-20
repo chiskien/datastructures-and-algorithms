@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="LRU Cache using LinkedList and HashTable (LinkedHashMap)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/FlattenToLinkedList.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Heap (PriorityQueue) demo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/KthLargestElementInArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/EnumerateAllPrimes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/GasStation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/HIndex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/MultiplyTwoArbitraryPrecisionIntegers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/SudokuChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/BinaryHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/BinaryHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/queue/DequeCK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/queue/DequeCK.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -372,7 +364,7 @@
       <workItem from="1689823321470" duration="2688000" />
       <workItem from="1689831915542" duration="593000" />
       <workItem from="1689842552580" duration="47000" />
-      <workItem from="1689842754064" duration="1903000" />
+      <workItem from="1689842754064" duration="2504000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -703,14 +695,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00073" summary="AddTwoNumbers LinkedList">
-      <option name="closed" value="true" />
-      <created>1689755858358</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1689755858358</updated>
-    </task>
     <task id="LOCAL-00074" summary="LRU Cache using LinkedList and HashTable (LinkedHashMap)">
       <option name="closed" value="true" />
       <created>1689772889725</created>
@@ -719,7 +703,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689772889726</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Heap (PriorityQueue) demo">
+      <option name="closed" value="true" />
+      <created>1689845453245</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1689845453246</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -737,7 +729,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MergeIntervals.java" />
     <MESSAGE value="MinStack" />
     <MESSAGE value="EvaluateReversePolishNotation" />
     <MESSAGE value="DoublyLinkedList.java" />
@@ -762,7 +753,8 @@
     <MESSAGE value="Rotate LinkedList" />
     <MESSAGE value="AddTwoNumbers LinkedList" />
     <MESSAGE value="LRU Cache using LinkedList and HashTable (LinkedHashMap)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LRU Cache using LinkedList and HashTable (LinkedHashMap)" />
+    <MESSAGE value="Heap (PriorityQueue) demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Heap (PriorityQueue) demo" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
