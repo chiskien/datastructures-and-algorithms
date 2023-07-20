@@ -2,6 +2,7 @@ package org.chiskien.leetcode.queue;
 
 import org.chiskien.leetcode.linked_list.DoublyLinkedList;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 

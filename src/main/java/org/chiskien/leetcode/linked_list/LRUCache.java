@@ -32,17 +32,10 @@ public class LRUCache {
     // If the number of keys exceeds the capacity from this operation,
     // evict the least recently used key.
     public void put(int key, int value) {
-        insert(key, value);
-    }
-
-    private Integer insert(Integer key, Integer value) {
-        Integer currentValue = linkedHashMap.get(key);
         if (!linkedHashMap.containsKey(key)) {
             linkedHashMap.put(key, value);
-            return currentValue;
-        } else {
-            return null;
         }
     }
+
 }
 
