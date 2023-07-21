@@ -1,4 +1,4 @@
-package org.chiskien.leetcode.array;
+package org.chiskien.leetcode.greedy;
 
 public class BuyAndSellStockOnce {
 

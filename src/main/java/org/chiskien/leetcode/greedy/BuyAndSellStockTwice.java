@@ -1,4 +1,4 @@
-package org.chiskien.leetcode.array;
+package org.chiskien.leetcode.greedy;
 
 import java.util.ArrayList;
 import java.util.List;

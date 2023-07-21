@@ -10,9 +10,12 @@ public class BinaryTree {
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);
-        root.left.left = new TreeNode(4);
         root.right = new TreeNode(3);
+        root.left.left = new TreeNode(4);
+        root.left.right = new TreeNode(88);
         root.right.right = new TreeNode(5);
+        root.right.left = new TreeNode(20);
+        System.out.println(breadthFirstSearch(root));
     }
 
     public static void inOrderTraversal(TreeNode root) {
@@ -96,6 +99,21 @@ public class BinaryTree {
                 if (current.left != null) {
                     path.push(current.left);
                 }
+            }
+        }
+        return result;
+    }
+
+    public static List<Integer> breadthFirstSearch(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+        Deque<TreeNode> treeTraversal = new LinkedList<>();
+        treeTraversal.add(root);
+        while (!treeTraversal.isEmpty() && root != null) {
+            TreeNode n = treeTraversal.removeFirst();
+            if (n != null) {
+                result.add(n.val);
+                treeTraversal.addLast(n.left);
+                treeTraversal.addLast(n.right);
             }
         }
         return result;

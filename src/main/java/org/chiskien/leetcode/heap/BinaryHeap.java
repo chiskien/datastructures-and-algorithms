@@ -4,7 +4,10 @@ package org.chiskien.leetcode.heap;
 import java.util.*;
 
 //Heap (also referred to as a priority queue)
-public class BinaryHeap {
+public class BinaryHeap<T extends Comparable<T>> {
+
+    public T[] heap;
+
 
     //Given a collections of Strings => compute the k longest strings in the sequence
     public List<String> topK(int k, Iterator<String> iter) {
