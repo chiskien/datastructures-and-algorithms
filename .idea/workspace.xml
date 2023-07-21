@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Find the Kth largest elements">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/greedy/GasStation.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Breadth First Search Tree">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/SideViewTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/BuyAndSellStockOnce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/greedy/BuyAndSellStockOnce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/BuyAndSellStockTwice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/greedy/BuyAndSellStockTwice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/BinaryHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/BinaryHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/KthLargestElementInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/KthLargestElementInArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -373,7 +368,7 @@
       <workItem from="1689831915542" duration="593000" />
       <workItem from="1689842552580" duration="47000" />
       <workItem from="1689842754064" duration="3158000" />
-      <workItem from="1689910187567" duration="1959000" />
+      <workItem from="1689910187567" duration="2972000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -704,14 +699,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00075" summary="Heap (PriorityQueue) demo">
-      <option name="closed" value="true" />
-      <created>1689845453245</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1689845453246</updated>
-    </task>
     <task id="LOCAL-00076" summary="Find the Kth largest elements">
       <option name="closed" value="true" />
       <created>1689846145466</created>
@@ -720,7 +707,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689846145466</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Breadth First Search Tree">
+      <option name="closed" value="true" />
+      <created>1689912826167</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1689912826167</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -738,7 +733,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="EvaluateReversePolishNotation" />
     <MESSAGE value="DoublyLinkedList.java" />
     <MESSAGE value="CleanUp code" />
     <MESSAGE value="Simplify Path using Stack" />
@@ -763,7 +757,8 @@
     <MESSAGE value="LRU Cache using LinkedList and HashTable (LinkedHashMap)" />
     <MESSAGE value="Heap (PriorityQueue) demo" />
     <MESSAGE value="Find the Kth largest elements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Find the Kth largest elements" />
+    <MESSAGE value="Breadth First Search Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Breadth First Search Tree" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -841,6 +836,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/WordPatternTest.java</url>
           <line>33</line>
           <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTree.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/AddTwoNumbers2.java</url>
