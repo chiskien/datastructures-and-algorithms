@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Breadth First Search Tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/SideViewTree.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="SideTreeView">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/AverageLevels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/CountCompleteBinaryTreeNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/binarytree/AverageLevelsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,9 +95,9 @@
       <recent name="org.chiskien.leetcode.greedy" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.chiskien.leetcode.binarytree" />
       <recent name="org.chiskien.leetcode.linked_list" />
       <recent name="org.chiskien.leetcode.sorting" />
-      <recent name="org.chiskien.leetcode.binarytree" />
       <recent name="org.chiskien.leetcode.hashmap" />
       <recent name="org.chiskien.leetcode.stack" />
     </key>
@@ -368,7 +371,8 @@
       <workItem from="1689831915542" duration="593000" />
       <workItem from="1689842552580" duration="47000" />
       <workItem from="1689842754064" duration="3158000" />
-      <workItem from="1689910187567" duration="2972000" />
+      <workItem from="1689910187567" duration="5293000" />
+      <workItem from="1689925183977" duration="2255000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -699,14 +703,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00076" summary="Find the Kth largest elements">
-      <option name="closed" value="true" />
-      <created>1689846145466</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1689846145466</updated>
-    </task>
     <task id="LOCAL-00077" summary="Breadth First Search Tree">
       <option name="closed" value="true" />
       <created>1689912826167</created>
@@ -715,7 +711,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689912826167</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="SideTreeView">
+      <option name="closed" value="true" />
+      <created>1689913931832</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1689913931832</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -733,7 +737,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="DoublyLinkedList.java" />
     <MESSAGE value="CleanUp code" />
     <MESSAGE value="Simplify Path using Stack" />
     <MESSAGE value="Implement Queue using Stack" />
@@ -758,7 +761,8 @@
     <MESSAGE value="Heap (PriorityQueue) demo" />
     <MESSAGE value="Find the Kth largest elements" />
     <MESSAGE value="Breadth First Search Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Breadth First Search Tree" />
+    <MESSAGE value="SideTreeView" />
+    <option name="LAST_COMMIT_MESSAGE" value="SideTreeView" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -841,6 +845,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTree.java</url>
           <line>111</line>
           <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/binarytree/AverageLevelsTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/AddTwoNumbers2.java</url>
