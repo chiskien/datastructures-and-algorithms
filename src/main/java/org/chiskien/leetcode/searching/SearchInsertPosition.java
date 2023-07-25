@@ -1,4 +1,4 @@
-package org.chiskien.leetcode.binarysearch;
+package org.chiskien.leetcode.searching;
 
 public class SearchInsertPosition {
 
