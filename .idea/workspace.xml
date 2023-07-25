@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="AverageLevel Binary Tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/searching/Demo.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Searching">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/searching/FirstOccurenceOfK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarysearch/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/searching/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarysearch/SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/searching/SearchInsertPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/BinaryHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/BinaryHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/binarysearch/BinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/binarysearch/BinarySearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/binarysearch/SearchInsertPositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/binarysearch/SearchInsertPositionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -381,7 +375,7 @@
       <workItem from="1690191390338" duration="680000" />
       <workItem from="1690249296722" duration="24000" />
       <workItem from="1690259827852" duration="1323000" />
-      <workItem from="1690274293401" duration="1250000" />
+      <workItem from="1690274293401" duration="1840000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -712,14 +706,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00078" summary="SideTreeView">
-      <option name="closed" value="true" />
-      <created>1689913931832</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1689913931832</updated>
-    </task>
     <task id="LOCAL-00079" summary="AverageLevel Binary Tree">
       <option name="closed" value="true" />
       <created>1690166793998</created>
@@ -728,7 +714,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690166793998</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Searching">
+      <option name="closed" value="true" />
+      <created>1690275835234</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1690275835234</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -746,7 +740,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Simplify Path using Stack" />
     <MESSAGE value="Implement Queue using Stack" />
     <MESSAGE value="Tree Traversal" />
     <MESSAGE value="InOrderTraversalWithoutRecursion" />
@@ -771,7 +764,8 @@
     <MESSAGE value="Breadth First Search Tree" />
     <MESSAGE value="SideTreeView" />
     <MESSAGE value="AverageLevel Binary Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="AverageLevel Binary Tree" />
+    <MESSAGE value="Searching" />
+    <option name="LAST_COMMIT_MESSAGE" value="Searching" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
