@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Searching">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/searching/FirstOccurenceOfK.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="FirstOccurrenceOfK">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/RotateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/searching/SearchInRotatedSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/RansomNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/RansomNote.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -375,7 +377,9 @@
       <workItem from="1690191390338" duration="680000" />
       <workItem from="1690249296722" duration="24000" />
       <workItem from="1690259827852" duration="1323000" />
-      <workItem from="1690274293401" duration="1840000" />
+      <workItem from="1690274293401" duration="3459000" />
+      <workItem from="1690289984648" duration="1331000" />
+      <workItem from="1690340216879" duration="1532000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -706,14 +710,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00079" summary="AverageLevel Binary Tree">
-      <option name="closed" value="true" />
-      <created>1690166793998</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1690166793998</updated>
-    </task>
     <task id="LOCAL-00080" summary="Searching">
       <option name="closed" value="true" />
       <created>1690275835234</created>
@@ -722,7 +718,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690275835234</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="FirstOccurrenceOfK">
+      <option name="closed" value="true" />
+      <created>1690277145074</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1690277145075</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -740,7 +744,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement Queue using Stack" />
     <MESSAGE value="Tree Traversal" />
     <MESSAGE value="InOrderTraversalWithoutRecursion" />
     <MESSAGE value="PreOrderTraversalWithoutRecursion" />
@@ -765,7 +768,8 @@
     <MESSAGE value="SideTreeView" />
     <MESSAGE value="AverageLevel Binary Tree" />
     <MESSAGE value="Searching" />
-    <option name="LAST_COMMIT_MESSAGE" value="Searching" />
+    <MESSAGE value="FirstOccurrenceOfK" />
+    <option name="LAST_COMMIT_MESSAGE" value="FirstOccurrenceOfK" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
