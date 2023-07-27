@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="FirstOccurrenceOfK">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/RotateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/searching/SearchInRotatedSortedArray.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Binary Search Tree">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/FindKLargestInBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/FindKSmallestInBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/ValidBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/sorting/InsertingIntervals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/RansomNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/RansomNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/LongestConsecutiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/LongestConsecutiveSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/intervals/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/sorting/MergeIntervals.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +94,7 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.chiskien.leetcode.sorting" />
       <recent name="org.chiskien.leetcode.greedy" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
@@ -379,7 +383,9 @@
       <workItem from="1690259827852" duration="1323000" />
       <workItem from="1690274293401" duration="3459000" />
       <workItem from="1690289984648" duration="1331000" />
-      <workItem from="1690340216879" duration="1532000" />
+      <workItem from="1690340216879" duration="4029000" />
+      <workItem from="1690367304130" duration="3945000" />
+      <workItem from="1690422467719" duration="2796000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -710,14 +716,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00080" summary="Searching">
-      <option name="closed" value="true" />
-      <created>1690275835234</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1690275835234</updated>
-    </task>
     <task id="LOCAL-00081" summary="FirstOccurrenceOfK">
       <option name="closed" value="true" />
       <created>1690277145074</created>
@@ -726,7 +724,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690277145075</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="RansomNote">
+      <option name="closed" value="true" />
+      <created>1690350185055</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1690350185055</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -744,8 +750,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tree Traversal" />
-    <MESSAGE value="InOrderTraversalWithoutRecursion" />
     <MESSAGE value="PreOrderTraversalWithoutRecursion" />
     <MESSAGE value="PostOrderTraversalWithoutRecursion" />
     <MESSAGE value="LeetCode BinaryTree" />
@@ -769,7 +773,9 @@
     <MESSAGE value="AverageLevel Binary Tree" />
     <MESSAGE value="Searching" />
     <MESSAGE value="FirstOccurrenceOfK" />
-    <option name="LAST_COMMIT_MESSAGE" value="FirstOccurrenceOfK" />
+    <MESSAGE value="RansomNote" />
+    <MESSAGE value="Binary Search Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary Search Tree" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

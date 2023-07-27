@@ -1,9 +1,6 @@
 package org.chiskien.leetcode.hashmap;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 //13.10 EPI
 //LeetCode 128
@@ -13,8 +10,11 @@ public class LongestConsecutiveSequence {
     // => Care only about the integers adjacent to a given value
     // => Use HashMap
 
-    public int longestConsecutive(int[] nums) {
-        Set<Integer> unprocessedEntries = new HashSet<>(build(nums));
+    public int longestConsecutiveSequence(int[] nums) {
+        Set<Integer> unprocessedEntries = new HashSet<>();
+        for (Integer i : nums) {
+            unprocessedEntries.add(i);
+        }
         int maxIntervalSize = 0;
         while (!unprocessedEntries.isEmpty()) {
             int a = unprocessedEntries.iterator().next();
@@ -36,13 +36,5 @@ public class LongestConsecutiveSequence {
             maxIntervalSize = Math.max(upperBound - lowerBound - 1, maxIntervalSize);
         }
         return maxIntervalSize;
-    }
-
-    public List<Integer> build(int[] nums) {
-        List<Integer> list = new ArrayList<>();
-        for (int i : nums) {
-            list.add(i);
-        }
-        return list;
     }
 }
