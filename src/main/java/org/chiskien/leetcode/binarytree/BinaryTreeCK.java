@@ -1,5 +1,7 @@
 package org.chiskien.leetcode.binarytree;
 
+import com.sun.source.tree.Tree;
+
 import java.util.Collection;
 
 public class BinaryTreeCK<T extends Comparable<T>> {
@@ -21,29 +23,70 @@ public class BinaryTreeCK<T extends Comparable<T>> {
         treeNodeComparator = new TreeNodeComparator<>();
     }
 
-    public void addNode(TreeNode<T> newNode) {
+    private boolean addNode(TreeNode<T> newNode) {
         if (root == null) {
             root = newNode;
         } else {
-            TreeNode<T> pivot = root;
-            while (pivot != null) {
-                if (treeNodeComparator.compare(newNode.getData(), pivot.getData()) >= 0) {
-                    if (pivot.getRightChild() == null) {
-                        pivot.setRightChild(newNode);
-                        return;
-                    } else {
-                        pivot = pivot.getRightChild();
-                    }
+            TreeNode<T> current = root;
+            TreeNode<T> parent = current;
+            while (current != null) {
+                parent = current;
+                int compare = treeNodeComparator.compare(newNode.data, current.data);
+                if (compare == 0) {
+                    return false;
+                } else if (compare < 0) {
+                    current = current.leftChild;
                 } else {
-                    if (pivot.getLeftChild() == null) {
-                        pivot.setLeftChild(newNode);
-                        break;
-                    } else {
-                        pivot = pivot.getLeftChild();
-                    }
+                    current = current.rightChild;
                 }
             }
+            if (treeNodeComparator.compare(newNode.data, parent.data) < 0) {
+                parent.leftChild = newNode;
+            } else {
+                parent.rightChild = newNode;
+            }
         }
+        return true;
+    }
+
+    public boolean delete(T key) {
+        TreeNode<T> current = root;
+        TreeNode<T> parrent = null;
+        while (current != null && treeNodeComparator.compare(current.data, key) != 0) {
+            parrent = current;
+            current = treeNodeComparator.compare(key, current.data) < 0 ? current.leftChild : current.rightChild;
+        }
+        if (current == null) {
+            return false; //no node with key
+        }
+        TreeNode<T> keyNode = current;
+        if (keyNode.rightChild != null) {
+            TreeNode<T> rKeyNode = keyNode.rightChild;
+            TreeNode<T> rParent = keyNode;
+            while (rKeyNode.leftChild != null) {
+                rParent = rKeyNode;
+                rKeyNode = rKeyNode.leftChild;
+            }
+            keyNode.data = rKeyNode.data;
+            if (rParent.leftChild == rKeyNode) {
+                rParent.leftChild = rKeyNode.rightChild;
+            } else {
+                rParent.rightChild = rKeyNode.leftChild;
+            }
+            rKeyNode.rightChild = null;
+        } else {
+            if (root == keyNode) {
+                root = keyNode.leftChild;
+            } else {
+                if (parrent.leftChild == keyNode) {
+                    parrent.leftChild = keyNode.leftChild;
+                } else {
+                    parrent.rightChild = keyNode.leftChild;
+                }
+            }
+            keyNode.leftChild = null;
+        }
+        return true;
     }
 
     public void addNode(T data) {
@@ -85,24 +128,6 @@ public class BinaryTreeCK<T extends Comparable<T>> {
                 }
             }
             return pivot;
-        }
-    }
-
-    public void deleteNode(TreeNode<T> node) {
-        TreeNode<T> parent = getSuccessor(node);
-        //case the node delete is leaf (doesnot have children)
-        if (node.getRightChild() == null && node.getLeftChild() == null) {
-            if (parent.getLeftChild() == node) {
-                parent.setLeftChild(null);
-            } else {
-                parent.setRightChild(null);
-            }
-        } else if (node.getRightChild() != null && node.getLeftChild() == null) {
-
-        } else if (node.getRightChild() == null && node.getLeftChild() != null) {
-
-        } else {
-
         }
     }
 

@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Binary Search Tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/FindKLargestInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/FindKSmallestInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/ValidBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/sorting/InsertingIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/PriorityQueueCK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/LongestConsecutiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/LongestConsecutiveSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/intervals/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/sorting/MergeIntervals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTreeCK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTreeCK.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -385,7 +381,10 @@
       <workItem from="1690289984648" duration="1331000" />
       <workItem from="1690340216879" duration="4029000" />
       <workItem from="1690367304130" duration="3945000" />
-      <workItem from="1690422467719" duration="2796000" />
+      <workItem from="1690422467719" duration="3217000" />
+      <workItem from="1690457485643" duration="620000" />
+      <workItem from="1690507001368" duration="631000" />
+      <workItem from="1690524999554" duration="1257000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -716,14 +715,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00081" summary="FirstOccurrenceOfK">
-      <option name="closed" value="true" />
-      <created>1690277145074</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1690277145075</updated>
-    </task>
     <task id="LOCAL-00082" summary="RansomNote">
       <option name="closed" value="true" />
       <created>1690350185055</created>
@@ -732,7 +723,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690350185055</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Binary Search Tree">
+      <option name="closed" value="true" />
+      <created>1690426861275</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1690426861276</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
