@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Binary Search Tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/PriorityQueueCK.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Insert and Delete in Binary Search Tree">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/MergeSortedFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/searching/SearchIn2DSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/stack/Practice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTreeCK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTreeCK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTreeCK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinarySearchTreeCK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/ValidBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/ValidBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/PriorityQueueCK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/PriorityQueueCK.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -384,7 +388,21 @@
       <workItem from="1690422467719" duration="3217000" />
       <workItem from="1690457485643" duration="620000" />
       <workItem from="1690507001368" duration="631000" />
-      <workItem from="1690524999554" duration="1257000" />
+      <workItem from="1690524999554" duration="1949000" />
+      <workItem from="1690528299866" duration="326000" />
+      <workItem from="1690528700324" duration="72000" />
+      <workItem from="1690549900349" duration="599000" />
+      <workItem from="1690688644760" duration="20000" />
+      <workItem from="1690769961408" duration="1701000" />
+      <workItem from="1690853733785" duration="1325000" />
+      <workItem from="1690855121941" duration="2906000" />
+      <workItem from="1690897719473" duration="667000" />
+      <workItem from="1690942646749" duration="2463000" />
+      <workItem from="1690955314801" duration="602000" />
+      <workItem from="1690973315678" duration="312000" />
+      <workItem from="1691133108204" duration="1829000" />
+      <workItem from="1691136777411" duration="595000" />
+      <workItem from="1691156421330" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -715,14 +733,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00082" summary="RansomNote">
-      <option name="closed" value="true" />
-      <created>1690350185055</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1690350185055</updated>
-    </task>
     <task id="LOCAL-00083" summary="Binary Search Tree">
       <option name="closed" value="true" />
       <created>1690426861275</created>
@@ -731,7 +741,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690426861276</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Insert and Delete in Binary Search Tree">
+      <option name="closed" value="true" />
+      <created>1690526306960</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1690526306962</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -749,7 +767,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="PreOrderTraversalWithoutRecursion" />
     <MESSAGE value="PostOrderTraversalWithoutRecursion" />
     <MESSAGE value="LeetCode BinaryTree" />
     <MESSAGE value="IsSameTree" />
@@ -774,7 +791,8 @@
     <MESSAGE value="FirstOccurrenceOfK" />
     <MESSAGE value="RansomNote" />
     <MESSAGE value="Binary Search Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary Search Tree" />
+    <MESSAGE value="Insert and Delete in Binary Search Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Insert and Delete in Binary Search Tree" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -857,15 +875,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/binarytree/AverageLevelsTest.java</url>
           <line>26</line>
           <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/AddTwoNumbers2.java</url>
-          <line>10</line>
-          <properties class="org.chiskien.leetcode.linked_list.AddTwoNumbers2">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

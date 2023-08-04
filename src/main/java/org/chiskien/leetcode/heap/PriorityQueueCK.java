@@ -1,9 +1,15 @@
 package org.chiskien.leetcode.heap;
 
-public class PriorityQueueCK {
+import java.util.Collection;
+import java.util.Collections;
 
+public class PriorityQueueCK<T extends Comparable<T>> {
+    Object[] queue;
+    public PriorityQueueCK(Collections collection) {
+        this.init(collection);
+    }
 
-    public void insert(int key) {
+    private void init(Collections collection) {
 
     }
 }

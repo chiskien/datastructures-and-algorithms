@@ -1,10 +1,8 @@
 package org.chiskien.leetcode.binarytree;
 
-import com.sun.source.tree.Tree;
-
 import java.util.Collection;
 
-public class BinaryTreeCK<T extends Comparable<T>> {
+public class BinarySearchTreeCK<T extends Comparable<T>> {
 
     private TreeNode<T> root;
 
@@ -19,7 +17,7 @@ public class BinaryTreeCK<T extends Comparable<T>> {
     private final TreeNodeComparator<T> treeNodeComparator;
 
 
-    public BinaryTreeCK() {
+    public BinarySearchTreeCK() {
         treeNodeComparator = new TreeNodeComparator<>();
     }
 
@@ -155,7 +153,7 @@ public class BinaryTreeCK<T extends Comparable<T>> {
         return (root == null);
     }
 
-    class TreeNode<T> {
+    static class TreeNode<T> {
         private TreeNode<T> leftChild;
         private TreeNode<T> rightChild;
         private T data;
