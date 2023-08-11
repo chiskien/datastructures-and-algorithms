@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Insert and Delete in Binary Search Tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/MergeSortedFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/searching/SearchIn2DSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/stack/Practice.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="[Searching]: Search in 2D sorted array">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/DBIndexing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/NearestRepeatedEntries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/TestHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/NearestRepeatedEntriesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinaryTreeCK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/BinarySearchTreeCK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/ValidBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/ValidBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/PriorityQueueCK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/PriorityQueueCK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/LongestConsecutiveSequenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/LongestConsecutiveSequenceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -98,10 +97,10 @@
       <recent name="org.chiskien.leetcode.greedy" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.chiskien.leetcode.hashmap" />
       <recent name="org.chiskien.leetcode.binarytree" />
       <recent name="org.chiskien.leetcode.linked_list" />
       <recent name="org.chiskien.leetcode.sorting" />
-      <recent name="org.chiskien.leetcode.hashmap" />
       <recent name="org.chiskien.leetcode.stack" />
     </key>
   </component>
@@ -402,7 +401,14 @@
       <workItem from="1690973315678" duration="312000" />
       <workItem from="1691133108204" duration="1829000" />
       <workItem from="1691136777411" duration="595000" />
-      <workItem from="1691156421330" duration="12000" />
+      <workItem from="1691156421330" duration="644000" />
+      <workItem from="1691160273523" duration="71000" />
+      <workItem from="1691241904754" duration="681000" />
+      <workItem from="1691287959415" duration="23000" />
+      <workItem from="1691414779022" duration="202000" />
+      <workItem from="1691418102598" duration="643000" />
+      <workItem from="1691460179031" duration="24000" />
+      <workItem from="1691764065706" duration="881000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -733,14 +739,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00083" summary="Binary Search Tree">
-      <option name="closed" value="true" />
-      <created>1690426861275</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1690426861276</updated>
-    </task>
     <task id="LOCAL-00084" summary="Insert and Delete in Binary Search Tree">
       <option name="closed" value="true" />
       <created>1690526306960</created>
@@ -749,7 +747,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690526306962</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="[Searching]: Search in 2D sorted array">
+      <option name="closed" value="true" />
+      <created>1691156470404</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1691156470404</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -767,7 +773,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="PostOrderTraversalWithoutRecursion" />
     <MESSAGE value="LeetCode BinaryTree" />
     <MESSAGE value="IsSameTree" />
     <MESSAGE value="More leetcode" />
@@ -792,7 +797,8 @@
     <MESSAGE value="RansomNote" />
     <MESSAGE value="Binary Search Tree" />
     <MESSAGE value="Insert and Delete in Binary Search Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Insert and Delete in Binary Search Tree" />
+    <MESSAGE value="[Searching]: Search in 2D sorted array" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Searching]: Search in 2D sorted array" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -855,11 +861,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/JumpGame.java</url>
           <line>5</line>
           <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/LongestConsecutiveSequenceTest.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/stack/MinifiedPathTest.java</url>
