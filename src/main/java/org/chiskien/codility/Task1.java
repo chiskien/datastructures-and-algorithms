@@ -1,11 +1,6 @@
 package org.chiskien.codility;
 
 public class Task1 {
-    public static void main(String[] args) {
-        int[] A = new int[]{1, 4, -1, 3, 2};
-        int counter = 1;
-        
-    }
 
     public static int solution(int[] A) {
         int i = 0;

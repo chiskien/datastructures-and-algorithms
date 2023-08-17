@@ -3,11 +3,7 @@ package org.chiskien.leetcode.linked_list;
 import java.math.BigInteger;
 
 public class AddTwoNumbers2 {
-    public static void main(String[] args) {
-        ListNode n = new ListNode();
-        ListNode l1 = n.build(new int[]{3, 9, 9, 9, 9, 9, 9, 9, 9, 9});
-        ListNode l2 = n.build(new int[]{2, 9, 5});
-    }
+
 //    public static ListNode addTwoNumbers2(ListNode l1, ListNode l2) {
 //        BigInteger num1 = BigInteger.valueOf(0), num2 = BigInteger.valueOf(0);
 //        int l1Size = 1, l2Size = 1;

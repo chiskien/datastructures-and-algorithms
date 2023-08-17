@@ -5,10 +5,7 @@ import java.util.LinkedList;
 
 public class OM {
 
-    public static void main(String[] args) {
-        String[] input = new String[]{"4","2","5","3","#","#","#"};
-        System.out.println(solution(input));
-    }
+
 
     public static String solution(String[] strArr) {
         StringBuilder stringBuilder = new StringBuilder();

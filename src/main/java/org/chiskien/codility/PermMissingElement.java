@@ -5,10 +5,7 @@ import java.util.Arrays;
 
 public class PermMissingElement {
 
-    public static void main(String[] args) {
-        int[] A = new int[]{1};
-        System.out.println(realSolution(A));
-    }
+
 
     public static int realSolution(int[] A) {
         if (A.length == 0) {

@@ -2,10 +2,7 @@ package org.chiskien.leetcode.greedy;
 
 public class BuyAndSellStockOnce {
 
-    public static void main(String[] args) {
-        double[] stocks = new double[]{310, 315, 275, 295, 260, 270, 290, 230, 255, 250};
-        System.out.println(computeMaxProfit(stocks));
-    }
+
 
     public static double computeMaxProfit(double[] prices) {
         double maxProfit = 0.0;

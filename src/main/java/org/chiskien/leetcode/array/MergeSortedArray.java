@@ -1,9 +1,7 @@
 package org.chiskien.leetcode.array;
 
 public class MergeSortedArray {
-    public static void main(String[] args) {
 
-    }
 
     public static void epiSolution(int[] nums1, int m, int[] nums2, int n) {
         int a = m - 1; //index of the m th element

@@ -2,10 +2,7 @@ package org.chiskien.codility;
 
 public class SmallestMissingPositiveNumber {
 
-    public static void main(String[] args) {
-        int[] a = new int[]{-11, -3, -6, -4, 1, 2};
-        System.out.println(solution(a));
-    }
+
 
     public static int solution(int[] A) {
         boolean[] seen = new boolean[1000001];

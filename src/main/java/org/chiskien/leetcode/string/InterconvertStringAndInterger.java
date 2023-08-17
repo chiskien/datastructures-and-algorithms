@@ -2,10 +2,7 @@ package org.chiskien.leetcode.string;
 
 public class InterconvertStringAndInterger {
 
-    public static void main(String[] args) {
-        String s = "123";
-        System.out.println(stringToInt(s));
-    }
+
 
     //given an string s represent a interger, convert it to int without using parseInt
 

@@ -2,9 +2,7 @@ package org.chiskien.leetcode.string;
 
 public class ReplaceAndRemove {
 
-    public static void main(String[] args) {
 
-    }
 
     //Remove entry containing 'b'
     // Replace 'a' with two 'd'

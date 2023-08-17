@@ -5,11 +5,7 @@ import java.util.Map;
 
 public class ValidAnagram {
 
-    public static void main(String[] args) {
-        String s = "aaaa";
-        String t = "aaaa";
-        System.out.println(isValidAnagram(s, t));
-    }
+
 
     public static boolean isValidAnagram(String s, String t) {
         Map<Character, Integer> mapS = new HashMap<>();

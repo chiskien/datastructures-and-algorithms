@@ -2,9 +2,6 @@ package org.chiskien.leetcode.array;
 
 public class MaximumValueAtGivenIndexInABoundedArray {
 
-    public static void main(String[] args) {
-
-    }
 
     //conditions:
     // nums.length = n;

@@ -6,9 +6,7 @@ import java.util.List;
 
 public class GeneratePermutations {
 
-    public static void main(String[] args) {
 
-    }
 
     public static List<List<Integer>> permutations(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();

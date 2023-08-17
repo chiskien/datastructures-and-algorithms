@@ -4,13 +4,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class DutchFlag {
-    public static void main(String[] args) {
-        List<Color> list = List.of(
-                Color.WHITE, Color.RED, Color.BLUE, Color.RED, Color.BLUE,
-                Color.RED, Color.WHITE, Color.WHITE, Color.RED
-        );
-        dutchFlagPartition(5, list);
-    }
+
 
     //problem: take an arrays of integers then
     public static int[] evenOdd(int[] A) {

@@ -3,10 +3,7 @@ package org.chiskien.leetcode.array;
 import java.util.Arrays;
 
 public class ProductOfArrayExceptSelf {
-    public static void main(String[] args) {
-        int[] nums = new int[]{1, 2, 3, 4};
-        System.out.println(Arrays.toString(productExceptSelf(nums)));
-    }
+
 
     public static int[] productExceptSelf(int[] nums) {
         int n = nums.length;

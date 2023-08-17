@@ -5,9 +5,7 @@ import java.util.List;
 
 public class BuyAndSellStockTwice {
 
-    public static void main(String[] args) {
 
-    }
     //Calculate best profit from 0 -> length - 1
     //Calculate best profit from last to first
 

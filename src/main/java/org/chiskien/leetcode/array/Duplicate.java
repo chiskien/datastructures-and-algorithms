@@ -5,9 +5,6 @@ import java.util.Set;
 
 public class Duplicate {
 
-    public static void main(String[] args) {
-        System.out.println(fibonacci(20));
-    }
 
     static int fibonacci(int i) {
         if (i == 0) return 0;

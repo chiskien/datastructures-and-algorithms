@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class BinaryTree {
-    public static void main(String[] args) {
+    public void main() {
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);
         root.right = new TreeNode(3);

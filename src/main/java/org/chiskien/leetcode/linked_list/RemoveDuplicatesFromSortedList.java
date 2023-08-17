@@ -2,10 +2,7 @@ package org.chiskien.leetcode.linked_list;
 
 public class RemoveDuplicatesFromSortedList {
 
-    public static void main(String[] args) {
-        ListNode n = new ListNode();
-        System.out.println(deleteDuplicates(n.build(new int[]{1, 1, 1, 2, 3})));
-    }
+
 
     public static ListNode deleteDuplicates(ListNode head) {
         ListNode dummyHead = new ListNode(0, head);

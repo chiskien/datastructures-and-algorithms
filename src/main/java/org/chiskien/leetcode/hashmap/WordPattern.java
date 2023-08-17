@@ -18,9 +18,7 @@ public class WordPattern {
 //        }
 //        return true;
 //    }
-    public static void main(String[] args) {
-        wordPattern("aabb", "dog dog fog fog");
-    }
+
     public static boolean wordPattern(String pattern, String s) {
         String[] patternArr = pattern.split("");
         String[] strArr = s.split(" ");

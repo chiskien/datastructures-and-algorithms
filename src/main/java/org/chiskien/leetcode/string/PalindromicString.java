@@ -2,9 +2,7 @@ package org.chiskien.leetcode.string;
 
 public class PalindromicString {
 
-    public static void main(String[] args) {
 
-    }
 
     // A palindromic string is one which reads the same when it is reversed
     public static boolean isPalindromic(String s) {

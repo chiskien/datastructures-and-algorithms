@@ -1,9 +1,7 @@
 package org.chiskien.leetcode.string;
 
 public class ReverseWord {
-    public static void main(String[] args) {
-        System.out.println(reverseWords("the sky is                  fucking blue"));
-    }
+
 
     public static String reverseWords(String s) {
         String[] words = s.strip()

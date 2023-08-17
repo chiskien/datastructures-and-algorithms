@@ -5,10 +5,6 @@ import java.util.LinkedList;
 
 
 public class NAB {
-    public static void main(String[] args) {
-        String s = "??????";
-        System.out.println(longestSymmetricSubstring(s));
-    }
 
     public static int longestSymmetricSubstring(String s) {
         // Check if the string is empty or has only one character.

@@ -5,10 +5,7 @@ import java.util.Arrays;
 
 public class MajorityElement {
 
-    public static void main(String[] args) {
-        int[] nums = new int[]{3, 2, 3};
-        System.out.println();
-    }
+
 
     public static int majorityElement(int[] nums) {
         Arrays.sort(nums);

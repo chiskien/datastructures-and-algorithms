@@ -1,9 +1,7 @@
 package org.chiskien.codility;
 
 public class FrogJump {
-    public static void main(String[] args) {
-        System.out.println(75 / 30);
-    }
+
 
     //calculate the total step with length D from position X to position Y
     public static int solution(int X, int Y, int D) {

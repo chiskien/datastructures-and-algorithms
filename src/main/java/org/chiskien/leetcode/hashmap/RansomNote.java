@@ -5,9 +5,7 @@ import java.util.Map;
 
 public class RansomNote {
 
-    public static void main(String[] args) {
 
-    }
 
     public static boolean canConstruct(String ransomNote, String magazine) {
         //compute the frequency for all characters in ransomNote

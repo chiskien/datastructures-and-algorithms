@@ -2,10 +2,6 @@ package org.chiskien.codility;
 
 public class CountrDiscIntersect {
 
-    public static void main(String[] args) {
-        int[] disc = new int[]{1, 5, 2, 1, 4, 0};
-        System.out.println(solution(disc));
-    }
 
     public static int solution(int[] A) {
         int count = 0;

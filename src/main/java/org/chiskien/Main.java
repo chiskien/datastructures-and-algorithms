@@ -13,8 +13,8 @@ import java.util.List;
 public class Main {
     private static final String DATA = "src/main/resources/data.txt";
 
-    public static void main(String[] args) throws IOException {
-        var data = getDataFromFile();
+    public static void main(String[] args) {
+
     }
 
     private static int[] getDataFromFile() throws IOException {
@@ -31,9 +31,6 @@ public class Main {
         return array;
     }
 
-    private static void writeToFile(String uri, List<Integer> data) {
-
-    }
 
     private static void generateRandomArray(int arraySize, int min, int max, String regex) {
 

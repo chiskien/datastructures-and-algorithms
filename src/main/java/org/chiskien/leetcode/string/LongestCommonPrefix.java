@@ -1,10 +1,7 @@
 package org.chiskien.leetcode.string;
 
 public class LongestCommonPrefix {
-    public static void main(String[] args) {
-        System.out.println("amigo".indexOf("ami"));
-        System.out.println("Loveeeee".toLowerCase());
-    }
+
 
     public static String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) {

@@ -4,11 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LongestSubstringWithoutRepeatingCharacters {
-    public static void main(String[] args) {
-        Map<Integer, String> testmap = new HashMap<>();
-        testmap.put(1,"aadsa");
-        testmap.put(2,"asdsad");
-    }
+
 
     public static int longestSubstring(String s) {
         //Record the most recent occurrences of each entry

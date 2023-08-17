@@ -5,20 +5,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ShiftingArray {
-    public static void main(String[] args) {
-        int[] test = new int[]{};
-        int k = 5;
-        List<Integer> list = new ArrayList<>();
-        list.add(2);
-        list.add(3);
-        list.add(5);
-        list.add(6);
-        list.add(8);
-        list.add(10);
-        list.add(20);
-//        String array = Arrays.toString(shiftLeft(test, k));
-        System.out.println(shiftLeft(list, k));
-    }
 
     public static int[] solution(int[] arr, int d) {
         if (arr.length == 0) return arr;

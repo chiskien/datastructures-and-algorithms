@@ -4,10 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MaxTriplet {
-    public static void main(String[] args) {
-        int[] A = new int[]{-3, 1, 2, -2, 5, 6};
-        System.out.println(solution(A));
-    }
+
 
     public static int solution(int[] A) {
         List<Integer> Alist = new ArrayList<>();

@@ -3,9 +3,7 @@ package org.chiskien.hackerrank;
 import java.util.List;
 
 public class Medium {
-    public static void main(String[] args) {
 
-    }
 
     public static int formingMagicSquare(List<List<Integer>> s) {
         int totalCost = 0;

@@ -2,7 +2,7 @@ package org.chiskien.codility;
 
 public class BinaryGap {
 
-    public static void main(String[] args) {
+    public void maxGap() {
         int N = 5;
         int maxGap = 0;
         String binary = Integer.toBinaryString(N);

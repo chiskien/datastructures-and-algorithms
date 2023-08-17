@@ -12,12 +12,7 @@ public class MaxCounter {
         + Each element of array A is in range (1, N+1)
     if an item within range (1, N) then increase X
     * */
-    public static void main(String[] args) {
-        int[] A = new int[]{1, 1, 1, 1, 1, 1, 1};
-        int N = 1;
-        System.out.println(Arrays.toString(solution(N, A)));
 
-    }
 
     public static int[] solution(int N, int[] A) {
         int[] result = new int[N];

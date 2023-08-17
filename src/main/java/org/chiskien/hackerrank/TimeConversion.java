@@ -1,10 +1,7 @@
 package org.chiskien.hackerrank;
 
 public class TimeConversion {
-    public static void main(String[] args) {
-        String time = "12:00:20PM";
-        System.out.println(timeConversion(time));
-    }
+
 
     public static String timeConversion(String s) {
         char timeAnnotation = s.charAt(s.length() - 2);

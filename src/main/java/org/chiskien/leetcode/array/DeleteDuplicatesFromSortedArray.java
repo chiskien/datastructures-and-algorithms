@@ -7,12 +7,6 @@ package org.chiskien.leetcode.array;
 * */
 public class DeleteDuplicatesFromSortedArray {
 
-    public static void main(String[] args) {
-//        int[] nums = new int[]{1, 2, 4, 5, 5, 7, 9, 11, 11, 11, 12};
-//        System.out.println(solutionVariant1(nums, 5));
-        int[] nums = new int[]{1, 1, 1, 2, 2, 3};
-        System.out.println(removeDuplicateAtMost2(nums));
-    }
 
     public static int[] solution(int[] nums) {
         int j = 1;
