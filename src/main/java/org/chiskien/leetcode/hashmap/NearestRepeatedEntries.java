@@ -10,11 +10,12 @@ public class NearestRepeatedEntries {
         Map<String, Integer> wordToLatestIndex = new HashMap<>();
         int nearestRepeatedDistance = Integer.MAX_VALUE;
         for (int i = 0; i < paragraph.size(); i++) {
-            if (wordToLatestIndex.containsKey(paragraph.get(i))) {
+            String word = paragraph.get(i);
+            if (wordToLatestIndex.containsKey(word)) {
                 nearestRepeatedDistance = Math.min(nearestRepeatedDistance,
-                        i - wordToLatestIndex.get(paragraph.get(i)));
+                        i - wordToLatestIndex.get(word));
             }
-            wordToLatestIndex.put(paragraph.get(i), i);
+            wordToLatestIndex.put(word, i);
         }
         return nearestRepeatedDistance;
     }

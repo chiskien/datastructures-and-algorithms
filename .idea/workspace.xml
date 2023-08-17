@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="[Searching]: Search in 2D sorted array">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/DBIndexing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/NearestRepeatedEntries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/TestHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/NearestRepeatedEntriesTest.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Finding nearest repeated entries in array">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/MinimunAbsoluteDiff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/bitmanipulation/AddBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/searching/FindFirstAndLastPosition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/LongestConsecutiveSequenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/LongestConsecutiveSequenceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/NearestRepeatedEntries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/NearestRepeatedEntries.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -80,7 +79,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -408,7 +407,13 @@
       <workItem from="1691414779022" duration="202000" />
       <workItem from="1691418102598" duration="643000" />
       <workItem from="1691460179031" duration="24000" />
-      <workItem from="1691764065706" duration="881000" />
+      <workItem from="1691764065706" duration="1040000" />
+      <workItem from="1691809026883" duration="1402000" />
+      <workItem from="1691979166388" duration="805000" />
+      <workItem from="1691984669822" duration="638000" />
+      <workItem from="1692091090072" duration="93000" />
+      <workItem from="1692091196121" duration="300000" />
+      <workItem from="1692278393382" duration="791000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -739,14 +744,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00084" summary="Insert and Delete in Binary Search Tree">
-      <option name="closed" value="true" />
-      <created>1690526306960</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1690526306962</updated>
-    </task>
     <task id="LOCAL-00085" summary="[Searching]: Search in 2D sorted array">
       <option name="closed" value="true" />
       <created>1691156470404</created>
@@ -755,7 +752,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691156470404</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Finding nearest repeated entries in array">
+      <option name="closed" value="true" />
+      <created>1691764995152</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1691764995153</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -773,7 +778,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LeetCode BinaryTree" />
     <MESSAGE value="IsSameTree" />
     <MESSAGE value="More leetcode" />
     <MESSAGE value="LongestSubstringWithoutRepeatingCharacters.java" />
@@ -798,7 +802,8 @@
     <MESSAGE value="Binary Search Tree" />
     <MESSAGE value="Insert and Delete in Binary Search Tree" />
     <MESSAGE value="[Searching]: Search in 2D sorted array" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Searching]: Search in 2D sorted array" />
+    <MESSAGE value="Finding nearest repeated entries in array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finding nearest repeated entries in array" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -826,11 +831,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/codility/CountrDiscIntersect.java</url>
           <line>6</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/string/ReverseWord.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/ProductOfArrayExceptSelf.java</url>
