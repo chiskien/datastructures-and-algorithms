@@ -14,7 +14,7 @@ public class Main {
     private static final String DATA = "src/main/resources/data.txt";
 
     public static void main(String[] args) {
-
+        System.out.println("Hello World");
     }
 
     private static int[] getDataFromFile() throws IOException {

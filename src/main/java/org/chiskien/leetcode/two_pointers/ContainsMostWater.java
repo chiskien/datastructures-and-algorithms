@@ -2,7 +2,6 @@ package org.chiskien.leetcode.two_pointers;
 
 public class ContainsMostWater {
 
-
     public static int maxArea(int[] height) {
         int maxArea = 0;
         int i = 0;

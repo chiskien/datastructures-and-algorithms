@@ -4,58 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="First and Last position">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/ValidSudoku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/FindKSmallestPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/stack/TowerOfHanoi.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Clean up main">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/heap/FindKSmallestPairsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/BinaryGap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/BinaryGap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/Brackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/Brackets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/CountDistinc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/CountDistinc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/CountrDiscIntersect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/CountrDiscIntersect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/FrogCross.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/FrogCross.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/FrogJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/FrogJump.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/MaxCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/MaxCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/MaxTriplet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/MaxTriplet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/NAB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/NAB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/OddOccurences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/OddOccurences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/PermMissingElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/PermMissingElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/PermutationArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/PermutationArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/ShiftingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/ShiftingArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/SmallestMissingPositiveNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/SmallestMissingPositiveNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/codility/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/GradingStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/GradingStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/Medium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/Medium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/TimeConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/hackerrank/TimeConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/DeleteDuplicatesFromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/DeleteDuplicatesFromSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/Duplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/Duplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/DutchFlag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/DutchFlag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/GeneratePermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/GeneratePermutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/InsertDeleteGetRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/InsertDeleteGetRandom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/JumpGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/MajorityElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/MaximumValueAtGivenIndexInABoundedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/MaximumValueAtGivenIndexInABoundedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/MergeSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/ProductOfArrayExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/ProductOfArrayExceptSelf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/OM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/OM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/greedy/BuyAndSellStockOnce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/greedy/BuyAndSellStockOnce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/greedy/BuyAndSellStockTwice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/greedy/BuyAndSellStockTwice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/ValidAnagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/WordPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/WordPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/AddTwoNumbers2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/AddTwoNumbers2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/RemoveDuplicatesFromSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/RemoveDuplicatesFromSortedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/searching/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/searching/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/string/CompareChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/string/CompareChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/string/IndexOfFirstOccurence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/string/IndexOfFirstOccurence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/string/InterconvertStringAndInterger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/string/InterconvertStringAndInterger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/string/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/string/LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/string/ReplaceAndRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/string/ReplaceAndRemove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/string/RomanToInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/string/RomanToInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/stack/MinifiedPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/stack/MinifiedPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/FindKSmallestPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/FindKSmallestPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/two_pointers/ContainsMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/two_pointers/ContainsMostWater.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -142,11 +96,11 @@
       <recent name="org.chiskien.leetcode.greedy" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.chiskien.leetcode.heap" />
       <recent name="org.chiskien.leetcode.hashmap" />
       <recent name="org.chiskien.leetcode.binarytree" />
       <recent name="org.chiskien.leetcode.linked_list" />
       <recent name="org.chiskien.leetcode.sorting" />
-      <recent name="org.chiskien.leetcode.stack" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -460,7 +414,8 @@
       <workItem from="1692091090072" duration="93000" />
       <workItem from="1692091196121" duration="300000" />
       <workItem from="1692278393382" duration="3908000" />
-      <workItem from="1692282479888" duration="825000" />
+      <workItem from="1692282479888" duration="2313000" />
+      <workItem from="1692323529981" duration="614000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -791,14 +746,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00086" summary="Finding nearest repeated entries in array">
-      <option name="closed" value="true" />
-      <created>1691764995152</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1691764995153</updated>
-    </task>
     <task id="LOCAL-00087" summary="First and Last position">
       <option name="closed" value="true" />
       <created>1692280050295</created>
@@ -807,7 +754,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692280050296</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="Clean up main">
+      <option name="closed" value="true" />
+      <created>1692283400189</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1692283400190</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -825,7 +780,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="More leetcode" />
     <MESSAGE value="LongestSubstringWithoutRepeatingCharacters.java" />
     <MESSAGE value="IsSymmetricTree" />
     <MESSAGE value="LowestCommonAncestor" />
@@ -850,7 +804,8 @@
     <MESSAGE value="[Searching]: Search in 2D sorted array" />
     <MESSAGE value="Finding nearest repeated entries in array" />
     <MESSAGE value="First and Last position" />
-    <option name="LAST_COMMIT_MESSAGE" value="First and Last position" />
+    <MESSAGE value="Clean up main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean up main" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -863,11 +818,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/ProductOfArrayExceptSelf.java</url>
           <line>6</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/two_pointers/isSubsequence.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/ContainsDuplicate2Test.java</url>
@@ -898,11 +848,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/binarytree/AverageLevelsTest.java</url>
           <line>26</line>
           <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/FindKSmallestPairs.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
