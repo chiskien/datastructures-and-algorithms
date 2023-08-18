@@ -1,4 +1,4 @@
-package org.chiskien.leetcode.sorting;
+package org.chiskien.leetcode.intervals;
 
 import java.util.Arrays;
 
