@@ -14,6 +14,7 @@ public class RemoveFirstNameDuplicates {
             }
         }
         nameList.subList(++result, nameList.size()).clear();
+        return nameList;
     }
 
 
