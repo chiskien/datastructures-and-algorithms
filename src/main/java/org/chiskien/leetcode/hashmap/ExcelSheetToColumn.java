@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class ExcelSheetToColumn {
     public static void main(String[] args) {
-        System.out.println(convertToTitle(7000));
+        System.out.println(convertToTitle(260));
     }
 
     public static String convertToTitle(int columnNumber) {
@@ -16,16 +16,17 @@ public class ExcelSheetToColumn {
             excelCharAndIntMapping.put(i, label);
             label++;
         }
-        while (columnNumber != 0 ) {
+        while (columnNumber > 26) {
             int a = columnNumber / 26;
             int b = columnNumber % 26;
-            if (a == 0) {
-                stringBuilder.append(excelCharAndIntMapping.get(b));
-            } else {
-                stringBuilder.append(excelCharAndIntMapping.get(a));
+            if (b == 0) {
+                b = 26;
+                a -= 1;
             }
+            stringBuilder.append(excelCharAndIntMapping.get(b));
             columnNumber = a;
         }
-        return stringBuilder.toString();
+        if (columnNumber > 0) stringBuilder.append(excelCharAndIntMapping.get(columnNumber));
+        return stringBuilder.reverse().toString();
     }
 }

@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="RemoveFirstNameDuplicates">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/ExcelSheetToColumn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/string/LookAndSay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/ExcelSheetToColumnTest.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="ExcelSheetToColumn">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/ValidSudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/ValidSudoku.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/ExcelSheetToColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/ExcelSheetToColumn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -421,7 +418,9 @@
       <workItem from="1692427991843" duration="182000" />
       <workItem from="1692584486541" duration="1946000" />
       <workItem from="1692620932578" duration="65000" />
-      <workItem from="1692666983056" duration="2008000" />
+      <workItem from="1692666983056" duration="2252000" />
+      <workItem from="1692675482585" duration="776000" />
+      <workItem from="1692676605030" duration="102000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -752,14 +751,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00091" summary="RemoveFirstNameDuplicates">
-      <option name="closed" value="true" />
-      <created>1692366291379</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1692366291379</updated>
-    </task>
     <task id="LOCAL-00092" summary="RemoveFirstNameDuplicates">
       <option name="closed" value="true" />
       <created>1692366313117</created>
@@ -768,7 +759,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692366313117</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="ExcelSheetToColumn">
+      <option name="closed" value="true" />
+      <created>1692669228846</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1692669228846</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -786,7 +785,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MinimumSizeSubArraySum" />
     <MESSAGE value="Path Sum Binary Tree" />
     <MESSAGE value="ConstructTreeFromPreorderAndInorderTraversal" />
     <MESSAGE value="maxdepth and issametree.java" />
@@ -811,7 +809,8 @@
     <MESSAGE value="Find K Smallest Pairs using min-heap" />
     <MESSAGE value="Intersection of two sorted arrays" />
     <MESSAGE value="RemoveFirstNameDuplicates" />
-    <option name="LAST_COMMIT_MESSAGE" value="RemoveFirstNameDuplicates" />
+    <MESSAGE value="ExcelSheetToColumn" />
+    <option name="LAST_COMMIT_MESSAGE" value="ExcelSheetToColumn" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -859,11 +858,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/ExcelSheetToColumn.java</url>
           <line>7</line>
           <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/ExcelSheetToColumn.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="60" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
