@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="RemoveFirstNameDuplicates">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/sorting/RemoveFirstNameDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/sorting/RemoveFirstNameDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/ExcelSheetToColumn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/string/LookAndSay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/ExcelSheetToColumnTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/ValidSudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/ValidSudoku.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -92,8 +96,8 @@
       <recent name="org.chiskien.leetcode.greedy" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="org.chiskien.leetcode.heap" />
       <recent name="org.chiskien.leetcode.hashmap" />
+      <recent name="org.chiskien.leetcode.heap" />
       <recent name="org.chiskien.leetcode.binarytree" />
       <recent name="org.chiskien.leetcode.linked_list" />
       <recent name="org.chiskien.leetcode.sorting" />
@@ -412,7 +416,12 @@
       <workItem from="1692278393382" duration="3908000" />
       <workItem from="1692282479888" duration="2313000" />
       <workItem from="1692323529981" duration="972000" />
-      <workItem from="1692364267666" duration="2028000" />
+      <workItem from="1692364267666" duration="2069000" />
+      <workItem from="1692410911445" duration="599000" />
+      <workItem from="1692427991843" duration="182000" />
+      <workItem from="1692584486541" duration="1946000" />
+      <workItem from="1692620932578" duration="65000" />
+      <workItem from="1692666983056" duration="2008000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -743,14 +752,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00090" summary="Intersection of two sorted arrays">
-      <option name="closed" value="true" />
-      <created>1692365407122</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1692365407123</updated>
-    </task>
     <task id="LOCAL-00091" summary="RemoveFirstNameDuplicates">
       <option name="closed" value="true" />
       <created>1692366291379</created>
@@ -759,7 +760,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692366291379</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="RemoveFirstNameDuplicates">
+      <option name="closed" value="true" />
+      <created>1692366313117</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1692366313117</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -845,6 +854,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/binarytree/AverageLevelsTest.java</url>
           <line>26</line>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/ExcelSheetToColumn.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/ExcelSheetToColumn.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
