@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="ExcelSheetToColumn">
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="ExcelSheetToColumn finish with unit test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/ReorganizeString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/ExcelSheetToColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/ExcelSheetToColumn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/ExcelSheetToColumnTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/ExcelSheetToColumnTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -89,6 +91,7 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.chiskien.leetcode.heap" />
       <recent name="org.chiskien.leetcode.sorting" />
       <recent name="org.chiskien.leetcode.greedy" />
     </key>
@@ -420,7 +423,8 @@
       <workItem from="1692620932578" duration="65000" />
       <workItem from="1692666983056" duration="2252000" />
       <workItem from="1692675482585" duration="776000" />
-      <workItem from="1692676605030" duration="102000" />
+      <workItem from="1692676605030" duration="136000" />
+      <workItem from="1692755704039" duration="4615000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -751,14 +755,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00092" summary="RemoveFirstNameDuplicates">
-      <option name="closed" value="true" />
-      <created>1692366313117</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1692366313117</updated>
-    </task>
     <task id="LOCAL-00093" summary="ExcelSheetToColumn">
       <option name="closed" value="true" />
       <created>1692669228846</created>
@@ -767,7 +763,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692669228846</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="ExcelSheetToColumn finish with unit test">
+      <option name="closed" value="true" />
+      <created>1692676730664</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1692676730666</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -785,7 +789,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Path Sum Binary Tree" />
     <MESSAGE value="ConstructTreeFromPreorderAndInorderTraversal" />
     <MESSAGE value="maxdepth and issametree.java" />
     <MESSAGE value="InsertionSort.java" />
@@ -810,7 +813,8 @@
     <MESSAGE value="Intersection of two sorted arrays" />
     <MESSAGE value="RemoveFirstNameDuplicates" />
     <MESSAGE value="ExcelSheetToColumn" />
-    <option name="LAST_COMMIT_MESSAGE" value="ExcelSheetToColumn" />
+    <MESSAGE value="ExcelSheetToColumn finish with unit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="ExcelSheetToColumn finish with unit test" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -853,11 +857,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/binarytree/AverageLevelsTest.java</url>
           <line>26</line>
           <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/ExcelSheetToColumn.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
