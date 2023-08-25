@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="ExcelSheetToColumn finish with unit test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/heap/ReorganizeString.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="ReorganizeString.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/IsPalindromicPermutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/IsPalindromicPermutationsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/ExcelSheetToColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/ExcelSheetToColumn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/ExcelSheetToColumnTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/ExcelSheetToColumnTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/stack/TowerOfHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/stack/TowerOfHanoi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -424,7 +424,8 @@
       <workItem from="1692666983056" duration="2252000" />
       <workItem from="1692675482585" duration="776000" />
       <workItem from="1692676605030" duration="136000" />
-      <workItem from="1692755704039" duration="4615000" />
+      <workItem from="1692755704039" duration="4669000" />
+      <workItem from="1692965504948" duration="3597000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -755,23 +756,23 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00093" summary="ExcelSheetToColumn">
+    <task id="LOCAL-00095" summary="ExcelSheetToColumn improve code">
       <option name="closed" value="true" />
-      <created>1692669228846</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
+      <created>1692760374403</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
       <option name="project" value="LOCAL" />
-      <updated>1692669228846</updated>
+      <updated>1692760374404</updated>
     </task>
-    <task id="LOCAL-00094" summary="ExcelSheetToColumn finish with unit test">
+    <task id="LOCAL-00096" summary="ReorganizeString.java">
       <option name="closed" value="true" />
-      <created>1692676730664</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
+      <created>1692760395602</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
       <option name="project" value="LOCAL" />
-      <updated>1692676730666</updated>
+      <updated>1692760395602</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -789,8 +790,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ConstructTreeFromPreorderAndInorderTraversal" />
-    <MESSAGE value="maxdepth and issametree.java" />
     <MESSAGE value="InsertionSort.java" />
     <MESSAGE value="Rotate LinkedList" />
     <MESSAGE value="AddTwoNumbers LinkedList" />
@@ -814,7 +813,9 @@
     <MESSAGE value="RemoveFirstNameDuplicates" />
     <MESSAGE value="ExcelSheetToColumn" />
     <MESSAGE value="ExcelSheetToColumn finish with unit test" />
-    <option name="LAST_COMMIT_MESSAGE" value="ExcelSheetToColumn finish with unit test" />
+    <MESSAGE value="ExcelSheetToColumn improve code" />
+    <MESSAGE value="ReorganizeString.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReorganizeString.java" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
