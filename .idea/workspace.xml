@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Can Form Palindrome and Unit Tests">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/LRUCache.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Finish LRU Cache">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/MyLinkedHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/RansomNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/RansomNote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/TestHashMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/LRUCache.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/stack/TowerOfHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/stack/TowerOfHanoi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -428,7 +425,8 @@
       <workItem from="1692676605030" duration="136000" />
       <workItem from="1692755704039" duration="4669000" />
       <workItem from="1692965504948" duration="5546000" />
-      <workItem from="1693009903785" duration="1931000" />
+      <workItem from="1693009903785" duration="2236000" />
+      <workItem from="1693012224394" duration="37000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -759,14 +757,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00096" summary="ReorganizeString.java">
-      <option name="closed" value="true" />
-      <created>1692760395602</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1692760395602</updated>
-    </task>
     <task id="LOCAL-00097" summary="Can Form Palindrome and Unit Tests">
       <option name="closed" value="true" />
       <created>1692972532156</created>
@@ -775,7 +765,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692972532158</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Finish LRU Cache">
+      <option name="closed" value="true" />
+      <created>1693011862707</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1693011862708</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -793,7 +791,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Rotate LinkedList" />
     <MESSAGE value="AddTwoNumbers LinkedList" />
     <MESSAGE value="LRU Cache using LinkedList and HashTable (LinkedHashMap)" />
     <MESSAGE value="Heap (PriorityQueue) demo" />
@@ -818,7 +815,8 @@
     <MESSAGE value="ExcelSheetToColumn improve code" />
     <MESSAGE value="ReorganizeString.java" />
     <MESSAGE value="Can Form Palindrome and Unit Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Can Form Palindrome and Unit Tests" />
+    <MESSAGE value="Finish LRU Cache" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish LRU Cache" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
