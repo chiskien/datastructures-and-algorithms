@@ -6,7 +6,6 @@ import java.util.Map;
 public class RansomNote {
 
 
-
     public static boolean canConstruct(String ransomNote, String magazine) {
         //compute the frequency for all characters in ransomNote
         Map<Character, Integer> frequencyMap = new HashMap<>();

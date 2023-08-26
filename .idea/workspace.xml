@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="ReorganizeString.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/IsPalindromicPermutations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/IsPalindromicPermutationsTest.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Can Form Palindrome and Unit Tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/LRUCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/RansomNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/RansomNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/TestHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/LRUCache.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/stack/TowerOfHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/stack/TowerOfHanoi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -425,7 +427,8 @@
       <workItem from="1692675482585" duration="776000" />
       <workItem from="1692676605030" duration="136000" />
       <workItem from="1692755704039" duration="4669000" />
-      <workItem from="1692965504948" duration="3597000" />
+      <workItem from="1692965504948" duration="5546000" />
+      <workItem from="1693009903785" duration="1931000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -756,14 +759,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00095" summary="ExcelSheetToColumn improve code">
-      <option name="closed" value="true" />
-      <created>1692760374403</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1692760374404</updated>
-    </task>
     <task id="LOCAL-00096" summary="ReorganizeString.java">
       <option name="closed" value="true" />
       <created>1692760395602</created>
@@ -772,7 +767,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692760395602</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="Can Form Palindrome and Unit Tests">
+      <option name="closed" value="true" />
+      <created>1692972532156</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1692972532158</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -790,7 +793,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="InsertionSort.java" />
     <MESSAGE value="Rotate LinkedList" />
     <MESSAGE value="AddTwoNumbers LinkedList" />
     <MESSAGE value="LRU Cache using LinkedList and HashTable (LinkedHashMap)" />
@@ -815,7 +817,8 @@
     <MESSAGE value="ExcelSheetToColumn finish with unit test" />
     <MESSAGE value="ExcelSheetToColumn improve code" />
     <MESSAGE value="ReorganizeString.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="ReorganizeString.java" />
+    <MESSAGE value="Can Form Palindrome and Unit Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Can Form Palindrome and Unit Tests" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -858,6 +861,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/binarytree/AverageLevelsTest.java</url>
           <line>26</line>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/IsPalindromicPermutationsTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
