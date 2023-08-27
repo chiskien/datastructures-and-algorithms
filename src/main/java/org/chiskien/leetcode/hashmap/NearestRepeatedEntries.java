@@ -7,15 +7,21 @@ import java.util.Map;
 public class NearestRepeatedEntries {
 
     public int findNearestRepetition(List<String> paragraph) {
-        Map<String, Integer> wordToLatestIndex = new HashMap<>();
+        Map<String, Integer> wordToIndexMapping = new HashMap<>();
         int nearestRepeatedDistance = Integer.MAX_VALUE;
         for (int i = 0; i < paragraph.size(); i++) {
             String word = paragraph.get(i);
-            if (wordToLatestIndex.containsKey(word)) {
+            if (wordToIndexMapping.containsKey(word)) {
+                //get the index of previous word
+                int indexOfAppearedWord = wordToIndexMapping.get(word);
+
+                //i right now is current index of current repeated word
                 nearestRepeatedDistance = Math.min(nearestRepeatedDistance,
-                        i - wordToLatestIndex.get(word));
+                        i - indexOfAppearedWord);
             }
-            wordToLatestIndex.put(word, i);
+
+            //if not exist in hashmap, put them with it's index as value
+            wordToIndexMapping.put(word, i);
         }
         return nearestRepeatedDistance;
     }
