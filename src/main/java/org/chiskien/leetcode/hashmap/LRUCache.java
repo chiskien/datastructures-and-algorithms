@@ -5,17 +5,12 @@ import java.util.Map;
 
 public class LRUCache {
 
-
-    /* ISBN (International Standard Book Number) is a unique commercial book identifier
-       - The First 9 is digits and the last is a check character
-     */
-
     // A Cache for lookup, insert, and remove methods.
     // Using LRU eviction
-    LinkedHashMap<Integer, Integer> isbnToPrice;
+    LinkedHashMap<Integer, Integer> linkedHashMap;
 
     public LRUCache(int capacity) {
-        this.isbnToPrice =
+        this.linkedHashMap =
                 new LinkedHashMap<>(capacity, 1.0f, true) {
                     @Override
                     protected boolean removeEldestEntry(Map.Entry<Integer, Integer> eldest) {
@@ -25,17 +20,17 @@ public class LRUCache {
     }
 
     public Integer lookup(Integer key) {
-        if (!isbnToPrice.containsKey(key)) {
+        if (!linkedHashMap.containsKey(key)) {
             return -1;
         }
-        return isbnToPrice.get(key);
+        return linkedHashMap.get(key);
     }
 
     //
     public Integer insert(Integer key, Integer value) {
-        Integer currentValue = isbnToPrice.get(key);
-        if (!isbnToPrice.containsKey(key)) {
-            isbnToPrice.put(key, value);
+        Integer currentValue = linkedHashMap.get(key);
+        if (!linkedHashMap.containsKey(key)) {
+            linkedHashMap.put(key, value);
             return currentValue;
         } else {
             return -1;
@@ -44,15 +39,15 @@ public class LRUCache {
 
     //if not containsKey then insert
     public void put(Integer key, Integer value) {
-        if (!isbnToPrice.containsKey(key)) {
-            isbnToPrice.put(key, value);
+        if (!linkedHashMap.containsKey(key)) {
+            linkedHashMap.put(key, value);
         } else {
-            Integer currentValue = isbnToPrice.get(key);
-            isbnToPrice.replace(key, currentValue, value);
+            Integer currentValue = linkedHashMap.get(key);
+            linkedHashMap.replace(key, currentValue, value);
         }
     }
 
     public Integer remove(Object key) {
-        return isbnToPrice.remove((Integer) key);
+        return linkedHashMap.remove((Integer) key);
     }
 }

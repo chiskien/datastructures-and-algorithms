@@ -7,10 +7,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="KmostFrequentElements">
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="AverageOfTop3Scorers.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/KmostFrequentQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/KmostFrequentQueries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/LongestConsecutiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/LongestConsecutiveSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/LRUCache.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -437,7 +436,7 @@
       <workItem from="1693565529107" duration="526000" />
       <workItem from="1693822147840" duration="2871000" />
       <workItem from="1693875572095" duration="3384000" />
-      <workItem from="1693908996398" duration="7866000" />
+      <workItem from="1693908996398" duration="8691000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -768,23 +767,23 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00102" summary="KthSmallestElementsInBST.java">
+    <task id="LOCAL-00104" summary="LongestConsecutiveSequence [Cannot passed time limited exceed :D what a joke]">
       <option name="closed" value="true" />
-      <created>1693879583379</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
+      <created>1693927563923</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
       <option name="project" value="LOCAL" />
-      <updated>1693879583380</updated>
+      <updated>1693927563923</updated>
     </task>
-    <task id="LOCAL-00103" summary="KmostFrequentElements">
+    <task id="LOCAL-00105" summary="AverageOfTop3Scorers.java">
       <option name="closed" value="true" />
-      <created>1693911764336</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
+      <created>1693929071919</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
       <option name="project" value="LOCAL" />
-      <updated>1693911764336</updated>
+      <updated>1693929071919</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -802,8 +801,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SideTreeView" />
-    <MESSAGE value="AverageLevel Binary Tree" />
     <MESSAGE value="Searching" />
     <MESSAGE value="FirstOccurrenceOfK" />
     <MESSAGE value="RansomNote" />
@@ -827,7 +824,9 @@
     <MESSAGE value="SmallestSubArrayCoveringAllValues and Unit Tests" />
     <MESSAGE value="KthSmallestElementsInBST.java" />
     <MESSAGE value="KmostFrequentElements" />
-    <option name="LAST_COMMIT_MESSAGE" value="KmostFrequentElements" />
+    <MESSAGE value="LongestConsecutiveSequence [Cannot passed time limited exceed :D what a joke]" />
+    <MESSAGE value="AverageOfTop3Scorers.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="AverageOfTop3Scorers.java" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
