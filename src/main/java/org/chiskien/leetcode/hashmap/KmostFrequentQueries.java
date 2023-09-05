@@ -4,7 +4,7 @@ import java.util.*;
 
 public class KmostFrequentQueries {
     public static void main(String[] args) {
-        int[] nums = new int[]{1,1,1,1,4,4,2,2,3,3,3};
+        int[] nums = new int[]{1, 1, 1, 1, 4, 4, 2, 2, 3, 3, 3};
         int k = 2;
         System.out.println(Arrays.toString(topKFrequent(nums, k)));
     }
@@ -25,8 +25,9 @@ public class KmostFrequentQueries {
         for (Map.Entry<Integer, Integer> entry : frequenciesMap.entrySet()) {
             maxHeap.add(entry);
         }
-        result[0] = maxHeap.poll().getKey();
-        result[1] = maxHeap.poll().getKey();
+        for (int i = 0; i < k; i++) {
+            result[i] = maxHeap.poll().getKey();
+        }
         return result;
     }
 }
