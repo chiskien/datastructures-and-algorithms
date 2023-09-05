@@ -22,7 +22,7 @@ class SmallestSubArrayCoveringAllValuesTest {
         List<String> paragraph = List.of("mot", "con", "vit", "xoe", "ra", "hai", "cai", "canh");
         Set<String> keyWords = Set.of("con", "hai");
         int[] expected = new int[]{1, 5};
-        int[] actual = s.findSmallestSubarrayCoveringSetOfWords(paragraph, keyWords);
+        int[] actual = s.findSmallestSubArrayCoveringSetOfWords(paragraph, keyWords);
         assertArrayEquals(expected, actual);
     }
 
@@ -32,7 +32,7 @@ class SmallestSubArrayCoveringAllValuesTest {
                 "con", "vit", "xoe", "ra", "hai", "cai", "con", "canh", "hai", "canh");
         Set<String> keyWords = Set.of("con", "hai");
         int[] expected = new int[]{7, 9};
-        int[] actual = s.findSmallestSubarrayCoveringSetOfWords(paragraph, keyWords);
+        int[] actual = s.findSmallestSubArrayCoveringSetOfWords(paragraph, keyWords);
         assertArrayEquals(expected, actual);
     }
 }

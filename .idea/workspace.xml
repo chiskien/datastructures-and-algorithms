@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="NearestRepeatedEntries.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/KmostFrequentQueries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/SmallestSubArrayCoveringAllValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/stack/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/SmallestSubArrayCoveringAllValuesTest.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="SmallestSubArrayCoveringAllValues and Unit Tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/binarytree/KthSmallestElementsInBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/LongestConsecutiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/LongestConsecutiveSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/SmallestSubArrayCoveringAllValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/SmallestSubArrayCoveringAllValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/SmallestSubArrayCoveringAllValuesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/hashmap/SmallestSubArrayCoveringAllValuesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -432,7 +430,10 @@
       <workItem from="1693012224394" duration="91000" />
       <workItem from="1693130820761" duration="1593000" />
       <workItem from="1693184861997" duration="1556000" />
-      <workItem from="1693230184113" duration="3329000" />
+      <workItem from="1693230184113" duration="3829000" />
+      <workItem from="1693565529107" duration="526000" />
+      <workItem from="1693822147840" duration="2871000" />
+      <workItem from="1693875572095" duration="2879000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -763,14 +764,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00099" summary="update gitignore">
-      <option name="closed" value="true" />
-      <created>1693012277243</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1693012277243</updated>
-    </task>
     <task id="LOCAL-00100" summary="NearestRepeatedEntries.java">
       <option name="closed" value="true" />
       <created>1693133676111</created>
@@ -779,7 +772,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693133676111</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="SmallestSubArrayCoveringAllValues and Unit Tests">
+      <option name="closed" value="true" />
+      <created>1693234035208</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1693234035209</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -797,7 +798,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Heap (PriorityQueue) demo" />
     <MESSAGE value="Find the Kth largest elements" />
     <MESSAGE value="Breadth First Search Tree" />
     <MESSAGE value="SideTreeView" />
@@ -822,7 +822,8 @@
     <MESSAGE value="Finish LRU Cache" />
     <MESSAGE value="update gitignore" />
     <MESSAGE value="NearestRepeatedEntries.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="NearestRepeatedEntries.java" />
+    <MESSAGE value="SmallestSubArrayCoveringAllValues and Unit Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="SmallestSubArrayCoveringAllValues and Unit Tests" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

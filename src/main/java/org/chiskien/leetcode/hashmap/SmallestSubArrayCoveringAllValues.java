@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+
 public class SmallestSubArrayCoveringAllValues {
 
     //Algorithms which:
@@ -13,7 +14,7 @@ public class SmallestSubArrayCoveringAllValues {
     // covers the set
 
 
-    public int[] findSmallestSubarrayCoveringSetOfWords(List<String> paragraph,
+    public int[] findSmallestSubArrayCoveringSetOfWords(List<String> paragraph,
                                                         Set<String> words) {
         Map<String, Integer> keyWordsToCover = new HashMap<>();
         for (String keyword : words) {
