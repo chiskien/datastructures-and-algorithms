@@ -17,17 +17,17 @@ class ExcelSheetToColumnTest {
     @Test
     void normalCaseWithZeroToNine() {
         int columnNumber = 3;
-        assertEquals("C", excelSheetToColumn.convertToTitleCK(columnNumber));
+        assertEquals("C", ExcelSheetToColumn.convertToTitleCK(columnNumber));
     }
 
     @Test
     void normalCaseWithZeroToNine2() {
         int columnNumber = 9;
-        assertEquals("I", excelSheetToColumn.convertToTitleCK(columnNumber));
+        assertEquals("I", ExcelSheetToColumn.convertToTitleCK(columnNumber));
     }
     @Test
     void normalCaseWithTwoDigits() {
         int columnNumber = 701;
-        assertEquals("Z", excelSheetToColumn.convertToTitleCK(columnNumber));
+        assertEquals("Z", ExcelSheetToColumn.convertToTitleCK(columnNumber));
     }
 }

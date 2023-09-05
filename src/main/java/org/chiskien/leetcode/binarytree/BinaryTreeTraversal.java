@@ -6,7 +6,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 
-public class BinaryTree {
+public class BinaryTreeTraversal {
     public void main() {
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);

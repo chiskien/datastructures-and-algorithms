@@ -25,9 +25,7 @@ public class StackArray {
 
     private void resize(int capacity) {
         int[] copy = new int[capacity];
-        for (int i = 0; i < N; i++) {
-            copy[i] = stack[i];
-        }
+        if (N >= 0) System.arraycopy(stack, 0, copy, 0, N);
         stack = copy;
     }
 

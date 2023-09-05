@@ -6,8 +6,8 @@ import java.util.LinkedList;
 import java.util.NoSuchElementException;
 
 public class QueueByStack {
-    private Deque<Integer> enq = new LinkedList<>();
-    private Deque<Integer> deq = new LinkedList<>();
+    private final Deque<Integer> enq = new LinkedList<>();
+    private final Deque<Integer> deq = new LinkedList<>();
 
     public void enqueue(Integer x) {
         enq.addFirst(x);
