@@ -7,9 +7,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="LRU Cache Implementation using LinkedHashMap (A combination of Linked List and HashMap)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/linked_list/SplitLinkedListintoParts.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="LeetCode 6/9/2023 SplitLinkedListintoParts.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/graph/CloneGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/slidingwindows/MinimumSizeSubArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/slidingwindows/MinimumSizeSubArraySum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -441,7 +442,12 @@
       <workItem from="1693875572095" duration="3384000" />
       <workItem from="1693908996398" duration="8760000" />
       <workItem from="1693963678579" duration="568000" />
-      <workItem from="1693968103389" duration="2016000" />
+      <workItem from="1693968103389" duration="2248000" />
+      <workItem from="1693970438139" duration="556000" />
+      <workItem from="1693984143371" duration="135000" />
+      <workItem from="1693990512341" duration="656000" />
+      <workItem from="1693998544797" duration="1191000" />
+      <workItem from="1694006574881" duration="2089000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -772,14 +778,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00105" summary="AverageOfTop3Scorers.java">
-      <option name="closed" value="true" />
-      <created>1693929071919</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1693929071919</updated>
-    </task>
     <task id="LOCAL-00106" summary="LRU Cache Implementation using LinkedHashMap (A combination of Linked List and HashMap)">
       <option name="closed" value="true" />
       <created>1693929261090</created>
@@ -788,7 +786,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693929261090</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="LeetCode 6/9/2023 SplitLinkedListintoParts.java">
+      <option name="closed" value="true" />
+      <created>1693970224460</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1693970224461</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -806,7 +812,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="FirstOccurrenceOfK" />
     <MESSAGE value="RansomNote" />
     <MESSAGE value="Binary Search Tree" />
     <MESSAGE value="Insert and Delete in Binary Search Tree" />
@@ -831,7 +836,8 @@
     <MESSAGE value="LongestConsecutiveSequence [Cannot passed time limited exceed :D what a joke]" />
     <MESSAGE value="AverageOfTop3Scorers.java" />
     <MESSAGE value="LRU Cache Implementation using LinkedHashMap (A combination of Linked List and HashMap)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LRU Cache Implementation using LinkedHashMap (A combination of Linked List and HashMap)" />
+    <MESSAGE value="LeetCode 6/9/2023 SplitLinkedListintoParts.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode 6/9/2023 SplitLinkedListintoParts.java" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

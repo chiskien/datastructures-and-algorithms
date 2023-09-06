@@ -1,10 +1,22 @@
 package org.chiskien.leetcode.slidingwindows;
 
+import java.util.Map;
+
 public class MinimumSizeSubArraySum {
 
     public int minSubArrayLen(int[] nums, int target) {
-        int lengthOfSubArray = 0;
-        if (nums[0] == target) return 1;
-        return lengthOfSubArray;
+
+        int left = 0, right = 0;
+        int min = Integer.MAX_VALUE;
+        int currentSum = 0;
+        while (right < nums.length) {
+            currentSum += nums[right++];
+            while (currentSum >= target) {
+                min = Math.min(min, right - left);
+                currentSum -= nums[left++];
+            }
+        }
+        if (min == Integer.MAX_VALUE) return 0;
+        return min;
     }
 }
