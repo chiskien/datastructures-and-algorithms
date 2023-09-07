@@ -40,4 +40,16 @@ public class Trie {
         return true;
     }
 
+    public String getShortestUniquePrefix(String word) {
+        TrieNode current = root;
+        StringBuilder prefix = new StringBuilder();
+        for (Character c : word.toCharArray()) {
+            prefix.append(c);
+            if (!current.childrens.containsKey(c)) {
+                return prefix.toString();
+            }
+            current = current.childrens.get(c);
+        }
+        return "";
+    }
 }

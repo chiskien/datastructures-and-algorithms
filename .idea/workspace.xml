@@ -7,14 +7,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="FIRST GRAPH Problems 👌😊">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/trie/Trie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/trie/TrieNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/chiskien/leetcode/trie/TrieTest.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Implementing Trie (Prefix Tree) come with Unit Tests.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/trie/ShortestUniquePrefix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/hashmap/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/practice/Top150.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/trie/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/trie/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/trie/TrieNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/trie/TrieNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -455,7 +452,7 @@
       <workItem from="1694011113159" duration="1210000" />
       <workItem from="1694047875463" duration="26000" />
       <workItem from="1694055400658" duration="796000" />
-      <workItem from="1694069007798" duration="4445000" />
+      <workItem from="1694069007798" duration="5321000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -786,23 +783,23 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00108" summary="MinimumSizeSubArraySum.java using sliding window technique">
+    <task id="LOCAL-00110" summary="Rename application">
       <option name="closed" value="true" />
-      <created>1694010238881</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
+      <created>1694077347543</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
       <option name="project" value="LOCAL" />
-      <updated>1694010238882</updated>
+      <updated>1694077347543</updated>
     </task>
-    <task id="LOCAL-00109" summary="FIRST GRAPH Problems 👌😊">
+    <task id="LOCAL-00111" summary="Implementing Trie (Prefix Tree) come with Unit Tests.">
       <option name="closed" value="true" />
-      <created>1694010268559</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
+      <created>1694077381828</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
       <option name="project" value="LOCAL" />
-      <updated>1694010268559</updated>
+      <updated>1694077381828</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -820,8 +817,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Insert and Delete in Binary Search Tree" />
-    <MESSAGE value="[Searching]: Search in 2D sorted array" />
     <MESSAGE value="Finding nearest repeated entries in array" />
     <MESSAGE value="First and Last position" />
     <MESSAGE value="Clean up main" />
@@ -845,7 +840,9 @@
     <MESSAGE value="LeetCode 6/9/2023 SplitLinkedListintoParts.java" />
     <MESSAGE value="MinimumSizeSubArraySum.java using sliding window technique" />
     <MESSAGE value="FIRST GRAPH Problems " />
-    <option name="LAST_COMMIT_MESSAGE" value="FIRST GRAPH Problems " />
+    <MESSAGE value="Rename application" />
+    <MESSAGE value="Implementing Trie (Prefix Tree) come with Unit Tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing Trie (Prefix Tree) come with Unit Tests." />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
