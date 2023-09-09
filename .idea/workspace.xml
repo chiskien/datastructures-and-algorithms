@@ -7,11 +7,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="Implementing Trie (Prefix Tree) come with Unit Tests.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/trie/ShortestUniquePrefix.java" afterDir="false" />
+    <list default="true" id="ecadabb2-58e4-42e6-83c6-46671bccdb52" name="Changes" comment="ShortestUniquePrefix using Trie">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/array/PascalTriangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/trie/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/trie/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/trie/TrieNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chiskien/leetcode/trie/TrieNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -452,7 +450,9 @@
       <workItem from="1694011113159" duration="1210000" />
       <workItem from="1694047875463" duration="26000" />
       <workItem from="1694055400658" duration="796000" />
-      <workItem from="1694069007798" duration="5321000" />
+      <workItem from="1694069007798" duration="5351000" />
+      <workItem from="1694182029993" duration="160000" />
+      <workItem from="1694182599521" duration="1937000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1674554995907</created>
@@ -783,14 +783,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687261601997</updated>
     </task>
-    <task id="LOCAL-00110" summary="Rename application">
-      <option name="closed" value="true" />
-      <created>1694077347543</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1694077347543</updated>
-    </task>
     <task id="LOCAL-00111" summary="Implementing Trie (Prefix Tree) come with Unit Tests.">
       <option name="closed" value="true" />
       <created>1694077381828</created>
@@ -799,7 +791,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694077381828</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="ShortestUniquePrefix using Trie">
+      <option name="closed" value="true" />
+      <created>1694078192301</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1694078192301</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -817,7 +817,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finding nearest repeated entries in array" />
     <MESSAGE value="First and Last position" />
     <MESSAGE value="Clean up main" />
     <MESSAGE value="Find K Smallest Pairs using min-heap" />
@@ -842,7 +841,8 @@
     <MESSAGE value="FIRST GRAPH Problems " />
     <MESSAGE value="Rename application" />
     <MESSAGE value="Implementing Trie (Prefix Tree) come with Unit Tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing Trie (Prefix Tree) come with Unit Tests." />
+    <MESSAGE value="ShortestUniquePrefix using Trie" />
+    <option name="LAST_COMMIT_MESSAGE" value="ShortestUniquePrefix using Trie" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
