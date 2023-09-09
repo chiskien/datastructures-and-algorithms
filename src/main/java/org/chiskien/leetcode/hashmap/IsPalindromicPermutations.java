@@ -7,8 +7,7 @@ public class IsPalindromicPermutations {
 
     public boolean canFormPalindromePermutation(String s) {
         Map<Character, Integer> charFrequencies = new HashMap<>();
-        for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
+        for (Character c : s.toCharArray()) {
             if (!charFrequencies.containsKey(c)) {
                 charFrequencies.put(c, 1);
             } else {
@@ -18,7 +17,6 @@ public class IsPalindromicPermutations {
 
         // A String can be permuted as a palindrome if and only if the number of
         // chars whose frequencies is odd is at most 1
-
         int oddCount = 0;
         for (Map.Entry<Character, Integer> entry : charFrequencies.entrySet()) {
             if ((entry.getValue() % 2 != 0) && ++oddCount > 1) {

@@ -10,7 +10,7 @@ public class SmallestSubArrayCoveringAllValues {
 
     //Algorithms which:
     //input: an array of strings
-    // output: indices of starting and ending index of a shortest subarray that
+    // output: indices of starting and ending index of the shortest sub-array that
     // covers the set
 
 
