@@ -1,9 +1,0 @@
-
-N
-java:S1854	"8Remove this useless assignment to local variable "test".(—‚…æ
-?
-java:S1481	")Remove this unused "test" local variable.(—‚…æ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(óž½×úÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(•ôíüÿÿÿÿ
-H
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
