@@ -1,9 +1,8 @@
 package org.chiskien.leetcode.two_pointers;
 
+import org.chiskien.datastructures.leetcode.two_pointers.ThreeSome;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class ThreeSomeTest {
     ThreeSome threeSome;

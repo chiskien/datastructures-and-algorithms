@@ -1,5 +1,6 @@
 package org.chiskien.leetcode.intervals;
 
+import org.chiskien.datastructures.leetcode.intervals.SummaryRanges;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

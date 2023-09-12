@@ -1,9 +1,8 @@
 package org.chiskien.leetcode.hashmap;
 
+import org.chiskien.datastructures.leetcode.hashmap.LongestConsecutiveSequence;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class LongestConsecutiveSequenceTest {
     LongestConsecutiveSequence longestConsecutiveSequence;

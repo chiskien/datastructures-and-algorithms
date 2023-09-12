@@ -1,5 +1,6 @@
 package org.chiskien.leetcode.heap;
 
+import org.chiskien.datastructures.leetcode.heap.FindKSmallestPairs;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

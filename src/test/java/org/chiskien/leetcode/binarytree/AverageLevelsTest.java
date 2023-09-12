@@ -1,5 +1,7 @@
 package org.chiskien.leetcode.binarytree;
 
+import org.chiskien.datastructures.leetcode.binarytree.AverageLevels;
+import org.chiskien.datastructures.leetcode.binarytree.TreeNode;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

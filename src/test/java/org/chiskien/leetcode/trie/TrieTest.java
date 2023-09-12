@@ -1,5 +1,6 @@
 package org.chiskien.leetcode.trie;
 
+import org.chiskien.datastructures.leetcode.trie.Trie;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

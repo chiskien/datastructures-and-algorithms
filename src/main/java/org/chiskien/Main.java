@@ -1,9 +1,5 @@
 package org.chiskien;
 
-import org.chiskien.leetcode.sorting.InsertionSort;
-import org.chiskien.leetcode.sorting.QuickSort;
-import org.chiskien.leetcode.sorting.SelectionSort;
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
