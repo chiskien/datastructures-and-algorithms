@@ -1,9 +1,9 @@
 package org.chiskien.datastructures.leetcode.binarytree;
 
-class TreeNode {
+public class TreeNode {
     int val;
-    TreeNode right;
-    TreeNode left;
+    public TreeNode right;
+    public TreeNode left;
 
 
     public TreeNode() {
