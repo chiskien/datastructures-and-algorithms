@@ -1,6 +1,6 @@
 package org.chiskien.leetcode.hashmap;
 
-import org.chiskien.datastructures.leetcode.hashmap.ContainsDuplicate2;
+import org.chiskien.datastructures_algorithms.leetcode.hashmap.ContainsDuplicate2;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

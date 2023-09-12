@@ -1,6 +1,6 @@
 package org.chiskien.leetcode.binarysearch;
 
-import org.chiskien.datastructures.leetcode.searching.BinarySearch;
+import org.chiskien.datastructures_algorithms.leetcode.searching.BinarySearch;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

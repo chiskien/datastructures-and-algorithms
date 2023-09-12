@@ -1,6 +1,6 @@
 package org.chiskien.leetcode.hashmap;
 
-import org.chiskien.datastructures.leetcode.hashmap.SmallestSubArrayCoveringAllValues;
+import org.chiskien.datastructures_algorithms.leetcode.hashmap.SmallestSubArrayCoveringAllValues;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

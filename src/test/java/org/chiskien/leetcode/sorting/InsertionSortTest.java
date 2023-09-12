@@ -1,6 +1,6 @@
 package org.chiskien.leetcode.sorting;
 
-import org.chiskien.datastructures.leetcode.sorting.InsertionSort;
+import org.chiskien.datastructures_algorithms.leetcode.sorting.InsertionSort;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
