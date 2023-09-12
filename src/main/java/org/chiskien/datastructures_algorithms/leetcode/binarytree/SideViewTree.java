@@ -10,18 +10,18 @@ public class SideViewTree {
 
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> result = new ArrayList<>();
-        Deque<TreeNode> treeRepresentation = new LinkedList<>();
-        treeRepresentation.add(root);
+        Deque<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
 
-        while (!treeRepresentation.isEmpty()) {
+        while (!queue.isEmpty()) {
             TreeNode rightMost = null;
-            int size = treeRepresentation.size();
+            int size = queue.size();
             for (int i = 0; i < size; i++) {
-                TreeNode n = treeRepresentation.removeFirst();
+                TreeNode n = queue.removeFirst();
                 if (n != null) {
                     rightMost = n;
-                    treeRepresentation.addLast(n.left);
-                    treeRepresentation.addLast(n.right);
+                    queue.addLast(n.left);
+                    queue.addLast(n.right);
                 }
             }
             if (rightMost != null) {
