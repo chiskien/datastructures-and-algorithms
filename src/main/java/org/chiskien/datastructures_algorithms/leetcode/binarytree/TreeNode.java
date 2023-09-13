@@ -4,7 +4,7 @@ public class TreeNode {
     int val;
     public TreeNode right;
     public TreeNode left;
-
+    public TreeNode parent;
 
     public TreeNode() {
     }
