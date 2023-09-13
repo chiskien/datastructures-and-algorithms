@@ -2,7 +2,7 @@ package org.chiskien.designpatterns.observer;
 
 public class ForecastDisplay implements Observer, DisplayElement {
 
-    private WeatherData weatherData;
+    private final WeatherData weatherData;
     private float lastPressure;
     private float currentPressure = 29.3f;
 
