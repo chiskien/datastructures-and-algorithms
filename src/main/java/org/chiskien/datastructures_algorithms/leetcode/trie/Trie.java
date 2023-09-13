@@ -51,6 +51,5 @@ public class Trie {
             current = current.childrens.get(c);
         }
         return "";
-
     }
 }
