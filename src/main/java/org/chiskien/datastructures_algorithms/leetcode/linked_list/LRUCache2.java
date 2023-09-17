@@ -4,7 +4,7 @@ package org.chiskien.datastructures_algorithms.leetcode.linked_list;
 import java.util.HashMap;
 import java.util.Map;
 
- class CacheNode {
+class CacheNode {
     int key;
     int value;
     CacheNode prev;
@@ -39,7 +39,39 @@ public class LRUCache2 {
         return node.value;
     }
 
+    public void put(int key, int newValue) {
+        CacheNode node = table.get(key);
+        if (node == null) {
+            CacheNode newNode = new CacheNode();
+            newNode.key = key;
+            newNode.value = newValue;
+            table.put(key, newNode);
+            addNodeToHead(newNode);
+            ++size;
+
+            //evict least recently used item if current size is > capacity
+            if (size > capacity) {
+                CacheNode tail = removeTail();
+                table.remove(tail.key);
+                --size;
+            }
+        }
+    }
+
+    private CacheNode removeTail() {
+        CacheNode tail = dummyTail.prev;
+        removeCacheNode(tail);
+        return tail;
+    }
+
+    private void addNodeToHead(CacheNode node) {
+        node.next = dummyHead.next;
+        node.prev = dummyHead;
+    }
+
     private void moveToHead(CacheNode node) {
+        removeCacheNode(node);
+        addNodeToHead(node);
     }
 
     private void removeCacheNode(CacheNode node) {
