@@ -50,6 +50,11 @@ public class DoublyLinkedList<T> implements LinkedList<T> {
         }
     }
 
+    public void removeNode(DoublyNode<T> nodeTobeDeleted) {
+        nodeTobeDeleted.next.prev = nodeTobeDeleted.prev;
+        nodeTobeDeleted.prev.next = nodeTobeDeleted.next;
+    }
+
     @Override
     public T removeFirst() {
         if (isEmpty()) throw new NoSuchElementException();

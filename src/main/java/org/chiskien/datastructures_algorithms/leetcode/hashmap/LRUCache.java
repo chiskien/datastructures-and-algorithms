@@ -13,7 +13,7 @@ public class LRUCache {
         this.linkedHashMap =
                 new LinkedHashMap<>(capacity, 1.0f, true) {
                     @Override
-                    protected boolean removeEldestEntry(Map.Entry<Integer, Integer> eldest) {
+                    protected boolean removeEldestEntry(Map.Entry<Integer, Integer> leastEntry) {
                         return this.size() > capacity;
                     }
                 };
