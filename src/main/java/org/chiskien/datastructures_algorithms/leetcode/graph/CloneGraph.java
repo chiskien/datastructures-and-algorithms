@@ -4,19 +4,19 @@ import java.util.*;
 
 public class CloneGraph {
 
-    public Node cloneGraph(Node g) {
-        if (g == null) return null;
+    public GraphVertex cloneGraph(GraphVertex node) {
+        if (node == null) return null;
 
-        Map<Node, Node> vertextMap = new HashMap<>();
-        Queue<Node> queue = new LinkedList<>();
-        queue.add(g);
-        vertextMap.put(g, new Node(g.val));
+        Map<GraphVertex, GraphVertex> vertextMap = new HashMap<>();
+        Queue<GraphVertex> queue = new LinkedList<>();
+        queue.add(node);
+        vertextMap.put(node, new GraphVertex(node.val));
         while (!queue.isEmpty()) {
-            Node v = queue.remove();
-            for (Node n : v.neighbors) {
+            GraphVertex v = queue.remove();
+            for (GraphVertex n : v.neighbors) {
                 //Try to copy node n
                 if (!vertextMap.containsKey(n)) {
-                    vertextMap.put(n, new Node(n.val));
+                    vertextMap.put(n, new GraphVertex(n.val));
                     queue.add(n);
                 }
 
@@ -24,18 +24,7 @@ public class CloneGraph {
                 vertextMap.get(v).neighbors.add(vertextMap.get(n));
             }
         }
-        return vertextMap.get(g);
+        return vertextMap.get(node);
     }
 }
 
-class Node {
-    public int val;
-    public List<Node> neighbors;
-
-    public Node(int val) {
-        this.val = val;
-        this.neighbors = new ArrayList<>();
-    }
-
-
-}
