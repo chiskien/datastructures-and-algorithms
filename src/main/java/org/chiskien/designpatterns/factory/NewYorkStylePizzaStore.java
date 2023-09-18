@@ -5,8 +5,9 @@ public class NewYorkStylePizzaStore extends PizzaStore {
     @Override
     public Pizza createPizza(String type) {
         return switch (type) {
-            case "cheese" -> new CheesePizza();
-            case "clam" -> new ClamPizza();
+            case "cheese" -> new NewYorkStyleCheesePizza();
+            case "clam" -> new NewYorkStyleClamPizza();
+            case "pepperoni" -> new NewYorkStylePepperoniPizza();
             default -> null;
         };
     }

@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Pizza {
-    private String name;
-    private String dough;
-    private String sauce;
-    List<Topping> toppings = new ArrayList<>();
+    protected String name;
+    protected String dough;
+    protected String sauce;
+    protected List<Topping> toppings = new ArrayList<>();
 
     protected void prepare() {
         System.out.println("Preparing " + name);
