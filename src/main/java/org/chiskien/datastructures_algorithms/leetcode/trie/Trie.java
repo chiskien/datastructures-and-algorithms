@@ -8,47 +8,47 @@ public class Trie {
     }
 
     public void insert(String word) {
-        TrieNode current = root;
+        TrieNode currentTrieNode = root;
         for (Character c : word.toCharArray()) {
-            if (!current.childrens.containsKey(c)) {
-                current.childrens.put(c, new TrieNode());
+            if (!currentTrieNode.childrens.containsKey(c)) {
+                currentTrieNode.childrens.put(c, new TrieNode());
             }
-            current = current.childrens.get(c);
+            currentTrieNode = currentTrieNode.childrens.get(c);
         }
-        current.isWord = true;
+        currentTrieNode.isWord = true;
     }
 
     public boolean search(String word) {
-        TrieNode current = root;
+        TrieNode currentTrieNode = root;
         for (Character c : word.toCharArray()) {
-            if (!current.childrens.containsKey(c)) {
+            if (!currentTrieNode.childrens.containsKey(c)) {
                 return false;
             }
-            current = current.childrens.get(c);
+            currentTrieNode = currentTrieNode.childrens.get(c);
         }
-        return current.isWord;
+        return currentTrieNode.isWord;
     }
 
     public boolean startsWith(String prefix) {
-        TrieNode current = root;
+        TrieNode currentTrieNode = root;
         for (Character c : prefix.toCharArray()) {
-            if (!current.childrens.containsKey(c)) {
+            if (!currentTrieNode.childrens.containsKey(c)) {
                 return false;
             }
-            current = current.childrens.get(c);
+            currentTrieNode = currentTrieNode.childrens.get(c);
         }
         return true;
     }
 
     public String getShortestUniquePrefix(String word) {
-        TrieNode current = root;
+        TrieNode currentTrieNode = root;
         StringBuilder prefix = new StringBuilder();
         for (Character c : word.toCharArray()) {
             prefix.append(c);
-            if (!current.childrens.containsKey(c)) {
+            if (!currentTrieNode.childrens.containsKey(c)) {
                 return prefix.toString();
             }
-            current = current.childrens.get(c);
+            currentTrieNode = currentTrieNode.childrens.get(c);
         }
         return "";
     }
