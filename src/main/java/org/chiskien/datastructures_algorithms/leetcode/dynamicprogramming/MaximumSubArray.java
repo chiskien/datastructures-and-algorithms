@@ -4,9 +4,10 @@ public class MaximumSubArray {
 
     //Dynamic Programming Approach
     public int maxSubArray(int[] nums) {
+        if (nums.length == 1) return nums[0];
         int minSum = 0, sum = 0, maxSum = Integer.MIN_VALUE;
-        for (int i = 0; i < nums.length; i++) {
-            sum += nums[i];
+        for (int num : nums) {
+            sum += num;
             if (sum < minSum) {
                 minSum = sum;
             }
