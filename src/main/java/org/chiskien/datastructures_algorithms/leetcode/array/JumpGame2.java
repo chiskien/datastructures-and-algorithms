@@ -14,7 +14,8 @@ public class JumpGame2 {
                 count++;
                 currentIndex = furthestReachPositionSoFar;
             }
-            furthestReachPositionSoFar = Math.max(furthestReachPositionSoFar, i + nums[i]);
+            furthestReachPositionSoFar = Math.max(furthestReachPositionSoFar,
+                    i + nums[i]);
         }
         return count;
     }

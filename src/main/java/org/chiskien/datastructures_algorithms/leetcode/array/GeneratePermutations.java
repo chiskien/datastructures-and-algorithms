@@ -6,8 +6,6 @@ import java.util.List;
 
 public class GeneratePermutations {
 
-
-
     public static List<List<Integer>> permutations(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         List<Integer> perm = new ArrayList<>();
