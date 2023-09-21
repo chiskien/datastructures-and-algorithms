@@ -9,9 +9,9 @@
       All-rounded algorithms course made by MIT
     - [Abdul Bari / Indian Sensei](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O):
       Simply the best 🤣
+    - [NeetCode](https://neetcode.io/roadmap)
 
-
-## Effective Java (Soon to be merged) 
+## Effective Java (Soon to be merged)
 
 - Effective Java (Joshua Bloch)
 
