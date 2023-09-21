@@ -11,10 +11,12 @@
       Simply the best 🤣
     - [NeetCode](https://neetcode.io/roadmap)
 
-## Effective Java (Soon to be merged)
+## Effective Java
 
+- OCP Java SE 17 
 - Effective Java (Joshua Bloch)
 
-## Design Patterns (Soon to be merged)
+## Design Patterns
 
+- Design Pattern, Gang of Four
 - Head First Design Patterns
