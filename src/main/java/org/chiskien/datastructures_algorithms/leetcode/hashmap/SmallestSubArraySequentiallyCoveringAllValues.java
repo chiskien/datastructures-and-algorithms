@@ -7,8 +7,7 @@ import java.util.Map;
 
 public class SmallestSubArraySequentiallyCoveringAllValues {
 
-    public int[] findSmallestSequentiallyCoveringSubArray(
-            List<String> paragraph, List<String> keywords) {
+    public int[] findSmallestSequentiallyCoveringSubArray(List<String> paragraph, List<String> keywords) {
         //Map string to its indexes
         Map<String, Integer> keywordToIndex = new HashMap<>();
         List<Integer> lastestOccurence = new ArrayList<>(keywords.size());

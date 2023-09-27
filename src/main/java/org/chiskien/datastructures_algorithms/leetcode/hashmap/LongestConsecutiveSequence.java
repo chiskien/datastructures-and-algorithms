@@ -5,43 +5,44 @@ import java.util.*;
 //LeetCode 128
 public class LongestConsecutiveSequence {
 
-    //find the longest length of subarray that items are consecutive
+    //find the longest length contains items are consecutive ordered
     //Brute Force: Sort the array and iterate and record
     // => Care only about the integers adjacent to a given value
     // => Use HashMap
 
-    public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>(1);
-    }
+    // 1. Add elements to Hash Table (using LinkedHashset or HashSet)
+    // Iterate through the Hash Table
+    // With element E in Hash Table, find the largest contigous sequence from that element
+    // backward or forward in Hash Table
+    // We find e - 1, e- 2, ... , e + 1, e + 2 if them in hash table or not
+    // To avoid duplicate, remove it from hash table, because if when we find it again, it just a same sequence.
 
-    public static int longestContainedRange(int[] nums) {
-        //unProcessingEntries records the existence of each entry in nums.
-        Set<Integer> unProcessingEntries = new HashSet<>();
-        for (int i : nums) {
-            unProcessingEntries.add(i);
+    public int longestContainedRange(int[] nums) {
+        Set<Integer> unprocessedElements = new HashSet<>(nums.length);
+        for (Integer num : nums) {
+            unprocessedElements.add(num);
         }
-
         int maxIntervalSize = 0;
-        while (!unProcessingEntries.isEmpty()) {
-            int a = unProcessingEntries.iterator().next();
-            unProcessingEntries.remove(a);
+        while (!unprocessedElements.isEmpty()) {
+            Integer element = unprocessedElements.iterator().next();
+            //visited and then remove from hash table
+            unprocessedElements.remove(element);
 
-            //find the lower bound of the largest range containing a.
-            int lowerBound = a - 1;
-            while (unProcessingEntries.contains(lowerBound)) {
-                unProcessingEntries.remove(lowerBound);
+            //find the lower bound of the largest range containing integer
+            int lowerBound = element - 1;
+            while (unprocessedElements.contains(lowerBound)) {
+                unprocessedElements.remove(lowerBound);
                 --lowerBound;
             }
-
-            //find the upper bound
-            int upperBound = a + 1;
-            while (unProcessingEntries.contains(upperBound)) {
-                unProcessingEntries.remove(upperBound);
+            //find the upper bound of the largest range containing integer
+            int upperBound = element + 1;
+            while (unprocessedElements.contains(upperBound)) {
+                unprocessedElements.remove(upperBound);
                 ++upperBound;
             }
-
             maxIntervalSize = Math.max(upperBound - lowerBound - 1, maxIntervalSize);
         }
+
         return maxIntervalSize;
     }
 

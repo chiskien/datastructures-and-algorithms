@@ -1,4 +1,4 @@
-package org.chiskien.datastructures_algorithms.leetcode.slidingwindows;
+package org.chiskien.datastructures_algorithms.leetcode.hashmap;
 
 import java.util.HashMap;
 import java.util.Map;
