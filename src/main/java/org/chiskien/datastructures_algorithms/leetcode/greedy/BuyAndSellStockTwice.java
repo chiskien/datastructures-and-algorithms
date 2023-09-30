@@ -6,15 +6,15 @@ import java.util.List;
 public class BuyAndSellStockTwice {
 
 
-    //Calculate best profit from 0 -> length - 1
-    //Calculate best profit from last to first
+    //Calculate the best profit from 0 -> length - 1
+    //Calculate the best profit from last to first
 
     public static int maxTotalProfit(int[] prices) {
         int maxTotalProfit = 0;
         List<Integer> firstBuySellProfits = new ArrayList<>();
         int minPriceSoFar = Integer.MAX_VALUE;
 
-        // Forward phase. For each day, we record maximum profit if we 
+        // Forward phase. For each day, we record maximum profit if we
         // sell on that day.
         for (int price : prices) {
             minPriceSoFar = Math.min(minPriceSoFar, price);
@@ -31,6 +31,5 @@ public class BuyAndSellStockTwice {
                     + firstBuySellProfits.get(i - 1));
         }
         return maxTotalProfit;
-
     }
 }
