@@ -3,6 +3,23 @@ package org.chiskien.datastructures_algorithms.leetcode.two_pointers;
 public class SortArrayByParity {
 
 
+    //Solution by EPI
+    public int[] evenOdd(int[] nums) {
+        int nextEven = 0;
+        int nextOdd = nums.length - 1;
+        while (nextEven < nextOdd) {
+            if (nums[nextEven] % 2 == 0) {
+                nextEven++;
+            } else {
+                int temp = nums[nextEven];
+                nums[nextEven] = nums[nextOdd];
+                nums[nextOdd--] = temp;
+            }
+        }
+        return nums;
+    }
+
+    //My Solution
     public int[] sortArrayByParity(int[] nums) {
         int i = 0;
         int j = nums.length - 1;
