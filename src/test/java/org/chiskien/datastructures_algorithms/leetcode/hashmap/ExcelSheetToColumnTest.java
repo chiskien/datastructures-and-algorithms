@@ -1,12 +1,13 @@
 package org.chiskien.datastructures_algorithms.leetcode.hashmap;
 
-import org.chiskien.datastructures_algorithms.leetcode.hashmap.ExcelSheetToColumn;
+import org.chiskien.datastructures_algorithms.leetcode.string.ExcelSheetToColumn;
+import org.chiskien.datastructures_algorithms.leetcode.string.excelSheetToColumn;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ExcelSheetToColumnTest {
+class excelSheetToColumnTest {
 
     ExcelSheetToColumn excelSheetToColumn;
 
@@ -18,17 +19,17 @@ class ExcelSheetToColumnTest {
     @Test
     void normalCaseWithZeroToNine() {
         int columnNumber = 3;
-        assertEquals("C", ExcelSheetToColumn.convertToTitleCK(columnNumber));
+        assertEquals("C", excelSheetToColumn.convertToTitleCK(columnNumber));
     }
 
     @Test
     void normalCaseWithZeroToNine2() {
         int columnNumber = 9;
-        assertEquals("I", ExcelSheetToColumn.convertToTitleCK(columnNumber));
+        assertEquals("I", excelSheetToColumn.convertToTitleCK(columnNumber));
     }
     @Test
     void normalCaseWithTwoDigits() {
         int columnNumber = 701;
-        assertEquals("Z", ExcelSheetToColumn.convertToTitleCK(columnNumber));
+        assertEquals("Z", excelSheetToColumn.convertToTitleCK(columnNumber));
     }
 }

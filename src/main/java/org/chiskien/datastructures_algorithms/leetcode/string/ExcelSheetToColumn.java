@@ -1,14 +1,11 @@
-package org.chiskien.datastructures_algorithms.leetcode.hashmap;
+package org.chiskien.datastructures_algorithms.leetcode.string;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class ExcelSheetToColumn {
-    public static void main(String[] args) {
-        System.out.println(convertToTitleCleaner(701));
-    }
 
-    public static String convertToTitleCleaner(int columnNumber) {
+    public String convertToTitleCleaner(int columnNumber) {
         StringBuilder result = new StringBuilder();
         while (columnNumber-- > 0) {
             char c = (char) (columnNumber % 26 + 'A');
@@ -18,7 +15,16 @@ public class ExcelSheetToColumn {
         return result.reverse().toString();
     }
 
-    public static String convertToTitleCK(int columnNumber) {
+    public int convertColumnToNumber(String column) {
+        int result = 0;
+        for (int i = 0; i < column.length(); i++) {
+            char c = column.charAt(i);
+            result = result * 26 + c - 'A' + 1;
+        }
+        return result;
+    }
+
+    public String convertToTitleCK(int columnNumber) {
         StringBuilder stringBuilder = new StringBuilder();
         Map<Integer, Character> excelCharAndIntMapping = new HashMap<>();
         char label = 'A';
