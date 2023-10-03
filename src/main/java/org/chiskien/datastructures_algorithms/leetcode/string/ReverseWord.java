@@ -9,7 +9,7 @@ public class ReverseWord {
                 .split(" ");
         int i = 0;
         int j = words.length;
-        while (i < words.length / 2 && j > words.length / 2) {
+        while (i < j) {
             String temp = words[i];
             words[i] = words[j - 1];
             words[j - 1] = temp;
