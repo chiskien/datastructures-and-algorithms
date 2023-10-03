@@ -20,8 +20,8 @@ public class RotateList {
         //set the tail pointer to the original head
         tail.next = head;
 
-        // the original head is become the kth node from the start of the new list
-        // therefore the new head is the (n-k)th node in the original list
+        // the original head is becoming the kth node from the start of the new list,
+        // therefore, the new head is the (n-k)th node in the original list
         int stepsToNewHead = n - k;
         ListNode newTail = tail;
 

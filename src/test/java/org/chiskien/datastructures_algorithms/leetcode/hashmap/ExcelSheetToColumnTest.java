@@ -1,7 +1,6 @@
 package org.chiskien.datastructures_algorithms.leetcode.hashmap;
 
 import org.chiskien.datastructures_algorithms.leetcode.string.ExcelSheetToColumn;
-import org.chiskien.datastructures_algorithms.leetcode.string.excelSheetToColumn;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
