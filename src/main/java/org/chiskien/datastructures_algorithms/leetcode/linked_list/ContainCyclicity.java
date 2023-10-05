@@ -17,7 +17,6 @@ public class ContainCyclicity {
     public ListNode detectCycle(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
-        ListNode dummyHead = head;
         while (fast != null && fast.next != null && fast.next.next != null) {
             slow = slow.next;
             fast = fast.next.next;
