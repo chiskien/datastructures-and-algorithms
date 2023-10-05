@@ -39,6 +39,14 @@ public class ListNode {
         return len;
     }
 
+    public static ListNode advanceListByK(ListNode head, int k) {
+        ListNode dummy = head;
+        while (k-- > 0) {
+            dummy = dummy.next;
+        }
+        return dummy;
+    }
+
     public List<ListNode> traverse(ListNode head) {
         ListNode n = head;
         List<ListNode> list = new ArrayList<>();
