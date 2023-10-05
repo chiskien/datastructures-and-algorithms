@@ -1,4 +1,4 @@
-package org.chiskien.datastructures_algorithms.leetcode.binarytree;
+package org.chiskien.datastructures_algorithms.leetcode.binarytree.implementations;
 
 import java.util.Collection;
 

@@ -1,8 +1,8 @@
-package org.chiskien.datastructures_algorithms.leetcode.linked_list;
+package org.chiskien.datastructures_algorithms.leetcode.linked_list.implementations;
 
 import java.util.Iterator;
 
-interface LinkedList<T> {
+public interface LinkedList<T> {
 
     boolean isEmpty();
 

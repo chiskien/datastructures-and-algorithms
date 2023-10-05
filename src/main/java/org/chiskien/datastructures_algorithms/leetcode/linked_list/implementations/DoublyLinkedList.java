@@ -1,4 +1,4 @@
-package org.chiskien.datastructures_algorithms.leetcode.linked_list;
+package org.chiskien.datastructures_algorithms.leetcode.linked_list.implementations;
 
 import java.util.ArrayList;
 import java.util.Collection;

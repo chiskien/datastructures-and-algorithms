@@ -1,4 +1,4 @@
-package org.chiskien.datastructures_algorithms.leetcode.hashmap;
+package org.chiskien.datastructures_algorithms.leetcode.hashmap.implementations;
 
 public class MyLinkedHashMap {
 

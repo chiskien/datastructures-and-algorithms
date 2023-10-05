@@ -1,4 +1,6 @@
-package org.chiskien.datastructures_algorithms.leetcode.binarytree;
+package org.chiskien.datastructures_algorithms.leetcode.binarytree.implementations;
+
+import org.chiskien.datastructures_algorithms.leetcode.binarytree.TreeNode;
 
 public class TreeNodeHelper {
     public TreeNode root;

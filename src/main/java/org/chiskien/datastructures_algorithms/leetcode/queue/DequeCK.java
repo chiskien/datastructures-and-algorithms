@@ -1,6 +1,6 @@
 package org.chiskien.datastructures_algorithms.leetcode.queue;
 
-import org.chiskien.datastructures_algorithms.leetcode.linked_list.DoublyLinkedList;
+import org.chiskien.datastructures_algorithms.leetcode.linked_list.implementations.DoublyLinkedList;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
