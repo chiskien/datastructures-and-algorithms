@@ -20,7 +20,7 @@ public class ListNode {
         this.next = next;
     }
 
-    public ListNode build(int[] nodes) {
+    public static ListNode build(int[] nodes) {
         ListNode head = new ListNode(nodes[0]);
         ListNode n = head;
         for (int i = 1; i < nodes.length; i++) {
@@ -28,6 +28,15 @@ public class ListNode {
             head = head.next;
         }
         return n;
+    }
+
+    public static int length(ListNode head) {
+        int len = 0;
+        while (head != null) {
+            len++;
+            head = head.next;
+        }
+        return len;
     }
 
     public List<ListNode> traverse(ListNode head) {
