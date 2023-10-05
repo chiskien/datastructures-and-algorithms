@@ -13,6 +13,27 @@ public class ContainCyclicity {
     // a fast pointer advances two nodes each passes
     // a slow pointer advances one node each pass
     // if fast meets slow => there is a cycle inside the list.
+
+    public ListNode detectCycle(ListNode head) {
+        ListNode slow = head;
+        ListNode fast = head;
+        ListNode dummyHead = head;
+        while (fast != null && fast.next != null && fast.next.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if (slow == fast) {
+                slow = head;
+                while (slow != fast) {
+                    slow = slow.next;
+                    fast = fast.next;
+                }
+                return slow;
+            }
+        }
+        return null;
+    }
+
     public ListNode hasCycle1(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
