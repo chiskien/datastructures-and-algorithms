@@ -3,19 +3,15 @@ package org.chiskien.datastructures_algorithms.leetcode.linked_list;
 public class RemoveDuplicatesFromSortedList {
 
 
+    public ListNode deleteDuplicates(ListNode head) {
 
-    public static ListNode deleteDuplicates(ListNode head) {
         ListNode dummyHead = new ListNode(0, head);
-        ListNode previous = dummyHead;
-        ListNode current = head; //head
-        while (current != null) {
-            while (current.next != null && current.val == current.next.val) {
-                current = current.next;
-            }
-            if (previous.next == current) {
-                previous = previous.next;
-            } else {
-                previous.next = current.next;
+        ListNode parent = dummyHead;
+        ListNode current = dummyHead.next;
+        while (current != null && current.next != null) {
+            if (current.val == current.next.val) {
+                parent.next = current.next;
+                parent = current;
             }
             current = current.next;
         }
