@@ -10,11 +10,11 @@ public class SmallestSubArraySequentiallyCoveringAllValues {
     public int[] findSmallestSequentiallyCoveringSubArray(List<String> paragraph, List<String> keywords) {
         //Map string to its indexes
         Map<String, Integer> keywordToIndex = new HashMap<>();
-        List<Integer> lastestOccurence = new ArrayList<>(keywords.size());
+        List<Integer> latestOccurrence = new ArrayList<>(keywords.size());
         //for each keyword (identified by its index in keyword)
         List<Integer> shortestSubArrayLength = new ArrayList<>(keywords.size());
         for (int i = 0; i < keywords.size(); i++) {
-            lastestOccurence.add(-1);
+            latestOccurrence.add(-1);
             shortestSubArrayLength.add(Integer.MAX_VALUE);
             keywordToIndex.put(keywords.get(i), i);
         }
@@ -30,12 +30,12 @@ public class SmallestSubArraySequentiallyCoveringAllValues {
                     shortestSubArrayLength.set(0, 1);
                 } else if ((shortestSubArrayLength.get(keywordIndex - 1))
                         != Integer.MAX_VALUE) {
-                    int distanceToPreviousKeyword = i - lastestOccurence.get(keywordIndex - 1);
+                    int distanceToPreviousKeyword = i - latestOccurrence.get(keywordIndex - 1);
                     shortestSubArrayLength.set(keywordIndex, distanceToPreviousKeyword
                             + shortestSubArrayLength.get(keywordIndex - 1));
 
                 }
-                lastestOccurence.set(keywordIndex, i);
+                latestOccurrence.set(keywordIndex, i);
 
                 if (keywordIndex == keywords.size() - 1 && shortestSubArrayLength
                         .get(shortestSubArrayLength.size() - 1) < shortestDistance) {
