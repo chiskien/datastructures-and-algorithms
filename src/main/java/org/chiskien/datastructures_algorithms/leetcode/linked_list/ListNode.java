@@ -47,7 +47,7 @@ public class ListNode {
         return dummy;
     }
 
-    public List<ListNode> traverse(ListNode head) {
+    public static List<ListNode> traverse(ListNode head) {
         ListNode n = head;
         List<ListNode> list = new ArrayList<>();
         while (n != null) {
@@ -55,6 +55,11 @@ public class ListNode {
             n = n.next;
         }
         return list;
+    }
+
+    public static void deleteNode(ListNode nodeTobeDeleted) {
+        nodeTobeDeleted.val = nodeTobeDeleted.next.val;
+        nodeTobeDeleted.next = nodeTobeDeleted.next.next;
     }
 
     @Override
