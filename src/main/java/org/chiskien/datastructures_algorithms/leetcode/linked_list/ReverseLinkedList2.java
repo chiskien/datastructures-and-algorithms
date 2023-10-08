@@ -12,7 +12,8 @@ public class ReverseLinkedList2 {
             subListHead = subListHead.next;
         }
         ListNode sublistIter = subListHead.next;
-        while (left++ < right) {
+        int i = left;
+        while (i++ < right) {
             ListNode temp = sublistIter.next;
             sublistIter.next = temp.next;
             temp.next = subListHead.next;

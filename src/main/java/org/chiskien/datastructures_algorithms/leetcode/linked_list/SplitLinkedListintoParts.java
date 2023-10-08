@@ -3,9 +3,9 @@ package org.chiskien.datastructures_algorithms.leetcode.linked_list;
 public class SplitLinkedListintoParts {
 
     public static void main(String[] args) {
-        ListNode helper = new ListNode();
-        helper = helper.build(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10});
-        splitlistintoParts(helper, 4);
+
+        ListNode head = ListNode.build(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10});
+        splitlistintoParts(head, 4);
     }
 
     public static ListNode[] splitlistintoParts(ListNode head, int k) {
@@ -17,9 +17,8 @@ public class SplitLinkedListintoParts {
             h = h.next;
         }
         int div = size / k;
-        int mod = size % k;
         ListNode current = head;
-        ListNode previous = null;
+        ListNode previous;
         for (int i = 0; i < k; i++) {
             if (current.next != null) {
                 if (i == div) {
