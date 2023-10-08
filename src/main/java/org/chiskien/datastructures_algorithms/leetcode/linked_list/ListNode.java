@@ -21,6 +21,7 @@ public class ListNode {
     }
 
     public static ListNode build(int[] nodes) {
+        if (nodes.length == 0) return null;
         ListNode head = new ListNode(nodes[0]);
         ListNode n = head;
         for (int i = 1; i < nodes.length; i++) {
