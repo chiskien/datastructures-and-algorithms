@@ -1,11 +1,11 @@
 package org.chiskien.datastructures_algorithms.leetcode.linked_list;
 
 public class PartitionList {
-    // also know as list pivoting
+    // also known as list pivoting
     public ListNode partition(ListNode head, int x) {
-        //organize list into:
+        //organize a list into:
         // all nodes < x must come before nodes greater or equal x
-        // must preserve original order of list
+        // must preserve the original order of a list
         ListNode dummyLessHead = new ListNode(0, null);
         ListNode dummyGreaterHead = new ListNode(0, null);
         ListNode lessIter = dummyLessHead;

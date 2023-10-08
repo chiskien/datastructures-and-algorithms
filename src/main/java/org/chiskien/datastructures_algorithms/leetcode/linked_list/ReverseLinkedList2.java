@@ -13,11 +13,11 @@ public class ReverseLinkedList2 {
         while (k++ < first) {
             subListHead = subListHead.next;
         }
-        ListNode sublistIter = subListHead.next;
+        ListNode sublistIterator = subListHead.next;
         int i = first;
         while (i++ < last) {
-            ListNode temp = sublistIter.next;
-            sublistIter.next = temp.next;
+            ListNode temp = sublistIterator.next;
+            sublistIterator.next = temp.next;
             temp.next = subListHead.next;
             subListHead.next = temp;
         }
