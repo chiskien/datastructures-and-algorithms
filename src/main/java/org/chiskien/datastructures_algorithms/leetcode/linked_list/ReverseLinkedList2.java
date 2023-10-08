@@ -2,18 +2,20 @@ package org.chiskien.datastructures_algorithms.leetcode.linked_list;
 
 public class ReverseLinkedList2 {
 
-    public ListNode reverseBetween(ListNode head, int left, int right) {
-        if (left == right) return head;
+
+    //reverse a sublist within a range
+    public ListNode reverseBetween(ListNode head, int first, int last) {
+        if (first == last) return head;
         ListNode dummyHead = new ListNode(0, head); //Dummy node to pointer to head
         ListNode subListHead = dummyHead;
         int k = 1;
-        //find node at left
-        while (k++ < left) {
+        //find node at first
+        while (k++ < first) {
             subListHead = subListHead.next;
         }
         ListNode sublistIter = subListHead.next;
-        int i = left;
-        while (i++ < right) {
+        int i = first;
+        while (i++ < last) {
             ListNode temp = sublistIter.next;
             sublistIter.next = temp.next;
             temp.next = subListHead.next;
