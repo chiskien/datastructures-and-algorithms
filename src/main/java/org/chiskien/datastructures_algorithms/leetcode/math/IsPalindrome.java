@@ -11,6 +11,6 @@ public class IsPalindrome {
             reverse = reverse * 10 + number % 10;
             number = number / 10;
         }
-        return x == reverse;s
+        return x == reverse;
     }
 }
