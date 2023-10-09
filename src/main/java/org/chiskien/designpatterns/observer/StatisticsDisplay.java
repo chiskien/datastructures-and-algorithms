@@ -8,7 +8,6 @@ public class StatisticsDisplay implements DisplayElement, Observer {
     private final List<Float> temperatureHistory;
     private float min = Float.MAX_VALUE;
     private float max = Float.MIN_VALUE;
-    private float average;
 
     public StatisticsDisplay(WeatherData weatherData) {
         temperatureHistory = new ArrayList<>();
