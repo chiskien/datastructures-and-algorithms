@@ -58,6 +58,16 @@ public class ListNode {
         return list;
     }
 
+    public static int distance(ListNode a, ListNode b) {
+        int distance = 0;
+        ListNode temp = a;
+        while (temp != b) {
+            temp = temp.next;
+            distance++;
+        }
+        return distance;
+    }
+
     public static void deleteNode(ListNode nodeTobeDeleted) {
         nodeTobeDeleted.val = nodeTobeDeleted.next.val;
         nodeTobeDeleted.next = nodeTobeDeleted.next.next;
