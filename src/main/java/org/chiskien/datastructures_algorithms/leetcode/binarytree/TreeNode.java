@@ -1,5 +1,7 @@
 package org.chiskien.datastructures_algorithms.leetcode.binarytree;
 
+import org.chiskien.datastructures_algorithms.leetcode.binarytree.implementations.BinarySearchTreeCK;
+
 public class TreeNode {
     int val;
     public TreeNode right;
@@ -19,10 +21,39 @@ public class TreeNode {
         this.right = right;
     }
 
+    public static TreeNode buildBST(int[] nodes) {
+        TreeNode root = new TreeNode(nodes[0]);
+        for (int i = 1; i < nodes.length; i++) {
+            TreeNode newNode = new TreeNode(nodes[i]);
+            addNode(root, newNode);
+        }
+        return root;
+    }
+
+    public static void addNode(TreeNode root, TreeNode newNode) {
+        if (root != null) {
+            TreeNode current = root;
+            TreeNode parent = current;
+            while (current != null) {
+                parent = current;
+                if (newNode.val > current.val) {
+                    current = current.right;
+                } else if (newNode.val < current.val) {
+                    current = current.left;
+                }
+            }
+            if (newNode.val < parent.val) {
+                parent.left = newNode;
+            } else {
+                parent.right = newNode;
+            }
+        }
+    }
+
     @Override
     public String toString() {
-        return "TreeNode{" +
-                "val=" + val +
-                '}';
+        return "TreeNode{ " +
+                "val=" + val + ", left=" + left + ", right=" + right +
+                " }";
     }
 }
