@@ -1,15 +1,6 @@
 package org.chiskien.datastructures_algorithms.leetcode.binarytree;
 
-import com.sun.source.tree.Tree;
-
 public class SumRootToLeafPaths {
-    public static void main(String[] args) {
-        SumRootToLeafPaths sumRootToLeafPaths = new SumRootToLeafPaths();
-        TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(2);
-        root.right = new TreeNode(3);
-        System.out.println(sumRootToLeafPaths.sumNumber(root));
-    }
 
     public int sumNumber(TreeNode root) {
         return sumRootToLeafHelper(root, 0);
