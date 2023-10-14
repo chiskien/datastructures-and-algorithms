@@ -1,4 +1,6 @@
-package org.chiskien.datastructures_algorithms.leetcode.binarytree;
+package org.chiskien.datastructures_algorithms.leetcode.binarytree.binarysearchtree;
+
+import org.chiskien.datastructures_algorithms.leetcode.binarytree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.Deque;
