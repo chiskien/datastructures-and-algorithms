@@ -42,7 +42,8 @@ public class ExcelSheetToColumn {
             stringBuilder.append(excelCharAndIntMapping.get(b));
             columnNumber = a;
         }
-        if (columnNumber > 0) stringBuilder.append(excelCharAndIntMapping.get(columnNumber));
+        if (columnNumber > 0)
+            stringBuilder.append(excelCharAndIntMapping.get(columnNumber));
         return stringBuilder.reverse().toString();
     }
 }
