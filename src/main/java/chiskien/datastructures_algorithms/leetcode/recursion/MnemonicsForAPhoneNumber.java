@@ -1,21 +1,18 @@
-package chiskien.datastructures_algorithms.leetcode.string;
+package chiskien.datastructures_algorithms.leetcode.recursion;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class MnemonicsForAPhoneNumber {
-    public static void main(String[] args) {
-        MnemonicsForAPhoneNumber mn = new MnemonicsForAPhoneNumber();
-        System.out.println(mn.phoneMnemonics("23"));
-    }
 
     private final static String[] MAPPING
             = {"0", "1", "ABC", "DEF", "GHI", "JKL", "MNO", "PQRS", "TUV", "WXYZ"};
 
-    public List<String> phoneMnemonics(String phoneNumber) {
-        char[] partialMnemonics = new char[phoneNumber.length()];
+    public List<String> letterCombinations(String digits) {
+        char[] partialMnemonics = new char[digits.length()];
         List<String> mnemonics = new ArrayList<>();
-        phoneMnemonicHelper(phoneNumber, 0, partialMnemonics, mnemonics);
+        if (digits.equals("")) return mnemonics;
+        phoneMnemonicHelper(digits, 0, partialMnemonics, mnemonics);
         return mnemonics;
     }
 
@@ -32,7 +29,8 @@ public class MnemonicsForAPhoneNumber {
             for (int i = 0; i < possibleCharacters.length(); i++) {
                 char c = MAPPING[possibleCharactersIndex].charAt(i);
                 partialMnemonics[digit] = c;
-                phoneMnemonicHelper(phoneNumber, digit + 1, partialMnemonics, mnemonics);
+                phoneMnemonicHelper(phoneNumber, digit + 1, partialMnemonics,
+                        mnemonics);
             }
         }
     }

@@ -1,4 +1,4 @@
-package chiskien.datastructures_algorithms.leetcode.linked_list;
+package chiskien.datastructures_algorithms.leetcode.cache;
 
 
 import java.util.HashMap;

@@ -1,6 +1,6 @@
-package chiskien.datastructures_algorithms.leetcode.string;
+package chiskien.datastructures_algorithms.leetcode.datacompression;
 
-public class ImplementRunLengthEncoding {
+public class RunLengthEncoding {
 
 
     //RLE compression offers a fast way to do efficient on-the-fly compression
