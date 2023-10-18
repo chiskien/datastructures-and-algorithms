@@ -1,6 +1,6 @@
 package org.chiskien.datastructures_algorithms.leetcode.linked_list;
 
-import org.chiskien.datastructures_algorithms.leetcode.linked_list.ListNode;
+import chiskien.datastructures_algorithms.leetcode.linked_list.ListNode;
 import org.junit.jupiter.api.Test;
 
 class AddTwoNumbersTest {

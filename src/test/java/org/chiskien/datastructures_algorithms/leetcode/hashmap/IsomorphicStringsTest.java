@@ -1,6 +1,6 @@
 package org.chiskien.datastructures_algorithms.leetcode.hashmap;
 
-import org.chiskien.datastructures_algorithms.leetcode.hashmap.IsomorphicStrings;
+import chiskien.datastructures_algorithms.leetcode.hashmap.IsomorphicStrings;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

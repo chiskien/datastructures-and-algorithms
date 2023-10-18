@@ -1,5 +1,6 @@
 package org.chiskien.datastructures_algorithms.leetcode.recursion;
 
+import chiskien.datastructures_algorithms.leetcode.recursion.GreatestCommonDivisor;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

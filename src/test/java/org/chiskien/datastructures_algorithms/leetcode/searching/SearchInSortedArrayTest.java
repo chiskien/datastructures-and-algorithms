@@ -1,6 +1,6 @@
 package org.chiskien.datastructures_algorithms.leetcode.searching;
 
-import org.chiskien.datastructures_algorithms.leetcode.searching.SearchInSortedArray;
+import chiskien.datastructures_algorithms.leetcode.searching.SearchInSortedArray;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

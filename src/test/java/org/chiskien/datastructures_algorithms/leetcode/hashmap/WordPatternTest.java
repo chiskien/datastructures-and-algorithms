@@ -1,6 +1,6 @@
 package org.chiskien.datastructures_algorithms.leetcode.hashmap;
 
-import org.chiskien.datastructures_algorithms.leetcode.hashmap.WordPattern;
+import chiskien.datastructures_algorithms.leetcode.hashmap.WordPattern;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

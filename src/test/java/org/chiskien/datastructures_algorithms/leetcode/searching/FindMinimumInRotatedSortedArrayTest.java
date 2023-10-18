@@ -1,6 +1,6 @@
 package org.chiskien.datastructures_algorithms.leetcode.searching;
 
-import org.chiskien.datastructures_algorithms.leetcode.searching.FindMinimumInRotatedSortedArray;
+import chiskien.datastructures_algorithms.leetcode.searching.FindMinimumInRotatedSortedArray;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

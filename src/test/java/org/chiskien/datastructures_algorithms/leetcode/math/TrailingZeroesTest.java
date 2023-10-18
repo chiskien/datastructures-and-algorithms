@@ -1,5 +1,6 @@
 package org.chiskien.datastructures_algorithms.leetcode.math;
 
+import chiskien.datastructures_algorithms.leetcode.math.TrailingZeroes;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

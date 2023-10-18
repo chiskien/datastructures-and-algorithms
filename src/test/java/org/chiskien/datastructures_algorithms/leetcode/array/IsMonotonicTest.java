@@ -1,5 +1,6 @@
 package org.chiskien.datastructures_algorithms.leetcode.array;
 
+import chiskien.datastructures_algorithms.leetcode.array.IsMonotonic;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

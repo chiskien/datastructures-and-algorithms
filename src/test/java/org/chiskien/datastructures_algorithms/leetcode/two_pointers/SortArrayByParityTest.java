@@ -1,5 +1,6 @@
 package org.chiskien.datastructures_algorithms.leetcode.two_pointers;
 
+import chiskien.datastructures_algorithms.leetcode.two_pointers.SortArrayByParity;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

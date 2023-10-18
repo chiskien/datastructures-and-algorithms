@@ -1,5 +1,6 @@
 package org.chiskien.datastructures_algorithms.leetcode.searching;
 
+import chiskien.datastructures_algorithms.leetcode.searching.FindFirstAndLastPosition;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

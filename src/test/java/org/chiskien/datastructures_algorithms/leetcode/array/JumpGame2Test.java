@@ -1,6 +1,6 @@
 package org.chiskien.datastructures_algorithms.leetcode.array;
 
-import org.chiskien.datastructures_algorithms.leetcode.array.JumpGame2;
+import chiskien.datastructures_algorithms.leetcode.array.JumpGame2;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

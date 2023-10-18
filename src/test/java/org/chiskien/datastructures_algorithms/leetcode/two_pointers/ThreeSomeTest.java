@@ -1,6 +1,6 @@
 package org.chiskien.datastructures_algorithms.leetcode.two_pointers;
 
-import org.chiskien.datastructures_algorithms.leetcode.two_pointers.ThreeSome;
+import chiskien.datastructures_algorithms.leetcode.two_pointers.ThreeSome;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

@@ -1,5 +1,6 @@
 package org.chiskien.datastructures_algorithms.leetcode.hashmap;
 
+import chiskien.datastructures_algorithms.leetcode.hashmap.LongestConsecutiveSequence;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

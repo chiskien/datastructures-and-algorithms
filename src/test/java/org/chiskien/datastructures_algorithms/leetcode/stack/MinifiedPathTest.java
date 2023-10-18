@@ -1,6 +1,6 @@
 package org.chiskien.datastructures_algorithms.leetcode.stack;
 
-import org.chiskien.datastructures_algorithms.leetcode.stack.MinifiedPath;
+import chiskien.datastructures_algorithms.leetcode.stack.MinifiedPath;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

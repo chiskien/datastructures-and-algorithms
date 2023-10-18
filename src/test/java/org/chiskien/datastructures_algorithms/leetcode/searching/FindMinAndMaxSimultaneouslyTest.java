@@ -1,10 +1,9 @@
 package org.chiskien.datastructures_algorithms.leetcode.searching;
 
+import chiskien.datastructures_algorithms.leetcode.searching.FindMinAndMaxSimultaneously;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
 

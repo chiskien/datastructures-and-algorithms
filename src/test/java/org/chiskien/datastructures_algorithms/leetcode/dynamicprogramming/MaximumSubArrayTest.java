@@ -1,6 +1,6 @@
 package org.chiskien.datastructures_algorithms.leetcode.dynamicprogramming;
 
-import org.chiskien.datastructures_algorithms.leetcode.dynamicprogramming.MaximumSubArray;
+import chiskien.datastructures_algorithms.leetcode.dynamicprogramming.MaximumSubArray;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

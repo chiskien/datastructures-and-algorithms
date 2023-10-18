@@ -1,11 +1,8 @@
 package org.chiskien.datastructures_algorithms.leetcode.string;
 
+import chiskien.datastructures_algorithms.leetcode.string.MnemonicsForAPhoneNumber;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class MnemonicsForAPhoneNumberTest {
     MnemonicsForAPhoneNumber mnemonicsForAPhoneNumber;

@@ -1,13 +1,9 @@
 package org.chiskien.datastructures_algorithms.leetcode.linked_list.practice;
 
-import org.chiskien.datastructures_algorithms.leetcode.binarytree.TreeNode;
-import org.chiskien.datastructures_algorithms.leetcode.linked_list.ListNode;
+import chiskien.datastructures_algorithms.leetcode.linked_list.ListNode;
+import chiskien.datastructures_algorithms.leetcode.linked_list.practice.ReverseSingleSublist;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class ReverseSingleSublistTest {
     ListNode builder;

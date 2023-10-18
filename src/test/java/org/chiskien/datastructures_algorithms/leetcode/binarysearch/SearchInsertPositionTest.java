@@ -1,6 +1,6 @@
 package org.chiskien.datastructures_algorithms.leetcode.binarysearch;
 
-import org.chiskien.datastructures_algorithms.leetcode.searching.SearchInsertPosition;
+import chiskien.datastructures_algorithms.leetcode.searching.SearchInsertPosition;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
