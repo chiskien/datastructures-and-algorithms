@@ -10,7 +10,7 @@ public class StatisticsDisplay implements DisplayElement, Observer {
     private float max = Float.MIN_VALUE;
 
     public StatisticsDisplay(WeatherData weatherData) {
-        temperatureHistory = new ArrayList<>();
+        this.temperatureHistory = new ArrayList<>();
         this.weatherData = weatherData;
         weatherData.registerObserver(this);
     }
