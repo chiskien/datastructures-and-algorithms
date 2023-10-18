@@ -1,6 +1,5 @@
 # ChisKien's Java Playground
 
-## Dependencies
 
 ## Data Structure and Algorithms
 
@@ -13,12 +12,58 @@
       Simply the best 🤣
     - [NeetCode](https://neetcode.io/roadmap)
 
-## Effective Java
+## Project Structure: 
 
-- OCP Java SE 17 
-- Effective Java (Joshua Bloch)
 
-## Design Patterns
+```shell
+├───src
+│ ├───main
+│ │ ├───java
+│ │ │ └───chiskien
+│ │ │ ├───datastructures_algorithms
+│ │ │ │ ├───codility
+│ │ │ │ ├───hackerrank
+│ │ │ │ └───leetcode
+│ │ │ │ ├───array
+│ │ │ │ ├───binarytree
+│ │ │ │ │ ├───binarysearchtree
+│ │ │ │ │ └───implementations
+│ │ │ │ ├───bitmanipulation
+│ │ │ │ ├───dynamicprogramming
+│ │ │ │ ├───graph
+│ │ │ │ ├───greedy
+│ │ │ │ ├───hashmap
+│ │ │ │ │ ├───implementations
+│ │ │ │ │ └───practices
+│ │ │ │ ├───heap
+│ │ │ │ ├───intervals
+│ │ │ │ ├───linked_list
+│ │ │ │ │ ├───implementations
+│ │ │ │ │ └───practice
+│ │ │ │ ├───math
+│ │ │ │ ├───queue
+│ │ │ │ ├───recursion
+│ │ │ │ ├───searching
+│ │ │ │ ├───slidingwindows
+│ │ │ │ ├───sorting
+│ │ │ │ ├───stack
+│ │ │ │ ├───string
+│ │ │ │ ├───trie
+│ │ │ │ └───two_pointers
+│ │ │ ├───designpatterns
+│ │ │ │ ├───factory
+│ │ │ │ ├───iterator_composite
+│ │ │ │ ├───observer
+│ │ │ │ ├───state
+│ │ │ │ └───strategy
+│ │ │ ├───effectivejava
+│ │ │ │ ├───chapter1_object_lifecycle
+│ │ │ │ │ ├───item1
+│ │ │ │ │ └───item2
+│ │ │ │ ├───chapter2_object_methods
+│ │ │ │ ├───chapter3_classes_interfaces
+│ │ │ │ ├───chapter4_generics
+│ │ │ │ ├───chapter5_enums_annotations
+│ │ │ │ └───concurrency
+```
 
-- Design Pattern, Gang of Four
-- Head First Design Patterns
