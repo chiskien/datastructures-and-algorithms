@@ -1,4 +1,4 @@
-package chiskien.datastructures_algorithms.leetcode.array;
+package chiskien.datastructures_algorithms.leetcode.stack;
 
 import java.util.Deque;
 import java.util.LinkedList;
