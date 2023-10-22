@@ -29,7 +29,7 @@ public class ValidSudoku {
                 }
             }
         }
-        return false;
+        return true;
     }
 
     //return true if subarray partialBoard[startRow to endRow - 1][startCol to endCol -1] contains any duplicates in {1,2,..., partialBoard.length}
