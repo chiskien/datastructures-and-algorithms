@@ -14,56 +14,81 @@
 
 ## Project Structure: 
 
-
 ```shell
-├───src
-│ ├───main
-│ │ ├───java
-│ │ │ └───chiskien
-│ │ │ ├───datastructures_algorithms
-│ │ │ │ ├───codility
-│ │ │ │ ├───hackerrank
-│ │ │ │ └───leetcode
-│ │ │ │ ├───array
-│ │ │ │ ├───binarytree
-│ │ │ │ │ ├───binarysearchtree
-│ │ │ │ │ └───implementations
-│ │ │ │ ├───bitmanipulation
-│ │ │ │ ├───dynamicprogramming
-│ │ │ │ ├───graph
-│ │ │ │ ├───greedy
-│ │ │ │ ├───hashmap
-│ │ │ │ │ ├───implementations
-│ │ │ │ │ └───practices
-│ │ │ │ ├───heap
-│ │ │ │ ├───intervals
-│ │ │ │ ├───linked_list
-│ │ │ │ │ ├───implementations
-│ │ │ │ │ └───practice
-│ │ │ │ ├───math
-│ │ │ │ ├───queue
-│ │ │ │ ├───recursion
-│ │ │ │ ├───searching
-│ │ │ │ ├───slidingwindows
-│ │ │ │ ├───sorting
-│ │ │ │ ├───stack
-│ │ │ │ ├───string
-│ │ │ │ ├───trie
-│ │ │ │ └───two_pointers
-│ │ │ ├───designpatterns
-│ │ │ │ ├───factory
-│ │ │ │ ├───iterator_composite
-│ │ │ │ ├───observer
-│ │ │ │ ├───state
-│ │ │ │ └───strategy
-│ │ │ ├───effectivejava
-│ │ │ │ ├───chapter1_object_lifecycle
-│ │ │ │ │ ├───item1
-│ │ │ │ │ └───item2
-│ │ │ │ ├───chapter2_object_methods
-│ │ │ │ ├───chapter3_classes_interfaces
-│ │ │ │ ├───chapter4_generics
-│ │ │ │ ├───chapter5_enums_annotations
-│ │ │ │ └───concurrency
-```
+├───main
+│   ├───java
+│   │   └───chiskien
+│   │       ├───datastructures_algorithms
+│   │       │   ├───codility
+│   │       │   ├───hackerrank
+│   │       │   └───leetcode
+│   │       │       ├───array
+│   │       │       ├───binarytree
+│   │       │       │   ├───binarysearchtree
+│   │       │       │   └───implementations
+│   │       │       ├───bitmanipulation
+│   │       │       ├───cache
+│   │       │       ├───datacompression
+│   │       │       ├───dynamicprogramming
+│   │       │       ├───graph
+│   │       │       ├───greedy
+│   │       │       ├───hashmap
+│   │       │       │   ├───implementations
+│   │       │       │   └───practices
+│   │       │       ├───heap
+│   │       │       ├───intervals
+│   │       │       ├───linked_list
+│   │       │       │   ├───implementations
+│   │       │       │   └───practice
+│   │       │       ├───math
+│   │       │       ├───queue
+│   │       │       ├───recursion
+│   │       │       ├───searching
+│   │       │       ├───slidingwindows
+│   │       │       ├───sorting
+│   │       │       ├───stack
+│   │       │       ├───string
+│   │       │       ├───substringsearch
+│   │       │       ├───trie
+│   │       │       ├───two_pointers
+│   │       │       └───utils
+│   │       ├───designpatterns
+│   │       │   ├───factory
+│   │       │   ├───iterator_composite
+│   │       │   ├───observer
+│   │       │   ├───state
+│   │       │   └───strategy
+│   │       ├───effectivejava
+│   │       │   ├───chapter1_object_lifecycle
+│   │       │   │   ├───item1
+│   │       │   │   └───item2
+│   │       │   ├───chapter2_object_methods
+│   │       │   ├───chapter3_classes_interfaces
+│   │       │   ├───chapter4_generics
+│   │       │   ├───chapter5_enums_annotations
+│   │       │   └───concurrency
+│   │       └───javacore
+│   └───resources
+└───test
+    └───java
+        └───leetcode
+            ├───array
+            ├───binarysearch
+            ├───binarytree
+            ├───dynamicprogramming
+            ├───greedy
+            ├───hashmap
+            ├───heap
+            ├───intervals
+            ├───linked_list
+            │   └───practice
+            ├───math
+            ├───recursion
+            ├───searching
+            ├───sorting
+            ├───stack
+            ├───string
+            ├───trie
+            └───two_pointers
 
+```
