@@ -12,7 +12,7 @@
       Simply the best 🤣
     - [NeetCode](https://neetcode.io/roadmap)
 
-## Project Structure: 
+## Project Structures:
 
 ```shell
 ├───main
