@@ -18,7 +18,6 @@ public class TreeNode {
         this.left = left;
         this.right = right;
     }
-
     public static TreeNode buildBST(int[] nodes) {
         TreeNode root = new TreeNode(nodes[0]);
         for (int i = 1; i < nodes.length; i++) {
