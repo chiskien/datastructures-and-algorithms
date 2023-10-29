@@ -18,16 +18,17 @@ public class TreeNode {
         this.left = left;
         this.right = right;
     }
+
     public static TreeNode buildBST(int[] nodes) {
         TreeNode root = new TreeNode(nodes[0]);
         for (int i = 1; i < nodes.length; i++) {
             TreeNode newNode = new TreeNode(nodes[i]);
-            addNode(root, newNode);
+            addBSTNode(root, newNode);
         }
         return root;
     }
 
-    public static void addNode(TreeNode root, TreeNode newNode) {
+    public static void addBSTNode(TreeNode root, TreeNode newNode) {
         if (root != null) {
             TreeNode current = root;
             TreeNode parent = current;

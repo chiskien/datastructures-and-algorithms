@@ -13,12 +13,12 @@ public class FindSuccessor {
             }
             return treeIter;
         }
-        // Find the closest ancestor whose left subtree contains node.
+        // Find the closest ancestor whose left subtree contains a node.
         while (treeIter.parent != null && treeIter.parent.right == treeIter) {
             treeIter = treeIter.parent;
         }
-        // A return value of null means node does not have successor,
-        // i.e., it is // the rightmost node in the tree.
+        // A return value of null means the node does not have a successor,
+        // the rightmost node in the tree.
         return treeIter.parent;
     }
 }
