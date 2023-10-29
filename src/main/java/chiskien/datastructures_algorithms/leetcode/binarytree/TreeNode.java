@@ -6,17 +6,34 @@ public class TreeNode {
     public TreeNode left;
     public TreeNode parent;
 
+
+    //Need to apply static factory instead of multiple constructors
     public TreeNode() {
     }
 
     public TreeNode(int val) {
         this.val = val;
+        this.left = this.right = this.parent = null;
     }
 
     public TreeNode(int val, TreeNode left, TreeNode right) {
         this.val = val;
         this.left = left;
         this.right = right;
+        this.parent = null;
+    }
+
+    public TreeNode(int val, TreeNode left, TreeNode right, TreeNode parent) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+        this.parent = parent;
+    }
+
+    public TreeNode(int val, TreeNode parent) {
+        this.val = val;
+        this.parent = parent;
+        this.left = this.right = null;
     }
 
     public static TreeNode buildBST(int[] nodes) {
