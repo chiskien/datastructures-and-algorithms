@@ -16,7 +16,7 @@ public class IsPalindromicPermutations {
         }
 
         // A String can be permuted as a palindrome if and only if the number of
-        // chars whose frequencies is odd is at most 1
+        // chars whose frequencies are odd is at most 1
         int oddCount = 0;
         for (Map.Entry<Character, Integer> entry : charFrequencies.entrySet()) {
             if ((entry.getValue() % 2 != 0) && ++oddCount > 1) {
