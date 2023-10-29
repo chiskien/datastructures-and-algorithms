@@ -1,9 +1,9 @@
 package chiskien.designpatterns.observer;
 
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
+    private final WeatherData weatherData;
     private float temperature;
     private float humidity;
-    private final WeatherData weatherData;
 
 
     public CurrentConditionsDisplay(WeatherData weatherData) {

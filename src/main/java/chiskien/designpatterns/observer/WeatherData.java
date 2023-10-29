@@ -5,11 +5,10 @@ import java.util.List;
 
 public class WeatherData implements Subject {
 
+    private final List<Observer> observers;
     private float temperature;
     private float humidity;
     private float pressure;
-
-    private final List<Observer> observers;
 
     public WeatherData() {
         observers = new ArrayList<>();
