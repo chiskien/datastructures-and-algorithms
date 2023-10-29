@@ -28,19 +28,18 @@ public class SmallestSubArraySequentiallyCoveringAllValues {
             if (keywordIndex != null) {
                 if (keywordIndex == 0) {
                     shortestSubArrayLength.set(0, 1);
-                } else if ((shortestSubArrayLength.get(keywordIndex - 1))
-                        != Integer.MAX_VALUE) {
+                } else if ((shortestSubArrayLength.get(keywordIndex - 1)) != Integer.MAX_VALUE) {
                     int distanceToPreviousKeyword = i - latestOccurrence.get(keywordIndex - 1);
-                    shortestSubArrayLength.set(keywordIndex, distanceToPreviousKeyword
-                            + shortestSubArrayLength.get(keywordIndex - 1));
+                    shortestSubArrayLength.set(keywordIndex, distanceToPreviousKeyword + shortestSubArrayLength.get(keywordIndex - 1));
 
                 }
                 latestOccurrence.set(keywordIndex, i);
 
-                if (keywordIndex == keywords.size() - 1 && shortestSubArrayLength
-                        .get(shortestSubArrayLength.size() - 1) < shortestDistance) {
-                    shortestDistance = shortestSubArrayLength.get(shortestSubArrayLength.size() - 1);
-                    result[0] = i - shortestSubArrayLength.get(shortestSubArrayLength.size() - 1);
+                if (keywordIndex == keywords.size() - 1 && shortestSubArrayLength.get(shortestSubArrayLength.size() - 1) < shortestDistance) {
+                    shortestDistance = shortestSubArrayLength
+                            .get(shortestSubArrayLength.size() - 1);
+                    result[0] = i - shortestSubArrayLength
+                            .get(shortestSubArrayLength.size() - 1);
                     result[1] = i;
                 }
             }
