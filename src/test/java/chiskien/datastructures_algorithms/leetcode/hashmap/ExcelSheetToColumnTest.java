@@ -29,6 +29,6 @@ class excelSheetToColumnTest {
     @Test
     void normalCaseWithTwoDigits() {
         int columnNumber = 701;
-        assertEquals("Z", excelSheetToColumn.convertToTitleCK(columnNumber));
+        assertEquals("ZY", excelSheetToColumn.convertToTitleCK(columnNumber));
     }
 }

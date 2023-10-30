@@ -2,7 +2,6 @@ package chiskien.datastructures_algorithms.leetcode.linked_list;
 
 public class RemoveDuplicatesFromSortedList {
 
-
     public ListNode deleteDuplicates(ListNode head) {
         ListNode current = head;
         ListNode nextNode;

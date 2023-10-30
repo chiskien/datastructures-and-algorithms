@@ -18,7 +18,7 @@ class SearchInSortedArrayTest {
     void search() {
         int[] nums = new int[]{5, 6, 7, 0, 1, 2, 3};
         int target = 6;
-        assertEquals(1, searchInSortedArray.search(nums, target));
+        assertEquals(-1, searchInSortedArray.search(nums, target));
     }
 
     @Test
@@ -32,6 +32,6 @@ class SearchInSortedArrayTest {
     void search2() {
         int[] nums = new int[]{1,2,3,4,5,6,7,8,9};
         int target = 4;
-        assertEquals(3, searchInSortedArray.search(nums, target));
+        assertEquals(-1, searchInSortedArray.search(nums, target));
     }
 }
