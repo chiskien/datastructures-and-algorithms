@@ -1,6 +1,8 @@
 package chiskien.datastructures_algorithms.leetcode.heap;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.PriorityQueue;
 
 public class KWeakestRow {
     public static void main(String[] args) {
@@ -14,7 +16,7 @@ public class KWeakestRow {
         for (int i = 0; i < mat.length; i++) {
             int[] row = mat[i];
             int j = 0; //iterate through row
-            int count = 0; //count number of soldiers
+            int count = 0; //count the number of soldiers
             while (j < row.length) {
                 if (row[j] == 1) count++;
                 j++;
