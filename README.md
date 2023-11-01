@@ -1,6 +1,5 @@
 # ChisKien's Java Playground
 
-
 ## Data Structure and Algorithms
 
 - Consists of problems on LeetCode, HackerRank, Codility
@@ -14,5 +13,9 @@
 
 ## Design Patterns
 
+- Head First Design Patterns 4th Edition
+- Design Pattern, Gang of four
+
 ## Effective Java
 
+- Effective Java (Joshua Bloch)
