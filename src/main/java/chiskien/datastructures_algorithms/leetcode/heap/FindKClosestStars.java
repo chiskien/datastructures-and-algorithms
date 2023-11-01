@@ -36,7 +36,7 @@ class FindKClosestStars {
             //add each star to the heap
             //if the max-heap size exceeds k, remove the maximum element from the heap
             maxHeap.add(star);
-            if (maxHeap.size() > k) {
+            if (maxHeap.size() > k + 1) {
                 maxHeap.remove();
             }
         }
