@@ -1,6 +1,7 @@
 package chiskien.datastructures_algorithms.leetcode.hashmap;
 
-import java.util.*;
+import java.util.HashSet;
+import java.util.Set;
 
 //LeetCode 128
 public class LongestConsecutiveSequence {
@@ -23,24 +24,25 @@ public class LongestConsecutiveSequence {
             unprocessedElements.add(num);
         }
         int maxIntervalSize = 0;
-        while (!unprocessedElements.isEmpty()) {
-            Integer element = unprocessedElements.iterator().next();
-            //visited and then remove from hash table
-            unprocessedElements.remove(element);
+        for (int num : nums) {
+            if (unprocessedElements.contains(num)) {
+                unprocessedElements.remove(num);
 
-            //find the lower bound of the largest range containing integer
-            int lowerBound = element - 1;
-            while (unprocessedElements.contains(lowerBound)) {
-                unprocessedElements.remove(lowerBound);
-                --lowerBound;
+                int lowerBound = num - 1;
+                while (unprocessedElements.contains(lowerBound)) {
+                    unprocessedElements.remove(lowerBound);
+                    lowerBound--;
+                }
+
+                int upperBound = num + 1;
+                while (unprocessedElements.contains(upperBound)) {
+                    unprocessedElements.remove(upperBound);
+                    upperBound++;
+                }
+
+                int intervalSize = upperBound - lowerBound - 1;
+                maxIntervalSize = Math.max(intervalSize, maxIntervalSize);
             }
-            //find the upper bound of the largest range containing integer
-            int upperBound = element + 1;
-            while (unprocessedElements.contains(upperBound)) {
-                unprocessedElements.remove(upperBound);
-                ++upperBound;
-            }
-            maxIntervalSize = Math.max(upperBound - lowerBound - 1, maxIntervalSize);
         }
 
         return maxIntervalSize;
