@@ -11,7 +11,7 @@ class CacheNode {
     CacheNode next;
 }
 
-public class LRUCache2 {
+public class LRUCacheWithoutUsingLinkedHashMap {
 
     int capacity;
     int size;
@@ -19,7 +19,7 @@ public class LRUCache2 {
     CacheNode dummyHead;
     CacheNode dummyTail;
 
-    public LRUCache2(int capacity) {
+    public LRUCacheWithoutUsingLinkedHashMap(int capacity) {
         this.capacity = capacity;
         this.size = 0;
         table = new HashMap<>();
