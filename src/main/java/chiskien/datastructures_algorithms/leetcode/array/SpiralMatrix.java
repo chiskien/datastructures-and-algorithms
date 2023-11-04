@@ -10,25 +10,25 @@ public class SpiralMatrix {
     public List<Integer> sprialOrder(int[][] matrix) {
         List<Integer> spiralSequence = new ArrayList<>();
         for (int offset = 0; offset < Math.ceil(matrix.length * 0.5); offset++) {
-            matrixLayerInClockwise( matrix  , offset, spiralSequence);
+            matrixLayerInClockwise(matrix, offset, spiralSequence);
         }
         return spiralSequence;
     }
 
     private void matrixLayerInClockwise(int[][] matrix, int offset,
                                         List<Integer> spiralSequence) {
-        if (offset== matrix.length - offset - 1) {
+        if (offset == matrix.length - offset - 1) {
             //square matrix has odd dimension, we are at its center
             spiralSequence.add(matrix[offset][offset]);
         }
         for (int i = offset; i < matrix.length - offset - 1; i++) {
             spiralSequence.add(matrix[offset][i]);
         }
-        for (int i = offset; i < matrix.length - offset- 1; i++) {
-            spiralSequence.add(matrix[i][matrix.length-offset-1]);
+        for (int i = offset; i < matrix.length - offset - 1; i++) {
+            spiralSequence.add(matrix[i][matrix.length - offset - 1]);
         }
-        for (int i = matrix.length - offset -1; i > offset ; i--) {
-            spiralSequence.add(matrix[matrix.length-offset-1][i]);
+        for (int i = matrix.length - offset - 1; i > offset; i--) {
+            spiralSequence.add(matrix[matrix.length - offset - 1][i]);
         }
         for (int i = matrix.length - offset - 1; i > offset; i--) {
             spiralSequence.add(matrix[i][offset]);
