@@ -9,16 +9,17 @@ import java.util.List;
 public class BuildMatrix {
     private final static String RESOURCES = "src/main/resources/";
 
-    public static int[][] buildMatrix(String fileName, int row, int column, String regex ) throws IOException {
+    public static char[][] buildMatrix(String fileName, int row, int column,
+                                       String regex) throws IOException {
         final Path path = Paths.get(RESOURCES + fileName);
         List<String> lines = Files.readAllLines(path);
-        int[][] board = new int[row][column];
+        char[][] board = new char[row][column];
         for (int i = 0; i < lines.size(); i++) {
-            String s =  lines.get(i);
+            String s = lines.get(i);
             String[] col = s.split(regex);
             for (int j = 0; j < col.length; j++) {
                 String s1 = col[j];
-                board[i][j] = Integer.parseInt(s1);
+                board[i][j] = s1.charAt(0);
             }
         }
         return board;
