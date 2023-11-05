@@ -1,4 +1,4 @@
-package chiskien.designpatterns.strategy.flybehaviors;
+package chiskien.designpatterns.strategy.simulatorduck.flybehaviors;
 
 public class RocketPoweredFly implements FlyBehavior {
     @Override

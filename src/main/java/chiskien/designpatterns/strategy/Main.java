@@ -1,8 +1,8 @@
 package chiskien.designpatterns.strategy;
 
-import chiskien.designpatterns.strategy.ducks.Duck;
-import chiskien.designpatterns.strategy.ducks.MallardDuck;
-import chiskien.designpatterns.strategy.ducks.RedHeadDuck;
+import chiskien.designpatterns.strategy.simulatorduck.ducks.Duck;
+import chiskien.designpatterns.strategy.simulatorduck.ducks.MallardDuck;
+import chiskien.designpatterns.strategy.simulatorduck.ducks.RedHeadDuck;
 
 public class Main {
 
