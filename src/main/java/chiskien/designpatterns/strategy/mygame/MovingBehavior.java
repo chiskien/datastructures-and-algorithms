@@ -1,6 +1,6 @@
 package chiskien.designpatterns.strategy.mygame;
 
-public interface AttackBehavior {
+public interface MovingBehavior {
 
-    void attack();
+    void move();
 }
