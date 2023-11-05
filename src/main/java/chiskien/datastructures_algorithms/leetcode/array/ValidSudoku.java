@@ -3,7 +3,8 @@ package chiskien.datastructures_algorithms.leetcode.array;
 import java.util.Arrays;
 
 public class ValidSudoku {
-    //using recursion
+
+    //time complexity: n*n
     public boolean isValidSudoku(char[][] board) {
         //check row constrains
         for (int i = 0; i < board.length; i++) {
@@ -21,8 +22,10 @@ public class ValidSudoku {
         int regionSize = (int) Math.sqrt(board.length);
         for (int i = 0; i < regionSize; i++) {
             for (int j = 0; j < regionSize; j++) {
-                if (hasDuplicate(board, regionSize * i,
-                        regionSize * (i + 1), regionSize * j,
+                if (hasDuplicate(board,
+                        regionSize * i,
+                        regionSize * (i + 1),
+                        regionSize * j,
                         regionSize * (j + 1))) {
                     return false;
                 }
