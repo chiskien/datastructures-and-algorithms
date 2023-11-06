@@ -18,7 +18,6 @@ public class PalindromeLinkedList {
         }
         //Compare first half and the reversed second half lists
         ListNode secondHalf = reverseLinkedList.reverseList(slow);
-        System.out.println(secondHalf);
         ListNode firstHalf = head;
         while (secondHalf != null && firstHalf != null) {
             if (secondHalf.val != firstHalf.val) {

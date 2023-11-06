@@ -28,8 +28,6 @@ public class WordPattern {
         for (int i = 0; i < patternArr.length; i++) {
             String a = patternMap.put(patternArr[i], strArr[i]);
             String b = strMap.put(strArr[i], patternArr[i]);
-            System.out.println(a);
-            System.out.println(b);
         }
         return true;
     }

@@ -1,6 +1,5 @@
 package chiskien.datastructures_algorithms.leetcode.hashmap;
 
-import chiskien.datastructures_algorithms.leetcode.hashmap.WordPattern;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -24,7 +23,7 @@ class WordPatternTest {
     @Test
     void wordPattern2() {
         String pattern = "aabbccdd";
-        String s = "cac cac buoi buoi lon lon bim bim";
+        String s = "bog bog aca aca dd dd ee ee";
         assertTrue(WordPattern.wordPattern(pattern, s));
     }
 

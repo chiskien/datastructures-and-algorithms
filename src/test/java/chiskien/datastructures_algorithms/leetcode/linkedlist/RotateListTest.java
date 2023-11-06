@@ -18,6 +18,5 @@ class RotateListTest {
         ListNode head = ListNode.build(new int[]{1, 2, 3, 4, 5});
         int k = 2;
         ListNode n = rotateList.cyclicallyRightShiftList(head, k);
-        System.out.println(n);
     }
 }
