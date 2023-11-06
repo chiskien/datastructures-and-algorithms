@@ -11,7 +11,7 @@ public class MnemonicsForAPhoneNumber {
     public List<String> letterCombinations(String digits) {
         char[] partialMnemonics = new char[digits.length()];
         List<String> mnemonics = new ArrayList<>();
-        if (digits.equals("")) return mnemonics;
+        if (digits.isEmpty()) return mnemonics;
         phoneMnemonicHelper(digits, 0, partialMnemonics, mnemonics);
         return mnemonics;
     }
