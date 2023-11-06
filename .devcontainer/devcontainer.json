@@ -1,0 +1,7 @@
+{
+  "name": "datastructures-and-algorithms",
+  "build": {
+    dockerfile: "Dockerfile"
+  },
+  "postCreateCommand": "java --version"
+}
