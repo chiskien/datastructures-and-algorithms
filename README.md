@@ -1,5 +1,7 @@
 # ChisKien's Java Playground
 
+[![Build](https://github.com/chiskien/datastructure-and-algorithms/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/chiskien/datastructure-and-algorithms/actions/workflows/build.yml)
+
 ## Data Structure and Algorithms
 
 - Consists of problems on LeetCode, HackerRank, Codility
