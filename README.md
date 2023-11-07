@@ -19,3 +19,8 @@
 ## Effective Java
 
 - Effective Java (Joshua Bloch)
+
+## System Design
+
+- [Seat Reservation Manager](https://github.com/chiskien/datastructure-and-algorithms/tree/master/src/main/java/chiskien/systemdesigns/seatreservationmanager)
+- Task Scheduling and BackGround Jobs with Job Queue 
