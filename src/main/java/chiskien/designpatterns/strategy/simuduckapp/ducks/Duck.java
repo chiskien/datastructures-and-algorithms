@@ -1,7 +1,7 @@
-package chiskien.designpatterns.strategy.simulatorduck.ducks;
+package chiskien.designpatterns.strategy.simuduckapp.ducks;
 
-import chiskien.designpatterns.strategy.simulatorduck.flybehaviors.FlyBehavior;
-import chiskien.designpatterns.strategy.simulatorduck.quackbehaviors.QuackBehavior;
+import chiskien.designpatterns.strategy.simuduckapp.flybehaviors.FlyBehavior;
+import chiskien.designpatterns.strategy.simuduckapp.quackbehaviors.QuackBehavior;
 
 public abstract class Duck {
     //All normal behavior of a regular duck

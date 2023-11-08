@@ -1,4 +1,4 @@
-package chiskien.designpatterns.strategy.simulatorduck.flybehaviors;
+package chiskien.designpatterns.strategy.simuduckapp.flybehaviors;
 
 public class FlyWithWings implements FlyBehavior {
     @Override

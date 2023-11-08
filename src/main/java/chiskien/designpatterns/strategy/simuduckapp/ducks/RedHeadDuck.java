@@ -1,7 +1,7 @@
-package chiskien.designpatterns.strategy.simulatorduck.ducks;
+package chiskien.designpatterns.strategy.simuduckapp.ducks;
 
-import chiskien.designpatterns.strategy.simulatorduck.flybehaviors.RocketPoweredFly;
-import chiskien.designpatterns.strategy.simulatorduck.quackbehaviors.Quack;
+import chiskien.designpatterns.strategy.simuduckapp.flybehaviors.RocketPoweredFly;
+import chiskien.designpatterns.strategy.simuduckapp.quackbehaviors.Quack;
 
 public class RedHeadDuck extends Duck {
     public RedHeadDuck() {

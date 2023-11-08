@@ -1,4 +1,4 @@
-package chiskien.designpatterns.strategy.simulatorduck.quackbehaviors;
+package chiskien.designpatterns.strategy.simuduckapp.quackbehaviors;
 
 public class Quack implements QuackBehavior {
     @Override

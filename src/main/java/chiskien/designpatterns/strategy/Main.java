@@ -3,9 +3,6 @@ package chiskien.designpatterns.strategy;
 import chiskien.designpatterns.strategy.mygame.AutoAttack;
 import chiskien.designpatterns.strategy.mygame.Champion;
 import chiskien.designpatterns.strategy.mygame.Sylas;
-import chiskien.designpatterns.strategy.simulatorduck.ducks.Duck;
-import chiskien.designpatterns.strategy.simulatorduck.ducks.MallardDuck;
-import chiskien.designpatterns.strategy.simulatorduck.ducks.RedHeadDuck;
 
 public class Main {
 
