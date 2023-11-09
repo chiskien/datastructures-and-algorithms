@@ -1,9 +1,6 @@
 package chiskien.datastructures_algorithms.leetcode.heap;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class MergeSortedFiles {
 
@@ -24,43 +21,33 @@ public class MergeSortedFiles {
         public Integer index;
         public Integer value;
 
-        public Entry(Integer index, Integer value) {
+        public Entry(Integer value, Integer index) {
             this.index = index;
             this.value = value;
         }
     }
 
-    public List<Integer> mergeSortedFiles(List<List<Integer>> sortedArrays) {
-        //all elements in sortedArrays are sorted
-        List<Entry> entries = new ArrayList<>();
-        PriorityQueue<Entry> minHeap = new PriorityQueue<>(sortedArrays.size(),
-                Comparator.comparingInt(o -> o.value));
 
-        // Initialize the minHeap with the first element from each array
-        for (int i = 0; i < sortedArrays.size(); i++) {
-            List<Integer> array = sortedArrays.get(i);
-            if (!array.isEmpty()) {
-                entries.add(new Entry(i, array.get(0)));
-                minHeap.add(new Entry(i, array.get(0)));
+    public List<Integer> mergeSortedArrays(List<List<Integer>> sortedArrays) {
+        List<Iterator<Integer>> iterators = new ArrayList<>(sortedArrays.size());
+        for (List<Integer> array : sortedArrays) {
+            iterators.add(array.iterator());
+        }
+        PriorityQueue<Entry> minHeap = new PriorityQueue<>(sortedArrays.size(),
+                Comparator.comparingInt(ol -> ol.value));
+        for (int i = 0; i < iterators.size(); ++i) {
+            if (iterators.get(i).hasNext()) {
+                minHeap.add(new Entry(iterators.get(i).next(), i));
             }
         }
-
         List<Integer> result = new ArrayList<>();
         while (!minHeap.isEmpty()) {
             Entry headEntry = minHeap.poll();
             result.add(headEntry.value);
-
-            int arrayIndex = headEntry.index;
-            int nextIndex = entries.get(arrayIndex).index + 1;
-
-            if (nextIndex < sortedArrays.get(arrayIndex).size()) {
-                Entry nextEntry = new Entry(arrayIndex,
-                        sortedArrays.get(arrayIndex).get(nextIndex));
-                entries.set(arrayIndex, nextEntry);
-                minHeap.add(nextEntry);
+            if (iterators.get(headEntry.index).hasNext()) {
+                minHeap.add(new Entry(iterators.get(headEntry.index).next(), headEntry.index));
             }
         }
-
         return result;
     }
 }
