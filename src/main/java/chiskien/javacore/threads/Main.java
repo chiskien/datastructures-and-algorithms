@@ -2,7 +2,7 @@ package chiskien.javacore.threads;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         MyThreads t1 = new MyThreads();
         MyThreads t2 = new MyThreads();
         t1.name = "thread1";
@@ -10,12 +10,10 @@ public class Main {
         Thread thread1 = new Thread(t1);
         Thread thread2 = new Thread(t2);
         thread1.start();
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
-        thread2.start();
+        thread1.wait(10000);
+        thread1.interrupt();
+
+
     }
 
 }
