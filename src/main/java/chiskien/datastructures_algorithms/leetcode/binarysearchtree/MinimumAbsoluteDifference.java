@@ -1,4 +1,4 @@
-package chiskien.datastructures_algorithms.leetcode.binarytree.binarysearchtree;
+package chiskien.datastructures_algorithms.leetcode.binarysearchtree;
 
 import chiskien.datastructures_algorithms.leetcode.binarytree.TreeNode;
 

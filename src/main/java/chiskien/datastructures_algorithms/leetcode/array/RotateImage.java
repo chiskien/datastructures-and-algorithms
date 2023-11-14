@@ -8,7 +8,6 @@ public class RotateImage {
         int lastIndex = matrix.length - 1;
         for (int i = 0; i < (matrix.length / 2); i++) {
             for (int j = i; j < lastIndex - i; j++) {
-
                 //Perform 4 ways exchange
                 int temp1 = matrix[lastIndex - j][i];
                 int temp2 = matrix[lastIndex - i][lastIndex - j];
