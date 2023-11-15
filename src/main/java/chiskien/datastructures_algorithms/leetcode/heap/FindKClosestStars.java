@@ -27,6 +27,22 @@ class FindKClosestStars {
         findKClosestStars.findKClosestStars(3, stars);
     }
 
+    public int[][] findKCloset(int[][] points, int k) {
+        PriorityQueue<int[]> maxHeap = new PriorityQueue<>(
+                k, (o1, o2) -> {
+            double o1Distance = Math.sqrt(Math.pow(o1[0], 2) + Math.pow(o1[1], 2));
+            double o2Distance = Math.sqrt(Math.pow(o2[0], 2) + Math.pow(o2[1], 2));
+            return Double.compare(o2Distance, o1Distance);
+        });
+        for (int[] point : points) {
+            maxHeap.add(point);
+            if (maxHeap.size() > k) {
+                maxHeap.remove();
+            }
+        }
+        return maxHeap.toArray(new int[k][2]);
+    }
+
     public List<Star> findKClosestStars(int k, Collection<Star> stars) {
         //max-heap to store the k closest stars seen so far
         PriorityQueue<Star> maxHeap = new PriorityQueue<>(
