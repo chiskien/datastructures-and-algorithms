@@ -19,8 +19,7 @@ public class IsHeightBalanced {
         TreeNode root = new TreeNode(10);
         root.left = new TreeNode(8);
         root.right = new TreeNode(9);
-        root.left.left = new TreeNode(6);
-        root.left.left.left = new TreeNode(4);
+        root.left.left = new TreeNode(20);
         System.out.println(isHeightBalanced.isBalanced(root));
     }
 
