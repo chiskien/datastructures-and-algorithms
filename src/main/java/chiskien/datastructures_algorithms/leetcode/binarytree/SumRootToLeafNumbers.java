@@ -15,6 +15,7 @@ public class SumRootToLeafNumbers {
         if (root.left == null && root.right == null) {
             return number;
         }
-        return sumNumbersHelper(root.left, base, number) + sumNumbersHelper(root.right, base, number);
+        return sumNumbersHelper(root.left, base, number) +
+                sumNumbersHelper(root.right, base, number);
     }
 }

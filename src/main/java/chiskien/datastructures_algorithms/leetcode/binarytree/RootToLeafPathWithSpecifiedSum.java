@@ -1,11 +1,12 @@
 package chiskien.datastructures_algorithms.leetcode.binarytree;
 
-public class PathSum {
+public class RootToLeafPathWithSpecifiedSum {
     public boolean hasPathSum(TreeNode root, int targetSum) {
         return hasPathSumHelper(root, 0, targetSum);
     }
 
-    private boolean hasPathSumHelper(TreeNode root, int partialPathSum, int targetSum) {
+    private boolean hasPathSumHelper(TreeNode root, int partialPathSum,
+                                     int targetSum) {
         if (root == null) {
             return false;
         }
@@ -15,7 +16,7 @@ public class PathSum {
             return partialPathSum == targetSum;
         }
 
-        return hasPathSumHelper(root.left,partialPathSum,targetSum)
+        return hasPathSumHelper(root.left, partialPathSum, targetSum)
                 || hasPathSumHelper(root.right, partialPathSum, targetSum);
     }
 }
