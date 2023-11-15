@@ -65,6 +65,15 @@ public class TreeNode {
         }
     }
 
+    public static int getDepth(TreeNode root) {
+        int depth = 0;
+        while (root.parent != null) {
+            depth++;
+            root = root.parent;
+        }
+        return depth;
+    }
+
     @Override
     public String toString() {
         return "TreeNode{ " +

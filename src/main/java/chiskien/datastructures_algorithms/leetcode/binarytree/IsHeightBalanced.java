@@ -1,9 +1,4 @@
-package chiskien.datastructures_algorithms.leetcode.binarytree.practices;
-
-import chiskien.datastructures_algorithms.leetcode.binarytree.TreeNode;
-
-import java.util.Deque;
-import java.util.LinkedList;
+package chiskien.datastructures_algorithms.leetcode.binarytree;
 
 public class IsHeightBalanced {
 
