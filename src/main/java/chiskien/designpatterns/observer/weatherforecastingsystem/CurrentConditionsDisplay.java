@@ -1,4 +1,4 @@
-package chiskien.designpatterns.observer;
+package chiskien.designpatterns.observer.weatherforecastingsystem;
 
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
     private final WeatherData weatherData;

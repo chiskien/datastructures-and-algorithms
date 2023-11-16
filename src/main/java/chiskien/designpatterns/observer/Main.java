@@ -1,5 +1,10 @@
 package chiskien.designpatterns.observer;
 
+import chiskien.designpatterns.observer.weatherforecastingsystem.CurrentConditionsDisplay;
+import chiskien.designpatterns.observer.weatherforecastingsystem.ForecastDisplay;
+import chiskien.designpatterns.observer.weatherforecastingsystem.StatisticsDisplay;
+import chiskien.designpatterns.observer.weatherforecastingsystem.WeatherData;
+
 public class Main {
 
     public static void main(String[] args) {

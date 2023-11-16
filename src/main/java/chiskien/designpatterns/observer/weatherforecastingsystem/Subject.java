@@ -1,4 +1,4 @@
-package chiskien.designpatterns.observer;
+package chiskien.designpatterns.observer.weatherforecastingsystem;
 
 public interface Subject {
 
