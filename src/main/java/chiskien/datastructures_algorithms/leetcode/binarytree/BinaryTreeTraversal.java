@@ -8,32 +8,39 @@ import java.util.List;
 
 public class BinaryTreeTraversal {
 
-    public static void inOrderTraversal(TreeNode root) {
+    public List<Integer> inOrderTraversal(TreeNode root) {
+        List<Integer> inorder = new ArrayList<>();
         if (root != null) {
             inOrderTraversal(root.left);
-            System.out.print(root.val + " ");
+            inorder.add(root.val);
             inOrderTraversal(root.right);
         }
+        return inorder;
     }
 
 
-    public static void preOrderTraversal(TreeNode root) {
+    public List<Integer> preOrderTraversal(TreeNode root) {
+        List<Integer> preorder = new ArrayList<>();
         if (root != null) {
+            preorder.add(root.val);
             System.out.println(root.val);
             preOrderTraversal(root.left);
             preOrderTraversal(root.right);
         }
+        return preorder;
     }
 
-    public static void postOrderTraversal(TreeNode root) {
+    public List<Integer> postOrderTraversal(TreeNode root) {
+        List<Integer> postorder = new ArrayList<>();
         if (root != null) {
             postOrderTraversal(root.left);
             postOrderTraversal(root.right);
-            System.out.println(root.val);
+            postorder.add(root.val);
         }
+        return postorder;
     }
 
-    public static List<Integer> inOrderTraversalWithoutRecursion(TreeNode root) {
+    public List<Integer> inOrderTraversalWithoutRecursion(TreeNode root) {
         Deque<TreeNode> vessel = new LinkedList<>();
         TreeNode current = root;
         List<Integer> result = new ArrayList<>();
@@ -52,7 +59,7 @@ public class BinaryTreeTraversal {
 
     }
 
-    public static List<Integer> preOrderTraversalWithoutRecursion(TreeNode root) {
+    public List<Integer> preOrderTraversalWithoutRecursion(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         Deque<TreeNode> path = new LinkedList<>();
         path.addFirst(root);
@@ -67,7 +74,7 @@ public class BinaryTreeTraversal {
         return result;
     }
 
-    public static List<Integer> postOrderTraversalWithoutRecursion(TreeNode root) {
+    public List<Integer> postOrderTraversalWithoutRecursion(TreeNode root) {
         Deque<TreeNode> path = new LinkedList<>();
         TreeNode prev = root;
         TreeNode current;
@@ -94,7 +101,7 @@ public class BinaryTreeTraversal {
         return result;
     }
 
-    public static List<Integer> breadthFirstSearch(TreeNode root) {
+    public List<Integer> breadthFirstSearch(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         Deque<TreeNode> treeTraversal = new LinkedList<>();
         treeTraversal.add(root);
