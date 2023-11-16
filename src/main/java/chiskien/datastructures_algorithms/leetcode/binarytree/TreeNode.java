@@ -74,6 +74,24 @@ public class TreeNode {
         return depth;
     }
 
+    public static void linkLeft(TreeNode parent, TreeNode leftChild) {
+        if (parent.left == null && leftChild.parent == null) {
+            parent.left = leftChild;
+            leftChild.parent = parent;
+        } else {
+            throw new IllegalArgumentException();
+        }
+    }
+
+    public static void linkRight(TreeNode parent, TreeNode rightChild) {
+        if (parent.right == null && rightChild.parent == null) {
+            parent.right = rightChild;
+            rightChild.parent = parent;
+        } else {
+            throw new IllegalArgumentException();
+        }
+    }
+
     @Override
     public String toString() {
         return "TreeNode{ " +

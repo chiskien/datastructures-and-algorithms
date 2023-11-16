@@ -2,23 +2,24 @@ package chiskien.datastructures_algorithms.leetcode.binarytree;
 
 public class FindSuccessor {
 
+    //the successor of a node in binary tree is the node that appears immediately after the given node inorder traversal
+    //assumes each nodes stores its parent
+    //Left-most of the right subtree is the successor
     public TreeNode findSuccessor(TreeNode root) {
-        TreeNode treeIter = root;
-        if (treeIter.right != null) {
-
-            //find the leftmost element in node's right subtree
-            treeIter = treeIter.right;
-            while (treeIter.left != null) {
-                treeIter = treeIter.left;
+        TreeNode current = root;
+        if (current.right != null) {
+            //Find the left-most of right subtree
+            current = current.right;
+            while (current.left != null) {
+                current = current.left;
             }
-            return treeIter;
+            return current;
         }
-        // Find the closest ancestor whose left subtree contains a node.
-        while (treeIter.parent != null && treeIter.parent.right == treeIter) {
-            treeIter = treeIter.parent;
+        //Find the closet ancestor whose left substree contains nodes
+        while (current.parent != null && current.parent.right == current) {
+            current = current.parent;
         }
-        // A return value of null means the node does not have a successor,
-        // the rightmost node in the tree.
-        return treeIter.parent;
+        //A return value of null means node does not have successor (right-most of the tree)
+        return current.parent;
     }
 }
