@@ -1,4 +1,4 @@
-package chiskien.systemdesigns.seatreservationmanager;
+package kozy.systemdesigns.seatreservationmanager;
 
 
 import java.util.PriorityQueue;

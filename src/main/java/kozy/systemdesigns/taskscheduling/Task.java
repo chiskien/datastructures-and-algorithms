@@ -1,4 +1,4 @@
-package chiskien.systemdesigns.taskscheduling;
+package kozy.systemdesigns.taskscheduling;
 
 public class Task implements Runnable {
     @Override
