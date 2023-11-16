@@ -6,7 +6,5 @@
 
 #### 1. Static factories have names.
 
-- sadas
-
 #### 2. Static factories are not required to create a new object each time they are invoked.
 
