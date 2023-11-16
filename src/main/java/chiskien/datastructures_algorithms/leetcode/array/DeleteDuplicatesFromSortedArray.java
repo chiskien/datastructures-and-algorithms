@@ -8,16 +8,18 @@ package chiskien.datastructures_algorithms.leetcode.array;
 public class DeleteDuplicatesFromSortedArray {
 
 
-    public static int[] solution(int[] nums) {
+    //delete duplicate in a sorted array
+    //do not use an auxiliary array
+    //modify array inplace
+
+    public int deleteDuplicates(int[] nums) {
         int j = 1;
         for (int i = 1; i < nums.length; i++) {
-            int a = nums[i];
-            int b = nums[j - 1];
-            if (a != b) {
-                nums[j++] = nums[i]; //compare to
+            if (nums[i] != nums[j - 1]) {
+                nums[j++] = nums[i];
             }
         }
-        return nums;
+        return j;
     }
 
     // remove all occurrences of key,

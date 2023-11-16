@@ -2,7 +2,9 @@
 
 [![Build](https://github.com/chiskien/datastructure-and-algorithms/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/chiskien/datastructure-and-algorithms/actions/workflows/build.yml)
 
-## Data Structure and Algorithms
+## Resources
+
+### Data Structure and Algorithms
 
 - Consists of problems on LeetCode, HackerRank, Codility
 - Courses:
@@ -13,16 +15,90 @@
       Simply the best 🤣
     - [NeetCode](https://neetcode.io/roadmap)
 
-## Design Patterns
+#### Design Patterns
 
 - Head First Design Patterns 4th Edition
 - Design Pattern, Gang of four
 
-## Effective Java
+#### Effective Java
 
 - Effective Java (Joshua Bloch)
 
-## System Design
+#### System Design
 
 - [Seat Reservation Manager](https://github.com/chiskien/datastructure-and-algorithms/tree/master/src/main/java/chiskien/systemdesigns/seatreservationmanager)
-- Task Scheduling and BackGround Jobs with Job Queue 
+- Task Scheduling and BackGround Jobs with Job Queue
+
+## Project Structures:
+
+### Source Code folder structures:
+
+```shell
+├───java
+│   ├───chiskien
+│   │   ├───datastructures_algorithms
+│   │   │   ├───codility
+│   │   │   ├───hackerrank
+│   │   │   └───leetcode
+│   │   │       ├───array
+│   │   │       ├───binarysearchtree
+│   │   │       ├───binarytree
+│   │   │       │   └───implementations
+│   │   │       ├───bitmanipulation
+│   │   │       ├───btree
+│   │   │       ├───cache
+│   │   │       ├───concurrentprogramming
+│   │   │       ├───datacompression
+│   │   │       ├───dynamicprogramming
+│   │   │       ├───graph
+│   │   │       ├───greedy
+│   │   │       ├───hashmap
+│   │   │       │   ├───implementations
+│   │   │       │   └───practices
+│   │   │       ├───heap
+│   │   │       ├───intervals
+│   │   │       ├───linkedlist
+│   │   │       │   └───implementations
+│   │   │       ├───math
+│   │   │       ├───queue
+│   │   │       ├───recursion
+│   │   │       ├───searching
+│   │   │       ├───slidingwindows
+│   │   │       ├───sorting
+│   │   │       ├───stack
+│   │   │       ├───string
+│   │   │       ├───substringsearch
+│   │   │       ├───trie
+│   │   │       ├───twopointers
+│   │   │       └───utils
+│   │   ├───designpatterns
+│   │   │   ├───builder
+│   │   │   ├───command
+│   │   │   ├───decorator
+│   │   │   │   └───starbuzzcoffee
+│   │   │   ├───factory
+│   │   │   ├───observer
+│   │   │   │   ├───mynotificationsystem
+│   │   │   │   └───weatherforecastingsystem
+│   │   │   └───strategy
+│   │   │       ├───mygame
+│   │   │       └───simuduckapp
+│   │   │           ├───ducks
+│   │   │           ├───flybehaviors
+│   │   │           └───quackbehaviors
+│   │   ├───effectivejava
+│   │   │   ├───chapter1_objectslifecycle
+│   │   │   │   ├───item1
+│   │   │   │   └───item2
+│   │   │   └───chapter2_methodscommontoallobjects
+│   │   └───javacore
+│   │       ├───misc
+│   │       └───threads
+│   └───kozy
+│       ├───domaindrivendesign
+│       ├───softwarearchitecture
+│       └───systemdesigns
+│           ├───seatreservationmanager
+│           └───taskscheduling
+└───resources
+```
