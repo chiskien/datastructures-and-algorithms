@@ -5,8 +5,6 @@ import java.util.Map;
 
 public class ValidAnagram {
 
-
-
     public static boolean isValidAnagram(String s, String t) {
         Map<Character, Integer> mapS = new HashMap<>();
         Map<Character, Integer> mapT = new HashMap<>();

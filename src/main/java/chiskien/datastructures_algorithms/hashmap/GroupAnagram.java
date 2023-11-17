@@ -1,26 +1,8 @@
 package chiskien.datastructures_algorithms.hashmap;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class GroupAnagram {
-
-    public static List<List<String>> groupAnagrams(String[] strs) {
-        Map<Map<Character, Integer>, List<String>> result = new HashMap<>();
-        for (String str : strs) {
-            Map<Character, Integer> mapFrequency = getFrequencyString(str);
-            if (result.containsKey(mapFrequency)) {
-                result.get(mapFrequency).add(str);
-            } else {
-                List<String> list = new ArrayList<>();
-                list.add(str);
-                result.put(mapFrequency, list);
-            }
-        }
-        return result.values().stream().toList();
-    }
 
     public static Map<Character, Integer> getFrequencyString(String str) {
         Map<Character, Integer> mapFrequency = new HashMap<>();
@@ -28,5 +10,26 @@ public class GroupAnagram {
             mapFrequency.put(c, mapFrequency.getOrDefault(c, 0) + 1);
         }
         return mapFrequency;
+    }
+
+    public List<List<String>> findAnagrams(List<String> dictionary) {
+        Map<String, List<String>> sortedStringsToAnagram = new HashMap<>();
+        for (String s : dictionary) {
+            char[] charArray = s.toCharArray();
+            Arrays.sort(charArray);
+            String newString = String.valueOf(charArray);
+            if (!sortedStringsToAnagram.containsKey(newString)) {
+                sortedStringsToAnagram.put(newString, new ArrayList<>());
+            }
+            sortedStringsToAnagram.get(newString).add(s);
+        }
+        List<List<String>> anagramGroups = new ArrayList<>();
+        for (Map.Entry<String, List<String>> entry : sortedStringsToAnagram.entrySet()) {
+            if (entry.getValue().size() >= 2) {
+                anagramGroups.add(entry.getValue());
+            }
+        }
+
+        return anagramGroups;
     }
 }

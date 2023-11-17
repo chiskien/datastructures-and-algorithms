@@ -1,4 +1,4 @@
-package chiskien.datastructures_algorithms.hashmap.practices;
+package chiskien.datastructures_algorithms.hashmap.implementations;
 
 import java.util.HashMap;
 import java.util.Map;
