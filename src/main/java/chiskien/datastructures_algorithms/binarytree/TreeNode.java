@@ -92,6 +92,10 @@ public class TreeNode {
         }
     }
 
+    public static boolean isLeaf(TreeNode node) {
+        return node.right == null && node.left == null;
+    }
+
     @Override
     public String toString() {
         return "TreeNode{ " +
