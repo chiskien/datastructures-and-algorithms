@@ -37,40 +37,38 @@
 ├───java
 │   ├───chiskien
 │   │   ├───datastructures_algorithms
-│   │   │   ├───codility
+│   │   │   ├───array
+│   │   │   ├───binarysearchtree
+│   │   │   ├───binarytree
+│   │   │   │   └───implementations
+│   │   │   ├───bitmanipulation
+│   │   │   ├───btree
+│   │   │   ├───cache
+│   │   │   ├───concurrentprogramming
+│   │   │   ├───datacompression
+│   │   │   ├───dynamicprogramming
+│   │   │   ├───graph
+│   │   │   ├───greedy
 │   │   │   ├───hackerrank
-│   │   │   └───leetcode
-│   │   │       ├───array
-│   │   │       ├───binarysearchtree
-│   │   │       ├───binarytree
-│   │   │       │   └───implementations
-│   │   │       ├───bitmanipulation
-│   │   │       ├───btree
-│   │   │       ├───cache
-│   │   │       ├───concurrentprogramming
-│   │   │       ├───datacompression
-│   │   │       ├───dynamicprogramming
-│   │   │       ├───graph
-│   │   │       ├───greedy
-│   │   │       ├───hashmap
-│   │   │       │   ├───implementations
-│   │   │       │   └───practices
-│   │   │       ├───heap
-│   │   │       ├───intervals
-│   │   │       ├───linkedlist
-│   │   │       │   └───implementations
-│   │   │       ├───math
-│   │   │       ├───queue
-│   │   │       ├───recursion
-│   │   │       ├───searching
-│   │   │       ├───slidingwindows
-│   │   │       ├───sorting
-│   │   │       ├───stack
-│   │   │       ├───string
-│   │   │       ├───substringsearch
-│   │   │       ├───trie
-│   │   │       ├───twopointers
-│   │   │       └───utils
+│   │   │   ├───hashmap
+│   │   │   │   ├───implementations
+│   │   │   │   └───practices
+│   │   │   ├───heap
+│   │   │   ├───intervals
+│   │   │   ├───linkedlist
+│   │   │   │   └───implementations
+│   │   │   ├───math
+│   │   │   ├───queue
+│   │   │   ├───recursion
+│   │   │   ├───searching
+│   │   │   ├───slidingwindows
+│   │   │   ├───sorting
+│   │   │   ├───stack
+│   │   │   ├───string
+│   │   │   ├───substringsearch
+│   │   │   ├───trie
+│   │   │   ├───twopointers
+│   │   │   └───utils
 │   │   ├───designpatterns
 │   │   │   ├───builder
 │   │   │   ├───command
@@ -101,4 +99,5 @@
 │           ├───seatreservationmanager
 │           └───taskscheduling
 └───resources
+
 ```
