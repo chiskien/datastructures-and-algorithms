@@ -40,40 +40,6 @@ public class BinaryTreeTraversal {
         return postorder;
     }
 
-    public List<Integer> inOrderTraversalWithoutRecursion(TreeNode root) {
-        Deque<TreeNode> vessel = new LinkedList<>();
-        TreeNode current = root;
-        List<Integer> result = new ArrayList<>();
-        while (!vessel.isEmpty() || current != null) {
-            if (current != null) {
-                vessel.addFirst(current);
-                current = current.left;
-            } else {
-                current = vessel.removeFirst();
-                result.add(current.val);
-                current = current.right;
-
-            }
-        }
-        return result;
-
-    }
-
-    public List<Integer> preOrderTraversalWithoutRecursion(TreeNode root) {
-        List<Integer> result = new ArrayList<>();
-        Deque<TreeNode> path = new LinkedList<>();
-        path.addFirst(root);
-        while (!path.isEmpty()) {
-            TreeNode current = path.removeFirst();
-            if (current != null) {
-                result.add(current.val);
-                path.addFirst(current.right);
-                path.addFirst(current.left);
-            }
-        }
-        return result;
-    }
-
     public List<Integer> postOrderTraversalWithoutRecursion(TreeNode root) {
         Deque<TreeNode> path = new LinkedList<>();
         TreeNode prev = root;
