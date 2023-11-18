@@ -4,14 +4,6 @@ import java.util.*;
 
 public class GroupAnagram {
 
-    public static Map<Character, Integer> getFrequencyString(String str) {
-        Map<Character, Integer> mapFrequency = new HashMap<>();
-        for (char c : str.toCharArray()) {
-            mapFrequency.put(c, mapFrequency.getOrDefault(c, 0) + 1);
-        }
-        return mapFrequency;
-    }
-
     public List<List<String>> findAnagrams(List<String> dictionary) {
         Map<String, List<String>> sortedStringsToAnagram = new HashMap<>();
         for (String s : dictionary) {

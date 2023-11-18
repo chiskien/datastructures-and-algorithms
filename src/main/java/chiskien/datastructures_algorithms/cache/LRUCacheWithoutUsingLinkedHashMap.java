@@ -15,14 +15,14 @@ public class LRUCacheWithoutUsingLinkedHashMap {
 
     int capacity;
     int size;
-    Map<Integer, CacheNode> table;
+    Map<Integer, CacheNode> hashTable;
     CacheNode dummyHead;
     CacheNode dummyTail;
 
     public LRUCacheWithoutUsingLinkedHashMap(int capacity) {
         this.capacity = capacity;
         this.size = 0;
-        table = new HashMap<>();
+        hashTable = new HashMap<>();
         dummyHead = new CacheNode();
         dummyTail = new CacheNode();
 
@@ -31,7 +31,7 @@ public class LRUCacheWithoutUsingLinkedHashMap {
     }
 
     public int get(int key) {
-        CacheNode node = table.get(key);
+        CacheNode node = hashTable.get(key);
         if (node == null) {
             return -1;
         }
@@ -40,19 +40,19 @@ public class LRUCacheWithoutUsingLinkedHashMap {
     }
 
     public void put(int key, int newValue) {
-        CacheNode node = table.get(key);
+        CacheNode node = hashTable.get(key);
         if (node == null) {
             CacheNode newNode = new CacheNode();
             newNode.key = key;
             newNode.value = newValue;
-            table.put(key, newNode);
+            hashTable.put(key, newNode);
             addNodeToHead(newNode);
             ++size;
 
             //evict least recently used item if current size is > capacity
             if (size > capacity) {
                 CacheNode tail = removeTail();
-                table.remove(tail.key);
+                hashTable.remove(tail.key);
                 --size;
             }
         }
