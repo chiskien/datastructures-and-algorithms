@@ -2,20 +2,22 @@ package chiskien.datastructures_algorithms.binarytree;
 
 public class SumRootToLeafNumbers {
 
+    int result = 0;
 
     public int sumNumbers(TreeNode root) {
-        return sumNumbersHelper(root, 1, 0);
+        sumNumbersHelper(root, 0);
+        return result;
     }
 
-    private int sumNumbersHelper(TreeNode root, int base, int number) {
-        if (root == null) return 0;
+    private void sumNumbersHelper(TreeNode root, int number) {
+        if (root == null) return;
 
-        number += root.val * 10 * base++;
+        number = 10 * number + root.val;
         //leaf
         if (root.left == null && root.right == null) {
-            return number;
+            result += number;
         }
-        return sumNumbersHelper(root.left, base, number) +
-                sumNumbersHelper(root.right, base, number);
+        sumNumbersHelper(root.left, number);
+        sumNumbersHelper(root.right, number);
     }
 }

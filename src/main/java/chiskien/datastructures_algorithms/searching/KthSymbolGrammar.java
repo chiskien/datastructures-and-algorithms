@@ -1,4 +1,4 @@
-package chiskien.datastructures_algorithms.binarytree;
+package chiskien.datastructures_algorithms.searching;
 
 public class KthSymbolGrammar {
 
