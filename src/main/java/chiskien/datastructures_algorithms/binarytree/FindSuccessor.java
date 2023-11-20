@@ -15,11 +15,11 @@ public class FindSuccessor {
             }
             return current;
         }
-        //Find the closet ancestor whose left substree contains nodes
+        //Find the closet ancestor whose left subtree contains nodes
         while (current.parent != null && current.parent.right == current) {
             current = current.parent;
         }
-        //A return value of null means node does not have successor (right-most of the tree)
+        //A return value of null means node does not have a successor (right-most of the tree)
         return current.parent;
     }
 }

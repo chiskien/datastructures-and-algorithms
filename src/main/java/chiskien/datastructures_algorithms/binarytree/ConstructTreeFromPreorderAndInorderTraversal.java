@@ -28,20 +28,21 @@ public class ConstructTreeFromPreorderAndInorderTraversal {
         }
         int rootInorderIndex = nodeToInorderIndex.get(preorder[preorderStart]);
         int leftSubTreeSize = rootInorderIndex - inorderStart;
-        return new TreeNode(
-                preorder[preorderStart],
-                buildTreeHelper(preorder,
-                        preorderStart + 1,
-                        preorderStart + 1 + leftSubTreeSize,
-                        inorderStart,
-                        rootInorderIndex,
-                        nodeToInorderIndex),
-                buildTreeHelper(preorder,
-                        preorderStart + 1 + leftSubTreeSize,
-                        preorderEnd,
-                        rootInorderIndex + 1,
-                        inorderEnd,
-                        nodeToInorderIndex));
+        TreeNode newRoot = new TreeNode();
+        newRoot.val = preorder[preorderStart];
+        newRoot.left = buildTreeHelper(preorder,
+                preorderStart + 1,
+                preorderStart + 1 + leftSubTreeSize,
+                inorderStart,
+                rootInorderIndex,
+                nodeToInorderIndex);
+        newRoot.right = buildTreeHelper(preorder,
+                preorderStart + 1 + leftSubTreeSize,
+                preorderEnd,
+                rootInorderIndex + 1,
+                inorderEnd,
+                nodeToInorderIndex);
+        return newRoot;
     }
 
 }
