@@ -22,11 +22,9 @@ public class KmostFrequentQueries {
         PriorityQueue<Map.Entry<Integer, Integer>> maxHeap = new PriorityQueue<>(
                 k, (o1, o2) -> o2.getValue() - o1.getValue());
 
-        for (Map.Entry<Integer, Integer> entry : frequenciesMap.entrySet()) {
-            maxHeap.add(entry);
-        }
+        maxHeap.addAll(frequenciesMap.entrySet());
         for (int i = 0; i < k; i++) {
-            result[i] = maxHeap.poll().getKey();
+            result[i] = Objects.requireNonNull(maxHeap.poll()).getKey();
         }
         return result;
     }
