@@ -2,6 +2,11 @@ package chiskien.datastructures_algorithms.searching;
 
 public class SearchInSortedArray {
 
+    public int search2(int[] nums, int target) {
+        return 1;
+    }
+
+
     public int search(int[] nums, int target) {
         int left = 0, right = nums.length - 1;
         int mid;
