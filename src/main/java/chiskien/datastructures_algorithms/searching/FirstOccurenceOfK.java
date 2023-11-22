@@ -1,8 +1,6 @@
 package chiskien.datastructures_algorithms.searching;
 
 public class FirstOccurenceOfK {
-
-
     public int searchFirstOccurenceOfK(int[] nums, int k) {
         int left = 0;
         int right = nums.length - 1;
