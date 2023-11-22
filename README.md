@@ -92,7 +92,7 @@
 │   │   └───javacore
 │   │       ├───misc
 │   │       └───threads
-│   └───kozy
+│   └───crykos
 │       ├───domaindrivendesign
 │       ├───softwarearchitecture
 │       └───systemdesigns

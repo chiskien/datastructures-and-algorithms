@@ -1,4 +1,4 @@
-package kozy.systemdesigns.seatreservationmanager;
+package crykos.systemdesigns.seatreservationmanager;
 
 
 import java.util.PriorityQueue;

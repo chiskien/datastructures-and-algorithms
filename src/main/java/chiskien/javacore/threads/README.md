@@ -1,5 +1,5 @@
 # Threads
 
 > Applications:
-> - `kozy/systemdesigns/taskscheduling`
+> - `crykos/systemdesigns/taskscheduling`
 > - Run `Interruption.java` (Java Desktop application using Swing)
