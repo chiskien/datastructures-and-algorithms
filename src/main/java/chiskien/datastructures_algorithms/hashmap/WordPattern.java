@@ -39,7 +39,9 @@ public class WordPattern {
         String[] stringArray = s.split(" ");
         if (patternDivided.length != stringArray.length) return false;
         for (int i = 0; i < patternDivided.length; i++) {
-            mappedString.put(patternDivided[i], stringArray[i]);
+            if (!mappedString.containsValue(stringArray[i])) {
+                mappedString.put(patternDivided[i], stringArray[i]);
+            }
         }
         StringBuilder stringBuilder = new StringBuilder();
         for (String str : patternDivided) {

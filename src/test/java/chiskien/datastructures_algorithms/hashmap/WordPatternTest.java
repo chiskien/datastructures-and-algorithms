@@ -51,4 +51,11 @@ class WordPatternTest {
         String words = "cat dog cat dog cat";
         assertFalse(wordPattern.wordPattern(pattern, words));
     }
+
+    @Test
+    void wordPatternFalseCase3() {
+        String pattern = "abba";
+        String words = "dog dog dog dog";
+        assertFalse(wordPattern.wordPattern(pattern, words));
+    }
 }
