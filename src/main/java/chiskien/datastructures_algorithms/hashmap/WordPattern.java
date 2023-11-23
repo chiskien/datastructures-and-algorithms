@@ -1,9 +1,23 @@
 package chiskien.datastructures_algorithms.hashmap;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
 public class WordPattern {
+//    public boolean wordPattern(String pattern, String s) {
+//        String[] patternArr = pattern.split("");
+//        String[] strArr = s.split(" ");
+//        Map<String, String> patternMap = new HashMap<>();
+//        Map<String, String> strMap = new HashMap<>();
+//        if (patternArr.length != strArr.length) return false;
+//        for (int i = 0; i < patternArr.length; i++) {
+//            String a = patternMap.put(patternArr[i], strArr[i]);
+//            String b = strMap.put(strArr[i], patternArr[i]);
+//        }
+//        return true;
+//    }
+
     //    public boolean wordPattern(String pattern, String s) {
 //        String[] charsInPattern = pattern.split("");
 //        String[] charsInS = s.split(" ");
@@ -18,17 +32,19 @@ public class WordPattern {
 //        }
 //        return true;
 //    }
+    public boolean wordPattern(String pattern, String s) {
 
-    public static boolean wordPattern(String pattern, String s) {
-        String[] patternArr = pattern.split("");
-        String[] strArr = s.split(" ");
-        Map<String, String> patternMap = new HashMap<>();
-        Map<String, String> strMap = new HashMap<>();
-        if (patternArr.length != strArr.length) return false;
-        for (int i = 0; i < patternArr.length; i++) {
-            String a = patternMap.put(patternArr[i], strArr[i]);
-            String b = strMap.put(strArr[i], patternArr[i]);
+        Map<String, String> mappedString = new HashMap<>();
+        String[] patternDivided = pattern.split("");
+        String[] stringArray = s.split(" ");
+        if (patternDivided.length != stringArray.length) return false;
+        for (int i = 0; i < patternDivided.length; i++) {
+            mappedString.put(patternDivided[i], stringArray[i]);
         }
-        return true;
+        StringBuilder stringBuilder = new StringBuilder();
+        for (String str : patternDivided) {
+            stringBuilder.append(mappedString.get(str)).append(" ");
+        }
+        return s.equals(stringBuilder.toString().stripTrailing());
     }
 }
