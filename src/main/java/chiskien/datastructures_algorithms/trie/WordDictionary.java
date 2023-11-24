@@ -31,10 +31,10 @@ public class WordDictionary {
             while (c == '.') {
                 c++;
             }
-            if (!trieNode.childrens.containsKey(c)) {
+            if (!trieNode.children.containsKey(c)) {
                 return false;
             }
-            trieNode = trieNode.childrens.get(c);
+            trieNode = trieNode.children.get(c);
         }
         return trieNode.isWord;
     }

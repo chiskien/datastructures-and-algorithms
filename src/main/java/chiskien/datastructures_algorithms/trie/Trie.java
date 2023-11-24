@@ -10,10 +10,10 @@ public class Trie {
     public void insert(String word) {
         TrieNode currentTrieNode = root;
         for (Character c : word.toCharArray()) {
-            if (!currentTrieNode.childrens.containsKey(c)) {
-                currentTrieNode.childrens.put(c, new TrieNode());
+            if (!currentTrieNode.children.containsKey(c)) {
+                currentTrieNode.children.put(c, new TrieNode());
             }
-            currentTrieNode = currentTrieNode.childrens.get(c);
+            currentTrieNode = currentTrieNode.children.get(c);
         }
         currentTrieNode.isWord = true;
     }
@@ -21,10 +21,10 @@ public class Trie {
     public boolean search(String word) {
         TrieNode currentTrieNode = root;
         for (Character c : word.toCharArray()) {
-            if (!currentTrieNode.childrens.containsKey(c)) {
+            if (!currentTrieNode.children.containsKey(c)) {
                 return false;
             }
-            currentTrieNode = currentTrieNode.childrens.get(c);
+            currentTrieNode = currentTrieNode.children.get(c);
         }
         return currentTrieNode.isWord;
     }
@@ -32,10 +32,10 @@ public class Trie {
     public boolean startsWith(String prefix) {
         TrieNode currentTrieNode = root;
         for (Character c : prefix.toCharArray()) {
-            if (!currentTrieNode.childrens.containsKey(c)) {
+            if (!currentTrieNode.children.containsKey(c)) {
                 return false;
             }
-            currentTrieNode = currentTrieNode.childrens.get(c);
+            currentTrieNode = currentTrieNode.children.get(c);
         }
         return true;
     }
@@ -45,10 +45,10 @@ public class Trie {
         StringBuilder prefix = new StringBuilder();
         for (Character c : word.toCharArray()) {
             prefix.append(c);
-            if (!currentTrieNode.childrens.containsKey(c)) {
+            if (!currentTrieNode.children.containsKey(c)) {
                 return prefix.toString();
             }
-            currentTrieNode = currentTrieNode.childrens.get(c);
+            currentTrieNode = currentTrieNode.children.get(c);
         }
         return "";
     }

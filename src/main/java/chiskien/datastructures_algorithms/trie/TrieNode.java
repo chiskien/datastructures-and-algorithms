@@ -6,22 +6,22 @@ import java.util.Map;
 class TrieNode {
     public boolean isWord;
 
-    public Map<Character, TrieNode> childrens; //pointers
+    public Map<Character, TrieNode> children; //pointers
 
     public TrieNode() {
         this.isWord = false;
-        this.childrens = new HashMap<>();
+        this.children = new HashMap<>();
     }
 
     public void setWord(boolean word) {
         isWord = word;
     }
 
-    public Map<Character, TrieNode> getChildrens() {
-        return childrens;
+    public Map<Character, TrieNode> getChildren() {
+        return children;
     }
 
-    public void setChildrens(Map<Character, TrieNode> childrens) {
-        this.childrens = childrens;
+    public void setChildren(Map<Character, TrieNode> children) {
+        this.children = children;
     }
 }
