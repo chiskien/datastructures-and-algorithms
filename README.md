@@ -29,6 +29,32 @@
 - [Seat Reservation Manager](https://github.com/chiskien/datastructure-and-algorithms/tree/master/src/main/java/chiskien/systemdesigns/seatreservationmanager)
 - Task Scheduling and BackGround Jobs with Job Queue
 
+## Indexing:
+
+1. [Array](src/main/java/chiskien/datastructures_algorithms/array)
+2. [String](src/main/java/chiskien/datastructures_algorithms/string)
+3. [LinkedList](src/main/java/chiskien/datastructures_algorithms/linkedlist)
+4. [Stack](src/main/java/chiskien/datastructures_algorithms/stack)
+5. [Queue](src/main/java/chiskien/datastructures_algorithms/queue)
+6. [BinaryTree](src/main/java/chiskien/datastructures_algorithms/binarytree)
+7. [BinarySearchTree](src/main/java/chiskien/datastructures_algorithms/binarysearchtree)
+8. [Sorting](src/main/java/chiskien/datastructures_algorithms/sorting)
+9. [Searching](src/main/java/chiskien/datastructures_algorithms/searching)
+10. [HashTable](src/main/java/chiskien/datastructures_algorithms/hashmap)
+11. [Heap/Priority Queue](src/main/java/chiskien/datastructures_algorithms/heap)
+12. [Trie](src/main/java/chiskien/datastructures_algorithms/trie)
+13. [Recursion/Backtracking](src/main/java/chiskien/datastructures_algorithms/recursion)
+14. [Graph](src/main/java/chiskien/datastructures_algorithms/graph)
+15. [Dynamic Programming](src/main/java/chiskien/datastructures_algorithms/dynamicprogramming)
+16. [Greedy](src/main/java/chiskien/datastructures_algorithms/greedy)
+17. [Parallel/Concurrent Programming](src/main/java/chiskien/datastructures_algorithms/concurrentprogramming)
+18. [Data Compression](src/main/java/chiskien/datastructures_algorithms/datacompression)
+19. [Math](src/main/java/chiskien/datastructures_algorithms/math)
+20. [Bit Manipulation](src/main/java/chiskien/datastructures_algorithms/bitmanipulation)
+21. [Cache](src/main/java/chiskien/datastructures_algorithms/cache)
+22. [B-Tree](src/main/java/chiskien/datastructures_algorithms/btree)
+23. [Intervals](src/main/java/chiskien/datastructures_algorithms/intervals)
+
 ## Project Structures:
 
 ### Source Code folder structures:
