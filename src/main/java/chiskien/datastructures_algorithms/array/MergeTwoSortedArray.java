@@ -1,12 +1,7 @@
 package chiskien.datastructures_algorithms.array;
 
-public class MergeSortedArray {
+public class MergeTwoSortedArray {
 
-
-    public static void epiSolution(int[] nums1, int m, int[] nums2, int n) {
-        int a = m - 1; //index of the m th element
-        int b = n - 1;
-    }
 
     // assumptions: nums1.length = m + n;
     public static void solution(int[] nums1, int m, int[] nums2, int n) {
@@ -26,6 +21,23 @@ public class MergeSortedArray {
             nums1[lastIndex] = nums2[n - 1];
             n--;
             lastIndex--;
+        }
+    }
+
+    public void mergeTwoSortedArraysEPI(int[] nums1, int m, int[] nums2, int n) {
+        int a = m - 1, b = n - 1;
+        int pivot = m + n - 1; //m + n == nums2.length
+        while (a >= 0 && b >= 0) {
+            if (nums1[a] > nums2[b]) {
+                nums1[pivot] = nums1[a--];
+            } else {
+                nums1[pivot] = nums2[b--];
+            }
+            pivot--;
+        }
+        while (b >= 0) {
+            nums1[pivot--] = nums2[b--];
+
         }
     }
 }
