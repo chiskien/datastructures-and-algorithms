@@ -1,5 +1,6 @@
 package chiskien.datastructures_algorithms.hashmap;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -16,5 +17,15 @@ public class ValidAnagram {
             mapT.put(c, mapT.getOrDefault(c, 0) + 1);
         }
         return mapS.equals(mapT);
+    }
+
+    public boolean isValidAnagramSort(String s, String t) {
+        char[] charT = t.toCharArray();
+        char[] charS = s.toCharArray();
+        Arrays.sort(charS);
+        Arrays.sort(charT);
+        String t1 = String.valueOf(charT);
+        String s1 = String.valueOf(charS);
+        return t1.equals(s1);
     }
 }

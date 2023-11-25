@@ -11,14 +11,16 @@
 #### Videos:
 
 - [CS50](https://www.youtube.com/watch?v=X8h4dq9Hzq8): the _crème de la crème_ of introductory CS
-- [MIT OpenCourseware](https://www.youtube.com/watch?v=ZA-tUyM_y7s&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY): Amazing all-rounded algorithms course made by MIT
-- [Abdul Bari / Indian Sensei](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O): Simply the best 🤣
+- [MIT OpenCourseware](https://www.youtube.com/watch?v=ZA-tUyM_y7s&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY): Amazing
+  all-rounded algorithms course made by MIT
+- [Abdul Bari / Indian Sensei](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O):
+  Simply the best 🤣
 - [NeetCode](https://neetcode.io/roadmap)
 
-#### Books: 
+#### Books:
 
 - Introducing to Algorithms fourth Edition
-- DSA in Java 
+- DSA in Java
 - The Algorithms Design Manual
 
 ### Design Patterns
@@ -29,7 +31,6 @@
 ### Effective Java
 
 - Effective Java (Joshua Bloch)
-
 
 ## Indexing:
 
@@ -55,7 +56,11 @@
 20. [Bit Manipulation](src/main/java/chiskien/datastructures_algorithms/bitmanipulation)
 21. [Cache](src/main/java/chiskien/datastructures_algorithms/cache)
 22. [B-Tree](src/main/java/chiskien/datastructures_algorithms/btree)
-23. [Intervals](src/main/java/chiskien/datastructures_algorithms/intervals)
+
+##### Patterns:
+
+1. [Intervals](src/main/java/chiskien/datastructures_algorithms/intervals)
+2. [Two Pointers](src/main/java/chiskien/datastructures_algorithms/twopointers)
 
 ## Project Structures:
 

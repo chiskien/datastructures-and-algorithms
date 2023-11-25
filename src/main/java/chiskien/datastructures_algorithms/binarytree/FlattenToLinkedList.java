@@ -4,17 +4,13 @@ import java.util.Deque;
 
 public class FlattenToLinkedList {
 
+    public static void main(String[] args) {
+
+    }
+
+    //Flatten a binary tree into a linked list
     public void flatten(TreeNode root) {
+        TreeNode rightChild = root.right;
 
     }
-
-    public TreeNode flattenHelper(TreeNode root, TreeNode rightChild) {
-        if (root.left == null && root.right == null) {
-            root.right = rightChild;
-            return root;
-        }
-        root.right = flattenHelper(root.left, root.right);
-        return root;
-    }
-
 }
