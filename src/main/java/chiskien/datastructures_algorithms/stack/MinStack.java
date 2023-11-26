@@ -2,6 +2,7 @@ package chiskien.datastructures_algorithms.stack;
 
 import java.util.Deque;
 import java.util.LinkedList;
+import java.util.NoSuchElementException;
 
 public class MinStack {
     //each function takes O(1)
@@ -30,10 +31,14 @@ public class MinStack {
     }
 
     public int top() {
+        if (stack.isEmpty()) {
+            throw new NoSuchElementException("Stack is empty");
+        }
         return stack.peek();
     }
 
     public int getMin() {
+        if (minStack.isEmpty()) throw new NoSuchElementException("Stack is Empty");
         return minStack.peek();
     }
 
