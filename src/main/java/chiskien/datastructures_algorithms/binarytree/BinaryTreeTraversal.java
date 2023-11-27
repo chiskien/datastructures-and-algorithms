@@ -8,6 +8,21 @@ import java.util.List;
 
 public class BinaryTreeTraversal {
 
+    public static List<Integer> breadthFirstTraversal(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+        Deque<TreeNode> treeTraversal = new LinkedList<>();
+        treeTraversal.add(root);
+        while (!treeTraversal.isEmpty() && root != null) {
+            TreeNode n = treeTraversal.removeFirst();
+            if (n != null) {
+                result.add(n.val);
+                treeTraversal.addLast(n.left);
+                treeTraversal.addLast(n.right);
+            }
+        }
+        return result;
+    }
+
     public List<Integer> inOrderTraversal(TreeNode root) {
         List<Integer> inorder = new ArrayList<>();
         if (root != null) {
@@ -17,7 +32,6 @@ public class BinaryTreeTraversal {
         }
         return inorder;
     }
-
 
     public List<Integer> preOrderTraversal(TreeNode root) {
         List<Integer> preorder = new ArrayList<>();
@@ -38,23 +52,6 @@ public class BinaryTreeTraversal {
             postorder.add(root.val);
         }
         return postorder;
-    }
-
-
-
-    public List<Integer> breadthFirstSearch(TreeNode root) {
-        List<Integer> result = new ArrayList<>();
-        Deque<TreeNode> treeTraversal = new LinkedList<>();
-        treeTraversal.add(root);
-        while (!treeTraversal.isEmpty() && root != null) {
-            TreeNode n = treeTraversal.removeFirst();
-            if (n != null) {
-                result.add(n.val);
-                treeTraversal.addLast(n.left);
-                treeTraversal.addLast(n.right);
-            }
-        }
-        return result;
     }
 
 }
