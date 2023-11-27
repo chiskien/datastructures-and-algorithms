@@ -38,8 +38,13 @@ public class InvertBinaryTree {
             int size = queue.size();
             for (int i = 0; i < size; i++) {
                 TreeNode n = queue.removeFirst();
-                
+                TreeNode temp = n.left;
+                n.left = n.right;
+                n.right = temp;
+                queue.addLast(n.left);
+                queue.add(n.right);
             }
         }
+        return root;
     }
 }

@@ -20,11 +20,11 @@ public class GeneratePermutation {
 
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
-        directedPermutations(0, nums, result);
+        generateDirectedPermutationHelper(0, nums, result);
         return result;
     }
 
-    public void directedPermutations(int i, int[] nums, List<List<Integer>> result) {
+    public void generateDirectedPermutationHelper(int i, int[] nums, List<List<Integer>> result) {
         if (i == nums.length - 1) {
             List<Integer> permutation = new ArrayList<>();
             for (int num : nums) {
@@ -35,7 +35,7 @@ public class GeneratePermutation {
         //try every possibility for nums[i]
         for (int j = i; j < nums.length; j++) {
             swap(nums, i, j);
-            directedPermutations(i + 1, nums, result);
+            generateDirectedPermutationHelper(i + 1, nums, result);
             swap(nums, i, j);
         }
 

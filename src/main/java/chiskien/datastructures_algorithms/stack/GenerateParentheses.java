@@ -14,27 +14,27 @@ public class GenerateParentheses {
 
     public List<String> generateParenthesis(int numPairs) {
         List<String> result = new ArrayList<>();
-        directedGenerateBalancedParenthesis(numPairs, numPairs, "", result);
+        generateBalancedParenthesesHelper(numPairs, numPairs, "", result);
         return result;
     }
 
-    private void directedGenerateBalancedParenthesis(int numLeftParensNeeded,
-                                                     int numRightParensNeeded,
-                                                     String validPrefix,
-                                                     List<String> result) {
+    private void generateBalancedParenthesesHelper(int numLeftParensNeeded,
+                                                   int numRightParensNeeded,
+                                                   String validPrefix,
+                                                   List<String> result) {
         if (numLeftParensNeeded == 0 && numRightParensNeeded == 0) {
             result.add(validPrefix);
             return;
         }
         if (numLeftParensNeeded > 0) {
-            directedGenerateBalancedParenthesis(
+            generateBalancedParenthesesHelper(
                     numLeftParensNeeded - 1,
                     numRightParensNeeded,
                     validPrefix + "(",
                     result);
         }
         if (numLeftParensNeeded < numRightParensNeeded) {
-            directedGenerateBalancedParenthesis(
+            generateBalancedParenthesesHelper(
                     numLeftParensNeeded,
                     numRightParensNeeded - 1,
                     validPrefix + ")",
