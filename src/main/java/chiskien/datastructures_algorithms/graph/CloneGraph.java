@@ -19,7 +19,6 @@ public class CloneGraph {
                     vertextMap.put(n, new GraphVertex(n.val));
                     queue.add(n);
                 }
-
                 //copy edge
                 vertextMap.get(v).neighbors.add(vertextMap.get(n));
             }
