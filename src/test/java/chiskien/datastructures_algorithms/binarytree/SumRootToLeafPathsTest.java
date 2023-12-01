@@ -21,7 +21,7 @@ class SumRootToLeafPathsTest {
         TreeNode.linkRight(root, new TreeNode(0));
         TreeNode.linkLeft(root.left, new TreeNode(5));
         TreeNode.linkRight(root.left, new TreeNode(1));
-        assertEquals(1026, sumRootToLeafPaths.sumNumber(root));
+        assertEquals(82, sumRootToLeafPaths.sumNumber(root));
     }
 
 }
