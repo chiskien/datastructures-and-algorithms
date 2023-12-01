@@ -3,7 +3,7 @@ package chiskien.datastructures_algorithms.string;
 public class BackSpaceStringCompare {
     public static void main(String[] args) {
         BackSpaceStringCompare backSpaceStringCompare = new BackSpaceStringCompare();
-        backSpaceStringCompare.backspaceCompare("aa#",""    );
+        System.out.println(backSpaceStringCompare.backspaceCompare("aa#", ""));
 
     }
 
@@ -13,7 +13,7 @@ public class BackSpaceStringCompare {
         int i = 0;
         while (i < s.length()) {
             if (s.charAt(i) == '#' && i >= 1) {
-                sBuilder.deleteCharAt(i-1);
+                sBuilder.deleteCharAt(i - 1);
                 i++;
             } else {
                 sBuilder.append(s.charAt(i++));

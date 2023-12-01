@@ -3,8 +3,8 @@ package chiskien.datastructures_algorithms.string;
 public class InterconvertStringAndInterger {
 
 
-
-    //given an string s represent a interger, convert it to int without using parseInt
+    //given a string s represent an integer,
+    // convert it to int without using parseInt
 
     public static int stringToInt(String s) {
         int result = 0;
