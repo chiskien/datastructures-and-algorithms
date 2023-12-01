@@ -1,5 +1,12 @@
 # Object-Oriented Design and Analysis
 
+## Object-Oriented Programming:
+
+### Classes
+
+> Classes are building blocks of Java application. A _class_ can contain methods (functions, variables, initializations,
+> and codes.
+
 ## Design Principles:
 
 1. Identify the aspects of your application that vary and separate them from those which stay the same
@@ -11,6 +18,6 @@
 ## Design Patterns:
 
 1. Strategy Pattern
-2. Observer Pattern: defines an one-to-many dependency between objects so that when one object change states, all of its
+2. Observer Pattern: defines a one-to-many dependency between objects so that when one object changes states, all of its
    dependents are notified and updated automatically.
 3. Decorator Pattern

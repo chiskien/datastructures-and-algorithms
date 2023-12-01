@@ -8,7 +8,7 @@ public class FindTheDifference {
         findTheDiff("acac", "acca");
     }
 
-    public static char findTheDiff(String s, String t) {
+    public static void findTheDiff(String s, String t) {
         Map<Character, Integer> frequencyMap = new HashMap<>();
         for (Character c : s.toCharArray()) {
             if (frequencyMap.containsKey(c)) {
@@ -26,9 +26,8 @@ public class FindTheDifference {
         }
         for (Map.Entry<Character, Integer> entry : frequencyMap.entrySet()) {
             if (entry.getValue() % 2 != 0) {
-                return entry.getKey();
+                return;
             }
         }
-        return 0;
     }
 }
