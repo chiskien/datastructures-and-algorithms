@@ -1,4 +1,4 @@
-package chiskien.datastructures_algorithms.array;
+package chiskien.datastructures_algorithms.dynamicprogramming;
 
 public class JumpGame2 {
     //initialized position is at nums[0]
