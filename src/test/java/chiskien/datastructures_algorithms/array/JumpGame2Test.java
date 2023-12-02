@@ -1,6 +1,6 @@
 package chiskien.datastructures_algorithms.array;
 
-import chiskien.datastructures_algorithms.array.JumpGame2;
+import chiskien.datastructures_algorithms.dynamicprogramming.JumpGame2;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -23,19 +23,21 @@ class JumpGame2Test {
 
     @Test
     void minimumJumpToLast2() {
-        int[] nums = new int[]{ 1, 3, 1, 1, 2, 3, 5, 7, 8};
+        int[] nums = new int[]{1, 3, 1, 1, 2, 3, 5, 7, 8};
         int minimumNumber = jumpGame2.minimumJumpToLast(nums);
         assertEquals(4, minimumNumber);
     }
+
     @Test
     void minimumJumpToLast3() {
-        int[] nums = new int[]{1,2,1,1,1};
+        int[] nums = new int[]{1, 2, 1, 1, 1};
         int minimumNumber = jumpGame2.minimumJumpToLast(nums);
         assertEquals(3, minimumNumber);
     }
+
     @Test
     void minimumJumpToLast4() {
-        int[] nums = new int[]{7,0,9,6,9,6,1,7,9,0,1,2,9,0,3};
+        int[] nums = new int[]{7, 0, 9, 6, 9, 6, 1, 7, 9, 0, 1, 2, 9, 0, 3};
         int minimumNumber = jumpGame2.minimumJumpToLast(nums);
         assertEquals(2, minimumNumber);
     }

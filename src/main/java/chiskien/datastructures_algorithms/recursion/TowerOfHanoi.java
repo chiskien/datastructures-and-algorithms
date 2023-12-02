@@ -11,7 +11,7 @@ public class TowerOfHanoi {
     public void computeTowerOfHanoi(int numRings) {
         List<Deque<Integer>> pegs = new ArrayList<>();
         for (int i = 0; i < NUM_PEGS; i++) {
-            pegs.add(new LinkedList<>()); //3 stack of rings in 3 pegs
+            pegs.add(new LinkedList<>()); //Stack 3 of rings in 3 pegs
         }
         for (int i = numRings; i >= 1; i--) {
             pegs.get(0).addFirst(i); //adding rings to first pegs
