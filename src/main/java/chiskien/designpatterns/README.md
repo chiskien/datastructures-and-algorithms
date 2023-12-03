@@ -21,3 +21,14 @@
 2. Observer Pattern: defines a one-to-many dependency between objects so that when one object changes states, all of its
    dependents are notified and updated automatically.
 3. Decorator Pattern
+4. Factory Pattern
+5. Singleton Pattern
+6. Command Pattern
+7. Adapter and Facade Pattern
+8. Template Method Pattern
+9. Iterator and Composite Pattern
+10. State Pattern
+11. Proxy Pattern
+12. Builder Pattern
+13. Flyweight Pattern
+14. Prototype Patter
