@@ -24,7 +24,7 @@ class FindKClosestStars {
                 new Star(34234, 77, 56),
                 new Star(1, 1, 1)
         );
-        findKClosestStars.findKClosestStars(3, stars);
+        System.out.println(findKClosestStars.findKClosestStars(3, stars));
     }
 
     public int[][] findKCloset(int[][] points, int k) {
@@ -33,11 +33,12 @@ class FindKClosestStars {
             double o1Distance = Math.sqrt(Math.pow(o1[0], 2) + Math.pow(o1[1], 2));
             double o2Distance = Math.sqrt(Math.pow(o2[0], 2) + Math.pow(o2[1], 2));
             return Double.compare(o2Distance, o1Distance);
+            //custom Comparator using lambdas
         });
         for (int[] point : points) {
             maxHeap.add(point);
             if (maxHeap.size() > k) {
-                maxHeap.remove();
+                maxHeap.poll();
             }
         }
         return maxHeap.toArray(new int[k][2]);
