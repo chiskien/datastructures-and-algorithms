@@ -7,7 +7,8 @@
 - Graph DFS
 - Adjacency List
 - Dijkstra’s Algorithm
+- Bellman-Ford
 
 ## 1. Introducing to Graph
 
-
+> Simple Graph: 

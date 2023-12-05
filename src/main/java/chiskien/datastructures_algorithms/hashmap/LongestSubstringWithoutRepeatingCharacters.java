@@ -13,7 +13,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
         int longestLength = 0;
         int firstIndexOfLongestSub = 0;
         for (int i = 0; i < s.length(); i++) {
-            //map.put return the previous value with key or null (if not found)
+            //map.put return the previous value with a key or null (if not found)
             //find the duplicate one
             Integer duplicateIndex = mostRecentOccurrence.put(s.charAt(i), i);
             //indicate that there no mapping with key in hashmap
