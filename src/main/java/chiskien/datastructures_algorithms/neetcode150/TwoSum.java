@@ -1,4 +1,4 @@
-package chiskien.neetcode150;
+package chiskien.datastructures_algorithms.neetcode150;
 
 import java.util.HashMap;
 import java.util.Map;

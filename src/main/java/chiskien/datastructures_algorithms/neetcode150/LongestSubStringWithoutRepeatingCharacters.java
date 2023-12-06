@@ -1,4 +1,4 @@
-package chiskien.neetcode150;
+package chiskien.datastructures_algorithms.neetcode150;
 
 public class LongestSubStringWithoutRepeatingCharacters {
 

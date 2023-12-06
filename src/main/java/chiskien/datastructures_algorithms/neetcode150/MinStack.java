@@ -1,8 +1,4 @@
-package chiskien.neetcode150;
-
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.NoSuchElementException;
+package chiskien.datastructures_algorithms.neetcode150;
 
 public class MinStack {
     private Node head;
