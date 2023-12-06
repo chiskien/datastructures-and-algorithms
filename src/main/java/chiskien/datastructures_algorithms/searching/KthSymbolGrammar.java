@@ -4,7 +4,7 @@ public class KthSymbolGrammar {
 
     public static void main(String[] args) {
         KthSymbolGrammar kthSymbolGrammar = new KthSymbolGrammar();
-        System.out.println(kthSymbolGrammar.kthGrammar(4,4));
+        System.out.println(kthSymbolGrammar.kthGrammar(4, 4));
     }
 
     public int kthGrammar(int n, int k) {
@@ -17,9 +17,9 @@ public class KthSymbolGrammar {
         //solution:
         int current = 0;
         int left = 0;
-        int right = (int) Math.pow(2, n-1);
+        int right = (int) Math.pow(2, n - 1);
         int i = 0;
-        while (i < n -1) {
+        while (i < n - 1) {
             int mid = (right - left) / 2 + left;
             if (k <= mid) {
                 right = mid;

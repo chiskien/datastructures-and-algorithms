@@ -36,10 +36,8 @@ public class SmallestSubArraySequentiallyCoveringAllValues {
                 latestOccurrence.set(keywordIndex, i);
 
                 if (keywordIndex == keywords.size() - 1 && shortestSubArrayLength.get(shortestSubArrayLength.size() - 1) < shortestDistance) {
-                    shortestDistance = shortestSubArrayLength
-                            .get(shortestSubArrayLength.size() - 1);
-                    result[0] = i - shortestSubArrayLength
-                            .get(shortestSubArrayLength.size() - 1);
+                    shortestDistance = shortestSubArrayLength.get(shortestSubArrayLength.size() - 1);
+                    result[0] = i - shortestSubArrayLength.get(shortestSubArrayLength.size() - 1);
                     result[1] = i;
                 }
             }

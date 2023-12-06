@@ -1,4 +1,4 @@
-package chiskien.datastructures_algorithms.searching.practices;
+package chiskien.datastructures_algorithms.searching;
 
 public class SearchFirstOccurenceOfK {
 
