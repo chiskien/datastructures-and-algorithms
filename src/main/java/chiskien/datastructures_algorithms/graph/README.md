@@ -7,7 +7,8 @@
 - Graph DFS
 - Adjacency List
 - Dijkstra’s Algorithm
-- Bellman-Ford
+- Bellman-Ford's Algorithm
+- Minimum-Spanning Tree
 
 ## 1. Introducing to Graph
 
