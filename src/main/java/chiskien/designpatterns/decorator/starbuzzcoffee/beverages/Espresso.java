@@ -2,18 +2,18 @@ package chiskien.designpatterns.decorator.starbuzzcoffee.beverages;
 
 //concrete component
 public class Espresso extends Beverage {
-    private double mochaCost = 30;
+    private double espresso = 30;
 
     public Espresso() {
         description = "Espresso";
     }
 
     private double getEspressoCost() {
-        return mochaCost;
+        return espresso;
     }
 
-    public void setEspressoCost(double mochaCost) {
-        this.mochaCost = mochaCost;
+    public void setEspressoCost(double espresso) {
+        this.espresso = espresso;
     }
 
     @Override

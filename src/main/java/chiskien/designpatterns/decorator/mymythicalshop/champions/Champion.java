@@ -1,0 +1,24 @@
+package chiskien.designpatterns.decorator.mymythicalshop.champions;
+
+public abstract class Champion {
+
+    String description = "Unknown Description";
+    String name = "Unknown Name";
+
+    public String getName() {
+        return name;
+    }
+
+    public abstract int attackDamage();
+
+    public abstract int abilityPower();
+
+    public abstract int movementSpeed();
+
+    public abstract int health();
+
+    public String getDescription() {
+        return description;
+    }
+
+}
