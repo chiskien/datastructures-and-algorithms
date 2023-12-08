@@ -68,3 +68,7 @@ principles.
 ### Why using **inheritance** here (`CondimentDecorator` extends `Beverage`) ?
 
 - Using **inheritance** to achieve the _type matching_ (Characteristics#1), but not for the _behavior_
+
+### Implementations
+
+- Check out demo [Starbuzz](starbuzzcoffee) and my own implementation [MythicShop](mymythicalshop)
