@@ -72,3 +72,11 @@ principles.
 ### Implementations
 
 - Check out demo [Starbuzz](starbuzzcoffee) and my own implementation [MythicShop](mymythicalshop)
+
+## Real-World Examples using Decorator Pattern: Java I/O
+
+![img4.png](images/img4.png)
+
+
+## Drawbacks: 
+
