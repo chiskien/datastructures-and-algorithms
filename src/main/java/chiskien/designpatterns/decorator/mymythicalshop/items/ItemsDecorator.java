@@ -6,8 +6,21 @@ public abstract class ItemsDecorator extends Champion {
 
     Champion champion; //wrapped champion
 
-    public abstract String getDescription();
+    public String getDescription() {
+        return champion.getName()
+                + " after purchasing " + this.getClass().getSimpleName() +
+                ", " + champion.getName()
+                + " has attack damage: " + attackDamage()
+                + "; ability power: " + abilityPower()
+                + "; health: " + health()
+                + "; movementSpeed: " + movementSpeed()
+                + "\n";
+    }
 
-    public abstract String getName();
+    public String getName() {
+        return champion.getName();
+    }
+
+    ;
 
 }

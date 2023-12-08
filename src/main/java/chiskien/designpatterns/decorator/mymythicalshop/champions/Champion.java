@@ -2,7 +2,6 @@ package chiskien.designpatterns.decorator.mymythicalshop.champions;
 
 public abstract class Champion {
 
-    String description = "Unknown Description";
     String name = "Unknown Name";
 
     public String getName() {
@@ -18,7 +17,12 @@ public abstract class Champion {
     public abstract int health();
 
     public String getDescription() {
-        return description;
+        return this.getName()
+                + " has attack damage: " + attackDamage()
+                + "; ability power: " + abilityPower()
+                + "; health: " + health()
+                + "; movementSpeed: " + movementSpeed()
+                + "\n";
     }
 
 }

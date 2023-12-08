@@ -8,16 +8,6 @@ public class Sylas extends Champion {
     }
 
     @Override
-    public String getDescription() {
-        return this.getName()
-                + " has attack damage: " + attackDamage()
-                + "; ability power: " + abilityPower()
-                + "; health: " + health()
-                + "; movementSpeed: " + movementSpeed()
-                + "\n";
-    }
-
-    @Override
     public int attackDamage() {
         return 100;
     }

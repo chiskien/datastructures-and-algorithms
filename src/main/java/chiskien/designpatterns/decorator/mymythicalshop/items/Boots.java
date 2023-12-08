@@ -28,19 +28,5 @@ public class Boots extends ItemsDecorator {
         return champion.health();
     }
 
-    @Override
-    public String getDescription() {
-        return champion.getName()
-                + " after purchasing Boots, " + champion.getName()
-                + " has attack damage: " + attackDamage()
-                + "; ability power: " + abilityPower()
-                + "; health: " + health()
-                + "; movementSpeed: " + movementSpeed()
-                + "\n";
-    }
 
-    @Override
-    public String getName() {
-        return champion.getName();
-    }
 }
