@@ -22,6 +22,20 @@ public class BinaryTreeTraversal {
         }
         return result;
     }
+    public static List<TreeNode> breadthFirstTraversalTreeNode(TreeNode root) {
+        List<TreeNode> result = new ArrayList<>();
+        Deque<TreeNode> treeTraversal = new LinkedList<>();
+        treeTraversal.add(root);
+        while (!treeTraversal.isEmpty() && root != null) {
+            TreeNode n = treeTraversal.removeFirst();
+            if (n != null) {
+                result.add(n);
+                treeTraversal.addLast(n.left);
+                treeTraversal.addLast(n.right);
+            }
+        }
+        return result;
+    }
 
     public List<Integer> inOrderTraversal(TreeNode root) {
         List<Integer> inorder = new ArrayList<>();
