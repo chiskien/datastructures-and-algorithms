@@ -5,6 +5,7 @@ public class Sylas extends Champion {
 
     public Sylas() {
         name = "Sylas";
+        item = "";
     }
 
     @Override

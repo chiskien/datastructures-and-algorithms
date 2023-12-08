@@ -2,6 +2,8 @@ package chiskien.designpatterns.decorator.mymythicalshop.items;
 
 import chiskien.designpatterns.decorator.mymythicalshop.champions.Champion;
 
+import java.util.List;
+
 public class BFSword extends ItemsDecorator {
     public BFSword(Champion champion) {
         this.champion = champion;
@@ -28,6 +30,8 @@ public class BFSword extends ItemsDecorator {
     }
 
 
-
-
+    @Override
+    public String items() {
+        return champion.getItem() + " " + this.getClass().getSimpleName();
+    }
 }

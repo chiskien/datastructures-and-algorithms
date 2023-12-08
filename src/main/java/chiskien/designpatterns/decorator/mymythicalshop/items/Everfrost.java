@@ -27,6 +27,9 @@ public class Everfrost extends ItemsDecorator {
         return champion.health() + 500;
     }
 
-
+    @Override
+    public String items() {
+        return champion.getItem() + " " + this.getClass().getSimpleName();
+    }
 
 }

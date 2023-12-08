@@ -28,5 +28,8 @@ public class Boots extends ItemsDecorator {
         return champion.health();
     }
 
-
+    @Override
+    public String items() {
+        return champion.getItem() + " " + this.getClass().getSimpleName();
+    }
 }

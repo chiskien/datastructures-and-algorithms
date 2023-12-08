@@ -3,9 +3,14 @@ package chiskien.designpatterns.decorator.mymythicalshop.champions;
 public abstract class Champion {
 
     String name = "Unknown Name";
+    String item = "";
 
     public String getName() {
         return name;
+    }
+
+    public String getItem() {
+        return item;
     }
 
     public abstract int attackDamage();
