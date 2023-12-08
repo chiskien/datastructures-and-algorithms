@@ -43,15 +43,13 @@ principles.
 
 ### Definition:
 
-> The **Decorator Pattern** attaches additional responsibilities to an object dynamically. Decorators provide a flexible
-> alternative to subclassing for extending functionality.
+> The **Decorator Pattern** attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
 
 ### Characteristics:
 
 1. Decorators have the same supertype as the objects they decorate.
 2. You can use one of more decorators to wrap an object
-3. Given that the decorator has the same supertype as the objects it decorates, we can pass around a decorated object in
-   place of the original (wrapped) object.
+3. Given that the decorator has the same supertype as the objects it decorates, we can pass around a decorated object in place of the original (wrapped) object.
 4. The decorator adds its own behavior before and/or after delegating to the object it decorates to do the rest of the
    job.
 5. Objects can be decorated at any time, so we can decorate objects dynamically at runtime with as many decorators as we

@@ -20,7 +20,8 @@
 1. Strategy Pattern
 2. Observer Pattern: defines a one-to-many dependency between objects so that when one object changes states, all of its
    dependents are notified and updated automatically.
-3. Decorator Pattern
+3. Decorator Pattern: attaches additional responsibilities to an object dynamically. Decorators provide a flexible
+   alternative to subclassing for extending functionality.
 4. Factory Pattern
 5. Singleton Pattern
 6. Command Pattern
