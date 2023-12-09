@@ -5,7 +5,7 @@ import java.util.*;
 public class MergeSortedFiles {
 
 
-    //Given 500 sortedArrays, each file contains stock information for an S&P 500 company.
+    //Given 500 sortedArrays, each file.txt contains stock information for an S&P 500 company.
     //A line encodes each trade in the following format: 12311, AAPL, 30, 456.12
     //First number is the time of the trade expressed as the number of milliseconds since the start of the day's trading
 
