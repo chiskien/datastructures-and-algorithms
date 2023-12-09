@@ -43,13 +43,15 @@ principles.
 
 ### Definition:
 
-> The **Decorator Pattern** attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+> The **Decorator Pattern** attaches additional responsibilities to an object dynamically. Decorators provide a flexible
+> alternative to subclassing for extending functionality.
 
 ### Characteristics:
 
 1. Decorators have the same supertype as the objects they decorate.
 2. You can use one of more decorators to wrap an object
-3. Given that the decorator has the same supertype as the objects it decorates, we can pass around a decorated object in place of the original (wrapped) object.
+3. Given that the decorator has the same supertype as the objects it decorates, we can pass around a decorated object in
+   place of the original (wrapped) object.
 4. The decorator adds its own behavior before and/or after delegating to the object it decorates to do the rest of the
    job.
 5. Objects can be decorated at any time, so we can decorate objects dynamically at runtime with as many decorators as we
@@ -75,6 +77,21 @@ principles.
 
 ![img4.png](images/img4.png)
 
+## Drawbacks:
 
-## Drawbacks: 
+- Adding a load of classes to a design leads too hard to understand code.
+- Increasing the complexity of the code needed to instantiate the component.
+
+## Bullet Points (Summary):
+
+1. Inheritance is one form of an extension, but not necessarily the best way to achieve flexibility in software designs.
+2. In software designs, behavior should be allowed to be extended without the need to modify existing code.
+3. Composition and delegation can often be used to add new behaviors at runtime
+4. The Decorator Pattern provides an alternative to subclassing for extending behavior
+5. The Decorator Pattern involves a set of decorator classes that are used to wrap concrete components
+6. Decorator classes mirror the type of the components they decorate. (In fact, they are the same type as the components they decorate, either through inheritance or interface implementation.)
+7. Decorators change the behavior of their components by adding new functionality before and/or after (or even in place of) method calls the component.
+8. You can wrap a component with any number of decorators
+9. Decorators are typically transparent to the client of the component—that is, unless the client is relying on the component’s concrete type.
+10. Decorators can result in many small objects in our design, and overuse can be complex.
 
