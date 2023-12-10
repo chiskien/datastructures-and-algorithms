@@ -25,7 +25,7 @@ public class TransposeMatrix {
         int m = matrix.length; //number of rows
         int n = matrix[0].length;// number of columns
         int[][] newMatrix = new int[n][m];
-        int diagonal = 0;
+        int diagonal = 0; //represent the diagonal of the matrix
         while (diagonal < newMatrix.length && diagonal < newMatrix[0].length) {
             int row = diagonal;
             int col = diagonal;
