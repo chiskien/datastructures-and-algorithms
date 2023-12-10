@@ -56,11 +56,8 @@
 20. [Bit Manipulation](src/main/java/chiskien/datastructures_algorithms/bitmanipulation)
 21. [Cache](src/main/java/chiskien/datastructures_algorithms/cache)
 22. [B-Tree](src/main/java/chiskien/datastructures_algorithms/btree)
-
-##### Patterns:
-
-1. [Intervals](src/main/java/chiskien/datastructures_algorithms/intervals)
-2. [Two Pointers](src/main/java/chiskien/datastructures_algorithms/twopointers)
+23. [Intervals](src/main/java/chiskien/datastructures_algorithms/intervals)
+24. [Two Pointers](src/main/java/chiskien/datastructures_algorithms/twopointers)
 
 ## Project Structures:
 
