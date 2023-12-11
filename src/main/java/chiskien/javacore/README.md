@@ -1,6 +1,6 @@
 # Java Core
 
-## Learning Java (O'reilly)
+## Learning Java (O'reilly), Java Cookbook (O'reilly)
 
 ### Indexing
 
