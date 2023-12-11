@@ -28,9 +28,25 @@ class Duck {
 
 **Demo for instantiating Ducks based on the input name**
 
-- The problem is that, each time we have a new class `Duck` we have to modify this code, adding another if-else
-  statement (which violates the [Open Closed Principles](../README.md#design-principles))
+- The problem is that, each time we have a new `Duck` we have to modify that code, adding another if-else statement (
+  which violates the [Open Closed Principles](../README.md#design-principles))
+
 => Hard for maintenance and error-prone.
 
 ### What's wrong with the `new` ?
 
+- There is nothing wrong with the `new` operator.
+- The real problem is **CHANGE** and how change impacts the use of `new`
+
+- By coding to an interface/abstract class (not an implementation), you can insulate (cách ly, cô lập) yourself from
+  many changes.
+- Because when coding to interface, it will work with any new classes implementing that interface (polymorphism)
+- However, when code that makes use a lot of concrete classes (like the `Duck` above), this causes a problem that code
+  may have to be **CHANGED** as new concrete class are arrived (example: new RubberDuck => new if-else statement) => not
+  **closed for modification**
+
+=> What can you do?
+=> Let's rewind to chapter 1:
+_**[identify the aspects that vary and separate them from what stays the same.](../strategy/README.md)**_
+
+###     
