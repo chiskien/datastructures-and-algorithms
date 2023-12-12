@@ -3,7 +3,7 @@
 ### Prerequisite
 
 - [Fundamentals of Java Threads](../../javacore/threads/README.md)
-- [Parallel/Concurrency/Multithreading Algorithms and problems related](../../datastructures_algorithms/concurrentprogramming)
+- [Parallel/Concurrency/Multithreading Algorithms and problems related](../../datastructures_algorithms/parallelprogramming)
 
 ### Contents:
 

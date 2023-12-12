@@ -50,7 +50,7 @@
 14. [Graph](src/main/java/chiskien/datastructures_algorithms/graph)
 15. [Dynamic Programming](src/main/java/chiskien/datastructures_algorithms/dynamicprogramming)
 16. [Greedy](src/main/java/chiskien/datastructures_algorithms/greedy)
-17. [Parallel/Concurrent Programming](src/main/java/chiskien/datastructures_algorithms/concurrentprogramming)
+17. [Parallel/Concurrent Programming](src/main/java/chiskien/datastructures_algorithms/parallelprogramming)
 18. [Data Compression](src/main/java/chiskien/datastructures_algorithms/datacompression)
 19. [Math](src/main/java/chiskien/datastructures_algorithms/math)
 20. [Bit Manipulation](src/main/java/chiskien/datastructures_algorithms/bitmanipulation)

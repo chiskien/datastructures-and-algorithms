@@ -107,5 +107,7 @@ class MyThreads implements Runnable {
 # What's next?
 
 After finishing this fundamental of thread/concurrent/parallel,
-head to [Effective Java Chapter 10: Concurrency](../../effectivejava/chapter10_concurrency/README.md),
-and [Parallel Programming Algorithms](../../datastructures_algorithms/concurrentprogramming/README.md)
+head to [Effective Java Chapter 10: Concurrency](../../effectivejava/chapter10_concurrency/README.md) for deeper
+techniques and information about concurrency,
+and [Concurrent Programming Algorithms](../../datastructures_algorithms/parallelprogramming/README.md) for more real
+world problems related to concurrent/parallel programming.
