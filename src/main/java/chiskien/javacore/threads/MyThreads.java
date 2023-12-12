@@ -22,7 +22,7 @@ public class MyThreads implements Runnable {
 
     public void doSomethingParallel() {
         final int NUM_THREADS = 20; //20 threads
-        final ExecutorService pool = Executors.newFixedThreadPool(NUM_THREADS);
+        final ExecutorService pool = Executors.newFixedThreadPool(NUM_THREADS); //create a threadpool
         List<Future<Integer>> futures = new ArrayList<>(NUM_THREADS);
         for (int i = 0; i < NUM_THREADS; i++) {
             Future<Integer> f = (Future<Integer>) pool.submit(new MyThreads(i));
