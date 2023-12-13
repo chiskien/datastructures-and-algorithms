@@ -74,5 +74,9 @@ public class TheMazeRunner {
         return false;
     }
 
-
+    private static boolean isFeasible(Coordinate current, int[][] maze) {
+        return current.x >= 0 && current.x < maze.length && current.y >= 0
+                && current.y < maze[current.x].length
+                && maze[current.x][current.y] == Color.WHITE.ordinal();
+    }
 }
