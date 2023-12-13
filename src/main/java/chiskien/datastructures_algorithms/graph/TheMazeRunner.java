@@ -44,7 +44,7 @@ public class TheMazeRunner {
         maze[start.x][start.y] = Color.BLACK.ordinal();
         path.add(start);
         if (!searchMazeHelper(maze, start, end, path)) {
-            path.removeLast();
+            path.remove(path.size() - 1);
         }
         return path;
     }
@@ -68,7 +68,7 @@ public class TheMazeRunner {
                 if (searchMazeHelper(maze, nextStep, endLocation, path)) {
                     return true;
                 }
-                path.removeLast();
+                path.remove(path.size() - 1);
             }
         }
         return false;

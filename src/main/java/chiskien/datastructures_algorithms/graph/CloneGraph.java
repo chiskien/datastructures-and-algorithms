@@ -8,7 +8,7 @@ public class CloneGraph {
         if (node == null) return null;
 
         Map<GraphVertex, GraphVertex> vertextMap = new HashMap<>();
-        Queue<GraphVertex> queue = new LinkedList<>();
+        Deque<GraphVertex> queue = new LinkedList<>();
         queue.add(node);
         vertextMap.put(node, new GraphVertex(node.val));
         while (!queue.isEmpty()) {
