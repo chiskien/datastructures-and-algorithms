@@ -1,4 +1,4 @@
-package chiskien.datastructures_algorithms.stack;
+package chiskien.datastructures_algorithms.recursion;
 
 import java.util.ArrayList;
 import java.util.List;
