@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class ValidAnagram {
 
-    public static boolean isValidAnagram(String s, String t) {
+    public boolean isValidAnagram(String s, String t) {
         Map<Character, Integer> mapS = new HashMap<>();
         Map<Character, Integer> mapT = new HashMap<>();
         if (s.length() != t.length()) return false;
@@ -17,6 +17,23 @@ public class ValidAnagram {
             mapT.put(c, mapT.getOrDefault(c, 0) + 1);
         }
         return mapS.equals(mapT);
+    }
+
+    public boolean isValidAnagramOptimized(String s, String t) {
+        if (s.length() != t.length()) return false;
+        final int[] COUNT_TABLE = new int[26];
+        for (char c : s.toCharArray()) {
+            COUNT_TABLE[c - 'a']++;
+        }
+        for (char c : t.toCharArray()) {
+            COUNT_TABLE[c - 'a']--;
+        }
+        for (int symbol : COUNT_TABLE) {
+            if (symbol != 0) {
+                return false;
+            }
+        }
+        return true;
     }
 
     public boolean isValidAnagramSort(String s, String t) {
