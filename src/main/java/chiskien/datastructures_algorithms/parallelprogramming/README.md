@@ -5,6 +5,10 @@
 1. [Multi-threading/Concurrency with Java Core](../../javacore/threads/README.md)
 2. [Concurrency in Effective Java](../../effectivejava/chapter10_concurrency/README.md)
 
+## Parallel vs Concurrent Programming
+
+## Parallel vs Asynchronous Paradigm
+
 ## Benefits of Parallel Programming
 
 1. **High Performance**: More processors working on a task
@@ -89,10 +93,10 @@ There are two primary models for parallel computation:
 ## Specific Problems:
 
 1. Implement Caching for a Multi-threaded Dictionary
-2. Analyze two unsynchronized interleaved threads
-3. Implement synchronization for two interleaving threads
-4. Implement Thread pool
-5. Deadlock
+2. [Analyze two unsynchronized interleaved threads](AnalyzeTwoUnsynchronizedInterleavedThreads.java)
+3. [Implement synchronization for two interleaving threads]
+4. [Implement Thread pool](ImplementThreadPool.java)
+5. [Deadlock](DeadLock.java)
 6. Readers-writers problem
 7. The readers-writers problem with written preference
 8. Implement a Timer Class
