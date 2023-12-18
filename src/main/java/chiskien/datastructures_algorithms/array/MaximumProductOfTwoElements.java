@@ -22,12 +22,12 @@ public class MaximumProductOfTwoElements {
     public int maxProduct(int[] nums) {
         int first = Integer.MIN_VALUE;
         int second = Integer.MIN_VALUE;
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] > first) {
+        for (int num : nums) {
+            if (num > first) {
                 second = first;
-                first = nums[i];
-            } else if (nums[i] <= first && nums[i] > second) {
-                second = nums[i];
+                first = num;
+            } else if (num <= first && num > second) {
+                second = num;
             }
         }
         return (first - 1) * (second - 1);
