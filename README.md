@@ -21,7 +21,6 @@
 
 - Introducing to Algorithms fourth Edition
 - DSA in Java
-- The Algorithms Design Manual
 
 ### Design Patterns
 
@@ -32,6 +31,10 @@
 
 - Effective Java (Joshua Bloch)
 
+### Java Core
+
+- Head First Java 
+- Learning Java ()
 ## Indexing:
 
 1. [Array](src/main/java/chiskien/datastructures_algorithms/array)

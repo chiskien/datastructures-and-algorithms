@@ -9,8 +9,8 @@ public class TheMazeRunner {
     public enum Color {WHITE, BLACK}
 
     public static class Coordinate {
-        public int x;
-        public int y;
+        int x;
+        int y;
 
         public Coordinate(int x, int y) {
             this.x = x;
@@ -58,8 +58,8 @@ public class TheMazeRunner {
             return true;
 
         }
-        final int[][] SHIFTS = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
-        for (int[] movement : SHIFTS) {
+        final int[][] shifts = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+        for (int[] movement : shifts) {
             Coordinate nextStep = new Coordinate(currentLocation.x + movement[0],
                     currentLocation.y + movement[1]);
             if (isFeasible(nextStep, maze)) {
