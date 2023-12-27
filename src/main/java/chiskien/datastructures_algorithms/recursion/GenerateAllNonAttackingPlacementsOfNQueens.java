@@ -9,6 +9,7 @@ public class GenerateAllNonAttackingPlacementsOfNQueens {
     public List<List<Integer>> nQueens(int n) {
         List<List<Integer>> result = new ArrayList<>();
         solveNQueens(n, 0, new ArrayList<>(), result);
+        return result;
     }
 
     private void solveNQueens(int n, int row, List<Integer> columnPlacement, List<List<Integer>> result) {
@@ -21,6 +22,7 @@ public class GenerateAllNonAttackingPlacementsOfNQueens {
                 if (isValid(columnPlacement)) {
                     solveNQueens(n, row + 1, columnPlacement, result);
                 }
+
                 columnPlacement.remove(columnPlacement.size() - 1);
             }
         }
