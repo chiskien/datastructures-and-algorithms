@@ -4,7 +4,7 @@ public class Sylas extends Champion {
 
 
     public Sylas() {
-        name = "Sylas";
+        name = "Champion";
         item = "";
     }
 
