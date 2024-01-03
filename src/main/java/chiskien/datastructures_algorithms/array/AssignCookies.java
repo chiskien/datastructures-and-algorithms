@@ -1,6 +1,5 @@
 package chiskien.datastructures_algorithms.array;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class AssignCookies {
@@ -15,10 +14,8 @@ public class AssignCookies {
             if (g[i] <= s[j]) {
                 count++;
                 i++;
-                j++;
-            } else {
-                j++;
             }
+            j++;
         }
         return count;
     }
