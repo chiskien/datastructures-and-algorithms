@@ -1,4 +1,4 @@
-package chiskien.functionalprogramming;
+package chiskien.functionalprogramming.functional;
 
 import java.util.function.IntPredicate;
 

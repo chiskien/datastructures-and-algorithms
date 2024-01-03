@@ -13,7 +13,7 @@ public abstract class Duck {
 
     protected String name;
 
-    public Duck() {
+    protected Duck() {
     }
 
     public void performQuack() {
