@@ -1,4 +1,4 @@
-package chiskien.datastructures_algorithms.array;
+    package chiskien.datastructures_algorithms.array;
 
 //Rotate (2D array)/matrix
 public class RotateImage {
