@@ -20,7 +20,7 @@ public class GeneratePowerSet {
         }
         selectedSetSoFar.add(input.get(toBeSelected));
         directedPowerSet(input, toBeSelected + 1, selectedSetSoFar, powerSet);
-        selectedSetSoFar.remove(selectedSetSoFar.size() - 1);
+        selectedSetSoFar.removeLast();
         directedPowerSet(input, toBeSelected + 1, selectedSetSoFar, powerSet);
     }
 }

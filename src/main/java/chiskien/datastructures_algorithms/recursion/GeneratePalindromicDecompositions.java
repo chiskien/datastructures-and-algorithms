@@ -31,7 +31,7 @@ public class GeneratePalindromicDecompositions {
             if (isPalindrome(prefix)) {
                 partialPartition.add(prefix);
                 directedPalindromePartitioning(input, i, partialPartition, result);
-                partialPartition.remove(partialPartition.size() - 1);
+                partialPartition.removeLast();
             }
         }
     }

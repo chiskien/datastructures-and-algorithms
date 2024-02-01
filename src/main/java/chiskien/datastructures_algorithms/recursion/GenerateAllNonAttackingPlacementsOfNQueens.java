@@ -22,8 +22,7 @@ public class GenerateAllNonAttackingPlacementsOfNQueens {
                 if (isValid(columnPlacement)) {
                     solveNQueens(n, row + 1, columnPlacement, result);
                 }
-
-                columnPlacement.remove(columnPlacement.size() - 1);
+                columnPlacement.removeLast();
             }
         }
     }
