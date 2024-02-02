@@ -1,8 +1,12 @@
 name: Build and Test
 on: [ push ]
 jobs:
-  build:
+  build-and-test:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      checks: write
+      actions: read
     steps:
       - uses: actions/checkout@v4
       - name: Set up JDK 21
@@ -10,5 +14,14 @@ jobs:
         with:
           java-version: 21
           distribution: 'temurin'
+          cache: maven
       - name: Build, unit tests, and integration tests with Maven
         run: mvn --batch-mode --update-snapshots verify
+      - name: Display test results
+        uses: dorny/test-reporter@v1
+        if: success() || failure()
+        with:
+          name: Unit Tests results
+          path: target/surefire-reports/*.xml
+          reporter: java-junit
+
