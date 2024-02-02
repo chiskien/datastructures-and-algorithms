@@ -17,7 +17,7 @@ public class ArithmeticSubarrays {
         for (int i = 0; i <= l.length; i++) {
             int[] temp = Arrays.copyOf(nums, nums.length);
             Arrays.sort(temp, l[i], r[i]);
-            System.out.println(Arrays.toString(temp));
+            System.s.println(Arrays.toString(temp));
         }
         return result;
     }

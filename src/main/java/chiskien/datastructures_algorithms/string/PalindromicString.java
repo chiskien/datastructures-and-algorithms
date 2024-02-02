@@ -2,10 +2,8 @@ package chiskien.datastructures_algorithms.string;
 
 public class PalindromicString {
 
-
-
-    // A palindromic string is one which reads the same when it is reversed
-    public static boolean isPalindromic(String s) {
+    // A palindromic string is one that reads the same when it is reversed
+    public boolean isPalindromic(String s) {
         for (int i = 0, j = s.length() - 1; i < j; i++, j--) {
             if (s.charAt(i) != s.charAt(j)) {
                 return false;
@@ -17,9 +15,10 @@ public class PalindromicString {
     //Test palindromicity
     //A man, a plan, a canal, Panama."
     // and "Able was I, ere I saw Elba!" are palindromic
-    public static boolean isPalindrome(String s) {
+    public boolean isPalindrome(String s) {
         //two indices i moves forward, j moves backwards
-        int i = 0, j = s.length() - 1;
+        int i = 0;
+        int j = s.length() - 1;
         while (i < j) {
             // i and j both skip non-alpha
             while (!Character.isLetterOrDigit(s.charAt(i)) && i < j) {

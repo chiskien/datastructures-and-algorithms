@@ -5,8 +5,20 @@ import java.util.Map;
 
 public class LRUCache {
 
-    // A Cache for lookup, insert, and remove methods.
-    // Using LRU eviction
+    /*
+        The Least Recently Used (LRU) cache is a cache eviction algorithm that organizes elements
+        in order of use.
+        Aspects of a cache mechanism:
+        - All operations are O(1) time complexity
+        - The Cache has a limited size
+        - All cache operations support concurrency
+        - If the cache is full, adding new item must invoke the LRU strategy
+
+        Prefer Data Structure that could do operations like access, sorting and delete elements in constant time
+        Java has LinkedHashMap, Otherwise using a combination of HashMap and a DoublyLinkedList
+     */
+
+
     LinkedHashMap<Integer, Integer> linkedHashMap;
 
     public LRUCache(int capacity) {
