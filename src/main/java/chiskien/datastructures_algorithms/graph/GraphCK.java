@@ -6,12 +6,12 @@ import java.util.List;
 
 public class GraphCK {
 
-    private final int MAX_VERTICES = 20;
-    private Vertex[] verticesList; //array of vertices
-    private int[][] adjacencyMatrix; //represent the connectivity between Vertices
+    private final Vertex[] verticesList; //array of vertices
+    private final int[][] adjacencyMatrix; //represent the connectivity between Vertices
     private int size; //current number of vertices
 
     public GraphCK() {
+        int MAX_VERTICES = 20;
         verticesList = new Vertex[MAX_VERTICES];
         adjacencyMatrix = new int[MAX_VERTICES][MAX_VERTICES];
         size = 0;

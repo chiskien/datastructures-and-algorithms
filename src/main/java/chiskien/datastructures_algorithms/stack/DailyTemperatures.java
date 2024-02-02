@@ -28,8 +28,8 @@ public class DailyTemperatures {
 }
 
 class Temperature {
-    public int index;
-    public int temperature;
+    int index;
+    int temperature;
 
     public Temperature(int index, int temperature) {
         this.index = index;

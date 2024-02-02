@@ -36,15 +36,13 @@ public class TheMazeRunner {
     }
 
 
-    public static List<Coordinate> searchMaze(int[][] maze,
-                                              Coordinate start,
-                                              Coordinate end) {
+    public static List<Coordinate> searchMaze(int[][] maze, Coordinate start, Coordinate end) {
 
         List<Coordinate> path = new ArrayList<>();
         maze[start.x][start.y] = Color.BLACK.ordinal();
         path.add(start);
         if (!searchMazeHelper(maze, start, end, path)) {
-            path.remove(path.size() - 1);
+            path.removeLast();
         }
         return path;
     }
@@ -56,7 +54,6 @@ public class TheMazeRunner {
                                             List<Coordinate> path) {
         if (currentLocation.equals(endLocation)) {
             return true;
-
         }
         final int[][] shifts = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
         for (int[] movement : shifts) {
@@ -68,7 +65,7 @@ public class TheMazeRunner {
                 if (searchMazeHelper(maze, nextStep, endLocation, path)) {
                     return true;
                 }
-                path.remove(path.size() - 1);
+                path.removeLast();
             }
         }
         return false;
