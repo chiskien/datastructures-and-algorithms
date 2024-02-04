@@ -18,7 +18,6 @@ public class LRUCache {
         Java has LinkedHashMap, Otherwise using a combination of HashMap and a DoublyLinkedList
      */
 
-
     LinkedHashMap<Integer, Integer> linkedHashMap;
 
     public LRUCache(int capacity) {
@@ -59,7 +58,7 @@ public class LRUCache {
         }
     }
 
-    public Integer remove(Object key) {
-        return linkedHashMap.remove((Integer) key);
+    public Integer remove(Integer key) {
+        return linkedHashMap.remove(key);
     }
 }

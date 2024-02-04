@@ -5,16 +5,6 @@ import java.util.*;
 public class ComputeKLargestElementInMaxHeap {
 
 
-    private static class HeapEntry {
-        public Integer index;
-        public Integer value;
-
-        public HeapEntry(int index, int value) {
-            this.index = index;
-            this.value = value;
-        }
-    }
-
     private static class HeapEntryComparator implements Comparator<HeapEntry> {
         @Override
         public int compare(HeapEntry o1, HeapEntry o2) {
@@ -25,17 +15,15 @@ public class ComputeKLargestElementInMaxHeap {
                 new HeapEntryComparator();
     }
 
-    private final int DEFAULT_INITIAL_CAPACITY = 16;
-
 
     public List<Integer> kLargestElement(int[] heap, int k) {
         if (k <= 0) return Collections.emptyList();
 
         //Store the (index,value)-pair in candidateMaxHeap.
         // This heap is ordered by the value field
+        int defaultCapacity = 16;
         PriorityQueue<HeapEntry> candidateMaxHeap = new PriorityQueue<>(
-                DEFAULT_INITIAL_CAPACITY,
-                HeapEntryComparator.COMPARATOR_HEAP_ENTRIES);
+                defaultCapacity, HeapEntryComparator.COMPARATOR_HEAP_ENTRIES);
 
         candidateMaxHeap.add(new HeapEntry(0, heap[0]));
         List<Integer> result = new ArrayList<>();
@@ -61,3 +49,12 @@ public class ComputeKLargestElementInMaxHeap {
 
 }
 
+class HeapEntry {
+    protected Integer index;
+    protected Integer value;
+
+    public HeapEntry(int index, int value) {
+        this.index = index;
+        this.value = value;
+    }
+}

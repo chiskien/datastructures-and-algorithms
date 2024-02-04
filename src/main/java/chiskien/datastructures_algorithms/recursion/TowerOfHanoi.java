@@ -14,7 +14,7 @@ public class TowerOfHanoi {
             pegs.add(new LinkedList<>()); //Stack 3 of rings in 3 pegs
         }
         for (int i = numRings; i >= 1; i--) {
-            pegs.get(0).addFirst(i); //adding rings to first pegs
+            pegs.getFirst().addFirst(i); //adding rings to first pegs
         }
         computeTowerOfHanoiSteps(numRings, pegs, 0, 1, 2);
     }
