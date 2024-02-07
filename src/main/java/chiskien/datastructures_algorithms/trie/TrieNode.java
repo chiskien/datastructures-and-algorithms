@@ -6,7 +6,7 @@ import java.util.Map;
 class TrieNode {
     public boolean isWord;
 
-    public Map<Character, TrieNode> children; //pointers
+    private Map<Character, TrieNode> children; //pointers
 
     public TrieNode() {
         this.isWord = false;

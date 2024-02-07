@@ -3,7 +3,6 @@ package chiskien.datastructures_algorithms.array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
 
 public class ArithmeticSubarrays {
     public static void main(String[] args) {
@@ -17,7 +16,7 @@ public class ArithmeticSubarrays {
         for (int i = 0; i <= l.length; i++) {
             int[] temp = Arrays.copyOf(nums, nums.length);
             Arrays.sort(temp, l[i], r[i]);
-            System.s.println(Arrays.toString(temp));
+            System.out.println(Arrays.toString(temp));
         }
         return result;
     }

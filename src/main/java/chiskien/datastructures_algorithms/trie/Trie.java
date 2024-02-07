@@ -10,10 +10,10 @@ public class Trie {
     public void insert(String word) {
         TrieNode currentTrieNode = root;
         for (Character c : word.toCharArray()) {
-            if (!currentTrieNode.children.containsKey(c)) {
-                currentTrieNode.children.put(c, new TrieNode());
+            if (!currentTrieNode.getChildren().containsKey(c)) {
+                currentTrieNode.getChildren().put(c, new TrieNode());
             }
-            currentTrieNode = currentTrieNode.children.get(c);
+            currentTrieNode = currentTrieNode.getChildren().get(c);
         }
         currentTrieNode.isWord = true;
     }
@@ -21,10 +21,10 @@ public class Trie {
     public boolean search(String word) {
         TrieNode currentTrieNode = root;
         for (Character c : word.toCharArray()) {
-            if (!currentTrieNode.children.containsKey(c)) {
+            if (!currentTrieNode.getChildren().containsKey(c)) {
                 return false;
             }
-            currentTrieNode = currentTrieNode.children.get(c);
+            currentTrieNode = currentTrieNode.getChildren().get(c);
         }
         return currentTrieNode.isWord;
     }
@@ -32,10 +32,10 @@ public class Trie {
     public boolean startsWith(String prefix) {
         TrieNode currentTrieNode = root;
         for (Character c : prefix.toCharArray()) {
-            if (!currentTrieNode.children.containsKey(c)) {
+            if (!currentTrieNode.getChildren().containsKey(c)) {
                 return false;
             }
-            currentTrieNode = currentTrieNode.children.get(c);
+            currentTrieNode = currentTrieNode.getChildren().get(c);
         }
         return true;
     }
@@ -45,10 +45,10 @@ public class Trie {
         StringBuilder prefix = new StringBuilder();
         for (Character c : word.toCharArray()) {
             prefix.append(c);
-            if (!currentTrieNode.children.containsKey(c)) {
+            if (!currentTrieNode.getChildren().containsKey(c)) {
                 return prefix.toString();
             }
-            currentTrieNode = currentTrieNode.children.get(c);
+            currentTrieNode = currentTrieNode.getChildren().get(c);
         }
         return "";
     }

@@ -9,7 +9,7 @@ public class WordDictionary {
     public static void main(String[] args) {
         WordDictionary wordDictionary = new WordDictionary();
         wordDictionary.addWord("cock");
-        wordDictionary.searchWord("..ck");
+        System.out.println(wordDictionary.searchWord("..ck"));
     }
 
     Trie trie;
@@ -31,10 +31,10 @@ public class WordDictionary {
             while (c == '.') {
                 c++;
             }
-            if (!trieNode.children.containsKey(c)) {
+            if (!trieNode.getChildren().containsKey(c)) {
                 return false;
             }
-            trieNode = trieNode.children.get(c);
+            trieNode = trieNode.getChildren().get(c);
         }
         return trieNode.isWord;
     }

@@ -10,7 +10,8 @@ public class SmallestSubArrayCoveringAllValues {
 
     //Algorithms which:
     //input: an array of strings
-    // output: indices of starting and ending index of the shortest sub-array that
+    //@param List<String> paragraph
+    //output: indices of starting and ending index of the shortest subarray that
     // covers the set
 
 
@@ -38,7 +39,6 @@ public class SmallestSubArrayCoveringAllValues {
                     --remainingToCover;
                 }
             }
-
             while (remainingToCover == 0) {
                 if (result[0] == -1 || right - left < result[1] - result[0]) {
                     result[0] = left;

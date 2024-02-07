@@ -21,14 +21,14 @@ public class ValidAnagram {
 
     public boolean isValidAnagramOptimized(String s, String t) {
         if (s.length() != t.length()) return false;
-        final int[] COUNT_TABLE = new int[26];
+        final int[] countTable = new int[26];
         for (char c : s.toCharArray()) {
-            COUNT_TABLE[c - 'a']++;
+            countTable[c - 'a']++;
         }
         for (char c : t.toCharArray()) {
-            COUNT_TABLE[c - 'a']--;
+            countTable[c - 'a']--;
         }
-        for (int symbol : COUNT_TABLE) {
+        for (int symbol : countTable) {
             if (symbol != 0) {
                 return false;
             }

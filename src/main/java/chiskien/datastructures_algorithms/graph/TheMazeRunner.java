@@ -46,8 +46,8 @@ public class TheMazeRunner {
         }
         return path;
     }
-    //Perform Depth First Search to find a feasible path
 
+    //Perform Depth First Search to find a feasible path
     private static boolean searchMazeHelper(int[][] maze,
                                             Coordinate currentLocation,
                                             Coordinate endLocation,

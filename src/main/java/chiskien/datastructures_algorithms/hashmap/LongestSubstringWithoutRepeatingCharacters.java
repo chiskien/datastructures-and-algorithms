@@ -17,11 +17,9 @@ public class LongestSubstringWithoutRepeatingCharacters {
             //find the duplicate one
             Integer duplicateIndex = mostRecentOccurrence.put(s.charAt(i), i);
             //indicate that there no mapping with key in hashmap
-            if (duplicateIndex != null) {
-                if (duplicateIndex >= firstIndexOfLongestSub) {
-                    longestLength = Math.max(longestLength, i - firstIndexOfLongestSub);
-                    firstIndexOfLongestSub = duplicateIndex + 1;
-                }
+            if (duplicateIndex != null && (duplicateIndex >= firstIndexOfLongestSub)) {
+                longestLength = Math.max(longestLength, i - firstIndexOfLongestSub);
+                firstIndexOfLongestSub = duplicateIndex + 1;
             }
         }
         longestLength = Math.max(longestLength, s.length() - firstIndexOfLongestSub);

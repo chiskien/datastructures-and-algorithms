@@ -6,7 +6,6 @@ import java.util.Map;
 public class MinimumDeletion {
 
     public int minDeletion(String s) {
-        int count = 0;
         Map<Character, Integer> frequencyMap = new HashMap<>();
         for (Character c : s.toCharArray()) {
             if (!frequencyMap.containsKey(c)) {

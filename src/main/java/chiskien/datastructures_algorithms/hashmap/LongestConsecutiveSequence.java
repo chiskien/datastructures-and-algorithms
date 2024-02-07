@@ -1,5 +1,6 @@
 package chiskien.datastructures_algorithms.hashmap;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -19,7 +20,7 @@ public class LongestConsecutiveSequence {
     // To avoid duplicate, remove it from hash table, because if when we find it again, it just a same sequence.
 
     public int longestContainedRange(int[] nums) {
-        Set<Integer> unprocessedElements = new HashSet<>(nums.length);
+        Set<Integer> unprocessedElements = HashSet.newHashSet(nums.length);
         for (Integer num : nums) {
             unprocessedElements.add(num);
         }
