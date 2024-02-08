@@ -15,8 +15,10 @@ jobs:
           java-version: 21
           distribution: oracle
           cache: maven
-      - name: Build, unit tests, and integration tests with Maven
-        run: mvn --batch-mode --update-snapshots verify
+      - name: Run build with Maven
+        run: mvn --batch-mode -DskipTests package
+      - name: Run unit tests and integration tests
+        run: mvn --batch-mode test
       - name: Display test results
         uses: dorny/test-reporter@v1
         if: success() || failure()
