@@ -13,7 +13,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: 21
-          distribution: 'temurin'
+          distribution: oracle
           cache: maven
       - name: Build, unit tests, and integration tests with Maven
         run: mvn --batch-mode --update-snapshots verify

@@ -11,12 +11,12 @@ public class GraphCK {
     private int size; //current number of vertices
 
     public GraphCK() {
-        int MAX_VERTICES = 20;
-        verticesList = new Vertex[MAX_VERTICES];
-        adjacencyMatrix = new int[MAX_VERTICES][MAX_VERTICES];
+        int maxVertices = 20;
+        verticesList = new Vertex[maxVertices];
+        adjacencyMatrix = new int[maxVertices][maxVertices];
         size = 0;
-        for (int i = 0; i < MAX_VERTICES; i++) { //construct adjacencyMatrix
-            for (int j = 0; j < MAX_VERTICES; j++) {
+        for (int i = 0; i < maxVertices; i++) { //construct adjacencyMatrix
+            for (int j = 0; j < maxVertices; j++) {
                 adjacencyMatrix[i][j] = 0;
             }
         }

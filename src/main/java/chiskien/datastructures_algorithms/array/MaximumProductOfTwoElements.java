@@ -26,7 +26,7 @@ public class MaximumProductOfTwoElements {
             if (num > first) {
                 second = first;
                 first = num;
-            } else if (num <= first && num > second) {
+            } else if (num > second) {
                 second = num;
             }
         }
