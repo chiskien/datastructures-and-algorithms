@@ -16,11 +16,13 @@
 - [Abdul Bari / Indian Sensei](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O):
   Simply the best 🤣
 - [NeetCode](https://neetcode.io/roadmap)
+- Algorithms, Princeton University
 
 #### Books:
 
-- Introducing to Algorithms fourth Edition
-- DSA in Java
+- Introducing to Algorithms fourth Edition 
+- DSA in Java 
+- Elements of Programming Interviews.
 
 ### Design Patterns
 
@@ -33,34 +35,22 @@
 
 ### Java Core
 
-- Head First Java 
-- Learning Java ()
+- Head First Java
+- Learning Java, O'Reilly
+- OCP Java SE 17 (Study Guide and Practice Exams)
+- Java Concurrency in Practice.
+
+### Functional Java
+
+- Functional Java Approach, O'Reilly
+
 ## Indexing:
 
-1. [Array](src/main/java/chiskien/datastructures_algorithms/array)
-2. [String](src/main/java/chiskien/datastructures_algorithms/string)
-3. [LinkedList](src/main/java/chiskien/datastructures_algorithms/linkedlist)
-4. [Stack](src/main/java/chiskien/datastructures_algorithms/stack)
-5. [Queue](src/main/java/chiskien/datastructures_algorithms/queue)
-6. [BinaryTree](src/main/java/chiskien/datastructures_algorithms/binarytree)
-7. [BinarySearchTree](src/main/java/chiskien/datastructures_algorithms/binarysearchtree)
-8. [Sorting](src/main/java/chiskien/datastructures_algorithms/sorting)
-9. [Searching](src/main/java/chiskien/datastructures_algorithms/searching)
-10. [HashTable](src/main/java/chiskien/datastructures_algorithms/hashmap)
-11. [Heap/Priority Queue](src/main/java/chiskien/datastructures_algorithms/heap)
-12. [Trie](src/main/java/chiskien/datastructures_algorithms/trie)
-13. [Recursion/Backtracking](src/main/java/chiskien/datastructures_algorithms/recursion)
-14. [Graph](src/main/java/chiskien/datastructures_algorithms/graph)
-15. [Dynamic Programming](src/main/java/chiskien/datastructures_algorithms/dynamicprogramming)
-16. [Greedy](src/main/java/chiskien/datastructures_algorithms/greedy)
-17. [Parallel/Concurrent Programming](src/main/java/chiskien/datastructures_algorithms/parallelprogramming)
-18. [Data Compression](src/main/java/chiskien/datastructures_algorithms/datacompression)
-19. [Math](src/main/java/chiskien/datastructures_algorithms/math)
-20. [Bit Manipulation](src/main/java/chiskien/datastructures_algorithms/bitmanipulation)
-21. [Cache](src/main/java/chiskien/datastructures_algorithms/cache)
-22. [B-Tree](src/main/java/chiskien/datastructures_algorithms/btree)
-23. [Intervals](src/main/java/chiskien/datastructures_algorithms/intervals)
-24. [Two Pointers](src/main/java/chiskien/datastructures_algorithms/twopointers)
+1. [Data Structure and Algorithm](src/main/java/chiskien/datastructures_algorithms/README.md)
+2. [Design Patterns](src/main/java/chiskien/designpatterns/README.md)
+3. [Effective Java](src/main/java/chiskien/effectivejava/README.md)
+4. [Java Core](src/main/java/chiskien/javacore/README.md)
+5. [Functional Java](src/main/java/chiskien/functionalprogramming/README.md)
 
 ## Project Structures:
 
