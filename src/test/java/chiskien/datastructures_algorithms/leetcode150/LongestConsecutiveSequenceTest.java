@@ -1,4 +1,4 @@
-package chiskien.datastructures_algorithms.practices;
+package chiskien.datastructures_algorithms.leetcode150;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

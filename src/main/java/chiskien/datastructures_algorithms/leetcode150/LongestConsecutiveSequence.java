@@ -1,10 +1,9 @@
-package chiskien.datastructures_algorithms.practices;
+package chiskien.datastructures_algorithms.leetcode150;
 
 import java.util.HashSet;
 import java.util.Set;
 
 public class LongestConsecutiveSequence {
-
 
     //give an array, return the length of the longest sequence
     // input: [1,2,41,41,5,66,61,21223,]
