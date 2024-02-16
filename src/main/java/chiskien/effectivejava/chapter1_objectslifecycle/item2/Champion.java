@@ -19,6 +19,18 @@ public class Champion {
         this.health = builder.health;
     }
 
+    @Override
+    public String toString() {
+        return "Champion{" +
+                "name='" + name + '\'' +
+                ", health=" + health +
+                ", attackDamage=" + attackDamage +
+                ", magicAbilities=" + magicAbilities +
+                ", armor=" + armor +
+                ", magicResistance=" + magicResistance +
+                '}';
+    }
+
     public static class Builder {
         private final String name;
         private int health = 200;
