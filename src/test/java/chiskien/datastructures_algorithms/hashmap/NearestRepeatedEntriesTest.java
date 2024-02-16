@@ -29,4 +29,11 @@ class NearestRepeatedEntriesTest {
         int result = nearestRepeatedEntries.findNearestRepetition(paragraph);
         assertEquals(1, result);
     }
+
+    @Test
+    void findNearestRepeat3() {
+        List<String> paragraph = List.of("abc","def","abc");
+        int result = nearestRepeatedEntries.findNearestRepetition(paragraph);
+        assertEquals(2, result);
+    }
 }

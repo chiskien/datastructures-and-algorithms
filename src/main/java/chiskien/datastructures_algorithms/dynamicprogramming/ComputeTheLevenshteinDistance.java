@@ -3,6 +3,10 @@ package chiskien.datastructures_algorithms.dynamicprogramming;
 import java.util.Arrays;
 
 public class ComputeTheLevenshteinDistance {
+    public static void main(String[] args) {
+        ComputeTheLevenshteinDistance computeTheLevenshteinDistance = new ComputeTheLevenshteinDistance();
+        System.out.println(computeTheLevenshteinDistance.levenshteinDistance("Kien", "Chi"));
+    }
 
     //Spell Checker
     public int levenshteinDistance(String start, String end) {
