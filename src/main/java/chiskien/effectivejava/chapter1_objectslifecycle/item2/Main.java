@@ -7,6 +7,7 @@ public class Main {
                 .carbohydrate(232)
                 .fat(232)
                 .build();
+
         Champion champion = new Champion.Builder("Sylas")
                 .abilitiesPower(2020)
                 .build();
@@ -18,6 +19,7 @@ public class Main {
                 .isbn("222222222")
                 .title("Atomic Habits")
                 .build();
+
         System.out.println(newBook);
         System.out.println(champion);
         System.out.println(nutritionFacts);
