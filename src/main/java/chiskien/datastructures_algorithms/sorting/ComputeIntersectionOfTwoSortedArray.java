@@ -6,7 +6,6 @@ import java.util.List;
 
 public class ComputeIntersectionOfTwoSortedArray {
 
-
     public List<Integer> intersectTwoSortedArray(int[] a, int[] b) {
         List<Integer> intersectionAB = new ArrayList<>();
         for (int i = 0; i < a.length; i++) {

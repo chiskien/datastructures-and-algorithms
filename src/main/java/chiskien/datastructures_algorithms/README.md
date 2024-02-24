@@ -4,8 +4,8 @@
 
 - Data Structures and Algorithms in Java 2nd Edition.
 - Elements of Programming Interviews in Java
-- Algorithms (Princeton)
-- Introducing to Algorithms (MIT Open courseware)
+- Algorithms (Princeton, Videos)
+- Introducing to Algorithms (MIT Open coursewar, Youtube Playlists)
 - Introducing to Algorithms 4th Edition.
 
 ## Chapter 1: Overview of DSA
