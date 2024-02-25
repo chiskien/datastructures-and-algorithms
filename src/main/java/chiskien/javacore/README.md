@@ -1,6 +1,10 @@
 # Java Core
 
-## Learning Java (O'reilly), Java Cookbook (O'reilly)
+## Resources:
+
+- Learning Java (O'reilly)
+- Java Cookbook (O'reilly)
+- Java OCP SE 17
 
 ### Indexing
 

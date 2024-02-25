@@ -1,4 +1,8 @@
-# Effective Java (Joshua Bloch):
+# Effective Java:
+
+## Resources:
+
+- Effective Java by Joshua Bloch:
 
 ## Indexing
 

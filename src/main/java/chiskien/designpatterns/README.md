@@ -1,5 +1,11 @@
 # Object-Oriented Design and Analysis
 
+## Resources:
+
+- Head First Design Patterns:
+- Design Pattern: Gang of Four
+- The Object-oriented Thought Process
+
 ## Object-Oriented Programming:
 
 ### Classes
