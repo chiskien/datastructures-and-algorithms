@@ -49,7 +49,7 @@ public class ReorganizeString {
         temp.push(s.toCharArray()[0]);
         for (Character c : s.toCharArray()) {
             if (!stack.isEmpty()) {
-                if (stack.peek() != c) {
+                if (!Objects.equals(stack.peek(), c)) {
                     stack.push(c);
                 } else {
                     temp.push(c);

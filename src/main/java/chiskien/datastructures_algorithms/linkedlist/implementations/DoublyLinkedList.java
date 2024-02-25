@@ -9,7 +9,7 @@ public class DoublyLinkedList<T> implements LinkedList<T> {
 
     public DoublyNode<T> head;
     public DoublyNode<T> tail;
-    public int size;
+    public int doublyLinkedListSize;
 
     public DoublyLinkedList() {
         head = tail = null;
@@ -21,8 +21,9 @@ public class DoublyLinkedList<T> implements LinkedList<T> {
 
     @Override
     public int size() {
-        return size;
+        return this.doublyLinkedListSize;
     }
+
 
     @Override
     public void addFirst(T item) {
