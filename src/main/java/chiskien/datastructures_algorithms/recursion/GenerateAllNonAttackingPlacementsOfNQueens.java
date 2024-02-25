@@ -5,7 +5,6 @@ import java.util.List;
 
 public class GenerateAllNonAttackingPlacementsOfNQueens {
 
-
     public List<List<Integer>> nQueens(int n) {
         List<List<Integer>> result = new ArrayList<>();
         solveNQueens(n, 0, new ArrayList<>(), result);

@@ -1,4 +1,4 @@
-package chiskien.datastructures_algorithms.array;
+package chiskien.datastructures_algorithms.heap;
 
 import java.util.PriorityQueue;
 

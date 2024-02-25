@@ -27,7 +27,6 @@ public class WinnerOfArrayGame {
             arr[arr.length - 1] = temp;
 
             // Update the index for the next round
-            index = 1;
         }
 
         return currentWinner;

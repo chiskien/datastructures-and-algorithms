@@ -20,8 +20,8 @@
 
 #### Books:
 
-- Introducing to Algorithms fourth Edition 
-- DSA in Java 
+- Introducing to Algorithms fourth Edition
+- DSA in Java
 - Elements of Programming Interviews.
 
 ### Design Patterns
@@ -45,6 +45,8 @@
 - Functional Java Approach, O'Reilly
 
 ## Indexing:
+
+- Click on each link to see more details about the topic
 
 1. [Data Structure and Algorithm](src/main/java/chiskien/datastructures_algorithms/README.md)
 2. [Design Patterns](src/main/java/chiskien/designpatterns/README.md)

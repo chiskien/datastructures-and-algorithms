@@ -1,5 +1,6 @@
 package chiskien.datastructures_algorithms.array;
 
+import chiskien.datastructures_algorithms.heap.MaximumProductOfTwoElements;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

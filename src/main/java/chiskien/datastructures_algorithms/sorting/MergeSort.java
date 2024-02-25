@@ -1,7 +1,5 @@
 package chiskien.datastructures_algorithms.sorting;
 
-import chiskien.designpatterns.strategy.mygame.Weapon;
-
 public class MergeSort {
 
     //Recursion, Array, Sorting, Divide and Conquer
@@ -22,8 +20,7 @@ public class MergeSort {
 
     }
 
-    public static void merge(int[] sortedArrayA, int[] sortedArrayB,
-                             int[] auxiliary) {
+    public static void merge(int[] sortedArrayA, int[] sortedArrayB, int[] auxiliary) {
         int aIndex = 0, bIndex = 0, auxIndex = 0;
         int aLength = sortedArrayA.length;
         int bLength = sortedArrayB.length;

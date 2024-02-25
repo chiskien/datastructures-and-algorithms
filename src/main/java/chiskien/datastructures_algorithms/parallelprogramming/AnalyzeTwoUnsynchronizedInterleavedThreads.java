@@ -1,12 +1,12 @@
 package chiskien.datastructures_algorithms.parallelprogramming;
 
-public class AnalyzeTwoUnsynchronizedInterleavedThreads {
+class AnalyzeTwoUnsynchronizedInterleavedThreads {
 
     //Thread T1 and T2 each increment an integer variable N times.
     //This program yields nondeterministic results.
     //Usually, it prints 2N, but sometimes it prints a smaller value
 
-    public static class IncrementThread implements Runnable {
+    static class IncrementThread implements Runnable {
 
         @Override
         public void run() {
@@ -16,7 +16,7 @@ public class AnalyzeTwoUnsynchronizedInterleavedThreads {
         }
     }
 
-    public static class TwoThreadsIncrementDriver {
+    static class TwoThreadsIncrementDriver {
         public static int N;
         public static int counter;
 
