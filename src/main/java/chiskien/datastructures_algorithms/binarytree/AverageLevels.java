@@ -27,6 +27,7 @@ public class AverageLevels {
                     }
                 }
             }
+            assert count != 0;
             average = (double) sum / count;
             result.add(average);
         }
