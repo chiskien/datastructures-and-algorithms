@@ -39,6 +39,7 @@ public class FindKSmallestPairs {
                 int first = minHeap1.peek();
                 int second = minHeap2.peek();
                 List<Integer> pair = List.of(first, second);
+
                 result.add(pair);
             }
         }
