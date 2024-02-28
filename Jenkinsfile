@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Build') {
+        stage('Clean') {
             steps {
                 bat 'mvn clean'
             }
@@ -9,6 +9,11 @@ pipeline {
         stage('Test') {
             steps {
                 bat 'mvn test'
+            }
+        }
+        stage('Install Jar') {
+            steps {
+                bat 'mvn install -DskipTests'
             }
         }
     }
