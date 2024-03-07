@@ -1,6 +1,5 @@
 package chiskien.datastructures_algorithms.hashmap;
 
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 

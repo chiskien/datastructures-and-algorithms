@@ -10,14 +10,12 @@ public class InsertingIntervals {
         List<int[]> result = new ArrayList<>();
 
         //processing disjointIntervals in disjointIntervals which come before newInterval;
-        while (i < disjointIntervals.length
-                && newInterval[0] > disjointIntervals[i][1]) {
+        while (i < disjointIntervals.length && newInterval[0] > disjointIntervals[i][1]) {
             result.add(disjointIntervals[i++]);
         }
 
         //processing disjointIntervals in disjointIntervals which overlap with newInterval
-        while (i < disjointIntervals.length
-                && newInterval[1] >= disjointIntervals[i][0]) {
+        while (i < disjointIntervals.length && newInterval[1] >= disjointIntervals[i][0]) {
             newInterval[0] = Math.min(newInterval[0], disjointIntervals[i][0]);
             newInterval[1] = Math.max(newInterval[1], disjointIntervals[i][1]);
             i++;

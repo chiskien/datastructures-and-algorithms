@@ -1,4 +1,4 @@
-package chiskien.functionalprogramming.functional;
+package chiskien.functionalprogramming.function;
 
 import java.util.Objects;
 import java.util.function.Consumer;
@@ -6,7 +6,9 @@ import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.function.UnaryOperator;
 
+
 public class FunctionalCompositor {
+
     public static void main(String[] args) {
         FunctionalCompositor functionalCompositor = new FunctionalCompositor();
         functionalCompositor.demo();

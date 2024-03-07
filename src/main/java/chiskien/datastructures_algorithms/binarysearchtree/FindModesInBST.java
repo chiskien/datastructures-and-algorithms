@@ -10,7 +10,6 @@ public class FindModesInBST {
     public List<Integer> findMode(TreeNode root) {
         Map<Integer, Integer> frequency = new HashMap<>();
         Deque<TreeNode> treeQueue = new LinkedList<>();
-        int i = 0;
         treeQueue.addFirst(root);
         while (!treeQueue.isEmpty()) {
             TreeNode n = treeQueue.removeFirst();

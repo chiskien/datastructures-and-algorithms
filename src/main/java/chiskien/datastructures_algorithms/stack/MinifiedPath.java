@@ -9,7 +9,7 @@ public class MinifiedPath {
 
         //path: "/home/" -> "/home"
         // "/../home/" -> /home
-        if (path.equals("")) {
+        if (path.isEmpty()) {
             throw new IllegalArgumentException("Empty String is not a legal path");
         }
         Deque<String> stack = new LinkedList<>();

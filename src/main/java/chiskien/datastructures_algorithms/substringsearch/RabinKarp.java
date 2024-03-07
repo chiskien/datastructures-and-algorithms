@@ -1,10 +1,14 @@
 package chiskien.datastructures_algorithms.substringsearch;
 
 public class RabinKarp {
+    public static void main(String[] args) {
+        RabinKarp rabinKarp = new RabinKarp();
+        System.out.println(rabinKarp.substringSearch("A", "FFAVC"));
+    }
 
     //Related: Sliding windows, Strings, Hashing
     // Time complexity: O(n + m) with n is the length of t, m is the length of s.
-    public int rabinKarp(String s, String t) {
+    public int substringSearch(String s, String t) {
 
         if (s.length() > t.length()) return -1;
 
