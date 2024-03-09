@@ -18,7 +18,7 @@ public class ChocolateCookie extends CondimentDecorator {
 
     @Override
     public String getDescription() {
-        return beverage.getDescription() + ", Chocolate Cookie";
+        return beverage.getDescription() + " + Chocolate Cookie";
     }
 
     public void setChocolateCookieCost(double chocolateCookieCost) {

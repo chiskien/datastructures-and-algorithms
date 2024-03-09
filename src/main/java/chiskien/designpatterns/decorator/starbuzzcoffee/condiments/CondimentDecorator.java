@@ -6,6 +6,7 @@ import chiskien.designpatterns.decorator.starbuzzcoffee.beverages.Beverage;
 public abstract class CondimentDecorator extends Beverage {
     Beverage beverage; //wrapped object
 
+    @Override
     public abstract String getDescription();
 
 }

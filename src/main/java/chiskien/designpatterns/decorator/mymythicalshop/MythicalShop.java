@@ -10,6 +10,7 @@ import chiskien.designpatterns.decorator.mymythicalshop.items.Everfrost;
 public class MythicalShop {
     public static void main(String[] args) {
         Champion sylas = new Sylas();
+        System.out.println(sylas.getDescription());
         sylas = new BFSword(sylas);
         sylas = new Everfrost(sylas);
         sylas = new Boots(sylas);

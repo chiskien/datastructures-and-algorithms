@@ -2,8 +2,6 @@ package chiskien.designpatterns.decorator.mymythicalshop.items;
 
 import chiskien.designpatterns.decorator.mymythicalshop.champions.Champion;
 
-import java.util.List;
-
 public abstract class ItemsDecorator extends Champion {
 
     Champion champion; //wrapped champion
@@ -22,6 +20,7 @@ public abstract class ItemsDecorator extends Champion {
                 + "\n";
     }
 
+    @Override
     public String getName() {
         return champion.getName();
     }
