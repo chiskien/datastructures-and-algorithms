@@ -3,7 +3,7 @@ package chiskien.datastructures_algorithms.substringsearch;
 public class RabinKarp {
     public static void main(String[] args) {
         RabinKarp rabinKarp = new RabinKarp();
-        System.out.println(rabinKarp.substringSearch("A", "FFAVC"));
+        System.out.println(rabinKarp.substringSearch("mot con", "mot vit con vit mot con"));
     }
 
     //Related: Sliding windows, Strings, Hashing
@@ -13,11 +13,14 @@ public class RabinKarp {
         if (s.length() > t.length()) return -1;
 
         final int BASE = 26;
-        int tHash = 0, sHash = 0;
+        int tHash = 0;
+        int sHash = 0;
         int powerS = 1; //BASE ^ |s|
 
         for (int i = 0; i < s.length(); i++) {
-            powerS = i > 0 ? powerS * BASE : 1;
+            if (i > 0) {
+                powerS = powerS * BASE;
+            }
             tHash = tHash * BASE + t.charAt(i);
             sHash = sHash * BASE + s.charAt(i);
 

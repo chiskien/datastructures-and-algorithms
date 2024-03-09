@@ -88,7 +88,7 @@ There are two primary models for parallel computation:
   locked. [Implement Caching for Multi-threaded Dictionary](ImplementCachingForMultithreadedDictionary.java), [Readers-writers problem]()
 
 - When analyzing parallel code, assume a worst-case thread scheduler. In particular, it may choose to schedule the same
-  thread repeatedly, it may alternative between two threads, it may starve a thread
+  thread repeatedly, it may be an alternative between two threads, it may starve a thread
 
 ## Specific Problems:
 
