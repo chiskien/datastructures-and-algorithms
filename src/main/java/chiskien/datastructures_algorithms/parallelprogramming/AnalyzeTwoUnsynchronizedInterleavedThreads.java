@@ -1,8 +1,11 @@
 package chiskien.datastructures_algorithms.parallelprogramming;
 
 class AnalyzeTwoUnsynchronizedInterleavedThreads {
+    private AnalyzeTwoUnsynchronizedInterleavedThreads() {
 
-    //Thread T1 and T2 each increment an integer variable N times.
+    }
+
+    //Thread T1 and T2 each increment an integer variable numberOfThreads times.
     //This program yields nondeterministic results.
     //Usually, it prints 2N, but sometimes it prints a smaller value
 
@@ -10,21 +13,21 @@ class AnalyzeTwoUnsynchronizedInterleavedThreads {
 
         @Override
         public void run() {
-            for (int i = 0; i < TwoThreadsIncrementDriver.N; i++) {
+            for (int i = 0; i < TwoThreadsIncrementDriver.numberOfThreads; i++) {
                 System.out.println(i);
             }
         }
     }
 
     static class TwoThreadsIncrementDriver {
-        public static int N;
-        public static int counter;
+        static int numberOfThreads;
+        static int counter;
 
         public static void main(String[] args) throws Exception {
             if (args.length > 0) {
-                N = Integer.parseInt(args[0]);
+                numberOfThreads = Integer.parseInt(args[0]);
             } else {
-                N = 100;
+                numberOfThreads = 100;
             }
             Thread t1 = new Thread(new IncrementThread());
             Thread t2 = new Thread(new IncrementThread());

@@ -1,44 +1,29 @@
 package chiskien.functionalprogramming.predicate;
 
-public class Subject implements Comparable<Subject> {
+public class Subject {
     private int sid;
-    private String title;
+    private String name;
 
-    private Subject(Builder builder) {
+    public Subject(Builder builder) {
         this.sid = builder.sid;
-        this.title = builder.title;
+        this.name = builder.name;
     }
 
     public static Builder builder() {
         return new Builder();
     }
 
-    @Override
-    public int compareTo(Subject o) {
-        return this.sid - o.sid;
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        return super.equals(obj);
-    }
-
-    @Override
-    public int hashCode() {
-        return super.hashCode();
-    }
-
-    public static class Builder {
+    public static final class Builder {
         private int sid;
-        private String title;
+        private String name;
 
-        public Builder sid(int value) {
-            this.sid = value;
+        public Builder sid(int i) {
+            this.sid = i;
             return this;
         }
 
-        public Builder title(String value) {
-            this.title = value;
+        public Builder title(String javaOop) {
+            this.name = javaOop;
             return this;
         }
 

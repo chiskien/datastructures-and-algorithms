@@ -22,12 +22,13 @@ public class LargestValueInEachRow {
         System.out.println(root);
         System.out.println(largestValueInEachRow.largestValue(root));
     }
+
     public List<Integer> largestValue(TreeNode root) {
         Deque<TreeNode> treeNodeQueue = new LinkedList<>();
         treeNodeQueue.addFirst(root);
         List<Integer> result = new ArrayList<>();
         while (!treeNodeQueue.isEmpty()) {
-            int size =  treeNodeQueue.size();
+            int size = treeNodeQueue.size();
             int max = Integer.MIN_VALUE;
             for (int i = 0; i < size; i++) {
                 TreeNode n = treeNodeQueue.removeFirst();
@@ -41,7 +42,7 @@ public class LargestValueInEachRow {
             }
             result.add(max);
         }
-        result.remove(result.size() -1);
+        result.removeLast();
         return result;
     }
 }

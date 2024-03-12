@@ -40,14 +40,7 @@ public class IsHeightBalanced {
 
     }
 
-    public static class BalanceStatusWithHeight {
-        public boolean isBalanced;
-        public int height;
-
-        public BalanceStatusWithHeight(boolean isBalanced, int height) {
-            this.height = height;
-            this.isBalanced = isBalanced;
-        }
+    public record BalanceStatusWithHeight(boolean isBalanced, int height) {
 
     }
 

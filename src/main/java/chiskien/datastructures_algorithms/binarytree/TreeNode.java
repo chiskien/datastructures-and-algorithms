@@ -6,9 +6,16 @@ public class TreeNode {
     public TreeNode left;
     public TreeNode parent;
 
+    public TreeNode() {
+
+    }
 
     //Need to apply static factory instead of multiple constructors
-    public TreeNode() {
+    public TreeNode(int val, TreeNode right, TreeNode left, TreeNode parent) {
+        this.val = val;
+        this.right = right;
+        this.left = left;
+        this.parent = parent;
     }
 
     public TreeNode(int val) {
@@ -21,13 +28,6 @@ public class TreeNode {
         this.left = left;
         this.right = right;
         this.parent = null;
-    }
-
-    public TreeNode(int val, TreeNode left, TreeNode right, TreeNode parent) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-        this.parent = parent;
     }
 
     public TreeNode(int val, TreeNode parent) {

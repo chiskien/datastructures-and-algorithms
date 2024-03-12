@@ -7,6 +7,15 @@
 
 ## Parallel vs Concurrent Programming
 
+> Concurrency is about dealing with a lot of things at once. Parallelism is about doing a lot of things at once. The
+> ideas
+> are, obviously, related, but one is inherently associated with structure, and the other is associated with execution.
+> Concurrency is structuring things in a way that might allow parallelism to actually execute them simultaneously. But
+> parallelism is not the goal of concurrency. The goal of concurrency is good structure and the possibility to implement
+> execution modes like parallelism.
+
+![Figure](D:\Study\Programming\Java\Projects\datastructure-and-algorithms\src\main\java\chiskien\datastructures_algorithms\parallelprogramming\afaj_0801.png)
+
 ## Parallel vs Asynchronous Paradigm
 
 ## Benefits of Parallel Programming
@@ -93,7 +102,7 @@ There are two primary models for parallel computation:
 ## Specific Problems:
 
 1. Implement Caching for a Multi-threaded Dictionary
-2. [Analyze two unsynchronized interleaved threads](AnalyzeTwoUnsynchronizedInterleavedThreads.java)
+2. [Analyze two un-synchronized interleaved threads](AnalyzeTwoUnsynchronizedInterleavedThreads.java)
 3. [Implement synchronization for two interleaving threads]
 4. [Implement Thread pool](ImplementThreadPool.java)
 5. [Deadlock](DeadLock.java)

@@ -17,14 +17,7 @@ public class MergeSortedFiles {
     //Brute-force approach: Merge into 1 array and use Arrays.sort()
     //Time complexity: O(nlogn) (Default quick sort)
 
-    private static class Entry {
-        public Integer index;
-        public Integer value;
-
-        public Entry(Integer value, Integer index) {
-            this.index = index;
-            this.value = value;
-        }
+    private record Entry(Integer value, Integer index) {
     }
 
 

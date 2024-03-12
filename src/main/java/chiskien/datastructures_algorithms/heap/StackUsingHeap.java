@@ -8,8 +8,8 @@ public class StackUsingHeap {
     private final int DEFAULT_INITIAL_CAPACITY = 16;
 
     private class ValueWithRank {
-        public Integer value;
-        public Integer rank;
+        public final Integer value;
+        public final Integer rank;
 
         public ValueWithRank(Integer value, Integer rank) {
             this.value = value;

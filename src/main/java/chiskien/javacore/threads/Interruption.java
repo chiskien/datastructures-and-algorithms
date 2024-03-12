@@ -13,7 +13,7 @@ public class Interruption extends JFrame implements MouseListener {
 
     // label bounds
     int labelX = 10;
-    int labelY = 20;
+    int labelY = 50;
     int labelW = 120;
     int labelH = 20;
 
@@ -26,7 +26,7 @@ public class Interruption extends JFrame implements MouseListener {
     public Interruption() {
         super("interrupt() Demo");
         setSize(frameW, frameH);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setLayout(null);
 
         // Setup our label and give it an initial size and location
@@ -63,7 +63,9 @@ public class Interruption extends JFrame implements MouseListener {
                     message.setText("Done. Pausing...");
                 } catch (InterruptedException ie) {
                     message.setForeground(Color.RED);
-                    message.setText("Interrupted!");
+                    for (int i = 0; i < 5; i++) {
+                        message.setText("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+                    }
                 }
             }
         });

@@ -3,7 +3,6 @@ package chiskien.datastructures_algorithms.parallelprogramming;
 //Implementing SemaphoreCK in Java
 class SemaphoreCK {
     //the program show how to implement a semaphore in Java, using synchronization, wait(), and notify() language primitives
-
     private final int MAX_AVAILABLE;
     private int taken;
 
