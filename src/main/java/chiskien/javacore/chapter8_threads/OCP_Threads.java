@@ -1,14 +1,14 @@
-package chiskien.javacore.threads;
+package chiskien.javacore.chapter8_threads;
 
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-public class Misc {
+public class OCP_Threads {
 
 
     public static void main(String[] args) {
-        Misc misc = new Misc();
-        misc.ocp17_8_4();
+        OCP_Threads ocpThreads = new OCP_Threads();
+        ocpThreads.ocp17_8_4();
     }
 
     //What is the output of the following code snippet?
@@ -40,7 +40,7 @@ public class Misc {
     public void ocp17_8_4() {
         AtomicBoolean coin = new AtomicBoolean(false);
         try (ExecutorService executorService = Executors.newCachedThreadPool()) {
-            for (int i = 0; i < 1000; i++) {
+            for (int i = 0; i < 6; i++) {
                 executorService.execute(() -> coin.getAndSet(!coin.get()));
             }
             executorService.shutdown();
@@ -49,5 +49,19 @@ public class Misc {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public void ocp17_8_5() {
+        //Which of the following is a recommended way to define an asynchronous task?
+        //A. Create a Callable expression and pass it to an instance of an Executor.
+        //B. Create a class that extends Thread and override the start() method.
+        //C. Create a Runnable lambda expression and pass it to a Thread constructor.
+        //D. Create an anonymous Runnable class that overrides the begin() method.
+        //E. All of the above.
+        Callable<String> callable = () -> {
+            String result = "Callable";
+            System.out.println(result);
+            return result;
+        };
     }
 }

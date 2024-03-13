@@ -16,3 +16,10 @@ public class MyThreads implements Runnable {
         }
     }
 }
+
+class A extends Thread {
+    @Override
+    public void run() {
+        super.run();
+    }
+}

@@ -112,7 +112,7 @@
 │   │   │   │   └───item2
 │   │   │   └───chapter2_methodscommontoallobjects
 │   │   └───javacore
-│   │       ├───misc
+│   │       ├───OCPThreads
 │   │       └───threads
 │   └───crykos
 │       ├───domaindrivendesign
