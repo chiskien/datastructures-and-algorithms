@@ -36,9 +36,25 @@ public class TaskExecutionWebServer {
                     return;
                 }
             }
-
         } catch (ExecutionException | InterruptedException | TimeoutException e) {
             throw new RuntimeException(e);
+        }
+    }
+}
+
+class SingleThreadWebServer {
+
+    public static void main(String[] args) throws IOException {
+        try (ServerSocket serverSocket = new ServerSocket(8080)) {
+            while (true) {
+                Socket connection = serverSocket.accept();
+                if (connection.isConnected()) {
+                    System.out.println("Hello");
+                    return;
+                } else {
+                    System.out.println("Bum");
+                }
+            }
         }
     }
 }
