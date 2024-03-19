@@ -16,8 +16,7 @@ public class Brackets {
                 }
                 if ((s.charAt(i) == ')' && leftChars.peek() != '(')
                         || (s.charAt(i) == '}' && leftChars.peek() != '{')
-                        || (s.charAt(i) == ']' && leftChars.peek() != '[')
-                ) {
+                        || (s.charAt(i) == ']' && leftChars.peek() != '[')) {
                     return false;
                 }
                 leftChars.pop();

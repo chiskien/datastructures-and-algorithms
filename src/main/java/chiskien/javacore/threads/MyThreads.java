@@ -2,6 +2,14 @@ package chiskien.javacore.threads;
 
 import java.util.concurrent.*;
 
+/**
+ * This is a custom Threads to understand how Concurrency in Java works
+ *
+ * @author chisk
+ * @version 21
+ * @since 2023
+ */
+
 public class MyThreads implements Runnable {
 
     public String name;

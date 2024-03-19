@@ -1,16 +1,23 @@
 package chiskien.datastructures_algorithms.searching;
 
+/**
+ * An array is said to be cyclically sorted if it is possible to cyclically shift
+ * its entries so that it becomes sorted
+ * <br>
+ * <br>
+ * Design an algorithm with time complexity {@code O(logn)}for finding the position of the
+ * smallest element in a rotated sorted array.
+ * Assume all elements are distinct
+ *
+ * @author chisk
+ */
 public class SearchInRotatedSortedArray {
 
-
-    //An array is said to be cyclically sorted if it is possible to cyclically shift
-    // its entries so that it becomes sorted
-
-    //Design an algorithm with time complexity O(logn) for finding the position of the
-    // smallest element in a rotated sorted array.
-    // Assume all elements are distinct
-
-    //Example: [4,5,6,7,8,9,10,0,1,2,3], target = 2;
+    /**
+     * @param nums   an array input, example: [4,5,6,7,8,9,10,0,1,2,3]
+     * @param target the value need to search
+     * @return index of target
+     */
     public int search(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;

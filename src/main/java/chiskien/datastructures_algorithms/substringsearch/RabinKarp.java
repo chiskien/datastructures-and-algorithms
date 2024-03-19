@@ -2,6 +2,7 @@ package chiskien.datastructures_algorithms.substringsearch;
 
 public class RabinKarp {
     public static void main(String[] args) {
+        System.out.println(Integer.parseInt("1010101", 2));
         RabinKarp rabinKarp = new RabinKarp();
         System.out.println(rabinKarp.substringSearch("mot con", "mot vit con vit mot con"));
     }

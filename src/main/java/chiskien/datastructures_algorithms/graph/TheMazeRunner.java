@@ -4,6 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * Problem from Elements of Programming Interview with Java using Graph DFS
+ *
+ * @author chisk
+ * @since  21
+ * @since 2023
+ */
 public class TheMazeRunner {
 
     public enum Color {WHITE, BLACK}
@@ -35,6 +42,12 @@ public class TheMazeRunner {
         }
     }
 
+    /**
+     * @param maze  the input matrix
+     * @param start Coordinate of starting position which denote in {@link Coordinate} class
+     * @param end   Coordinate of final position to escape the matrix which denoted in {@link Coordinate} class
+     * @return List of Coordinate represent a path containing every step from starting position to final destination
+     */
 
     public static List<Coordinate> searchMaze(int[][] maze, Coordinate start, Coordinate end) {
 
@@ -47,7 +60,9 @@ public class TheMazeRunner {
         return path;
     }
 
-    //Perform Depth First Search to find a feasible path
+    /**
+     * Perform Depth First Search to find a feasible path
+     */
     private static boolean searchMazeHelper(int[][] maze,
                                             Coordinate currentLocation,
                                             Coordinate endLocation,

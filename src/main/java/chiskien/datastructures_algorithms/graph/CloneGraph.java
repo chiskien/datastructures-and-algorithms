@@ -2,6 +2,12 @@ package chiskien.datastructures_algorithms.graph;
 
 import java.util.*;
 
+/**
+ * LeetCode problem and classic graph problems.
+ *
+ * @author chisk
+ * @since 2023
+ */
 public class CloneGraph {
 
     public GraphVertex cloneGraph(GraphVertex node) {

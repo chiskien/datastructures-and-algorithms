@@ -5,15 +5,16 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-
+/**
+ * @author chisk
+ */
 public class SmallestSubArrayCoveringAllValues {
 
-    //Algorithms which:
-    //input: an array of strings
-    //@param List<String> paragraph
-    //output: indices of starting and ending index of the shortest subarray that
-    // covers the set
-
+    /**
+     * @param paragraph List of words that form a paragraph
+     * @param words     List of keywords
+     * @return indices of starting and ending index of the shortest sub-array that covers the set
+     */
 
     public int[] findSmallestSubArrayCoveringSetOfWords(List<String> paragraph,
                                                         Set<String> words) {

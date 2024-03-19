@@ -3,10 +3,13 @@ package chiskien.datastructures_algorithms.hashmap;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author chisk
+ */
 public class LongestSubstringWithoutRepeatingCharacters {
 
 
-    public static int longestSubstring(String s) {
+    public int longestSubstring(String s) {
         //Record the most recent occurrences of each entry
         //abcdabcdaaa
         Map<Character, Integer> mostRecentOccurrence = new HashMap<>();

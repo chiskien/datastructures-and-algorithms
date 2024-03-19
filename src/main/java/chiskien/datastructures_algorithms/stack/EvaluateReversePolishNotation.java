@@ -15,13 +15,13 @@ public class EvaluateReversePolishNotation {
                     case "*" -> deque.push(first * second);
                     case "-" -> deque.push(second - first);
                     case "/" -> deque.push(second / first);
-                    default -> throw new
-                            IllegalArgumentException("malformed RPN at : " + token);
+                    default -> throw new IllegalArgumentException("malformed RPN at : " + token);
                 }
             } else {
                 deque.push(Integer.parseInt(token)); //if token is a digit
             }
         }
+        assert deque.peek() != null;
         return deque.peek();
     }
 }
