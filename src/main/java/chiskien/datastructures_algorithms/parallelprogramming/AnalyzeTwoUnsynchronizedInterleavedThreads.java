@@ -10,7 +10,6 @@ class AnalyzeTwoUnsynchronizedInterleavedThreads {
     //Usually, it prints 2N, but sometimes it prints a smaller value
 
     static class IncrementThread implements Runnable {
-
         @Override
         public void run() {
             for (int i = 0; i < TwoThreadsIncrementDriver.numberOfThreads; i++) {
