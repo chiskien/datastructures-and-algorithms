@@ -4,7 +4,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Dance {
-    private Lock lock = new ReentrantLock();
+    private final Lock lock = new ReentrantLock();
 
     public void lockUp() {
         System.out.println("adasdasdas");

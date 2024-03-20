@@ -3,7 +3,7 @@ package chiskien.datastructures_algorithms.recursion;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GeneratePowerSet {
+public class  GeneratePowerSet {
 
     public List<List<Integer>> generatePowerSet(List<Integer> input) {
         List<List<Integer>> powerSet = new ArrayList<>();

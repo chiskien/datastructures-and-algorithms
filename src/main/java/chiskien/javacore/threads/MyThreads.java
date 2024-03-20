@@ -20,7 +20,7 @@ public class MyThreads implements Runnable {
     }
 
     @Override
-    public strictfp void run() {
+    public void run() {
         for (int i = 0; i < 500; i++) {
             System.out.println("Running " + name + " " + i);
         }
@@ -56,6 +56,15 @@ public class MyThreads implements Runnable {
             }
 
             executorService.shutdown();
+        } catch (ExecutionException | InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+        try (ExecutorService executorService = Executors.newVirtualThreadPerTaskExecutor()) {
+            for (int i = 0; i < 200; i++) {
+                Future<String> future = executorService.submit(callable);
+                System.out.println(future.get());
+            }
         } catch (ExecutionException | InterruptedException e) {
             throw new RuntimeException(e);
         }
