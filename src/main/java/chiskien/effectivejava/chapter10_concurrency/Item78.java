@@ -1,11 +1,15 @@
-package chiskien.effectivejava.chapter10_concurrency.item78;
+package chiskien.effectivejava.chapter10_concurrency;
 
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicIntegerArray;
 
-public class Synchro {
+/**
+ * Item 78: Synchronize access to shared mutable data
+ *
+ * @author chisk
+ */
 
-
+public class Item78 {
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4};
         AtomicIntegerArray atomicIntegerArray = new AtomicIntegerArray(array);
