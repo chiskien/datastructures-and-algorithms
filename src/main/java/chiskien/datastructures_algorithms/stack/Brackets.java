@@ -5,7 +5,7 @@ import java.util.LinkedList;
 
 public class Brackets {
 
-    public static boolean isValid(String s) {
+    public boolean isValid(String s) {
         Deque<Character> leftChars = new LinkedList<>();
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == '(' || s.charAt(i) == '{' || s.charAt(i) == '[') {

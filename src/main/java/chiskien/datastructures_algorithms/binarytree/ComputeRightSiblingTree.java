@@ -1,11 +1,8 @@
 package chiskien.datastructures_algorithms.binarytree;
 
 
-public class ComputeRightSilbingTree {
+public class ComputeRightSiblingTree {
 
-    public static void main(String[] args) {
-        Node root = new Node(20);
-    }
 
     //Write a program that takes a perfect binary tree, and sets each node's level-next field to the node on its right, if one exists.
     public Node connect(Node root) {

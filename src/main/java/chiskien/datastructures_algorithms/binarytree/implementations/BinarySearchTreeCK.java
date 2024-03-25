@@ -21,7 +21,7 @@ public class BinarySearchTreeCK<T extends Comparable<T>> {
         treeNodeComparator = new TreeNodeComparator<>();
     }
 
-    private boolean addNode(TreeNode<T> newNode) {
+    private void addNode(TreeNode<T> newNode) {
         if (root == null) {
             root = newNode;
         } else {
@@ -31,7 +31,7 @@ public class BinarySearchTreeCK<T extends Comparable<T>> {
                 parent = current;
                 int compare = treeNodeComparator.compare(newNode.data, current.data);
                 if (compare == 0) {
-                    return false;
+                    return;
                 } else if (compare < 0) {
                     current = current.leftChild;
                 } else {
@@ -44,7 +44,6 @@ public class BinarySearchTreeCK<T extends Comparable<T>> {
                 parent.rightChild = newNode;
             }
         }
-        return true;
     }
 
     public boolean delete(T key) {
@@ -153,7 +152,7 @@ public class BinarySearchTreeCK<T extends Comparable<T>> {
         return (root == null);
     }
 
-    static class TreeNode<T> {
+    public static class TreeNode<T> {
         private TreeNode<T> leftChild;
         private TreeNode<T> rightChild;
         private T data;
