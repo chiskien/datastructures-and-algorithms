@@ -2,13 +2,15 @@
 
 ### Resources:
 
-- Data Structures and Algorithms in Java 2nd Edition.
-- Elements of Programming Interviews in Java
-- Algorithms (Princeton, Videos)
-- Introducing to Algorithms (MIT Open coursewar, Youtube Playlists)
-- Introducing to Algorithms 4th Edition.
+1. CS50 (Harvard, YouTube Playlist) (Core understanding of CS)
+2. Data Structures and Algorithms in Java 2nd Edition. (Core DSA in Java)
+3. Algorithms I and Algorithms II (Princeton, Coursera) (More advanced concepts)
+4. Elements of Programming Interviews in Java. (Practical Resources for Interview)
+5. Algorithmic Thinking 2nd Edition (No Starch Press) (For deeper research)
+6. Introducing to Algorithms (MIT Open Courseware, YouTube Playlists) (Optional)
+7. Introducing to Algorithms 4th Edition. (Optional)
 
-## Chapter 1: Overview of DSA
+## Chapter 1: Overview of Data Structures and Algorithms
 
 > What are data structures and algorithms ?
 
@@ -34,7 +36,44 @@
 | Graph                 |                                                                     |                                                                           |
 | Skiplist              |                                                                     |                                                                           |
 | Trie                  |                                                                     |                                                                           |
+|                       |                                                                     |                                                                           |
 
+### Characteristics of Algorithms:
 
+> What are algorithms? Why is the study of algorithms worthwhile? What is the role of algorithms relative to other
+> technologies used in computers
 
+#### Algorithms
 
+- **Algorithm** is any well-defined computational procedure that takes some value, or set of values, as **input** and
+  produces some value, or set of values, as **output** in a finite amount of time.
+- An Algorithm thus is a sequence of computational steps that transform the input into the output
+- 
+
+## Chapter 2: Array
+
+## Chapter 3: String
+
+## Chapter 4: Linked List
+
+## Chapter 5: Stacks and Queues
+
+## Chapter 6: Sorting
+
+## Chapter 7: Binary Tree
+
+## Chapter 8: Heaps/Priority Queue
+
+## Chapter 9: Hash Table
+
+## Chapter 10: Searching
+
+## Chapter 11: Recursion
+
+## Chapter 12: Dynamic Programming
+
+## Chapter 13: Graph
+
+## Chapter 14: Greedy
+
+## Chapter 15: Parallel Programming

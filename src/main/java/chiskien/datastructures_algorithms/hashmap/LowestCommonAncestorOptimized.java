@@ -6,22 +6,26 @@ import java.util.HashSet;
 import java.util.Set;
 
 
-//Problem: Find the Lowest Common Ancestor (LCA) of Two Nodes
-//                     (1)
-//                  /       \
-//                (2)       (3)
-//                /  \     /    \
-//              (4) (14)  (22) (23)
-// The LCA of (4) and (14) is (2)
-// The LCA of (22) and (2) is (1)
+/**
+ * Problem: Find the <b>Lowest Common Ancestor</b> (LCA) of Two Nodes
+ * <p>
+ * (1) <br>
+ * / \ <br>
+ * (2)       (3) <br>
+ * /  \     /    \ <br>
+ * (4) (14)  (22) (23)
+ * </p>
+ * The LCA of (4) and (14) is (2) <br>
+ * The LCA of (22) and (2) is (1)
+ *
+ * @author chisk
+ * @see chiskien.datastructures_algorithms.binarytree.LowestCommonAncestor
+ * @since 21
+ */
 
-// The same problem has been solved in binarytree/LowestCommonAncestor.java
 
 public class LowestCommonAncestorOptimized {
 
-    //This time, using a hash table for optimizing the solution, especially for close ancestors.
-    //The time complexity should rely on the DISTANCE from the nodes to the LCA
-    //TreeNode have a parent pointer
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(25);
@@ -39,6 +43,16 @@ public class LowestCommonAncestorOptimized {
         System.out.println(lowestCommonAncestor(p, q));
     }
 
+
+    /**
+     * This time, using a hash table for optimizing the solution, especially for close ancestors.
+     * The time complexity should rely on the DISTANCE from the nodes to the LCA
+     * TreeNode have a parent pointer
+     *
+     * @param node0 first node
+     * @param node1 second node
+     * @return the Lowest Common Ancestor of node0 and node1
+     */
     public static TreeNode lowestCommonAncestor(TreeNode node0, TreeNode node1) {
         Set<TreeNode> treeNodeHashSet = new HashSet<>();
         while (node0 != null || node1 != null) {

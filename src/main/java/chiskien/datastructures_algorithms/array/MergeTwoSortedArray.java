@@ -5,7 +5,6 @@ public class MergeTwoSortedArray {
 
     // assumptions: nums1.length = m + n;
     public static void solution(int[] nums1, int m, int[] nums2, int n) {
-        // nums1.length = m + n;
         int lastIndex = m + n - 1;
         while (m > 0 && n > 0) {
             if (nums2[n - 1] > nums1[m - 1]) {

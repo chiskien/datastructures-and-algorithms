@@ -13,7 +13,7 @@ public class ReorderList {
     public static void main(String[] args) {
         ReorderList reorderList = new ReorderList();
         ListNode root = ListNode.build(new int[]{1, 2, 3, 4, 5, 6, 7, 8});
-        reorderList.reorderList(root);
+        System.out.println(reorderList.reorderList(root));
 
     }
 
@@ -30,7 +30,8 @@ public class ReorderList {
             secondHalfListHead = secondHalfListHead.next;
             half--;
         }
-        ListNode newSecondHalfListHead = reverseList(secondHalfListHead);
+        ReverseLinkedList reverseLinkedList = new ReverseLinkedList();
+        ListNode newSecondHalfListHead = reverseLinkedList.reverseList(secondHalfListHead);
         ListNode dummyPlaceHolder = new ListNode(0, head);
         int half2 = size / 2;
         while (half2 > 0) {
@@ -43,15 +44,4 @@ public class ReorderList {
         return dummyPlaceHolder.next;
     }
 
-    public ListNode reverseList(ListNode head) {
-        ListNode prev = null;
-        ListNode cur = head;
-        while (cur != null) {
-            ListNode temp = cur.next; //save the next node
-            cur.next = prev; // set the first node pointer to a temp node
-            prev = cur; //shifting prev to cur
-            cur = temp; //shifting cur;
-        }
-        return prev;
-    }
 }

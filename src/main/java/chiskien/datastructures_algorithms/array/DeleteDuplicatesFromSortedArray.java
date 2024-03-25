@@ -10,7 +10,7 @@ public class DeleteDuplicatesFromSortedArray {
 
     //delete duplicate in a sorted array
     //do not use an auxiliary array
-    //modify array inplace
+    //modify array in place
 
     public int deleteDuplicates(int[] nums) {
         int j = 1;

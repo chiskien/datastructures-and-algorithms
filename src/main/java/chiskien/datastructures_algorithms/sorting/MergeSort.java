@@ -4,10 +4,6 @@ public class MergeSort {
 
     //Recursion, Array, Sorting, Divide and Conquer
 
-    public static void main(String[] args) {
-
-    }
-
     public static void sort(int[] array, int lowerBound, int upperBound) {
         if (lowerBound == upperBound) {
             return;
