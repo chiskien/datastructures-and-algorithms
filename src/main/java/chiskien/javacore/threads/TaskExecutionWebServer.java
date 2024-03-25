@@ -43,7 +43,6 @@ public class TaskExecutionWebServer {
 }
 
 class SingleThreadWebServer {
-
     public static void main(String[] args) throws IOException {
         try (ServerSocket serverSocket = new ServerSocket(8080)) {
             while (true) {
