@@ -3,6 +3,7 @@ package chiskien.datastructures_algorithms.array;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Arrays;
 
 /**
  * LeetCode 41: First Missing Positive
@@ -31,6 +32,7 @@ import java.util.Map;
  *
  * @author chisk
  * @since 21
+ * @implNote HashMap, Arrays
  */
 public class FirstMissingPositive {
 
@@ -38,22 +40,23 @@ public class FirstMissingPositive {
     public int firstMissingPositive(int[] nums) {
         //using hashmap
         //map current with the smallest positive missing
-        Map<Integer, Integer> mappingCurrentWithSmallestPositive = new HashMap<>();
+
         int currentSmallestMissingPositive = 1;
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] > 0) {
-                if (nums[i] >= currentSmallestMissingPositive) {
-                    mappingCurrentWithSmallestPositive.put(nums[i], currentSmallestMissingPositive);
+        Map<Integer, Integer> mappingBetweenCurrentAndSmallestNumber = new HashMap<>();
+        for (int num : nums) {
+            if (num > 0) {
+                if (num > currentSmallestMissingPositive) {
+                    mappingBetweenCurrentAndSmallestNumber.put(num, currentSmallestMissingPositive);
+                } else if (num == currentSmallestMissingPositive) {
+                    if (!mappingBetweenCurrentAndSmallestNumber.containsKey(num)) {
+                        currentSmallestMissingPositive++;
+                    }
+                    while (mappingBetweenCurrentAndSmallestNumber.containsKey(currentSmallestMissingPositive)) {
+                        currentSmallestMissingPositive++;
+                    }
+                    mappingBetweenCurrentAndSmallestNumber.put(num, currentSmallestMissingPositive);
                 }
-                if (mappingCurrentWithSmallestPositive.containsValue(nums[i]) &&
-                        !mappingCurrentWithSmallestPositive.containsKey(nums[i])) {
-                    currentSmallestMissingPositive++;
-                    mappingCurrentWithSmallestPositive.put(nums[i], currentSmallestMissingPositive);
-                }
-
-                //TODO: fix bugs on some edge cases
             }
-
         }
         return currentSmallestMissingPositive;
     }
