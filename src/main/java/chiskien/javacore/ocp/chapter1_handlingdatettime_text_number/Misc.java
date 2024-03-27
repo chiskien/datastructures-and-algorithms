@@ -1,4 +1,4 @@
-package chiskien.javacore.chapter1_handlingdatettime_text_number;
+package chiskien.javacore.ocp.chapter1_handlingdatettime_text_number;
 
 import java.time.*;
 import java.time.format.TextStyle;

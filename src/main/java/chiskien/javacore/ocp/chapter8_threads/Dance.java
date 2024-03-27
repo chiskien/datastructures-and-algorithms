@@ -1,4 +1,4 @@
-package chiskien.javacore.chapter8_threads;
+package chiskien.javacore.ocp.chapter8_threads;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

@@ -1,4 +1,4 @@
-package chiskien.javacore.chapter5_array_collections;
+package chiskien.javacore.ocp.chapter5_array_collections;
 
 import java.util.*;
 

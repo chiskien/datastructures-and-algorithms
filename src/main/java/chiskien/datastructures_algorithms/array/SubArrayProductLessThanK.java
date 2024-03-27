@@ -30,21 +30,20 @@ public class SubArrayProductLessThanK {
         int count = 0;
         int currentProductValue = 1;
         while (i < nums.length) {
-            if (j < nums.length - 1 && nums[i] < k) {
-                j++;
+            if (nums[i] < k) {
                 count++;
                 currentProductValue = currentProductValue * nums[i];
+                j++;
             }
-            while (j < nums.length && currentProductValue * nums[j] < k) {
+            while (j < nums.length && (currentProductValue * nums[j]) < k) {
+                count++;
                 currentProductValue = currentProductValue * nums[j];
                 j++;
-                count++;
             }
-            currentProductValue = nums[i];
             i++;
+            currentProductValue = 1;
             j = i;
         }
-        //TODO: finish this leetcode problem
         return count;
     }
 }

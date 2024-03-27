@@ -8,9 +8,9 @@ public class LargestOddNumberInString {
 
     public static String largestOddNumber(String num) {
         int i = num.length() - 1;
-        if ((int) num.charAt(i) % 2 == 1) return num;
+        if (num.charAt(i) % 2 == 1) return num;
         while (i >= 0) {
-            if ((int) num.charAt(i) % 2 == 1) return num.substring(0, i+1);
+            if (num.charAt(i) % 2 == 1) return num.substring(0, i + 1);
             i--;
         }
         return "";
