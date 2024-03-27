@@ -14,13 +14,17 @@ import java.util.Map;
  * Example 1:
  * <p>
  * Input: nums = [1,2,0]
+ * <p>
  * Output: 3
+ * <p>
  * Explanation: The numbers in the range [1,2] are all in the array.
  * <p>
  * Example 2:
  * <p>
  * Input: nums = [3,4,-1,1]
+ * <p>
  * Output: 2
+ * <p>
  * Explanation: 1 is in the array but 2 is missing.
  * <p>
  * Example 3:
@@ -30,7 +34,7 @@ import java.util.Map;
  * Explanation: The smallest positive integer 1 is missing.
  *
  * @author chisk
- * @since 21
+ * @since 26-03-2024
  * @implNote HashMap, Arrays
  */
 public class FirstSmallestMissingPositive {
