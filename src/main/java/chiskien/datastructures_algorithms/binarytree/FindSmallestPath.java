@@ -1,4 +1,4 @@
-package chiskien.datastructures_algorithms.array;
+package chiskien.datastructures_algorithms.binarytree;
 
 import chiskien.datastructures_algorithms.binarytree.TreeNode;
 

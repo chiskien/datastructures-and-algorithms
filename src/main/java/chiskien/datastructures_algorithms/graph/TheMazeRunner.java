@@ -50,7 +50,6 @@ public class TheMazeRunner {
      */
 
     public static List<Coordinate> searchMaze(int[][] maze, Coordinate start, Coordinate end) {
-
         List<Coordinate> path = new ArrayList<>();
         maze[start.x][start.y] = Color.BLACK.ordinal();
         path.add(start);

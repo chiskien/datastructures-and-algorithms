@@ -3,7 +3,6 @@ package chiskien.datastructures_algorithms.array;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Arrays;
 
 /**
  * LeetCode 41: First Missing Positive
@@ -34,7 +33,7 @@ import java.util.Arrays;
  * @since 21
  * @implNote HashMap, Arrays
  */
-public class FirstMissingPositive {
+public class FirstSmallestMissingPositive {
 
 
     public int firstMissingPositive(int[] nums) {
@@ -59,5 +58,28 @@ public class FirstMissingPositive {
             }
         }
         return currentSmallestMissingPositive;
+    }
+
+    public int find(int[] nums) {
+        int i = 0;
+        while (i < nums.length) {
+            int next = nums[i] - 1;
+            if (nums[i] > 0 && nums[i] < nums.length && nums[i] != nums[next]) {
+                int temp = nums[i];
+                nums[i] = nums[next];
+                nums[next] = temp;
+            } else {
+                i++;
+            }
+
+        }
+        for (int j = 0; j < nums.length; j++) {
+            if (nums[j] != j + 1) {
+                return j + 1;
+            }
+        }
+
+        return nums.length + 1;
+
     }
 }
