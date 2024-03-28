@@ -33,8 +33,17 @@
 
 - A graph is said to be connected if there is at least one **path** from every vertex to every other vertex.
 
-### Directed and Weighted Graph 
+### Directed and Weighted Graph
 
 ## Representing Graph in Java
 
-### Vertices 
+### Vertices
+
+### Edge
+
+- To represent edge in program we use two different approaches:
+    - The **_adjacency matrix_** and **_adjacency list_**
+
+#### Adjacency Matrix
+
+- An adjacency matrix is a two-dimensional array in which the elements indicate whether an edge is present between 

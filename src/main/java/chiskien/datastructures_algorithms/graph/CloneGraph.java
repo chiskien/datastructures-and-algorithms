@@ -40,8 +40,6 @@ public class CloneGraph {
             this.val = val;
             this.neighbors = new ArrayList<>();
         }
-
-
     }
 }
 
