@@ -8,14 +8,12 @@ public class JumpGame2 {
         int furthestReachPositionSoFar = 0;
         int currentIndex = -1;
         int lastIndex = nums.length - 1;
-        for (int i = 0; i <= furthestReachPositionSoFar
-                && furthestReachPositionSoFar < lastIndex; i++) {
+        for (int i = 0; i <= furthestReachPositionSoFar && furthestReachPositionSoFar < lastIndex; i++) {
             if (i > currentIndex) {
                 count++;
                 currentIndex = furthestReachPositionSoFar;
             }
-            furthestReachPositionSoFar = Math.max(furthestReachPositionSoFar,
-                    i + nums[i]);
+            furthestReachPositionSoFar = Math.max(furthestReachPositionSoFar, i + nums[i]);
         }
         return count;
     }
